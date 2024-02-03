@@ -176,3 +176,33 @@ footer li {
 .course-button {
     min-width: 12rem;
 }
+
+.btn-outline-primary {
+    color: #084298;
+    background-color: #cfe2ff;
+}
+
+.btn-outline-secondary {
+    color: #41464b;
+    background-color: #e2e3e5;
+}
+
+.btn-outline-success {
+    color: #0f5132;
+    background-color: #d1e7dd;
+}
+
+.btn-outline-danger {
+    color: #842029;
+    background-color: #f8d7da;
+}
+
+.btn-outline-warning {
+    color: #664d03;
+    background-color: #fff3cd;
+}
+
+.btn-outline-info {
+    color: #055160;
+    background-color: #cff4fc;
+}
