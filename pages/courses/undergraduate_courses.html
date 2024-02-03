@@ -19,6 +19,7 @@ title: Undergraduate Courses
 		{%- for sem in site.data.semesters -%}
 		<div class="container pb-3">
 			<h4>{{ sem[1]["title"] }}</h4>
+			<p>{{ sem[1]["description"]}}</p>
 		</div>
 		<div class="container row">
 			{% assign sem_id = sem[0] %}

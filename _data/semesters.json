@@ -1,12 +1,12 @@
 {
   "semester1": {
     "title": "Semester 1",
-    "description": "",
+    "description": "All Engineering students follow the same first semester. These courses are credited towards their general programme (first year).",
     "url": "/semester1"
   },
   "semester2": {
     "title": "Semester 2",
-    "description": "",
+    "description": "All Engineering students follow the same second semester. These courses are credited towards their general programme (first year).",
     "url": "/semester2"
   },
   "semester3": {
@@ -21,7 +21,7 @@
   },
   "short-semester": {
     "title": "Short Semester",
-    "description": "During his semester, the students will follow a Guided Software Engineering project with General Elective courses of at least 9 credits. The semester is 7 weeks long.",
+    "description": "During this semester, the students will follow a Guided Software Engineering project with General Elective courses of at least 9 credits. The semester is 7 weeks long.",
     "url": "/short-semester"
   },
   "semester5": {
