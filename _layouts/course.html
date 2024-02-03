@@ -29,11 +29,19 @@
 				<ol class="breadcrumb page-breadcrumb">
 					<li class="breadcrumb-item"><a href="{{ '/' | prepend: site.baseurl }}" class="link-light">Home</a>
 					</li>
+
+					<li class="breadcrumb-item">
+						<a href="{{ '/academics' | relative_url }}" class="link-light">
+							Academics
+						</a>
+					</li>
+
 					<li class="breadcrumb-item">
 						<a href="{{ '/courses/undergraduate' | relative_url }}" class="link-light">
 							Undergraduate Courses
 						</a>
 					</li>
+
 					<li class="breadcrumb-item"><a href="{{ semesterPage[0].permalink | relative_url }}"
 							class="link-light">{{
 							semesterPage[0].title }}</a>

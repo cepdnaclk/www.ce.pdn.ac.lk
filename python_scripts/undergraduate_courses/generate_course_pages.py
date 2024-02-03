@@ -55,7 +55,7 @@ for semester in semesters:
 
         outputString = f"""---
 layout: course
-permalink: "/courses/undergraduate{ pageURL }"
+permalink: "{ pageURL }"
 
 title: {thisCourse["code"].upper()} {thisCourse["name"]}
 semester: {semester}
