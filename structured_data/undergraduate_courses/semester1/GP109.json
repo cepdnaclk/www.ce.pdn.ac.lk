@@ -1,0 +1,225 @@
+{
+    "code": "GP109",
+    "name": "Materials Science",
+    "credits": 3,
+    "type": "CORE",
+    "prerequisites": "NULL",
+    "content": "Introduction to the structure and properties of engineering materials, Principles underlying structure-property relationships, Phase equilibrium, Structure and properties of cement and timber, Properties and applications of polymers, ceramics and glasses, Properties and applications of composites, Mechanical testing of engineering materials, Laboratory testing practices",
+    "objectives": "Introduce the structure and properties of Engineering Materials, Relate Material properties to atomic, molecular and microstructural features.",
+    "ILOs": {
+        "Knowledge": [
+            "Describe materials in Major classes of engineering materials"
+        ],
+        "Skill": [
+            "Use Equilibrium Phase diagrams of Binary alloys to obtain the constitution at a given state",
+            "Perform different testing methods to evaluate properties of different materials"
+        ],
+        "Attitude": [
+            "Appreciate structure, property, process relationships and applications of each class of materials"
+        ]
+    },
+    "allocation": "Lectures: 38h, Tutorial-Classes: 1h, Practical-Classes: 12h",
+    "modules": [
+        {
+            "topic": "Introduction to the course and course policies",
+            "description": "Introduction to Laboratory Practices, Mechanical testing of engineering materials and interpretation of results. Introduction to Engineering Materials",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Introduction to the structures and properties of engineering materials",
+            "description": "bonding of solids",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "bonding of solids, Atomic arrangements and crystallography",
+            "description": "-",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "crystal structures",
+            "description": "Principles underlying structure-property relationships",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "defects in crystals",
+            "description": "introduction to alloys, Phase equilibrium",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Phase equilibrium, diffusion of atoms in materials",
+            "description": "-",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "diffusion of atoms in materials",
+            "description": "-",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Strengthening methods and heat treatment of metals",
+            "description": "-",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Structures and properties of cement, Processing methods",
+            "description": "-",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Structures and properties of timber",
+            "description": "-",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Structure, properties and applications of polymers, Processing methods",
+            "description": "-",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Structure, properties and applications of ceramics and glass, Processing methods",
+            "description": "-",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Properties and applications of composites; metal-matrix; polymer-matrix; and ceramic-matrix composites",
+            "description": "metal-matrix; polymer-matrix; and ceramic-matrix composites",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Structure, property, process relationship in different classes of engineering materials",
+            "description": "-",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Total (hours)",
+            "description": "",
+            "allocation": {
+                "L": "38",
+                "T": "1",
+                "P": "12",
+                "A": "-"
+            }
+        }
+    ],
+    "references": [
+        "Engineering Materials 1, An lntroduction to their Properties and Applications",
+        "Engineering Materials 2, An Introduction to Microstructures, Processing and Design, Michael F. Ashby and David R. H. Jones, Butterworth-Heinemann, 1999",
+        "The Science and Engineering of Materials, Donald R. Askeland, Pradeep P. Fulay and Wendelin J. Wright, Sixth Edition, Cengage Learning, Inc., 2010",
+        "The Science and Engineering of Materials, Donald R. Askeland, SI Edition, Nelson Thomas Ltd, 1998"
+    ],
+    "marks": [
+        {
+            "description": "Practicals",
+            "allocation": "10"
+        },
+        {
+            "description": "Assignments",
+            "allocation": "10"
+        },
+        {
+            "description": "Mid-Exam",
+            "allocation": "30"
+        },
+        {
+            "description": "End-Exam",
+            "allocation": "50"
+        }
+    ],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

@@ -1,0 +1,58 @@
+{
+    "code": "CO524",
+    "name": "Parallel Computers and Algorithms",
+    "credits": 3,
+    "type": "ELECTIVE",
+    "prerequisites": [
+        "CO327"
+    ],
+    "content": "Parallel architecture, Interconnection networks, Designing parallel programmes, Performance modelling, Programming paradigms, Message passing interface, Multithreading, Parallelising numerical algorithms, Parallelising non-numerical algorithms, State of the art.",
+    "objectives": "",
+    "ILOs": {
+        "Knowledge": [],
+        "Skill": [],
+        "Attitude": []
+    },
+    "allocation": "Lectures: 30h, Practicals: 8h, Assignments: 22h",
+    "modules": [
+        {
+            "topic": "",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        }
+    ],
+    "references": [],
+    "marks": [],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

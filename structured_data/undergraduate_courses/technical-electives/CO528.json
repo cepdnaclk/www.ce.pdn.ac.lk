@@ -1,0 +1,58 @@
+{
+    "code": "CO528",
+    "name": "Applied Software Architecture",
+    "credits": 3,
+    "type": "ELECTIVE",
+    "prerequisites": [
+        "CO328"
+    ],
+    "content": "Introduction to applied software architecture, Basic of software architecture, Web application architectures, Service oriented architectures, Enterprise architectures, Product architectures, Mobile application architectures, Cloud architectures.",
+    "objectives": "",
+    "ILOs": {
+        "Knowledge": [],
+        "Skill": [],
+        "Attitude": []
+    },
+    "allocation": "Lectures: 31h, Practicals: 12h, Assignments: 16h",
+    "modules": [
+        {
+            "topic": "",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        }
+    ],
+    "references": [],
+    "marks": [],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

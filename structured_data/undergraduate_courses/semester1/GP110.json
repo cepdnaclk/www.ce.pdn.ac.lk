@@ -1,0 +1,174 @@
+{
+    "code": "GP110",
+    "name": "Engineering Mechanics",
+    "credits": 3,
+    "type": "CORE",
+    "prerequisites": "NULL",
+    "content": "Force systems, Analysis of simple structures, Work and energy methods, Inertial properties of plane and three-dimensional objects, Fluid pressure, Fluid statics, Particle kinematics, Planar rigid body kinematics, Particle kinetics, Planar rigid body kinetics, Laboratory work",
+    "objectives": "To introduce the state of rest or motion of bodies that are subjected to the action of forces. Emphasis will be on applications to Engineering Designs.",
+    "ILOs": {
+        "Knowledge": [
+            "use scalar and vector methods for analysing forces in structures or components"
+        ],
+        "Skill": [
+            "apply fundamental concepts of motion and identify parameters that define motion of different systems",
+            "identify interaction forces in solid and fluid continua",
+            "use Newton\u2019s laws of motion, basic concepts of energy, equilibrium and conservation principles"
+        ],
+        "Attitude": [
+            "use engineering mechanics for solving problems systematically"
+        ]
+    },
+    "allocation": "Lectures : 28h, Tutorial-Classes : 11h, Practical-Classes : 12h, Assignments : NULL",
+    "modules": [
+        {
+            "topic": "Introduction, force systems",
+            "description": "forces and couples; equilibrium of rigid body",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Analysis of simple structures",
+            "description": "structures and components; loads and supports; internal and external forces; free-body diagrams; statically determinate structures; analysis of trusses; beams and shear force and bending moment diagrams",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Stress and strain",
+            "description": "Hooke\u2019s law, and deformation of axially loaded members; statically indeterminate problems",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Work and energy methods",
+            "description": "work due to forces and couples; virtual displacements and virtual work; strain energy and potential energy; energy principles",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Fluid pressure",
+            "description": "fluids in equilibrium; fluid pressure; pressure variation in constant and variable density media including the atmosphere; measurement of pressure",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Fluid statics",
+            "description": "forces on plane surfaces; forces on curved surfaces; buoyancy; stability of floating bodies",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Particle kinematics",
+            "description": "position, displacement, velocity and acceleration vectors in rectilinear and nonrectilinear motion; representation in Cartesian, polar and intrinsic co-ordinate systems; application to simple curvilinear motion",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Planer rigid-body kinematics",
+            "description": "translation and rotation; relative motion; instantaneous centre of rotation; application to simple mechanisms; velocity and acceleration diagrams",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Linear rigid-body kinetics",
+            "description": "equation of motion; D\u2019Alembert\u2019s principle; momentum and impulse relationship; work and energy relationship",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Total (hours)",
+            "description": "",
+            "allocation": {
+                "L": "28",
+                "T": "11",
+                "P": "12",
+                "A": "-"
+            }
+        }
+    ],
+    "references": [
+        "Hibbeler, R.C., (2013). Engineering Mechanics Statics and Dynamics, 13th edition, Pearson (or any edition from 9th).",
+        "Douglas, J. F., Gasiorek, G. M., Swaffield, J. A., Jack, L. B., (2005), Fluid Mechanics, 5th edition, Pearson (or any later Editions)."
+    ],
+    "marks": [
+        {
+            "description": "Practicals",
+            "allocation": "10"
+        },
+        {
+            "description": "Assignments",
+            "allocation": "10"
+        },
+        {
+            "description": "Mid-Exam",
+            "allocation": "20"
+        },
+        {
+            "description": "End-Exam",
+            "allocation": "60"
+        }
+    ],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

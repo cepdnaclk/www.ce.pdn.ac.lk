@@ -1,0 +1,159 @@
+{
+    "code": "CO226",
+    "name": "Database Systems",
+    "credits": 3,
+    "type": "CORE",
+    "prerequisites": [
+        "CO222",
+        "EM313"
+    ],
+    "content": "Introduction to database systems, Data modelling, RDBMS concepts, Database query languages, Database programming techniques, Introduction to indexes and query optimization, Introduction to transaction processing, Database Project",
+    "objectives": [],
+    "ILOs": {
+        "Knowledge": "NULL",
+        "Skill": "NULL",
+        "Attitude": "NULL"
+    },
+    "allocation": "Lectures : 31h, Tutorial-Classes : 4h, Practical-Classes : 12h, Assignments : 8h",
+    "modules": [
+        {
+            "topic": "Introduction to database systems",
+            "description": "Information models and Systems, Database system evolution, File based systems, DBMS approach, Database environment and components, DBMS functions, DBMS architecture, Data independence, Database system life cycle",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Data modelling",
+            "description": "Importance of data modelling in system development; Levels of abstraction and practice; Conceptual models; ER/EER and UML; Logical models; Relational and OO Models, Relational mapping",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "RDBMS concepts",
+            "description": "Relational algebra and relational calculus; Relational integrity, Normalization; 1NF, 2NF, 3NF and BCNF; Object oriented extensions",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Database query languages",
+            "description": "4GL environments; SQL; DDL, DML and DCL; Triggers; Views",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Database programming techniques",
+            "description": "Embedded SQL; Database programming with function/procedure calls; ODBC, JDBC; Stored procedures",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Introduction to indexes and query optimization",
+            "description": "Types of indexes; primary and secondary indexes, Query optimization; rule based and cost based approaches",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Introduction to transaction processing",
+            "description": "Transactions, ACID properties, Concurrency control, Serialization, Failure and recovery",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Database Project",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Total (hours)",
+            "description": "",
+            "allocation": {
+                "L": "31",
+                "T": "4",
+                "P": "12",
+                "A": "8"
+            }
+        }
+    ],
+    "references": [
+        "Ramez Elmasri and Shamkant B. Navathe, Fundamentals of Database Systems 7th Edition, 2016",
+        "Raghu Ramakrishnan and Johannes Gehrke, Database Management Systems, 3rd Edition, McGrawHill, 2004"
+    ],
+    "marks": [
+        {
+            "description": "Practicals",
+            "allocation": "10"
+        },
+        {
+            "description": "Projects",
+            "allocation": "20"
+        },
+        {
+            "description": "Mid-Exam",
+            "allocation": "20"
+        },
+        {
+            "description": "End-Exam",
+            "allocation": "50"
+        }
+    ],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

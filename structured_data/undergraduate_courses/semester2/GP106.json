@@ -1,0 +1,66 @@
+{
+    "code": "GP106",
+    "name": "Computing",
+    "credits": 3,
+    "type": "CORE",
+    "prerequisites": "NULL",
+    "content": "Introduction to computing, Problem solving with mathematical packages (as a calculator), The fundamentals of algorithms, Introduction to high-level programming languages, Problem solving with programs, Scientific programming with a mathematical package",
+    "objectives": "The aim of the module is to teach basic building blocks of a computer and software design so that the students will be able to formulate and solve complex engineering problems by using computers",
+    "ILOs": {
+        "Knowledge": "NULL",
+        "Skill": "NULL",
+        "Attitude": "NULL"
+    },
+    "allocation": "Lectures : 25h, Tutorial-Classes : 10h, Practical-Classes : 20h",
+    "modules": [],
+    "references": [
+        "Allen Downey, Jeff Elkneer and Chris Meyers, How to Think Like a Computer Scientist, https://greenteapress.com/wp/learning-with-python/",
+        "Brian H. Hahn and Daniel T. Valentine, Essential Matlab for Engineers and Scientists, 4e, Elsevier, 2010, ISBN: 978-0-12-374883-6",
+        "R. G. Ragel and D. S. Deegalla, Programming with Matlab, Lecture Notes for GP106, 2014"
+    ],
+    "marks": [
+        {
+            "description": "practicals",
+            "allocation": "20"
+        },
+        {
+            "description": "assignments",
+            "allocation": "20"
+        },
+        {
+            "description": "mid-exam",
+            "allocation": "20"
+        },
+        {
+            "description": "end-exam",
+            "allocation": "40"
+        }
+    ],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

@@ -1,0 +1,58 @@
+{
+    "code": "EM211",
+    "name": "Ordinary Differencial Equations",
+    "credits": 3,
+    "type": "CORE",
+    "prerequisites": [],
+    "content": "Introduction, Different types of differential equations and solutions, Modelling with differential equations, First order differential Equations, Differential equations with constant coefficients, Linear differential equations, Solutions in series, Laplace transformations, System of ordinary differential equations, Numerical solutions to ODEs, Concept of probability, Discrete probability distributions.",
+    "objectives": [],
+    "ILOs": {
+        "Knowledge": "NULL",
+        "Skill": "NULL",
+        "Attitude": "NULL"
+    },
+    "allocation": "Lectures : 36h, Tutorial-Classes : 9h",
+    "modules": [],
+    "references": [],
+    "marks": [
+        {
+            "description": "Assignments",
+            "allocation": "10"
+        },
+        {
+            "description": "Mid-Exam",
+            "allocation": "30"
+        },
+        {
+            "description": "End-Exam",
+            "allocation": "60"
+        }
+    ],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

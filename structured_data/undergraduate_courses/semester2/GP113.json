@@ -1,0 +1,156 @@
+{
+    "code": "GP113",
+    "name": "Fundamentals of Manufacture",
+    "credits": 3,
+    "type": "CORE",
+    "prerequisites": "NULL",
+    "content": "Introduction to manufacturing industry, Introduction to manufacturing processes and safety measures, Machining: Casting: Welding, Metal forming and Forging, Manufacturing systems, Automobile technology, Printed circuit board (PCB) fabrication and soldering and related technologies",
+    "objectives": "To provide fundamental knowledge on Manufacturing Engineering enabling students to evaluate, design and manufacture products satisfying organizational and consumer requirements and to select, perform and control manufacturing machines and use materials and equipment in a coordinated manner satisfying economies and standards.",
+    "ILOs": {
+        "Knowledge": "NULL",
+        "Skill": "NULL",
+        "Attitude": "NULL"
+    },
+    "allocation": "Lectures : 20h, Tutorial-Classes : 7h, Practical-Classes : 36h",
+    "modules": [
+        {
+            "topic": "Introduction to Manufacturing Industry",
+            "description": "Manufacturing Industry, Company Structures, Manufacturing relation to Design, Purchasing and Marketing, Definition of Jobbing, Batch and Mass Production, Brief description on Modern manufacturing Techniques such as CNC and CAD/CAM, Materials used in Engineering manufacture",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Introduction to Manufacturing Processes and safety measures",
+            "description": "Introduction to conventional manufacturing processes and safety measures to be incorporated inside a machine shop, press shop, welding shop and foundry shop.",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Machining",
+            "description": "Introduction and classification of manufacturing processes, Single and multi-point cutting tools, Tool geometry and tool materials, Lathe operations, Milling operations and CNC operations",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Casting",
+            "description": "Introduction, Sand casting, Centrifugal casting, Other Metal Removal Processes; Grinding, Shaping and planing Carpentry and Fitting; Introduction",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Welding",
+            "description": "Introduction, Arc and Gas welding, Welding equipment, Metrology; Use of precision measuring instruments",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Metal Forming and Forging",
+            "description": "Forming operations such as bending, drawing and forging, Introduction to mathematical analysis of the forming and forging processes",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Manufacturing Systems",
+            "description": "Planning issues in Manufacture, Capacity Planning, Layout Design Line Balancing and Scheduling",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Automobile Technology",
+            "description": "Printed Circuit Board (PCB) fabrication and soldering and related technologies [Surface Mount (SM) and Ball Grid Array (BGA)]",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Total (hours)",
+            "description": "",
+            "allocation": {
+                "L": "20",
+                "T": "7",
+                "P": "36",
+                "A": "-"
+            }
+        }
+    ],
+    "references": [
+        "Anderson, J., and Tatro, E.E., Shop Theory, 6th Edition, Tata McGraw-Hill, New Delhi, 2001.",
+        "Chapman, W.A.J., Workshop Technology, Part II."
+    ],
+    "marks": [
+        {
+            "description": "practicals",
+            "allocation": "10"
+        },
+        {
+            "description": "assignments",
+            "allocation": "10"
+        },
+        {
+            "description": "mid-exam",
+            "allocation": "30"
+        },
+        {
+            "description": "end-exam",
+            "allocation": "50"
+        }
+    ],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

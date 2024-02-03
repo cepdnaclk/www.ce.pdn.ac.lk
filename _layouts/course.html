@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: " en-US" }}">
+
+<head>
+	{% include head.html %}
+
+	{% if page.forward_url %}
+	<meta http-equiv="refresh" content="0; url = {{ page.forward_url}}" />
+	{% endif %}
+</head>
+
+<body>
+	{% include navbar.html %}
+
+	{%- assign semesterPage = site.pages | where: "code", page.semester -%}
+
+
+	{%- assign prerequisites_count = page.prerequisites | size -%}
+	{%- assign module_count = page.modules | size -%}
+	{%- assign ilos_count = page.ilos | size -%}
+	{%- assign marks_count = page.marks | size -%}{%- assign resources_count = page.resources | size -%}
+	{%- assign resources_count = page.resources | size -%}
+	{%- assign statistics_count = page.statistics | size -%}
+
+	<main role="main" class="container pt-3 vh-75">
+		<div class="bg-secondary p-3 pb-1 rounded">
+			<h1 class="text-white">{{ page.title }}</h1>
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb page-breadcrumb">
+					<li class="breadcrumb-item"><a href="{{ '/' | prepend: site.baseurl }}" class="link-light">Home</a>
+					</li>
+					<li class="breadcrumb-item">
+						<a href="{{ '/courses/undergraduate' | relative_url }}" class="link-light">
+							Undergraduate Courses
+						</a>
+					</li>
+					<li class="breadcrumb-item"><a href="{{ semesterPage[0].permalink | relative_url }}"
+							class="link-light">{{
+							semesterPage[0].title }}</a>
+					</li>
+
+					<li class="breadcrumb-item text-white">{{ page.title }}</li>
+
+				</ol>
+			</nav>
+		</div>
+
+		<div class="container pt-4">
+			<nav>
+				<div class="nav nav-tabs" id="nav-tab" role="tablist">
+					<button class="nav-link active" id="description" data-bs-toggle="tab"
+						data-bs-target="#description-tab" type="button" role="tab" aria-controls="description"
+						aria-selected="true">Description</button>
+
+					<button class="nav-link" id="timeAllocation" data-bs-toggle="tab"
+						data-bs-target="#timeAllocation-tab" type="button" role="tab" aria-controls="timeAllocation"
+						aria-selected="false">Time
+						Allocation</button>
+
+					<button class="nav-link" id="marksAllocation" data-bs-toggle="tab"
+						data-bs-target="#marksAllocation-tab" type="button" role="tab" aria-controls="marksAllocation"
+						aria-selected="false">Marks
+						Allocation</button>
+
+					{%- if statistics_count > 0 and page.statistics[0].year != "NULL" -%}
+					<button class="nav-link" id="statistics" data-bs-toggle="tab" data-bs-target="#statistics-tab"
+						type="button" role="tab" aria-controls="statistics" aria-selected="false">Statistics</button>
+					{%- endif -%}
+
+				</div>
+			</nav>
+		</div>
+
+		<div class="container pt-4">
+			<div class="tab-content" id="nav-tabContent" style="min-height: 50vh;">
+				<!-- Basic Details Tab -->
+				<div class="tab-pane fade active show" id="description-tab" role="tabpanel"
+					aria-labelledby="description">
+					<div class="card mb-3">
+						<div class="card-body">
+							<!-- course code -->
+							{% if page.course_code %}
+							<div class="row">
+								<div class="col-sm-3">
+									<span class="mb-0" style="font-weight: 500">Course Code</span>
+								</div>
+								<div class="col-sm-9 text-secondary">
+									{{page.course_code}}
+								</div>
+							</div>
+							{% endif %}
+
+							<!-- course title -->
+							{% if page.course_title %}
+							<hr>
+							<div class="row">
+								<div class="col-sm-3">
+									<span class="mb-0" style="font-weight: 500">Course Title</span>
+								</div>
+								<div class="col-sm-9 text-secondary">
+									{{page.course_title}}
+								</div>
+							</div>
+							{% endif %}
+
+							<!-- credits -->
+							{% if page.credits %}
+							<hr>
+							<div class="row">
+								<div class="col-sm-3">
+									<span class="mb-0" style="font-weight: 500">Credits</span>
+								</div>
+								<div class="col-sm-9 text-secondary">
+									{{page.credits}}
+								</div>
+							</div>
+							{% endif %}
+
+							<!-- core/elective -->
+							{% if page.type %}
+							<hr>
+							<div class="row">
+								<div class="col-sm-3">
+									<span class="mb-0" style="font-weight: 500">Course Type</span>
+								</div>
+								<div class="col-sm-9 text-secondary">
+									{{page.type | camelcase}}
+								</div>
+							</div>
+							{% endif %}
+
+							<!-- prerequisites -->
+							{% if prerequisites_count > 0 %}
+							<hr>
+							<div class="row">
+								<div class="col-sm-3">
+									<span class="mb-0" style="font-weight: 500">Prerequisites</span>
+								</div>
+								<div class="col-sm-9 text-secondary">
+									{%- for p in page.prerequisites -%}
+									{%- assign p_data = site.data.courses_index[p] -%}
+									<a class="" href="{{ p_data.urls.view | relative_url }}">{{p}}</a>
+									{% if forloop.last %}{% else %}, {% endif %}
+									{%- endfor -%}
+								</div>
+							</div>
+							{% endif %}
+
+							<!-- aims/objectives -->
+							{% assign objective_count = page.aims_and_objectives | size %}
+							{% if objective_count > 0 %}
+							<hr>
+							<div class="row">
+								<div class="col-sm-3">
+									<span class="mb-0" style="font-weight: 500">Aims/Objectives</span>
+								</div>
+								<div class="col-sm-9 text-secondary">
+									{{page.aims_and_objectives}}
+								</div>
+							</div>
+							{% endif %}
+
+							<!-- ILOs -->
+							<hr>
+							{%- assign ilos_knowledge_count = page.ilos_knowledge | size -%}
+							{%- assign ilos_skill_count = page.ilos_skill | size -%}
+							{%- assign ilos_attitude_count = page.ilos_attitude | size -%}
+
+							{%- if ilos_attitude_count > 0 or ilos_knowledge_count > 0 or ilos_skill_count >0 -%}
+							<div class="row">
+								<div class="col-sm-3">
+									<span class="mb-0" style="font-weight: 500">Intended Learning Outcomes (ILOs)</span>
+								</div>
+
+								<div class="col-sm-9">
+									{%- if ilos_knowledge_count > 0 -%}
+									<div>
+										<span class="mb-0" style="font-weight: 500">Knowledge:</span>
+									</div>
+
+									<div class="text-secondary">
+										At the end of this course, a student will be able to;
+										<ul>
+											{%- for item in page.ilos_knowledge -%}
+											<li>{{item}}</li>
+											{%- endfor -%}
+										</ul>
+									</div>
+									{%- endif -%}
+
+									{%- if ilos_skill_count > 0 -%}
+									<div>
+										<span class="mb-0" style="font-weight: 500">Skill:</span>
+									</div>
+
+									<div class="text-secondary">
+										At the end of this course, a student will be able to;
+										<ul>
+											{%- for item in page.ilos_skill -%}
+											<li>{{item}}</li>
+											{%- endfor -%}
+										</ul>
+									</div>
+									{%- endif -%}
+
+									{%- if ilos_attitude_count > 0 -%}
+									<div>
+										<span class="mb-0" style="font-weight: 500">Attitude:</span>
+									</div>
+
+									<div class="text-secondary">
+										<ul>
+											{%- for item in page.ilos_attitude -%}
+											<li>{{item}}</li>
+											{%- endfor -%}
+										</ul>
+									</div>
+									{%- endif -%}
+								</div>
+							</div>
+							<hr>
+							{%- endif -%}
+
+							<!-- Textbooks and References -->
+							{% assign references_count = page.textbooks_references | size %}
+							{% if references_count > 0 %}
+							<div class="row">
+								<div class="col-sm-3">
+									<span class="mb-0" style="font-weight: 500">Textbooks and References</span>
+								</div>
+								<div class="col-sm-9 text-secondary">
+									<ul>
+										{%- for item in page.textbooks_references -%}
+										<li>{{item}}</li>
+										{%- endfor -%}
+									</ul>
+								</div>
+							</div>
+							<hr>
+							{% endif %}
+
+							{% if page.faq_page %}
+							<div class="row">
+								<div class="col-sm-3">
+									<span class="mb-0" style="font-weight: 500">FAQ</span>
+								</div>
+								<div class="col-sm-9 text-secondary">
+									<a href="{{ page.faq_page }}">{{ page.faq_page }}</a>
+								</div>
+							</div>
+							{% endif %}
+						</div>
+					</div>
+				</div>
+
+				<!-- Time Allocation Tab -->
+				<div class="tab-pane fade" id="timeAllocation-tab" role="tabpanel" aria-labelledby="timeAllocation">
+					{%- if module_count > 0 and page.modules[0].topic != "" -%}
+
+					<table class="table table-sm table-bordered border-dark">
+						<tr>
+							<th style="width: 75%;" rowspan="2" style="text-align:center; vertical-align:middle">Topic
+							</th>
+							<th colspan="4" style="text-align:center; vertical-align:middle">Time Allocated / hours</th>
+						</tr>
+
+						<tr>
+							<th style="text-align:center; vertical-align:middle">L</th>
+							<th style="text-align:center; vertical-align:middle">T</th>
+							<th style="text-align:center; vertical-align:middle">P</th>
+							<th style="text-align:center; vertical-align:middle">A</th>
+						</tr>
+
+						{%- for item in page.modules -%}
+						<tr>
+							<td>
+								<b>{{item["topic"]}}</b> <br>{{item["description"]}}
+							</td>
+							<td style="text-align:center; vertical-align:middle">
+								{{ item["allocation"]["L"] }}
+							</td>
+							<td style="text-align:center; vertical-align:middle">
+								{{ item["allocation"]["T"] }}
+							</td>
+							<td style="text-align:center; vertical-align:middle">
+								{{ item["allocation"]["P"] }}
+							</td>
+							<td style="text-align:center; vertical-align:middle">
+								{{ item["allocation"]["A"] }}
+							</td>
+						</tr>
+						{%- endfor -%}
+					</table>
+					<p>L = Lectures, T = Tutorial classes, P = Practical classes, A = Homework Assignments</p>
+
+					{%- else if -%}
+					<p class="text-center p-5 text-muted">Time Allocation details not available for this course</p>
+					{%- endif -%}
+				</div>
+
+				<!-- Marks Allocation Tab -->
+				<div class="tab-pane fade" id="marksAllocation-tab" role="tabpanel" aria-labelledby="marksAllocation">
+					{%- if marks_count > 0 -%}
+					<table class="table table-sm table-bordered border-dark">
+						<tr>
+							<th style="text-align:center; vertical-align:middle">Assessment</th>
+							<th style="text-align:center; vertical-align:middle">Percentage Marks</th>
+						</tr>
+
+						{%- for item in page.marks -%}
+						<tr>
+							<td style="vertical-align:middle">{{item["description"]}}</td>
+							<td style="text-align:center; vertical-align:middle">{{item["allocation"]}}</td>
+						</tr>
+						{%- endfor -%}
+					</table>
+					{%- else if -%}
+					<p class="text-center p-5 text-muted">Marks Allocation details not available for this course</p>
+					{%- endif -%}
+				</div>
+
+				<!-- Statistics Tab -->
+				{%- if statistics_count > 0 and page.statistics[0].year != "NULL" -%}
+				<div class="tab-pane fade" id="statistics-tab" role="tabpanel" aria-labelledby="statistics">
+
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+					{%- for item in page.statistics -%}
+
+					{%- if item.year != "NULL" -%}
+					<div class="container pb-3">
+						<h3>
+							Grades Distribution: {{ item.year }}
+							{%- if item.batch != "" -%}
+							<span> - {{ item.batch }}</span>
+							{%- endif -%}
+						</h3>
+
+						<div class="row">
+							<canvas id="chart-{{ item.year }}" style="width:100%;max-width:600px"></canvas>
+						</div>
+					</div>
+
+
+					{%- endif -%}
+					{%- endfor -%}
+				</div>
+				{%- endif -%}
+			</div>
+		</div>
+
+		{%- if page.gh_page -%}
+		<div class="container text-end pt-5">
+			<span class="text-muted">Last Update: {{ page.last_edit }}</span>
+			{{ ' | ' }}
+			<a href="{{ page.gh_page }}" target="_blank" class="text-decoration-none">
+				Edit this page <i class="fab fa-github"></i>
+			</a>
+		</div>
+		{%- endif -%}
+	</main>
+
+	{% include footer.html %}
+</body>
+
+
+<script type="text/javascript">
+	$(document).ready(function () {
+		// Switch to the right tab, absed on the location hash
+		const locHash = window.location.hash;
+		if (locHash != '') {
+			var tabTrigger = new bootstrap.Tab($(locHash.replace("tab_", ""))).show();
+		}
+
+		// Update the URL hash with tab selection
+		var tabsList = document.querySelectorAll('button[data-bs-toggle="tab"]')
+		tabsList.forEach((triggerEl) => {
+			triggerEl.addEventListener('shown.bs.tab', function (event) {
+				const tabID = 'tab_' + (event.target.getAttribute('id'));
+				event.preventDefault();
+				window.location.hash = tabID;
+			})
+		});
+	});
+</script>
+
+</html>

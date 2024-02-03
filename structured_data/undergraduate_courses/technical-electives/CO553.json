@@ -1,0 +1,56 @@
+{
+    "code": "CO553",
+    "name": "Formal Verification Tools and Techniques for Complex Reactive Systems",
+    "credits": 3,
+    "type": "ELECTIVE",
+    "prerequisites": [],
+    "content": "The aim of this course is to impart a working knowledge of formal methods used in rigorous verification of reactive systems and enable students to use them in designing systems.As principle objectives, at the end of the course,students are expected toknow how the behaviour of a complex (safety-critical) reactive system could be specified and how such a system could be designed so that they could prove the correctness of the system behaviour usingan appropriate formalism from among, (symbolic) model checking and temporal logic, Hoare logic and weakest precondition calculus, Petri nets and process algebra.",
+    "objectives": "",
+    "ILOs": {
+        "Knowledge": [],
+        "Skill": [],
+        "Attitude": []
+    },
+    "allocation": "Lectures: 31h, Tutorial-Classes: 4h, Assignments: 20h",
+    "modules": [
+        {
+            "topic": "",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        }
+    ],
+    "references": [],
+    "marks": [],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

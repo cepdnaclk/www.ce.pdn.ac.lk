@@ -1,0 +1,170 @@
+{
+    "code": "CO225",
+    "name": "Software Construction",
+    "credits": 3,
+    "type": "CORE",
+    "prerequisites": [
+        "CO222"
+    ],
+    "content": "Introduction of features of a selected language, Data collections (containers), Input/output, error handling and parsing textual formats, Declarative programming, Classes and objects, Event-driven programming, Concurrency and network clients, Code quality.",
+    "objectives": "Use a problem-based approach to introduce the tools and techniques afforded by high-level languages, standard libraries and operating systems so that students will be able to use these primitives while constructing relatively large software.",
+    "ILOs": {
+        "Knowledge": [
+            "Choose an appropriate data collection for efficiently representing a problem's data and its associated computations.",
+            "Apply declarative programming to data-intensive problems.",
+            "Use objects or algebraic data types to construct a suitable data representation for problems involving trees and graphs.",
+            "Identify opportunities for concurrency in existing code or a problem description.",
+            "Cleanly separate user interface and input/output concerns from core program logic."
+        ],
+        "Skill": [
+            "Scan and parse unstructured and structured textual formats to extract data.",
+            "Traverse a linked data structure to perform a computation.",
+            "Write a simple network client (e.g. web crawler).",
+            "Build programs usable via multiple interfaces (command-line, GUI.)",
+            "Write secure, testable and modular code."
+        ],
+        "Attitude": [
+            "Use the right tool/technique for the job.",
+            "Do one thing and do it well (UNIX \u201ctiny tools\u201d philosophy)."
+        ]
+    },
+    "allocation": "Lectures : 25h, Tutorial-Classes : 6h, Practical-Classes : 20h, Assignments : 8h",
+    "modules": [
+        {
+            "topic": "Introduction of features of a selected language",
+            "description": "Control constructs, static / dynamic typing, scope and name-spaces, automatic memory management",
+            "allocation": {
+                "L": "4",
+                "T": "-",
+                "P": "3",
+                "A": "1"
+            }
+        },
+        {
+            "topic": "Data collections (containers)",
+            "description": "Lists, tuples, sets and hash tables, Iterating over collections, efficiency considerations",
+            "allocation": {
+                "L": "2",
+                "T": "1",
+                "P": "2",
+                "A": "1"
+            }
+        },
+        {
+            "topic": "Input/output, error handling and parsing textual formats",
+            "description": "Command-line arguments, files and streams, errors and exceptions, pattern matching with regular expressions, parsing structured data (HTML, XML and JSON.)",
+            "allocation": {
+                "L": "3",
+                "T": "1",
+                "P": "3",
+                "A": "1"
+            }
+        },
+        {
+            "topic": "Declarative programming",
+            "description": "Functions as first-class values, closures, collection-oriented programming; map, filter and reduce (accumulate)",
+            "allocation": {
+                "L": "3",
+                "T": "1",
+                "P": "3",
+                "A": "1"
+            }
+        },
+        {
+            "topic": "Classes and objects",
+            "description": "Classes as user-defined types, object instances, references and aliasing, composing objects, defining linked structures (trees and graphs)",
+            "allocation": {
+                "L": "3",
+                "T": "1",
+                "P": "3",
+                "A": "1"
+            }
+        },
+        {
+            "topic": "Event-driven programming",
+            "description": "Graphical user interfaces and callbacks, Observer pattern and model-view separation, threading and asynchronous updates",
+            "allocation": {
+                "L": "3",
+                "T": "1",
+                "P": "3",
+                "A": "1"
+            }
+        },
+        {
+            "topic": "Concurrency and network clients",
+            "description": "Language facilities for concurrency (co-routines, fork/join),multiprocessing and pipelines, sockets",
+            "allocation": {
+                "L": "4",
+                "T": "1",
+                "P": "2",
+                "A": "1"
+            }
+        },
+        {
+            "topic": "Code quality",
+            "description": "Secure programming, assertions and unit tests, writing testable code, test and build automation, code modularity and reuse",
+            "allocation": {
+                "L": "3",
+                "T": "-",
+                "P": "3",
+                "A": "1"
+            }
+        },
+        {
+            "topic": "Total (hours)",
+            "description": "",
+            "allocation": {
+                "L": "25",
+                "T": "6",
+                "P": "20",
+                "A": "8"
+            }
+        }
+    ],
+    "references": [
+        "Mark Pilgrim, Dive into Python 3; http://www.diveinto.org/python3/",
+        "Software Carpentry Lessons; http://software-carpentry.org/v4/",
+        "Brad Miller and David Ranum, Problem Solving with Algorithms and Data Structures; http://interactivepython.org/runestone/static/pythonds/index.html"
+    ],
+    "marks": [
+        {
+            "description": "Practicals",
+            "allocation": "30"
+        },
+        {
+            "description": "Projects",
+            "allocation": "30"
+        },
+        {
+            "description": "End-Exam",
+            "allocation": "40"
+        }
+    ],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

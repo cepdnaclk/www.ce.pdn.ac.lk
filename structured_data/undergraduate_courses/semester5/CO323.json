@@ -1,0 +1,67 @@
+{
+    "code": "CO323",
+    "name": "Computer Communication Networks II",
+    "credits": 3,
+    "type": "CORE",
+    "prerequisites": [
+        "CO223"
+    ],
+    "content": "Following the first introductory module which provides the big picture of networking with its different pieces and their interaction, this second module is to provide the details of the different pieces and it is aimed at providing students in-depth knowledge and skills with sufficient practical experience.",
+    "objectives": [],
+    "ILOs": {
+        "Knowledge": "NULL",
+        "Skill": "NULL",
+        "Attitude": "NULL"
+    },
+    "allocation": "Lectures : 30h, Tutorial-Classes : 2h, Practical-Classes : 23h, Assignments : 3h",
+    "modules": [],
+    "references": [
+        "J. F. Kurose and K. W. Ross. Computer Networking; A Top Down Approach. 6th edition.",
+        "L. Garcia and I. Widjaja, Communication Networks; Fundamental Concepts and Key Architectures. 2nd edition."
+    ],
+    "marks": [
+        {
+            "description": "Practicals",
+            "allocation": "20"
+        },
+        {
+            "description": "Assignments",
+            "allocation": "10"
+        },
+        {
+            "description": "Mid-Exam",
+            "allocation": "20"
+        },
+        {
+            "description": "End-Exam",
+            "allocation": "50"
+        }
+    ],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

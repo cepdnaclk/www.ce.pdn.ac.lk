@@ -1,0 +1,119 @@
+{
+    "code": "EM212",
+    "name": "Calculus II",
+    "credits": 3,
+    "type": "CORE",
+    "prerequisites": [],
+    "content": "Functions of several variables, Partial derivatives double and triple integration, Vector fields and operators, Orthogonal curvilinear coordinates, Integrals and integral theorems, Constrained optimisation of functions of several variables, Continuous probability distributions, Sampling distributions, Estimation and confidence intervals, Hypothesis testing.",
+    "objectives": [],
+    "ILOs": {
+        "Knowledge": "NULL",
+        "Skill": "NULL",
+        "Attitude": "NULL"
+    },
+    "allocation": "Lectures : 36h, Tutorial-Classes : 9h",
+    "modules": [
+        {
+            "topic": "Surfaces and Space curves in R3",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Special Lines and Planes",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Multiple Integrals & Coordinate Transformations",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Vector Fields",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Maxwells Equations",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Total (hours)",
+            "description": "",
+            "allocation": {
+                "L": "36",
+                "T": "9",
+                "P": "-",
+                "A": "-"
+            }
+        }
+    ],
+    "references": [],
+    "marks": [
+        {
+            "description": "Assignments",
+            "allocation": "10"
+        },
+        {
+            "description": "Mid-Exam",
+            "allocation": "30"
+        },
+        {
+            "description": "End-Exam",
+            "allocation": "60"
+        }
+    ],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

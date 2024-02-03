@@ -1,0 +1,205 @@
+{
+    "code": "CO222",
+    "name": "Programming Methodology",
+    "credits": 3,
+    "type": "CORE",
+    "prerequisites": [],
+    "content": "Problem solving, Storing and naming data and operators, Control flow, Using standard library functions, Structured programming, Static allocation, References (pointers), Linked structures, Memory layout, Language tool-chains, Support tools",
+    "objectives": "Problem solving, Storing and naming data and operators, Control flow, Using standard library functions, Structured programming, Static allocation, References (pointers), Linked structures, Memory layout, Language tool-chains, Support tools",
+    "ILOs": {
+        "Knowledge": [
+            "Convert a simple well defined problem into a correct computer program using a typical Clike programming language.",
+            "Understand the logic of a simple piece of code and reason about it"
+        ],
+        "Skill": [
+            "Practice good coding techniques (naming conventions, indentation, comments, organizing operations into functions, modularization).",
+            "Visualise program control flow and memory structures.",
+            "Use assertions and debugging to understand and debug programs"
+        ],
+        "Attitude": [
+            "Inculcate a disciplined attitude towards programming in the small.",
+            "Discourage trial-and-error programming"
+        ]
+    },
+    "allocation": "Lectures : 24h, Tutorial-Classes : 8h, Practical-Classes : 14h, Assignments : 12h",
+    "modules": [
+        {
+            "topic": "Problem solving",
+            "description": "From problem statements to algorithms to programs",
+            "allocation": {
+                "L": "2",
+                "T": "1",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Storing and naming data and operators",
+            "description": "Variables, data types, operators and expressions",
+            "allocation": {
+                "L": "3",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Control flow",
+            "description": "Simple and nested conditions and iterations",
+            "allocation": {
+                "L": "2",
+                "T": "1",
+                "P": "2",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Using standard library functions",
+            "description": "Basic input/output functions",
+            "allocation": {
+                "L": "2",
+                "T": "1",
+                "P": "2",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Structured programming",
+            "description": "Defining functions, parameter passing by value",
+            "allocation": {
+                "L": "2",
+                "T": "-",
+                "P": "2",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Static allocation",
+            "description": "Arrays (single and multidimensional), strings, and structures (records)",
+            "allocation": {
+                "L": "3",
+                "T": "1",
+                "P": "-",
+                "A": "4"
+            }
+        },
+        {
+            "topic": "References (pointers)",
+            "description": "Dynamic allocation and type casts",
+            "allocation": {
+                "L": "2",
+                "T": "1",
+                "P": "2",
+                "A": "6"
+            }
+        },
+        {
+            "topic": "-",
+            "description": "Linked structures, box and pointer diagrams",
+            "allocation": {
+                "L": "1",
+                "T": "1",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Memory layout",
+            "description": "Stack and heap",
+            "allocation": {
+                "L": "2",
+                "T": "1",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "-",
+            "description": "Error checking, assertions and testing",
+            "allocation": {
+                "L": "1",
+                "T": "1",
+                "P": "2",
+                "A": "2"
+            }
+        },
+        {
+            "topic": "Language tool-chains",
+            "description": "Compilation, linking and loading",
+            "allocation": {
+                "L": "3",
+                "T": "-",
+                "P": "2",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Support tools",
+            "description": "debuggers, commonly used static-code checkers",
+            "allocation": {
+                "L": "1",
+                "T": "-",
+                "P": "2",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Total (hours)",
+            "description": "",
+            "allocation": {
+                "L": "24",
+                "T": "8",
+                "P": "14",
+                "A": "12"
+            }
+        }
+    ],
+    "references": [
+        "J.D. Ulman, Foundations of Computer Science C edition"
+    ],
+    "marks": [
+        {
+            "description": "Practicals",
+            "allocation": "20"
+        },
+        {
+            "description": "Projects",
+            "allocation": "20"
+        },
+        {
+            "description": "Mid-Exam",
+            "allocation": "20"
+        },
+        {
+            "description": "End-Exam",
+            "allocation": "40"
+        }
+    ],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

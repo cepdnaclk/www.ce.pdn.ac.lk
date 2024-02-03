@@ -1,0 +1,166 @@
+{
+    "code": "CO221",
+    "name": "Digital Design",
+    "credits": 3,
+    "type": "CORE",
+    "prerequisites": [],
+    "content": "Introduction to digital logic, Number systems and digital logic, Combinational logic circuits, Modular design of combinational circuits, Sequential logic circuits and memory elements, Design of synchronous sequential circuits, Analysis and design of asynchronous sequential circuits, Digital circuit design and implementation.",
+    "objectives": "To introduce digital electronics with emphasis on practical design techniques for digital circuits, analysis of static and dynamic behaviour of digital circuits and optimized circuit implementation; its principles in Boolean algebra and the design of combinational and sequential circuits with implementation at logic circuit level. Also to teach how simple combinational and sequential modules are used to build complete systems, reflecting real-world digital design.",
+    "ILOs": {
+        "Knowledge": [
+            "Perform Boolean manipulation, circuit minimization and synthesis of sequential and combinational circuits.",
+            "Analyse static and dynamic behaviour of digital circuits."
+        ],
+        "Skill": [
+            "Draw up the formal requirement specification starting from an informal requirement.",
+            "Design and implement basic combinational and sequential circuits with considerations to common problems such as hazards, race conditions and instability in these circuits.",
+            "Demonstrate the conformance of a design to its specifications including temporal behaviour."
+        ],
+        "Attitude": [
+            "The student must have developed sufficient confidence to be able to undertake digital circuit design for real-world engineering requirements by acquiring any further domain knowledge through self-study.",
+            "Discourage trial and error implementation of the circuits."
+        ]
+    },
+    "allocation": "Lectures : 30h, Practical-Classes : 16h, Assignments : 14h",
+    "modules": [
+        {
+            "topic": "Introduction to digital logic",
+            "description": "Digital signals, Digital Logic, Computers and Digital Systems, Purpose and role of digital logic in computer engineering, CMOS logic circuits",
+            "allocation": {
+                "L": "1",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Number systems and digital logic",
+            "description": "Binary number system , Number Base Conversions, A Representation of Negative Numbers, Binary arithmetic, Levels of Description of Logic Networks, Basic logic gates, Positive and negative logic",
+            "allocation": {
+                "L": "3",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Combinational logic circuits",
+            "description": "Boolean algebra, Boolean laws and theorems, Sum-of-products and Product-of-sums methods, Simplifications of Boolean expressions, Truth tables, Karnaugh Maps, Quine Mc-clusky method, Don\u2019t care combinations, Elimination of timing Hazards",
+            "allocation": {
+                "L": "6",
+                "T": "-",
+                "P": "2",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Modular design of combinational circuits",
+            "description": "Introduction of Levels of Integration, Multiplexers, De-multiplexers, Encoders, Decoders, read only memory (ROM), programmable logic arrays",
+            "allocation": {
+                "L": "4",
+                "T": "-",
+                "P": "2",
+                "A": "2"
+            }
+        },
+        {
+            "topic": "Sequential logic circuits and memory elements",
+            "description": "SR flip flops, Gated, edge triggered and Master-slave operation, JK flip flop, D flip-flop, T flip-flop, Registers, Serial/Parallel conversion, CodesError detection and correction",
+            "allocation": {
+                "L": "6",
+                "T": "-",
+                "P": "4",
+                "A": "2"
+            }
+        },
+        {
+            "topic": "Design of synchronous sequential circuits",
+            "description": "Analysis of Synchronous circuits, Mealy-Moore Networks and Models, State diagrams and state tables State minimization, State assignment, Assignment Rules, Next state and output equation realization, Design of Counters, ROM utilization for Sequential circuits",
+            "allocation": {
+                "L": "5",
+                "T": "-",
+                "P": "4",
+                "A": "4"
+            }
+        },
+        {
+            "topic": "Analysis and design of asynchronous sequential circuits",
+            "description": "Analysis of Asynchronous circuits, Design Procedure, Flow tables, Reduction of state and flow tables, Race free State assignment, Hazards in asynchronous circuits",
+            "allocation": {
+                "L": "5",
+                "T": "-",
+                "P": "4",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Digital circuit design and implementation",
+            "description": "Solving a relatively complex problem via self-study and consolidating the knowledge acquired",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "6"
+            }
+        },
+        {
+            "topic": "Total (hours)",
+            "description": "",
+            "allocation": {
+                "L": "30",
+                "T": "-",
+                "P": "16",
+                "A": "14"
+            }
+        }
+    ],
+    "references": [
+        "Morris Mano, Digital Design, 3rd Edition",
+        "William James Dally and R. Curtis Harting, Digital Design - A Systems Approach"
+    ],
+    "marks": [
+        {
+            "description": "Practicals",
+            "allocation": "30"
+        },
+        {
+            "description": "Assignments",
+            "allocation": "10"
+        },
+        {
+            "description": "Mid-Exam",
+            "allocation": "20"
+        },
+        {
+            "description": "End-Exam",
+            "allocation": "40"
+        }
+    ],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

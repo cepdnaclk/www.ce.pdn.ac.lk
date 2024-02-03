@@ -1,0 +1,58 @@
+{
+    "code": "CO502",
+    "name": "Advanced Computer Architecture",
+    "credits": 3,
+    "type": "ELECTIVE",
+    "prerequisites": [
+        "CO224"
+    ],
+    "content": "Fundamentals of computer design, Introduction to instruction level parallelism (ILP), Pipelined processors, Exploiting ILP with software approaches, Exploiting ILP with hardware approaches, Memory hierarchy design, Hardware description languages and simulation, Computer architecture and dependability, Special purpose processors.",
+    "objectives": "",
+    "ILOs": {
+        "Knowledge": [],
+        "Skill": [],
+        "Attitude": []
+    },
+    "allocation": "Lectures: 25h, Tutorial-Classes: 5h, Practicals: 14h, Assignments: 16h",
+    "modules": [
+        {
+            "topic": "",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        }
+    ],
+    "references": [],
+    "marks": [],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

@@ -1,0 +1,58 @@
+{
+    "code": "CO515",
+    "name": "Advances in Computer Networks:Selected Topics",
+    "credits": 3,
+    "type": "ELECTIVE",
+    "prerequisites": [
+        "CO323"
+    ],
+    "content": "An overview of networking trends, Data center networks and applications, Network function virtualization and Software Defined Networks, Carrier internt protocol, Multiprotocol label Switching (MPLS), Carrier Ethernet, Provider backbone, Metro Ethernet, Traffic Engineering, Big data concepts and applications, Network management.",
+    "objectives": "",
+    "ILOs": {
+        "Knowledge": [],
+        "Skill": [],
+        "Attitude": []
+    },
+    "allocation": "Lectures: 35h, Tutorial-Classes: 2h, Assignments: 16h",
+    "modules": [
+        {
+            "topic": "",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        }
+    ],
+    "references": [],
+    "marks": [],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

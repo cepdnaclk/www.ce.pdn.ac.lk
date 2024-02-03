@@ -1,0 +1,33 @@
+<h5>
+    <strong>{{ include.course.code }} {{ include.course.name }}</strong>
+    <small>({{ include.course.credits }} Credits)</small>
+</h5>
+
+{%- assign preq_count = include.course.prerequisites | size -%}
+
+{%- if preq_count > 0 and include.course.prerequisites != "NULL" -%}
+<div class="flex flex-row pb-2">
+    <strong class="me-3">Prerequisites:</strong>
+    {%- for p in include.course.prerequisites -%}
+    {%- assign p_data = site.data.courses_index[p] -%}
+    <a class="text-decoration-none" href="{{ p_data.urls.view | relative_url }}">
+        <span class="badge rounded-pill bg-primary" data-bs-toggle="tooltip" data-bs-placement="top"
+            title="{{ p_data.name }}">{{p}}</span></a>
+    {% if forloop.last %}{% else %}, {% endif %}
+    {%- endfor -%}
+</div>
+{%- endif -%}
+
+{%- if include.course.content != "" and include.course.content != "NULL" -%}
+<h6><strong>Course Content:</strong></h6>
+<h6>{{ include.course.content }}</h6>
+{%- endif -%}
+
+
+{%- if include.course.allocation != "" and include.course.allocation != "NULL" -%}
+<h6>({{ include.course.allocation }})</h6>
+{%- endif -%}
+
+<a href="{{ include.course.urls.view | relative_url}}">More Details</a>
+<h6>&nbsp;</h6>
+<hr>

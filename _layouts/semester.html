@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: " en-US" }}">
+
+<head>
+  {% include head.html %}
+
+  {% if page.forward_url %}
+  <meta http-equiv="refresh" content="0; url = {{ page.forward_url}}" />
+  {% endif %}
+</head>
+
+<body>
+  {% include navbar.html %}
+
+  <main role="main" class="container pt-3 vh-75">
+    <div class="bg-secondary p-3 pb-1 rounded">
+      <h1 class="text-white">{{ page.title }}</h1>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb page-breadcrumb">
+          <li class="breadcrumb-item"><a href="{{ '/' | prepend: site.baseurl }}" class="link-light">Home</a></li>
+          <li class="breadcrumb-item"><a href="{{ '/courses/undergraduate' | relative_url }}"
+              class="link-light">Undergraduate
+              Courses</a></li>
+          <li class="breadcrumb-item text-white">{{ page.title }}</li>
+        </ol>
+      </nav>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-11 col-lg-10 p-5 mx-auto">
+
+        {%- if page.description -%}
+        <div class="alert alert-secondary" role="alert">{{ page.description }}</div>
+        {%- endif -%}
+
+        {%- assign course_list = site.data.courses[page.code] -%}
+
+        {%- for course in course_list["courses"] -%}
+        {% include cards/card_course.html course=course %}
+        {%- endfor -%}
+      </div>
+    </div>
+    </div>
+
+  </main>
+
+  {% include footer.html %}
+</body>
+
+</html>

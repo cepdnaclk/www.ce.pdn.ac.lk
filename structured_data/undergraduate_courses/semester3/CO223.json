@@ -1,0 +1,60 @@
+{
+    "code": "CO223",
+    "name": "Computer Communication Networks 1",
+    "credits": 3,
+    "type": "CORE",
+    "prerequisites": [],
+    "content": "Communication networks, Terminology, classification, and performance metrics, Network Design; Layered network architectures, Network applications and transport services, Packet-switching networks, Transmission over links and local area networks, Physical transmission fundamentals, Circuit-switching networks",
+    "objectives": [],
+    "ILOs": {
+        "Knowledge": "NULL",
+        "Skill": "NULL",
+        "Attitude": "NULL"
+    },
+    "allocation": "Lectures : 30h, Tutorial-Classes : 2h, Practical-Classes : 22h, Assignments : 4h",
+    "modules": [],
+    "references": [
+        "J. F. Kurose and K. W. Ross. Computer Networking; A Top Down Approach."
+    ],
+    "marks": [
+        {
+            "description": "Practicals",
+            "allocation": "30"
+        },
+        {
+            "description": "Mid-Exam",
+            "allocation": "20"
+        },
+        {
+            "description": "End-Exam",
+            "allocation": "50"
+        }
+    ],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

@@ -1,0 +1,169 @@
+{
+    "code": "CO321",
+    "name": "Embedded Systems",
+    "credits": 3,
+    "type": "CORE",
+    "prerequisites": [
+        "CO224"
+    ],
+    "content": "ITo provide a detailed understanding and a hands-on experience of system integration and implementation of microprocessor based systems.",
+    "objectives": [],
+    "ILOs": {
+        "Knowledge": "NULL",
+        "Skill": "NULL",
+        "Attitude": "NULL"
+    },
+    "allocation": "Lectures : 31h, Practical-Classes : 20h, Assignments : 8h",
+    "modules": [
+        {
+            "topic": "Introduction to microcontrollers",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Memory organization of microcontrollers",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Programming of flash microcontrollers",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "I/O port configuration and programming interfaces",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "A/D converters and applications",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Timer systems of microcontrollers",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Applications of non-volatile memory",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Industrial Applications",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Student Project",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Total (hours)",
+            "description": "",
+            "allocation": {
+                "L": "31",
+                "T": "-",
+                "P": "20",
+                "A": "8"
+            }
+        }
+    ],
+    "references": [
+        "Book - AVR Microcontroller and Embedded Systems",
+        "Fredrick M. Cady; Microcontrollers and Microcomputers- Principles of Software and Hardware Engineering.",
+        "Mano, M.M. & Kime, C.R.; Logic and Computer Design Fundamentals"
+    ],
+    "marks": [
+        {
+            "description": "Practicals",
+            "allocation": "20"
+        },
+        {
+            "description": "Projects",
+            "allocation": "20"
+        },
+        {
+            "description": "Mid-Exam",
+            "allocation": "20"
+        },
+        {
+            "description": "End-Exam",
+            "allocation": "40"
+        }
+    ],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

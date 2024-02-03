@@ -1,0 +1,66 @@
+{
+    "code": "GP101",
+    "name": "English I",
+    "credits": 3,
+    "type": "CORE",
+    "prerequisites": "NULL",
+    "content": "Language development, Communication through reading, Communication through listening, Communication through writing, Communication through speech",
+    "objectives": [],
+    "ILOs": {
+        "Knowledge": "NULL",
+        "Skill": "NULL",
+        "Attitude": "NULL"
+    },
+    "allocation": "Lectures : 20h, Assignments : 50h",
+    "modules": [],
+    "references": [],
+    "marks": [
+        {
+            "description": "Practicals",
+            "allocation": "-"
+        },
+        {
+            "description": "Assignments",
+            "allocation": "-"
+        },
+        {
+            "description": "Projects",
+            "allocation": "-"
+        },
+        {
+            "description": "Mid-Exam",
+            "allocation": "-"
+        },
+        {
+            "description": "End-Exam",
+            "allocation": "-"
+        }
+    ],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

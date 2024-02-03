@@ -1,0 +1,61 @@
+{
+    "code": "CO542",
+    "name": "Neural Networks and Fuzzy Systems",
+    "credits": 3,
+    "type": "ELECTIVE",
+    "prerequisites": [],
+    "content": "Introduction to fuzzy systems, Fuzzy relations, Extension principle , Fuzzy inference, Fuzzy non-linear simulation, Fuzzy applications , Artificial neural networks (ANN), Learning in ANN, The perceptron, Back propagation algorithm, Hopefield model, Memory type paradigms, Fuzzy neural networks applications",
+    "objectives": [
+        "Apply theories and techniques of Artificial Neural Networks and Fuzzy Systems to identify potential applications in real-life product design, commercial/trade and scientific problems, ",
+        "Analyse and formulate the problem for solution using Artificial Neural Networks and Fuzzy Systems, ",
+        "Develop prototype solutions to the formulated problem and validate them, ",
+        "Continue developing their Artificial Neural Networks and Fuzzy Systems skills by keeping abreast with new learning in the area through continuous learning."
+    ],
+    "ILOs": {
+        "Knowledge": [],
+        "Skill": [],
+        "Attitude": []
+    },
+    "allocation": "Lectures & Tutorial-Classes: 33h, Practical & Assignments: 24h",
+    "modules": [
+        {
+            "topic": "",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        }
+    ],
+    "references": [],
+    "marks": [],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

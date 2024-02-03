@@ -1,0 +1,58 @@
+{
+    "code": "CO541",
+    "name": "Artificial Intelligence",
+    "credits": 3,
+    "type": "ELECTIVE",
+    "prerequisites": [
+        "CO222"
+    ],
+    "content": "Introduction, Artificial intelligence programming, Knowledge representation and inference, Expert systems, Search, Natural language processing, Vision, Dealing with uncertainty, Role of neural networks and fuzzy logic in AI, Applications of AI.",
+    "objectives": "",
+    "ILOs": {
+        "Knowledge": [],
+        "Skill": [],
+        "Attitude": []
+    },
+    "allocation": "Lectures & Tutorial-Classes: 22h, Practicals & Assignments: 14h",
+    "modules": [
+        {
+            "topic": "",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        }
+    ],
+    "references": [],
+    "marks": [],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

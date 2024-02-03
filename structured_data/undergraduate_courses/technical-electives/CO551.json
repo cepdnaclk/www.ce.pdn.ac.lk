@@ -1,0 +1,56 @@
+{
+    "code": "CO551",
+    "name": "Theory of Computation",
+    "credits": 3,
+    "type": "ELECTIVE",
+    "prerequisites": [],
+    "content": "Preliminaries, Finite automata, Regular expressions and properties of regular sets, Context-free grammars (CGF) and properties of context-free languages (CFL), Pushdown automata, Turing machines, Undecidability, Complexity theory, Intractable problems.",
+    "objectives": "",
+    "ILOs": {
+        "Knowledge": [],
+        "Skill": [],
+        "Attitude": []
+    },
+    "allocation": "Lectures & Tutorial-Classes: 37h, Practicals & Assignments: 16h",
+    "modules": [
+        {
+            "topic": "",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        }
+    ],
+    "references": [],
+    "marks": [],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

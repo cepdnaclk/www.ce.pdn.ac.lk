@@ -1,0 +1,58 @@
+{
+    "code": "CO552",
+    "name": "Game Theory and Markov Decision Processes",
+    "credits": 3,
+    "type": "ELECTIVE",
+    "prerequisites": [
+        "EM202"
+    ],
+    "content": "Introduction to game theory, Mixed Strategies, Expected Payoffs, Nash Equilibrium and Nash Theorem, 2-Player Zero-Sum Games, and The Minimax Theorem, Linear Programming, Simplex Algorithm, LP Duality Theorem, Computing Solutions for General Finite Strategic Games, Games in Extensive Form, Games of Perfect Information, Games on Graphs, Simulation, Markov Decision Processes and Stochastic Games, Selfish Network Routing, Congestion Games, and the Price of Anarchy, Auctions and Mechanism Design, Reachability and safety games, Buchi and coBuchi Games.",
+    "objectives": "",
+    "ILOs": {
+        "Knowledge": [],
+        "Skill": [],
+        "Attitude": []
+    },
+    "allocation": "Lectures: 35h, Tutorial-Classes: 10h, Assignments: 10h",
+    "modules": [
+        {
+            "topic": "",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        }
+    ],
+    "references": [],
+    "marks": [],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

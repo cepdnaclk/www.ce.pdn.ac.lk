@@ -1,0 +1,58 @@
+{
+    "code": "CO527",
+    "name": "Advanced Database Systems",
+    "credits": 3,
+    "type": "ELECTIVE",
+    "prerequisites": [
+        "CO226"
+    ],
+    "content": "Data storage and indexing structures, Query Optimization and database tuning, Transaction Processing, Database security, Distributed Databases, Object databases and Object-relational databases, other data models, Data models for advanced applications.",
+    "objectives": "",
+    "ILOs": {
+        "Knowledge": [],
+        "Skill": [],
+        "Attitude": []
+    },
+    "allocation": "Lectures: 32h, Tutorial-Classes: 6h, Practicals: 12h, Assignments: 2h",
+    "modules": [
+        {
+            "topic": "",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        }
+    ],
+    "references": [],
+    "marks": [],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

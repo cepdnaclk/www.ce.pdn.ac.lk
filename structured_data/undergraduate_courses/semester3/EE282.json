@@ -1,0 +1,132 @@
+{
+    "code": "EE282",
+    "name": "Network Analysis for Computer Engineering",
+    "credits": 3,
+    "type": "CORE",
+    "prerequisites": [],
+    "content": "Review of DC circuits, First-order circuits, Second-order circuits, Sinusoidal steady state analysis, Laplace transform and network analysis, Two-port networks.",
+    "objectives": "To provide knowledge required to analyse basic electrical networks with passive components so that students will be able to understand and analyse different electrical circuits under steady state and transient conditions and dc and ac excitations.",
+    "ILOs": {
+        "Knowledge": "NULL",
+        "Skill": "NULL",
+        "Attitude": "NULL"
+    },
+    "allocation": "Lectures : 45h",
+    "modules": [
+        {
+            "topic": "Review of DC Circuits",
+            "description": "Notations and conventions; Ohm's law, Kirchhoff's voltage law and current law, Nodal and mesh analysis; Source transformation, Circuits with dependent sources.",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "First-order Circuits",
+            "description": "Voltage-current relationships for inductor and capacitor, RL and RC circuits; Time domain solution to first-order differential equation, Time constant, Forced and natural responses",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Second-order Circuits",
+            "description": "Second-order differential equation and solution; nodal and mesh analysis of second order and higher order circuits, Evaluation of initial conditions, Forced response and natural response, Under-damped, critically damped and over-damped second order circuits, Analysis of higher order circuits",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Sinusoidal Steady State Analysis",
+            "description": "Average value and r.m.s. value of a.c. waveforms, Review of complex numbers; Phasor representation of sinusoidal waveforms, Impedance and admittance, Series and parallel combination of impedances, Nodal and mesh analysis, Mutually-coupled circuits, Power in a.c. circuits, Maximum power transfer theorem, Series and parallel resonance",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Laplace Transform and network analysis",
+            "description": "Laplace transform, Properties of Laplace transform, Application to network analysis, Initial value theorem, Final value theorem, Transform of step, ramp, impulse and other waveforms, Transform circuits, Network functions, T-, Phi-, Bridged-T, paralleled T, and ladder networks, Poles and zeros, stability of networks",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Two-Port Networks",
+            "description": "z-,y-, hybrid and transmission parameters; T-,\u03c0 -, and hybrid equivalent circuits; Relationship between sets of parameters, Parallel and series connection of two-port networks",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Total (hours)",
+            "description": "",
+            "allocation": {
+                "L": "45",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        }
+    ],
+    "references": [
+        "Network Analysis 3rd Edition, M.E. Van Valkenburg, Prentice Hall",
+        "Linear and Non-Linear circuits, Leon O. Chua, Charles A. Desoer, Ernest S. Kuh, Mcgraw Hill"
+    ],
+    "marks": [
+        {
+            "description": "Assignments",
+            "allocation": "20"
+        },
+        {
+            "description": "Mid-Exam",
+            "allocation": "30"
+        },
+        {
+            "description": "End-Exam",
+            "allocation": "50"
+        }
+    ],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

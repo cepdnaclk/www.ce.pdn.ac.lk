@@ -172,3 +172,7 @@ footer li {
     display: block;
     margin: auto;
 }
+
+.course-button {
+    min-width: 12rem;
+}

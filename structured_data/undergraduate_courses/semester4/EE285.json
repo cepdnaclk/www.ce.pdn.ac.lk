@@ -1,0 +1,165 @@
+{
+    "code": "EE285",
+    "name": "Electronics I",
+    "credits": 3,
+    "type": "CORE",
+    "prerequisites": [],
+    "content": "Diodes, Bipolar Junction Transistor, Amplifiers, Operational Amplifiers(OPAMP), OPAMP Applications, Junction Field Effect Transistors(JFET), Metal Oxide Semiconductor(MOS) Field Effect Transistors, Electronic Laboratory.",
+    "objectives": "To introduce commonly used electronics components, their operations, characteristics and practical use for designing electronic circuits. At the end of this course students should be able to implement single stage amplifiers, use a BJT as a switch and explain the behavior of the circuit, select a suitable OP-Amp for a given application and implement OP-Amp circuits for common applications.",
+    "ILOs": {
+        "Knowledge": [
+            "Describe commonly used electronic components.",
+            "Describe their operations and characteristics.",
+            "Describe their applications."
+        ],
+        "Skill": [
+            "Obtain characteristics of electronic components experimentally.",
+            "Select suitable components to design a given electronic circuit.",
+            "Design simple circuits using electronic components."
+        ],
+        "Attitude": [
+            "At the end of the course, students should be able to appreciate the different types of electronic components and their applicability for building different types of electronic circuits"
+        ]
+    },
+    "allocation": "Lectures : 30h, Tutorial-Classes : 3h, Practical-Classes : 21h, Assignments : 3h",
+    "modules": [
+        {
+            "topic": "Diodes",
+            "description": "Semiconductors, p-n junction, diodes, operation principle of diodes ideal & piece-wise linear modeling, diode circuits & applications",
+            "allocation": {
+                "L": "4",
+                "T": "-",
+                "P": "-",
+                "A": "1"
+            }
+        },
+        {
+            "topic": "Bipolar Junction Transistor",
+            "description": "Terminal Characteristics, Operational principles, as an amplifier and a switch, biasing circuits & amplifier configurations, dc/ac load line analysis, small signal analysis",
+            "allocation": {
+                "L": "6",
+                "T": "1",
+                "P": "-",
+                "A": "1"
+            }
+        },
+        {
+            "topic": "Amplifiers",
+            "description": "General Concepts, voltage gain, current/power gain input , resistance, and output resistance, multi-stage amplifiers, coupling techniques, frequency response",
+            "allocation": {
+                "L": "5",
+                "T": "1",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Operational Amplifiers(OPAMP)",
+            "description": "The ideal Op-Amp, open-loop gain, input resistance, and output resistance. Characteristics of Real Op-Amps; open- loop transfer function, voltage gains, bandwidth, slew rate, power bandwidth, clipping, offset voltages and currents, rejection ratios",
+            "allocation": {
+                "L": "5",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "OPAMP Applications; Linear Applications",
+            "description": "(Inverting and noninverting amplifiers. Differential and summing amplifiers. Integrators and differentiators.), Non-linear Applications ( precision rectifiers, peak detectors, Schmitt-trigger comparator and logarithmic amplifiers)",
+            "allocation": {
+                "L": "6",
+                "T": "1",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Junction Field Effect Transistors(JFET)",
+            "description": "JFET Terminal Characteristics, Circuit Models, Applications; Amplifier Configurations, DC/AC load line analysis",
+            "allocation": {
+                "L": "2",
+                "T": "-",
+                "P": "-",
+                "A": "1"
+            }
+        },
+        {
+            "topic": "Metal Oxide Semiconductor(MOS) Field Effect Transistors",
+            "description": "MOS Terminal Characteristics , Circuit Models, Applications; Amplifier Configurations, DC/AC load line analysis",
+            "allocation": {
+                "L": "2",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Electronic Laboratory",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "21",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Total (hours)",
+            "description": "",
+            "allocation": {
+                "L": "30",
+                "T": "3",
+                "P": "21",
+                "A": "3"
+            }
+        }
+    ],
+    "references": [
+        "Millman and Halkias, Integrated Electronics"
+    ],
+    "marks": [
+        {
+            "description": "Practicals",
+            "allocation": "20"
+        },
+        {
+            "description": "Assignments",
+            "allocation": "10"
+        },
+        {
+            "description": "Mid-Exam",
+            "allocation": "20"
+        },
+        {
+            "description": "End-Exam",
+            "allocation": "50"
+        }
+    ],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

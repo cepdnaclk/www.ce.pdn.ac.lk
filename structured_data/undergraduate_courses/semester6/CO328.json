@@ -1,0 +1,70 @@
+{
+    "code": "CO328",
+    "name": "Software Engineering",
+    "credits": 3,
+    "type": "CORE",
+    "prerequisites": [
+        "CO226",
+        "CO322",
+        "CO324"
+    ],
+    "content": "Introduction, Lightweight processes, Requirements specification, Domain modelling, Implementation transition, Testing and contracts, Principled object-orientation, Architectural techniques, Software reengineering, Software Engineering Project",
+    "objectives": [],
+    "ILOs": {
+        "Knowledge": "NULL",
+        "Skill": "NULL",
+        "Attitude": "NULL"
+    },
+    "allocation": "Lectures : 28h, Tutorial-Classes : 3h, Practical-Classes : 8h, Assignments : 20h",
+    "modules": [],
+    "references": [
+        "Eric Evans, Domain-Driven Design; Tackling Complexity in the Heart of Software",
+        "James O. Coplien, Gertrud Bj\u00c3\u0192\u00c2\u00b8rnvig, Lean Architecture for Agile Software Development",
+        "Serge Demeyer, St\u00c3\u0192\u00c2\u00a9phane Ducasse, Oscar Nierstrasz,  Object-Oriented Reengineering Patterns"
+    ],
+    "marks": [
+        {
+            "description": "Practicals",
+            "allocation": "10"
+        },
+        {
+            "description": "Assignments",
+            "allocation": "30"
+        },
+        {
+            "description": "Mid-Exam",
+            "allocation": "20"
+        },
+        {
+            "description": "End-Exam",
+            "allocation": "40"
+        }
+    ],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

@@ -1,0 +1,202 @@
+{
+    "code": "GP112",
+    "name": "Engineering Measurements",
+    "credits": 3,
+    "type": "CORE",
+    "prerequisites": "NULL",
+    "content": "Units and standards, Approximation errors and calibration, Measurement of physical parameters, Measurement project, Presentation of engineering information, Surveying",
+    "objectives": "The objective of the course is to enable students to understand different aspects of instrumentation and to learn procedures to solve engineering problems through measurement and experimentation.",
+    "ILOs": {
+        "Knowledge": [
+            "Measure basic engineering quantities and present the results in correct units and significant figures using charts and tables"
+        ],
+        "Skill": [
+            "Identify different types of errors in measurements, considering the basic components and performance indicators of measuring instruments, and apply procedures to minimize the impact of errors in measurements",
+            "Analyze time dependent output of an instrument through rigorous or numerical methods to obtain errors and input characteristics"
+        ],
+        "Attitude": [
+            "Apply dimensional analysis and analogies to solve engineering problems through experimentation and Construct experiments to test hypothesis using statistical techniques where required"
+        ]
+    },
+    "allocation": "Lectures : 21h, Tutorial-Classes : 4h, Practical-Classes : 40h",
+    "modules": [
+        {
+            "topic": "Course Introduction",
+            "description": "-",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Stroke & Calibration, Units and Standards",
+            "description": "-",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Time and frequency domain measurement and analysis of signals",
+            "description": "-",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Design of experiments",
+            "description": "-",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Measurement of engineering quantities",
+            "description": "introduction to measurement systems, components, Measurement of flow of fluids, Measurement of flow, selection of equipment",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Measurement of pressure",
+            "description": "-",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Measurement of temperature",
+            "description": "-",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Psychrometry",
+            "description": "Introduction air/moisture system Examples of use of psychrometry chart",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Measurement using level and GPS",
+            "description": "-",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Errors in measurements, error minimization procedures",
+            "description": "-",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Performance indicators, error propagation",
+            "description": "-",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Dimensional analysis Use of analogy",
+            "description": "-",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Total (hours)",
+            "description": "",
+            "allocation": {
+                "L": "21",
+                "T": "4",
+                "P": "40",
+                "A": "-"
+            }
+        }
+    ],
+    "references": [
+        "Schofield, W., and Breach, M. Engineering Surveying",
+        "Ghilani, Charles D., and Wolfe, Paul R. Elementary Surveying: An Introduction to Geomatics",
+        "Lipt\u00e1k, B\u00e9la G., (editor-in-chief), \u201cInstrument Engineers Handbook (4th edition)\u201d; Process measurement and analysis, Volume 1, CRC press, 1999.",
+        "Beckwith, Thomas G., \u201cMechanical Measurement (4th Edition)\u201d, Addison -Wesley Publishing company.",
+        "Douglas, J. F., Gasiorek, J., Swaffield, J., and Jack L. \u201cFluid mechanics\u201d, 6th edition, Pearson/Prentice Hall, 2011."
+    ],
+    "marks": [
+        {
+            "description": "Practicals",
+            "allocation": "40"
+        },
+        {
+            "description": "Assignments",
+            "allocation": "20"
+        },
+        {
+            "description": "End-Exam",
+            "allocation": "40"
+        }
+    ],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

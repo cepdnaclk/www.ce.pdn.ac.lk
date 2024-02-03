@@ -1,0 +1,68 @@
+{
+    "code": "CO327",
+    "name": "Operating Systems",
+    "credits": 3,
+    "type": "CORE",
+    "prerequisites": [
+        "CO224",
+        "CO322"
+    ],
+    "content": "Introduction, OS abstractions, Threads, Processes, Synchronization, File systems, IO subsystem, OS implementation methods, Self-study.",
+    "objectives": [],
+    "ILOs": {
+        "Knowledge": "NULL",
+        "Skill": "NULL",
+        "Attitude": "NULL"
+    },
+    "allocation": "Lectures : 31h, Practical-Classes : 12h, Assignments : 16h",
+    "modules": [],
+    "references": [
+        "A. Tanenbaum, Modern Operating Systems",
+        "Vahalia, Unix Internals; The new frontiers"
+    ],
+    "marks": [
+        {
+            "description": "Practicals",
+            "allocation": "15"
+        },
+        {
+            "description": "Assignments",
+            "allocation": "25"
+        },
+        {
+            "description": "Mid-Exam",
+            "allocation": "20"
+        },
+        {
+            "description": "End-Exam",
+            "allocation": "40"
+        }
+    ],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

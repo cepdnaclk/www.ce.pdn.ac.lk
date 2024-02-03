@@ -1,0 +1,164 @@
+{
+    "code": "GP116",
+    "name": "Linera Algebra",
+    "credits": 3,
+    "type": "CORE",
+    "prerequisites": "NULL",
+    "content": "Vectors, Matrix theory, Determinants, Transformations, Solution of simultaneous equations, Vector space, Characteristic value problems, Quadratic forms",
+    "objectives": "To encourage students to develop a working knowledge of the central ideas of linear algebra; vector spaces, linear transformations, orthogonality, eigenvalues, eigenvectors and canonical forms and the applications of these ideas in science and engineering",
+    "ILOs": {
+        "Knowledge": [
+            "Apply the knowledge of matrices, Gaussian reduction and determinants to solve systems of linear equations",
+            "Apply the properties of   vector spaces and to generalize the concepts of Euclidean geometry to arbitrary vector spaces"
+        ],
+        "Skill": [
+            "Identify linear transformations, represent them in terms of matrices, and interpret their geometric aspects",
+            "Calculate eigenvalues and eigenvectors of matrices and linear transformations and apply the concepts in physical situations",
+            "Prove eigenvalue properties of real symmetric matrices and apply them in quadratic forms"
+        ],
+        "Attitude": "NULL"
+    },
+    "allocation": "Lectures : 36h, Assignments : 18h",
+    "modules": [
+        {
+            "topic": "Matrix Algebra",
+            "description": "Matrix Operations; Types of matrices; Elementary row column operations; Rank and Inverse; Partitioned matrices; Matrix Factorization",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Determinants",
+            "description": "Introduction; Properties",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Systems of linear Equations",
+            "description": "Matrix representation; Existence and uniqueness of a solution; Solving techniques",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Vector Spaces",
+            "description": "Definition  and examples; Subspaces; Linear independence, Spanning, Basis and dimension; Coordinates and change of basis; Normed spaces and Inner product spaces; Least squares problem",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Solving the Least squares problem/Linear Transformations",
+            "description": "-",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Linear Transformations",
+            "description": "What is a linear transformation; Subspaces associated with a linear transformation; How do you represent a linear transformation as a matrix with respect to a given basis",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Eigenvalues and eigenvectors",
+            "description": "What are Eigenvalues and Eigenvectors and their physical significance; Given a matrix how do you find the  Eigenvalues and the associated Eigenvectors; Characteristic equation and the Cayley Hamilton theorem; Applications of Cayley Hamilton theorem; Algebraic and the geometric multiplicity of an Eigenvalue and the existence of an Eigenbasis; Diagonalization of a matrix; Computing matrix exponential; What is a deficient matrix; How do you find generalized eigenvectors; Jordan form for a deficient matrix; Symmetric matrices and orthogonal diagonalization",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Quadratic Forms",
+            "description": "Use the quadratic forms to analyse geometrical objects such as central conics; Use features of quadratic forms to analyse mechanical systems modelled as differential equations",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Total (hours)",
+            "description": "",
+            "allocation": {
+                "L": "36",
+                "T": "-",
+                "P": "-",
+                "A": "18"
+            }
+        }
+    ],
+    "references": [
+        "Advanced Engineering Mathematics - E. Kreyszig",
+        "Elementary Linear Algebra and its Applications-James W. Daniel",
+        "Matrices for Scientists and Engineers - W.W. Bell",
+        "Linear Algebra with Applications - H.G. Campbell",
+        "Elementary Linear and Matrix Algebra. The view point of Geometry- John T. Moore",
+        "Matrix Algebra for Engineers - J.M. Gere",
+        "Introduction to Linear Algebra- Gilbert Strang"
+    ],
+    "marks": [
+        {
+            "description": "assignments",
+            "allocation": "20"
+        },
+        {
+            "description": "mid-exam",
+            "allocation": "30"
+        },
+        {
+            "description": "end-exam",
+            "allocation": "50"
+        }
+    ],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

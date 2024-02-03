@@ -1,0 +1,58 @@
+{
+    "code": "CO526",
+    "name": "Advanvced Operating Systems",
+    "credits": 3,
+    "type": "ELECTIVE",
+    "prerequisites": [
+        "CO327"
+    ],
+    "content": "Introduction to operating system design, Introduction to microkernel, Microkernel based systems, Managing virtual memory, Process Management, File Systems, Threads, Syttem calls, I/O handling, Security, Research topics.",
+    "objectives": "",
+    "ILOs": {
+        "Knowledge": [],
+        "Skill": [],
+        "Attitude": []
+    },
+    "allocation": "Lectures: 30h, Practicals & Assignments: 15h",
+    "modules": [
+        {
+            "topic": "",
+            "description": "",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        }
+    ],
+    "references": [],
+    "marks": [],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

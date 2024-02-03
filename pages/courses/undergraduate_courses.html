@@ -1,0 +1,65 @@
+---
+layout: default
+permalink: /courses/undergraduate
+title: Undergraduate Courses
+---
+
+<div class="bg-secondary p-3 pb-1 rounded">
+	<h1 class="text-white">{{ page.title }}</h1>
+	<nav aria-label="breadcrumb">
+		<ol class="breadcrumb page-breadcrumb">
+			<li class="breadcrumb-item"><a href="{{ '/' | prepend: site.baseurl }}" class="link-light">Home</a></li>
+			<li class="breadcrumb-item text-white">{{ page.title }}</li>
+		</ol>
+	</nav>
+</div>
+
+<div class="page-entry">
+	<div class="container-fluid pt-5">
+		{%- for sem in site.data.semesters -%}
+		<div class="row py-1">
+			<div class="col-12 col-md-3 col-lg-2 d-flex align-items-center">
+				<h4>{{ sem[1]["title"] }}</h4>
+			</div>
+			<div class="col-12 col-md-9 col-lg-10">
+				{% assign sem_id = sem[0] %}
+				{%- for course in site.data.courses[sem_id]["courses"] -%}
+
+				{% assign course_prefix = course.code | slice: 0,2 %}
+
+				{% case course_prefix %}
+				{% when 'CO' %}
+				{% assign course_color = "btn-outline-primary" %}
+				{% when 'EE' %}
+				{% assign course_color = "btn-outline-success" %}
+				{% when 'EM' %}
+				{% assign course_color = "btn-outline-danger" %}
+				{% when 'GP' %}
+				{% assign course_color = "btn-outline-info" %}
+				{% else %}
+				{% assign course_color = "btn-outline-secondary" %}
+				{% endcase %}
+
+				<a href="{{ course.urls.view | relative_url}}"
+					class="btn btn-sm mb-2 me-2 course-button {{ course_color }}">{{
+					course.code }} ({{ course.credits }}C) <br>
+					<small>{{ course.name }}</small></a>
+				{%- endfor -%}
+			</div>
+		</div>
+		<hr>
+		{%- endfor -%}
+	</div>
+</div>
+
+<!-- <div class="container pt-5">
+	<div class="row">
+		<div class="container col-sm-11 col-md-10 col-lg-10 mx-auto">
+			<figure class="figure">
+				<img src="{{ '/assets/img/courses_overview_v2.jpg' | relative_url }}"
+					class="figure-img img-fluid rounded" alt="Overall Course Plan">
+				<figcaption class="figure-caption">Courses offered in four-year degree program</figcaption>
+			</figure>
+		</div>
+	</div>
+</div> -->

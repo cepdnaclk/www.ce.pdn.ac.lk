@@ -1,0 +1,101 @@
+{
+    "code": "EM215",
+    "name": "Numerical Methods",
+    "credits": 3,
+    "type": "CORE",
+    "prerequisites": [],
+    "content": "Introduction, Solutions to systems of linear equations, Solutions to non-linear equations, Interpolation, Approximation and curve fitting, Numerical calculus, Numerical solutions to ordinary differential equations, Introduction to numerical solutions to partial differential equations.",
+    "objectives": [],
+    "ILOs": {
+        "Knowledge": "NULL",
+        "Skill": "NULL",
+        "Attitude": "NULL"
+    },
+    "allocation": "Lectures : 31h, Tutorial-Classes : 4h, Assignments : 20h",
+    "modules": [
+        {
+            "topic": "Introduction to Numerical methods",
+            "description": "Introduction, Taylor series, Error analysis, Round-off Errors, Truncation Errors",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Solutions to nonlinear equations",
+            "description": "Root finding methods, Bracketing methods; Graphical methods, Bisection method, Rate of convergence, Open methods; Fixed point iteration, Newton-Raphson method, Systems of nonlinear equations",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Approximation and curve fitting",
+            "description": "Least squares approximation, Fourier approximation",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Total (hours)",
+            "description": "",
+            "allocation": {
+                "L": "31",
+                "T": "4",
+                "P": "-",
+                "A": "20"
+            }
+        }
+    ],
+    "references": [
+        "Steven C. Chapra, Raymond P. Canale (2015). Numerical methods for engineers. 7th edition, McGraw-Hill publishers, New York."
+    ],
+    "marks": [
+        {
+            "description": "Assignments",
+            "allocation": "10"
+        },
+        {
+            "description": "Mid-Exam",
+            "allocation": "30"
+        },
+        {
+            "description": "End-Exam",
+            "allocation": "60"
+        }
+    ],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

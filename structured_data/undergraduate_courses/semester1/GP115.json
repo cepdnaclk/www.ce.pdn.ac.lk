@@ -1,0 +1,202 @@
+{
+    "code": "GP115",
+    "name": "Calculas I",
+    "credits": 3,
+    "type": "CORE",
+    "prerequisites": "NULL",
+    "content": "Real number system, its properties and the real axis, Functions of a single variable, 2-D co-ordinate geometry, 3-D Euclidean geometry, 3-D Euclidean co-ordinate geometry, Complex numbers, Functions of positive integers, Recurrence relation, Infinite series, Real power series, Special functions, Integration, Functions of several variables, Introduction to differential equations",
+    "objectives": [],
+    "ILOs": {
+        "Knowledge": [
+            "Analyze conceptual problems in limits, continuity, differentiability, and integration of functions of single variables and compute the partial derivatives of functions of several variables."
+        ],
+        "Skill": [
+            "Compute the roots of unity, the derivatives of complex functions, and identify Holomorphic functions",
+            "Identify and sketch conic sections, use polar and other coordinates to represent points in 2-D",
+            "Compute the vector and cartesian equations of lines and planes, the derivatives of vector valued functions, and solve related problems"
+        ],
+        "Attitude": [
+            "Determine the convergence of sequences and infinite series, calculate the radius of convergence and interval of convergence of power series and find the power series expansion of analytic functions"
+        ]
+    },
+    "allocation": "Lectures : 36h, Assignments : 18h",
+    "modules": [
+        {
+            "topic": "Review",
+            "description": " Sets and their applications, Real number system and its properties, Method of mathematical induction, Concept of a function, Description and classification of functions",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Functions of a Single Variable",
+            "description": "Limits, Indeterminate forms and L\u2019Hospital\u2019s rule, Continuity and Differentiability of real valued functions",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Applications",
+            "description": "Intermediate value theorem, mean value theorem, Leibnitz theorem, and tangent line approximation",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Sketching curves",
+            "description": "Local and global maximum and minimum, inflection points",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Applications of Integration",
+            "description": "Identify Reimann definition and find arc lengths, areas, volumes and moments using integration",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Function of Several Variables",
+            "description": "Partial derivatives and total differential, Chain rule and higher order partial derivatives",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Parametric representation of curves in planes, Curvature, radius and centre of curvature",
+            "description": "-",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Complex functions",
+            "description": "Roots of unity and functions of complex variables, Mapping of complex variables, Derivatives of complex functions, Cauchy Reimann equation, Holomorphic functions",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "3-D Coordinate Geometry",
+            "description": "Vector equations of lines and planes in space, Coplanar lines, Shortest distance between a point (line, plane) and a line (plane), Skew lines in the space, Angels between planes and the equation of the intersection line, Derivatives of vector valued function",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Function of positive integers",
+            "description": "Define sequences and examples, Monotonic sequence and bounded sequence, Convergence, divergence and oscillation of a sequence",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Infinite Series",
+            "description": "Standard examples of infinite series, conditions for convergence, Alternating series, Absolute and conditional convergence",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Real Power Series",
+            "description": "Power series of function f(x); Binomial expansion, Radius and interval of convergence of power series, Maclaurin and Taylor series approximation",
+            "allocation": {
+                "L": "-",
+                "T": "-",
+                "P": "-",
+                "A": "-"
+            }
+        },
+        {
+            "topic": "Total (hours)",
+            "description": "",
+            "allocation": {
+                "L": "36",
+                "T": "-",
+                "P": "-",
+                "A": "18"
+            }
+        }
+    ],
+    "references": [
+        "James Stewart (2006). Calculus (Fifth Edition), Thomson Books/Cole",
+        "Watson Fulks (1978). Advanced Calculus an Introduction to Analysis (3rd Edition) John Wiley & sons, Inc.",
+        "H.K. Dass(2008). Advanced Engineering Mathematics",
+        "Lecture notes and handouts"
+    ],
+    "marks": [
+        {
+            "description": "Assignments",
+            "allocation": "20"
+        },
+        {
+            "description": "Mid-Exam",
+            "allocation": "30"
+        },
+        {
+            "description": "End-Exam",
+            "allocation": "50"
+        }
+    ],
+    "statistics": [
+        {
+            "year": "NULL",
+            "batch": "NULL",
+            "lecturers": [
+                "lecturer@eng.pdn.ac.lk"
+            ],
+            "instructors": [
+                "instructor@eng.pdn.ac.lk"
+            ],
+            "grades": {
+                "A+": 0,
+                "A": 0,
+                "A-": 0,
+                "B+": 0,
+                "B": 0,
+                "B-": 0,
+                "C+": 0,
+                "C": 0,
+                "C-": 0,
+                "D+": 0,
+                "D": 0,
+                "E": 0
+            }
+        }
+    ],
+    "faq_page": "#"
+}

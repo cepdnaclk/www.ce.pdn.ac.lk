@@ -1,0 +1,173 @@
+{
+  "code": "CO224",
+  "name": "Computer Architecture",
+  "credits": 3,
+  "type": "CORE",
+  "prerequisites": ["CO221", "CO222"],
+  "content": "Overview, Fundamentals of computer architecture, Computer arithmetic, CPU organization, Pipelining, Memory hierarchies, Interfacing and communication, Performance issues, Multiprocessors.",
+  "objectives": "To teach the elements of a computer and how they are organized and explain how instructions of a program will be executed by the microprocessor and how performance can be evaluated and enhanced so as to widen the vision of students in understanding programs behaviour on a computer system.",
+  "ILOs": {
+    "Knowledge": [
+      "Represent and manipulate numbers in different formats.",
+      "Describe the elements of a computer such as microprocessor, cache, memory and system buses.",
+      "Explain the memory hierarchy and how it operates.",
+      "Describe multiprocessor systems, SIMD, GPU and Vector and elaborate their importance.",
+      "Design and analyse single-, multi-cycle and pipelined processors.",
+      "Analyse issues related to system performance."
+    ],
+    "Skill": [
+      "Design architectural solutions and describe designs using an HDL.",
+      "Use simulator to test a designed processor."
+    ],
+    "Attitude": [
+      "Gain appreciation of computer systems and how they are built and tested using tools."
+    ]
+  },
+  "allocation": "Lectures : 29h, Tutorial-Classes : 4h, Practical-Classes : 14h, Assignments : 10h",
+  "modules": [
+    {
+      "topic": "Overview",
+      "description": "Difference between Computer Architecture and Computer Organization; Role of computer architecture in Computer Engineering",
+      "allocation": {
+        "L": "1",
+        "T": "-",
+        "P": "-",
+        "A": "-"
+      }
+    },
+    {
+      "topic": "Fundamentals of computer architecture",
+      "description": "Von Neumann machine organization, Instruction types and addressing modes, Subroutine call and return mechanisms, Instruction decoding and execution; Registers and register files; I/O techniques and interrupts",
+      "allocation": {
+        "L": "2",
+        "T": "-",
+        "P": "-",
+        "A": "-"
+      }
+    },
+    {
+      "topic": "Computer arithmetic",
+      "description": "Integer arithmetic; Multiplication, Division, Significance of range,precision and accuracy; Floating-point arithmetic; Standard methods of representation, Addition, Subtraction, Multiplication, Division;Conversion between integer and floating-point numbers",
+      "allocation": {
+        "L": "3",
+        "T": "1",
+        "P": "-",
+        "A": "-"
+      }
+    },
+    {
+      "topic": "CPU organization",
+      "description": "Implementation of the von Neumann machine; Control and data paths,single vs. Multiple bus datapaths; Instruction set architecture,Implementing instructions; Register transfer notation, Conditional and unconditional transfers, ALU control; Control unit; hardwired vs. Microprogrammed realizations; Arithmetic units for multiplication and division",
+      "allocation": {
+        "L": "5",
+        "T": "1",
+        "P": "4",
+        "A": "4"
+      }
+    },
+    {
+      "topic": "Pipelining",
+      "description": "Introduction to instruction level parallelism, Overview of pipelining, Pipelined data paths and control, Pipeline hazards; structural, data and control hazards, forwarding, stalls; Reducing the effect of hazards",
+      "allocation": {
+        "L": "4",
+        "T": "-",
+        "P": "2",
+        "A": "-"
+      }
+    },
+    {
+      "topic": "Memory hierarchies",
+      "description": "Memory systems hierarchy, Electronic, magnetic and optical technologies; Main memory organization, latency, cycle-time, bandwidth and interleaving; Cache memories; Address mapping, line size, replacement and write-back policies; Virtual memory, page faults, TLBs, protection",
+      "allocation": {
+        "L": "5",
+        "T": "1",
+        "P": "4",
+        "A": "3"
+      }
+    },
+    {
+      "topic": "Interfacing and communication",
+      "description": "I/O fundamentals; Types and characteristics of I/O devices, handshaking, buffering; Buses; types of buses, synchronous and asynchronous buses, bus masters and slaves, bus arbitration, bus standards; programmed I/O, interrupt driven I/O, Interrupt structures; vectored and prioritized, interrupt overhead; Direct memory access",
+      "allocation": {
+        "L": "4",
+        "T": "-",
+        "P": "4",
+        "A": "3"
+      }
+    },
+    {
+      "topic": "Performance issues",
+      "description": "Metrics for computer performance, clock rate, MIPS, Cycles per instruction, benchmarks, limitations of performance metrics",
+      "allocation": {
+        "L": "2",
+        "T": "1",
+        "P": "-",
+        "A": "-"
+      }
+    },
+    {
+      "topic": "Multiprocessors",
+      "description": "Introduction to shared memory multiprocessors, clusters, message passing systems, Flynns classification",
+      "allocation": {
+        "L": "3",
+        "T": "-",
+        "P": "-",
+        "A": "-"
+      }
+    },
+    {
+      "topic": "Total (hours)",
+      "description": "",
+      "allocation": {
+        "L": "29",
+        "T": "4",
+        "P": "14",
+        "A": "10"
+      }
+    }
+  ],
+  "references": [
+    "David Patterson, John L. Hennessy, Computer Organization and Design; The Hardware/Software Interface, 4th Edition"
+  ],
+  "marks": [
+    {
+      "description": "Practicals",
+      "allocation": "20"
+    },
+    {
+      "description": "Assignments",
+      "allocation": "20"
+    },
+    {
+      "description": "Mid-Exam",
+      "allocation": "20"
+    },
+    {
+      "description": "End-Exam",
+      "allocation": "40"
+    }
+  ],
+  "statistics": [
+    {
+      "year": 2019,
+      "batch": "E15",
+      "lecturers": ["roshanr@eng.pdn.ac.lk", "isurunawinne@eng.pdn.ac.lk"],
+      "instructors": ["instructor@eng.pdn.ac.lk"],
+      "grades": {
+        "A+": 3,
+        "A": 3,
+        "A-": 4,
+        "B+": 2,
+        "B": 5,
+        "B-": 11,
+        "C+": 16,
+        "C": 13,
+        "C-": 1,
+        "D+": 0,
+        "D": 0,
+        "E": 0
+      }
+    }
+  ],
+  "faq_page": "https://faq.ce.pdn.ac.lk/academics/sem4/co224/"
+}
