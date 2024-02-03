@@ -9,6 +9,13 @@ title: Undergraduate Courses
 	<nav aria-label="breadcrumb">
 		<ol class="breadcrumb page-breadcrumb">
 			<li class="breadcrumb-item"><a href="{{ '/' | prepend: site.baseurl }}" class="link-light">Home</a></li>
+
+			<li class="breadcrumb-item">
+				<a href="{{ '/academics' | relative_url }}" class="link-light">
+					Academics
+				</a>
+			</li>
+
 			<li class="breadcrumb-item text-white">{{ page.title }}</li>
 		</ol>
 	</nav>
@@ -18,7 +25,9 @@ title: Undergraduate Courses
 	<div class="container pt-5 py-3">
 		{%- for sem in site.data.semesters -%}
 		<div class="container pb-3">
-			<h4>{{ sem[1]["title"] }}</h4>
+			<h4>{{ sem[1]["title"] }}
+				<small><a class="ms-2 text-muted" href="{{ sem[1]['url'] }}"><i class="fa fa-link"></i></a></small>
+			</h4>
 			<p>{{ sem[1]["description"]}}</p>
 		</div>
 		<div class="container row">
