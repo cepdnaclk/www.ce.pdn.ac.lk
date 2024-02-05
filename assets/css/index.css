@@ -93,6 +93,19 @@ h2 {
     background: #555;
 }
 
+
+.app-link {
+    text-decoration: none !important;
+    color: white !important;
+    padding: 0 6px;
+    transition: 0.3s;
+}
+
+.app-link:hover {
+    color: #0d6efd !important;
+}
+
+
 /* Footer ------------------------------------------------------------------- */
 .footer-link {
     text-decoration: none !important;
