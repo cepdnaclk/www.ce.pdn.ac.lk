@@ -29,7 +29,7 @@ navbar_active: "Intranet"
 
         <div class="sidebar-list px-2">
             <ul class="list-unstyled">
-                {% for item in site.data.infranet %}
+                {% for item in site.data.intranet %}
                 {%- assign target_url = item['url'] -%}
                 {%- assign target_name = item['name'] -%}
 
@@ -53,7 +53,7 @@ navbar_active: "Intranet"
 
         <div class="edit-button d-flex">
             <a class=" text-decoration-none small" target="_blank"
-                href="{{ site.github_repository }}/blob/{{ site.github_branch }}/_data/infranet.json">
+                href="{{ site.github_repository }}/blob/{{ site.github_branch }}/_data/intranet.json">
                 [ Edit on GitHub ]
             </a>
         </div>
