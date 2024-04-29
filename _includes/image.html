@@ -1,6 +1,7 @@
 {% assign align = include.align | default: 'text-center' %}
+{% assign max_width = include.max-width | default: '640px' %}
 
 <div class="container {{align}} pb-4">
-        <img class="img-thumbnail img-fluid w-100" style="max-width: 640px;" src="{{ include.src }}"
+        <img class="img-thumbnail img-fluid w-100" style="max-width: {{max_width}};" src="{{ include.src }}"
                 alt="{{ include.alt }}">
 </div>
