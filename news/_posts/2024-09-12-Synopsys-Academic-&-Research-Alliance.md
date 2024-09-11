@@ -13,4 +13,4 @@ author: Author
 published_date: 2024-09-11
 ---
 
-We have been a member of SARA since 2023 and we have access to their EDA software through the SolveNetPlus portal, and also to learning material/content on topics like EDA, VLSI Design, etc.
+We have been a member of SARA since 2023 and we have access to their EDA software through the SolveNetPlus portal, and also to learning material/content on topics like EDA, VLSI Design, etc...
