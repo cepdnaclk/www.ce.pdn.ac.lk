@@ -1,6 +1,6 @@
 ---
 layout: page_news
-title: "Synopsys Academic & Research Alliance "
+title: "PeraCom & Synopsis Academic and Research Alliance"
 description: "We have been a member of SARA since 2023 and we have access to their EDA software through the SolveNetPlus portal, and also to learning material/content on topics like EDA, VLSI Design, etc."
 
 image: news/images/synopsys.png
