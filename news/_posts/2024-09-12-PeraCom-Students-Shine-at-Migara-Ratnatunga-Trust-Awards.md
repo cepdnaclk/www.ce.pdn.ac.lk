@@ -3,13 +3,13 @@ layout: page_news
 title: "PeraCom Students Shine at Migara Ratnatunga Trust Awards"
 description: "The Department of Computer Engineering at the University of Peradeniya is proud to announce that three of its students have been recognized at the prestigious Migara Ratnatunga Trust Awards ..."
 
-image: news/images/PeraCom Students Shine at Migara Ratnatunga.png
+image: news/images/PeraCom-Students-Shine-at-Migara-Ratnatunga.png
 parent: News
 
 link_url: #
 link_caption: "Link button text"
 
-author: Author
+author: Admin
 published_date: 2024-09-11
 ---
 
