@@ -18,11 +18,11 @@
     {
         "name": "Academic Calendar",
         "url": "https://docs.google.com/document/d/e/2PACX-1vR-EkodNirStWpMfHr1pZcivrPJ_usJRJV2-36o0aa8F6VHgwbr0xZVswd8x5fk3RZN0uLGZILSjsdW/pub"
-    }, 
-     {
+    },
+    {
         "name": "Advisor-Advisee",
         "url": "https://docs.google.com/spreadsheets/d/1r0A0kh6xtSxPt3wkcKYsHQLoWKG_XNYEyvAtDBPM-Xs/edit#gid=652951330"
-    }, 
+    },
     {
         "name": "For Staff",
         "url": "#"
@@ -38,5 +38,9 @@
     {
         "name": "Work Allocation",
         "url": "https://docs.google.com/document/d/e/2PACX-1vQw6ubwr36kpNVleJQaanrM6c2yXTh6eF79BHw37bkqzgTXzMv4NKPdOTY4XoWfqkaduQLRAjQohFR6/pub"
+    },
+    {
+        "name": "Department Meeting Minutes",
+        "url": "https://docs.google.com/document/d/1YG9-amXUAgHCmqfWU85pg35yPpeG5eBO-YHPADem7N8/edit?usp=sharing"
     }
 ]
