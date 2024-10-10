@@ -1,0 +1,56 @@
+[
+    {
+        "display": true,
+        "image": "/images/peracom-seminars/2023/seminar26.jpg",
+        "alt": "",
+        "title": "",
+        "subtitle": "",
+        "interval": 5000,
+        "dark": true
+    },
+    {
+        "display": true,
+        "image": "/images/peracom-seminars/2023/seminar24.jpg",
+        "alt": "",
+        "title": "",
+        "subtitle": "",
+        "interval": 5000,
+        "dark": true
+    },
+    {
+        "display": true,
+        "image": "/images/peracom-seminars/2023/seminar23.png",
+        "alt": "",
+        "title": "",
+        "subtitle": "",
+        "interval": 5000,
+        "dark": true
+    },
+    {
+        "display": true,
+        "image": "/images/peracom-seminars/2023/seminar22.jpg",
+        "alt": "",
+        "title": "",
+        "subtitle": "",
+        "interval": 5000,
+        "dark": true
+    },
+    {
+        "display": true,
+        "image": "/images/peracom-seminars/2023/seminar21.jpg",
+        "alt": "",
+        "title": "",
+        "subtitle": "",
+        "interval": 5000,
+        "dark": true
+    },
+    {
+        "display": true,
+        "image": "/images/peracom-seminars/2023/seminar20.jpg",
+        "alt": "",
+        "title": "",
+        "subtitle": "",
+        "interval": 5000,
+        "dark": true
+    }
+]

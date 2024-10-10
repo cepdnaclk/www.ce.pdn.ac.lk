@@ -28,8 +28,8 @@ navbar_active: About Us
 <div class="card">
   <div class="card-body">
     <h5 class="card-title">Seminar Name</h5>
-    <p class="card-text"><strong>Date:</strong> November 25, 2024</p>
-    <p class="card-text"><strong>Speaker:</strong> Dr. A (University of B)</p>
+    <p class="card-text"><strong>Date:</strong> </p> <!--  Month Date, 2024-->
+    <p class="card-text"><strong>Speaker:</strong> </p> <!--  Dr. _ (University of _ )-->
     
     <div class="d-flex align-items-center mt-3">
       <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Zoom_Communications_Logo.svg" alt="Zoom Logo" class="me-2" style="width: 20px;">
@@ -40,19 +40,60 @@ navbar_active: About Us
 ---
 ### Gallery
 
-Posters from our previous seminars:
+Posters from our previous seminars in 2024:
+<div class="d-flex justify-content-center">
+<!-- Seminar Posters Carousel -->
+<div id="peracomSeminarCarousel2024" class="carousel slide w-50" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    {% for slide in site.data.peracom_seminars.carousel2024 %}
+    <div class="carousel-item{% if forloop.first %} active{% endif %}" data-bs-interval="{{ slide.interval }}">
+      <img src="{{ slide.image | prepend: site.baseurl }}" class="d-block w-100" alt="{{ slide.alt }}" loading="lazy">
+      <div class="carousel-caption d-none d-md-block {% if slide.dark %}text-dark{% endif %}">
+        <h5>{{ slide.title }}</h5>
+        <p>{{ slide.subtitle }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
 
-<div class="container">
-  <div class="row justify-content-center">
-    <div class="col-md-8 col-lg-6 mb-4">
-      <img src="/images/peracom-seminars/seminar31.png" class="img-fluid" alt="Seminar Poster 1">
+  <!-- Carousel Controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#peracomSeminarCarousel2024" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#peracomSeminarCarousel2024" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+---
+Posters from our previous seminars in 2023:
+<div class="d-flex justify-content-center">
+<!-- Seminar Posters Carousel -->
+<div id="peracomSeminarCarousel2023" class="carousel slide w-50" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    {% for slide in site.data.peracom_seminars.carousel2023 %}
+    <div class="carousel-item{% if forloop.first %} active{% endif %}" data-bs-interval="{{ slide.interval }}">
+      <img src="{{ slide.image | prepend: site.baseurl }}" class="d-block w-100" alt="{{ slide.alt }}" loading="lazy">
+      <div class="carousel-caption d-none d-md-block {% if slide.dark %}text-dark{% endif %}">
+        <h5>{{ slide.title }}</h5>
+        <p>{{ slide.subtitle }}</p>
+      </div>
     </div>
+    {% endfor %}
   </div>
-  <div class="row justify-content-center">
-    <div class="col-md-8 col-lg-6 mb-4">
-      <img src="/images/peracom-seminars/seminar29.jpg" class="img-fluid" alt="Seminar Poster 2">
-    </div>
-  </div>
+
+  <!-- Carousel Controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#peracomSeminarCarousel2023" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#peracomSeminarCarousel2023" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 </div>
 
 ---
