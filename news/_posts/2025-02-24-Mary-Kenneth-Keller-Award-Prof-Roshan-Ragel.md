@@ -4,7 +4,7 @@ title: "Prof. Roshan Ragel Makes History with the 2025 Mary Kenneth Keller Award
 description: "Prof. Roshan Ragel from the University of Peradeniya, Sri Lanka, has achieved a historic
 milestone as the first academic from the Global South to receive the 2025 IEEE Computer Society Mary Kenneth Keller Computer Science & Engineering Undergraduate Teaching Award."
 
-image: news/images/ProfRagel-Photo.jpg
+image: /news/images/ProfRagel-Photo.jpg
 parent: News
 
 link_url: https://www.computer.org/volunteering/awards/cse-undergrad-teaching
