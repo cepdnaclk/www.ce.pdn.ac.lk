@@ -32,7 +32,7 @@ The award carries $2,500 in prize money and opportunities for future industry en
 
 Here’s what Gihan, who presented the work and accepted the award in person, had to say: “The chief organizer made a [LinkedIn post](https://www.linkedin.com/posts/petyushko_aaai-ml4ad-activity-7302813945524797440-3Qjr/) about our work. Before announcing the award, he spent time walking the audience through its technical strengths and even areas for improvement. It was clear they had carefully studied our paper before deciding.”
 
-This isn’t just a best paper win—it’s a signal that even a short-term, undergraduate project from our students can compete with and outperform long-standing research efforts from some of the most recognized names in the field.
+**This isn’t just a best paper win—it’s a signal that even a short-term, undergraduate project from our students can compete with and outperform long-standing research efforts from some of the most recognized names in the field.**
 
 Achievements of this caliber reflect not only the exceptional potential and dedication of our students but also highlight the quality of mentorship, resources, and opportunities provided by the Department of Computer Engineering.  
 
