@@ -13,7 +13,7 @@ author: Admin
 published_date: 2025-03-21
 ---
 
-### PeraCom undergraduates triumph against Graduate Students and Research Scientists from World's Top Universities and Research Institutes on Autonomous Driving
+#### PeraCom undergraduates triumph against Graduate Students and Research Scientists from World's Top Universities and Research Institutes on Autonomous Driving
 
 We are delighted to share that a student team from the **Department of Computer Engineering** has won the **Best Perception Paper Award** at the AAAI-2025 Machine Learning for Autonomous Driving (ML4AD) Workshop [(ML4AD) Workshop](https://ml4ad.github.io/), held on March 4th in Philadelphia, USA.
 
