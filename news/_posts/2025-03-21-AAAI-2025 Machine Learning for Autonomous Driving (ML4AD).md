@@ -20,9 +20,9 @@ We are delighted to share that a student team from the **Department of Computer 
 This award is especially noteworthy because the winning paper was a Final-Year Undergraduate Project, carried out over just a few months at #PeraCom by Sathira Silva and Savindu Wannigama (E/17 batch). The project was supervised by Gihan Jayatilaka (E/14 batch, now a PhD student at University of Maryland), Prof. Roshan G. Ragel, and involved collaboration with Dr. Muhammad Haris Khan of MBZUAI, UAE.
 
 This was the **ONLY undergraduate-led paper at the workshop**—and it went up against long-term research by **PhD students and research scientists** from some of the most elite institutions in the field. That includes:
-- **Toyota Research Institute + UIUC**
-- **Carnegie Mellon University’s Auton Lab**
-- **University of Virginia’s Cavalier Autonomous Racing team – who just won the Indy Autonomous Challenge 2024 with a jaw-dropping 296 km/h top speed.**
+    - **Toyota Research Institute + UIUC**
+    - **Carnegie Mellon University’s Auton Lab**
+    - **University of Virginia’s Cavalier Autonomous Racing team – who just won the Indy Autonomous Challenge 2024 with a jaw-dropping 296 km/h top speed.**
 
 The ML4AD Workshop, hosted for the first time at **AAAI** after eight consecutive years at **NeurIPS**, is one of the most competitive spaces in AI for self-driving vehicles. Winning here means standing out among world-class researchers in both academia and industry.
 
