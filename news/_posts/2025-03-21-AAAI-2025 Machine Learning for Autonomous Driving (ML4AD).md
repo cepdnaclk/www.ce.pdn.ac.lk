@@ -3,7 +3,7 @@ layout: page_news
 title: " AAAI-2025 Machine Learning for Autonomous Driving (ML4AD) "
 description: "We are delighted to announce that a research team from the Department of Computer Engineering has won the prestigious Best Paper Award at the AAAI-2025 Machine Learning for Autonomous Driving (ML4AD) Workshop held in Philadelphia, USA."
 
-image: news/images/AAAI-2025-ML4AD.jpeg
+image: /news/images/AAAI-2025-ML4AD.jpeg
 parent: News
 
 link_url: https://aaai.org/conference/aaai/aaai-25/
