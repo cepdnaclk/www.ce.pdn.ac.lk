@@ -175,8 +175,9 @@ def rewrite_markdown_file(filepath, news_item):
 
 def create_new_markdown_files(directory, news_dict):
     for news_item in news_dict.values():
+        filename = f"{news_item.created_at}-{news_item.url}.md"
+
         try:
-            filename = f"{news_item.created_at}-{news_item._url}.md"
             filepath = os.path.join(directory, filename)
             with open(filepath, "w", encoding="utf-8") as file:
                 file.write(format_markdown(news_item))
@@ -194,8 +195,8 @@ title: "{news_item.title}"
 
 image: {news_item.image}
 parent: News
-link_url: {news_item.link_ul or '#'}
-link_caption: "{news_item.lnk_caption or ''}"
+link_url: {news_item.link_url or '#'}
+link_caption: "{news_item.link_caption or ''}"
 
 author: {news_item.author}
 
