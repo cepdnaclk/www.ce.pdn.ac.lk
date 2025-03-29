@@ -1,3 +1,5 @@
-# This is for python_scripts 
+# This is for python_scripts
 
 requests
+pyyaml
+pytz
