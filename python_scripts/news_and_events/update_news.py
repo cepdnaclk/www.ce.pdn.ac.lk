@@ -163,14 +163,18 @@ def extract_metadata_and_content(lines):
 
 
 def rewrite_markdown_file(filepath, news_item):
-    filename = f"{news_item.published_at}-{news_item.url}.md"
+    new_filename = f"{news_item.published_at}-{news_item.url}.md"
+    directory = os.path.dirname(filepath)
+    new_filepath = os.path.join(directory, new_filename)
+    
     try:
-        with open(filepath, "w", encoding="utf-8") as file:
-            file.write(format_markdown(news_item))
-            print("Updated \t:", filename)
-
+        os.rename(filepath, new_filepath)
+        with open(new_filepath, "w", encoding="utf-8") as file:
+            file.write(format_markdown(news_item))     
+        print("Updated \t:", new_filename)   
+        
     except Exception as e:
-        print("Update Error\t:", filename, str(e))
+        print("Update Error\t:", new_filename, str(e))
 
 
 def create_new_markdown_files(directory, news_dict):
