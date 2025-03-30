@@ -1,7 +1,7 @@
 name: Scheduled Run - Daily
 
 on:
-  pull:
+  push:
 
   schedule:
     # # At 18:45 UTC on everyday (12.15 mid night in Sri Lanka)
