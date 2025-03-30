@@ -1,6 +1,7 @@
 name: Scheduled Run - Daily
 
 on:
+  push:
   # Temporary disabled for now
   # schedule:
   #   # # At 18:45 UTC on everyday (12.15 mid night in Sri Lanka)
