@@ -33,7 +33,7 @@ jobs:
       - name: "Update Events"
         run: |
           cd ./python_scripts/news_and_events
-          python update_news.py
+          python update_events.py
           cd ../../
 
       - name: Commit and push into the main branch
