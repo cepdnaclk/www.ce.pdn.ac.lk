@@ -2,16 +2,16 @@ name: Scheduled Run - Daily
 
 on:
   push:
-  # Temporary disabled for now
-  # schedule:
-  #   # # At 18:45 UTC on everyday (12.15 mid night in Sri Lanka)
-  #   - cron: "15 18 * * *"
+
+  schedule:
+    # # At 18:45 UTC on everyday (12.15 mid night in Sri Lanka)
+    - cron: "15 18 * * *"
 
   # Enables a button on Actions tab
   workflow_dispatch:
 
 jobs:
-  build:
+  run:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
@@ -28,10 +28,17 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: "Update News Items"
+      - name: "Update News"
         run: |
           cd ./python_scripts/news_and_events
           python update_news.py
+          cd ../../
+
+      - name: "Update Events"
+        run: |
+          cd ./python_scripts/news_and_events
+          python update_news.py
+          cd ../../
 
       - name: Commit and push into the main branch
         run: |
