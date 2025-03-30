@@ -1,5 +1,9 @@
-# based on news_update.py, this script was generated using claude.ai 
-# by Ridma Jayasundara
+"""
+------------------------------------------------------------------------------
+Author: Ridma Jayasundara
+# based on news_update.py, this script was generated using claude.ai
+------------------------------------------------------------------------------
+"""
 
 import os
 from datetime import datetime, timezone
@@ -119,6 +123,7 @@ def fetch_events(api_url):
 
 
 def update_markdown_files(directory, events_dict):
+    os.makedirs(directory, exist_ok=True)
     for filename in os.listdir(directory):
         if filename.endswith(".md"):
             filepath = os.path.join(directory, filename)
@@ -165,13 +170,13 @@ def rewrite_markdown_file(filepath, event_item):
     new_filename = f"{event_item.published_at}-{event_item.url}.md"
     directory = os.path.dirname(filepath)
     new_filepath = os.path.join(directory, new_filename)
-    
+
     try:
         os.rename(filepath, new_filepath)
         with open(new_filepath, "w", encoding="utf-8") as file:
-            file.write(format_markdown(event_item))     
-        print("Updated \t:", new_filename)   
-        
+            file.write(format_markdown(event_item))
+        print("Updated \t:", new_filename)
+
     except Exception as e:
         print("Update Error\t:", new_filename, str(e))
 
@@ -192,23 +197,29 @@ def create_new_markdown_files(directory, events_dict):
 
 def format_markdown(event_item):
     # Format end time section based on whether it exists
-    end_time_line = f'end_time: "{event_item.end_at}"' if event_item.end_at else 'end_time: #'
-    
+    end_time_line = (
+        f'end_time: "{event_item.end_at}"' if event_item.end_at else "end_time: #"
+    )
+
     # Join event types into a string for display
     event_type_str = ", ".join(event_item.event_type) if event_item.event_type else ""
-    
+
     return f"""---
 layout: page_events
 id: {event_item.id}
 title: "{event_item.title}"
 parent: Events
 image: {event_item.image}
+
 start_time: "{event_item.start_at}"
 {end_time_line}
+
 location: "{event_item.location}"
 event_type: "{event_type_str}"
+
 link_url: {event_item.link_url or '#'}
 link_caption: "{event_item.link_caption or ''}"
+
 author: {event_item.author}
 published_date: {event_item.published_at}
 updated_at: {event_item.updated_at}

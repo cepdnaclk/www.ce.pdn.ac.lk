@@ -120,6 +120,7 @@ def fetch_news(api_url):
 
 
 def update_markdown_files(directory, news_dict):
+    os.makedirs(directory, exist_ok=True)
     for filename in os.listdir(directory):
         if filename.endswith(".md"):
             filepath = os.path.join(directory, filename)
@@ -166,13 +167,13 @@ def rewrite_markdown_file(filepath, news_item):
     new_filename = f"{news_item.published_at}-{news_item.url}.md"
     directory = os.path.dirname(filepath)
     new_filepath = os.path.join(directory, new_filename)
-    
+
     try:
         os.rename(filepath, new_filepath)
         with open(new_filepath, "w", encoding="utf-8") as file:
-            file.write(format_markdown(news_item))     
-        print("Updated \t:", new_filename)   
-        
+            file.write(format_markdown(news_item))
+        print("Updated \t:", new_filename)
+
     except Exception as e:
         print("Update Error\t:", new_filename, str(e))
 
@@ -214,19 +215,23 @@ updated_at: {news_item.updated_at}
 """
 
 
-print()
-print("Step 1: Fetching news...")
+def main():
+    print()
+    print("Step 1: Fetching news...")
 
-# dictionary that holds all the news : key is the id from the API call
-news_items = fetch_news(api_url)
+    # dictionary that holds all the news : key is the id from the API call
+    news_items = fetch_news(api_url)
+
+    print()
+    print("Step 2: Updating news...")
+
+    # Reads the exiting news files in the directory and compare with the API news items
+    # and if there are any changes, rewrite the file with new API data
+    update_markdown_files(directory, news_items)
+
+    # If there are new News items, create new .md files for them
+    create_new_markdown_files(directory, news_items)
 
 
-print()
-print("Step 2: Updating news...")
-
-# Reads the exiting news files in the directory and compare with the API news items
-# and if there are any changes, rewrite the file with new API data
-update_markdown_files(directory, news_items)
-
-# If there are new News items, create new .md files for them
-create_new_markdown_files(directory, news_items)
+if __name__ == "__main__":
+    main()
