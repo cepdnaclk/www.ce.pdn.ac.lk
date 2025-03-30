@@ -1,10 +1,10 @@
 name: Scheduled Run - Daily
 
 on:
-  push:
+  # push:
 
   schedule:
-    # # At 18:45 UTC on everyday (12.15 mid night in Sri Lanka)
+    # At 18:45 UTC on everyday (12.15 mid night in Sri Lanka)
     - cron: "15 18 * * *"
 
   # Enables a button on Actions tab
