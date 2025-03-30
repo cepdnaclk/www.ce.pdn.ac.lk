@@ -1,8 +1,6 @@
 name: Scheduled Run - Daily
 
 on:
-  push:
-
   schedule:
     # # At 18:45 UTC on everyday (12.15 mid night in Sri Lanka)
     - cron: "15 18 * * *"
@@ -16,8 +14,6 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@master
-        # with:
-        #   ref: main
 
       - name: Set up Python 3.8
         uses: actions/setup-python@v2
