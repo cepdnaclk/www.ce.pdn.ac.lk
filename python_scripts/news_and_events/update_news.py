@@ -163,7 +163,7 @@ def extract_metadata_and_content(lines):
 
 
 def rewrite_markdown_file(filepath, news_item):
-    filename = f"{news_item.published_at}-{news_item.title.replace(' ', '_')}.md"
+    filename = f"{news_item.published_at}-{news_item.url}.md"
     try:
         with open(filepath, "w", encoding="utf-8") as file:
             file.write(format_markdown(news_item))
@@ -175,7 +175,7 @@ def rewrite_markdown_file(filepath, news_item):
 
 def create_new_markdown_files(directory, news_dict):
     for news_item in news_dict.values():
-        filename = f"{news_item.created_at}-{news_item.url}.md"
+        filename = f"{news_item.published_at}-{news_item.url}.md"
 
         try:
             filepath = os.path.join(directory, filename)
