@@ -1,6 +1,8 @@
 name: Scheduled Run - Daily
 
 on:
+  pull:
+
   schedule:
     # # At 18:45 UTC on everyday (12.15 mid night in Sri Lanka)
     - cron: "15 18 * * *"
@@ -12,8 +14,8 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
-        uses: actions/checkout@master
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Set up Python 3.8
         uses: actions/setup-python@v2
