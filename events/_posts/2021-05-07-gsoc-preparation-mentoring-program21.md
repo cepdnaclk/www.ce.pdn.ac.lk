@@ -1,20 +1,24 @@
 ---
 layout: page_events
+id: 6
 title: "GSOC preparation mentoring program’21"
-
 parent: Events
-image: /events/images/gsoc-preparation-mentoring-program21.png
+image: https://portal.ce.pdn.ac.lk/img/events/1724778473.png
 
 start_time: "April 01, 2021"
 end_time: #
-location: "Zoom Online"
 
-link_url: http://aces.ce.pdn.ac.lk/escape20/
-link_caption: "Event Website"
+location: "Zoom (Online)"
+event_type: "ACES"
 
-author: Sample Author
+link_url: #
+link_caption: ""
+
+author: Nuwan Jaliyagoda
+published_date: 2021-05-07
+updated_at: 2025-03-30 02:51:57+00:00
 ---
 
-Organized by the Department of Computer Engineering.
+<p>Organized by the Department of Computer Engineering.</p><p>&nbsp;</p>
 
-![image](https://user-images.githubusercontent.com/11540782/151565443-74cbb536-fbca-4c33-889d-6bede50553df.png)
+<!-- Automated Update by GitHub Actions -->
