@@ -6,6 +6,13 @@ permalink: /intranet
 navbar_active: "Intranet"
 ---
 
+{% comment %}
+---------------------------------------------------------------------------------------------
+This page is using _data/intranet.json file as the data source to generate the list of URLs.
+---------------------------------------------------------------------------------------------
+{% endcomment %}
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,32 +36,30 @@ navbar_active: "Intranet"
 
         <div class="sidebar-list px-2">
             <ul class="list-unstyled">
-                {% for item in site.data.intranet %}
-                {%- assign target_url = item['url'] -%}
-                {%- assign target_name = item['name'] -%}
-
-                {%- if target_name == "hr" -%}
+                {% for group in site.data.intranet %}
+                <li>
+                    <span class="text-muted">{{group['name']}}</span>
+                    <ul class="list-unstyled">
+                        {% for item in group['links'] %}
+                        <li>
+                            {%- assign target_url = item['url'] -%}
+                            {%- assign target_name = item['name'] -%}
+                            <a class="app-link text-nowrap" href="#" data-url="{{target_url}}">{{ target_name }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </li>
                 <li>
                     <hr />
                 </li>
-                {%- elsif target_url == "#" -%}
-                <li>
-                    <span class="text-muted">{{ target_name }}</span>
-                </li>
-                {%- else -%}
-                <li>
-                    <a class="app-link text-nowrap" href="#" data-url="{{target_url}}">{{ target_name }}</a>
-                </li>
-                {%- endif -%}
-
                 {% endfor %}
             </ul>
         </div>
 
         <div class="edit-button d-flex">
             <a class=" text-decoration-none small" target="_blank"
-                href="{{ site.github_repository }}/blob/{{ site.github_branch }}/_data/intranet.json">
-                [ Edit on GitHub ]
+                href="https://portal.ce.pdn.ac.lk/dashboard/taxonomy/1/terms">
+                [ Edit on portal.ce.pdn.ac.lk ]
             </a>
         </div>
     </div>
@@ -80,14 +85,14 @@ navbar_active: "Intranet"
             var target_url = $(this).data('url');
 
             if (target_url != "#") {
-                // Open a loader 
+                // Open a loader
                 $('#loader').fadeIn();
                 $(".iframe").attr("src", target_url);
             }
         });
 
         $('.iframe').on("load", function () {
-            // Remove the loader at the end of the loading 
+            // Remove the loader at the end of the loading
             $('#loader').fadeOut();
         });
     });
