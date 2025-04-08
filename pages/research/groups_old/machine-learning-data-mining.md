@@ -1,9 +1,11 @@
 ---
 layout: page_research
-title: Machine Learning & Data Mining
+title: DEAR Group
 permalink: /research/machine-learning-data-mining/
 navbar_active: Research
 page_banner: images/banners/machine-learning-data-mining-banner.jpg
+icon_name: bi bi-clipboard-data
+brief_desc : Data Engineering And Research Group
 ---
 
 The Machine Learning group (ML) at the Department of Computer Engineering, University of Peradeniya is a research group that primarily focuses on developing learning algorithms to learn efficiently from large data sets such as images, text, and DNA microarrays. The group focused on working on local text classification, opinion mining, and plagiarism detection in the recent past. Sampath Deegalla leads the research group.

@@ -1,9 +1,11 @@
 ---
 layout: page_research
-title: Complex Reactive Systems
+title: IoT and AI
 permalink: /research/wearable-computing/
 navbar_active: Research
 page_banner: images/banners/wearable-computing-banner.jpg
+icon_name: bi bi-intersect
+brief_desc : 
 ---
 
 ### Our Team

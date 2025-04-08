@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page_research
 title: Complex Reactive Systems
 permalink: /research/complex-reactive-systems/
@@ -30,4 +30,4 @@ Automated high integrity reactive systems required in the control of defence (e.
 ### Current research students
 - A.C. Vidanapathirana (PhD student)
 - R.M.T.C.B. Ekanayake (PhD student)
-- P.A. Abeyratne (PhD student)
+- P.A. Abeyratne (PhD student) -->
