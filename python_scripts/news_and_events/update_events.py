@@ -204,6 +204,7 @@ def format_markdown(event_item):
     # Join event types into a string for display
     event_type_str = ", ".join(event_item.event_type) if event_item.event_type else ""
 
+
     return f"""---
 layout: page_events
 id: {event_item.id}
