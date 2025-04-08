@@ -41,7 +41,7 @@ jobs:
       - name: "Update Research Groups"
         run: |
           cd ./python_scripts/
-          python research_groups.py.py
+          python research_groups.py
           cd ../../
 
       - name: Commit and push into the main branch
