@@ -38,6 +38,12 @@ jobs:
           python update_events.py
           cd ../../
 
+      - name: "Update Research Groups"
+        run: |
+          cd ./python_scripts/
+          python research_groups.py
+          cd ../../
+
       - name: Commit and push into the main branch
         run: |
           git config user.name github-actions
