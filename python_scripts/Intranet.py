@@ -19,7 +19,6 @@ def fetch_and_transform():
     if api_data.get("status") != "success":
         raise ValueError("API did not return success status")
 
-    # Start building the output
     result = []
 
     for category in api_data["data"]["terms"]:
@@ -47,14 +46,14 @@ def save_to_file(data, path):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
-    print(f"✅ intranet.json updated at: {path}")
+    print(f"[OK] intranet.json updated at: {path}")
 
 def main():
     try:
         intranet_data = fetch_and_transform()
         save_to_file(intranet_data, DIRECTORY)
     except Exception as e:
-        print(f"❌ Error: {e}")
+        print(f"[ERROR] {e}")
 
 if __name__ == "__main__":
     main()
