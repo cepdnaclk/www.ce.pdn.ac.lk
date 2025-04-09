@@ -8,6 +8,7 @@ layout: wrappers_table
     {% include meta.html %}
     <title>{{ page.title }} </title>
     {% include head.html %}
+   
 
 </head>
 
@@ -86,8 +87,48 @@ layout: wrappers_table
             <div class="ratio ratio-16x9">
                 <iframe width="560" height="315" src="{{ page.video.url }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
+
             {% endif %}
+
+            <div class="mt-5">
+                <h5>Share this article:</h5>
+                <div class="d-flex gap-2 social-share">
+                    <!-- Facebook -->
+                    <a class="btn btn-primary facebook" target="_blank">
+                        <i class="fab fa-facebook-f"></i> Share
+                    </a>
+            
+                    <!-- Twitter -->
+                    <a class="btn btn-info text-white twitter" target="_blank">
+                        <i class="fab fa-twitter"></i> Tweet
+                    </a>
+            
+                    <!-- LinkedIn -->
+                    <a class="btn btn-primary linkedin" style="background-color:#0077b5; border-color:#0077b5;" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+            
+                    <!-- Reddit -->
+                    <a class="btn btn-danger reddit" style="background-color:#ff4500; border-color:#ff4500;" target="_blank">
+                        <i class="fab fa-reddit-alien"></i>
+                    </a>
+                </div>
+            </div>
+            
+            
+            
         </div>
     </div>
     {% include footer.html %}
+
+    <script>
+        const url = encodeURIComponent(window.location.href);
+        const title = encodeURIComponent(document.title);
+    
+        document.querySelector(".facebook").href = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
+        document.querySelector(".twitter").href = `https://twitter.com/intent/tweet?url=${url}&text=${title}`;
+        document.querySelector(".linkedin").href = `https://www.linkedin.com/shareArticle?mini=true&url=${url}`;
+        document.querySelector(".reddit").href = `https://www.reddit.com/submit?url=${url}&title=${title}`;
+    </script>
+    
 </body>
