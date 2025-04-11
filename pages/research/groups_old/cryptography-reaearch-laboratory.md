@@ -4,6 +4,8 @@ title: Cryptography Research Laboratory
 permalink: /research/old/cryptography-research-laboratory/
 navbar_active: Research
 page_banner: images/banners/cryptography-research-banner.jpg
+icon_name: bi bi-shield-lock
+brief_desc : 
 ---
 
 Cryptography Research Laboratory (CRL) is a research group established in 2016. The primary focus of CRL is to research cryptographic fundamentals that enable secure communications. CRL develops new cryptographic building blocks, formally analyzes their security, implements cryptographic building blocks for secure communications, and finds attacks against existing cryptographic building blocks. The group is lead by Dr. Janaka Alawatugoda. The CRL is featured in the Hanthana Vision Research Magazine of the University of Peradeniya, Vol 7, Issue 1, in June 2021, and the Newsletter of the IEEE Computer Society Sri Lanka Chapter, Vol 1, Issue 1, in December 2021.

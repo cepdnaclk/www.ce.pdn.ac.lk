@@ -1,9 +1,11 @@
 ---
 layout: page_research
-title: Embedded Systems and Computer Architecture Laboratory (ESCAL)
+title: ESCAL
 permalink: /research/embedded-systems/
 navbar_active: Research
 page_banner: images/banners/embedded-systems-banner.jpg
+icon_name: bi bi-cpu
+brief_desc : Embedded Systems and Computer Architecture Laboratory
 ---
 
 

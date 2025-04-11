@@ -1,9 +1,11 @@
 ---
 layout: page_research
-title: Software Defined Networks (SDN)
+title: SDN
 permalink: /research/software-defined-networks-sdn/
 navbar_active: Research
 page_banner: images/banners/software-defined-networks-banner.jpg
+icon_name: bi bi-router
+brief_desc : Software Defined Networks
 ---
 
 
