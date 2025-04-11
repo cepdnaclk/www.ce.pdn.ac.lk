@@ -1,16 +1,16 @@
 [
     {
-        "image": "/images/home/testimonials/Adeepa_Fernando.png",
-        "alt": "Adeepa-Image",
-        "name": "Adeepa Fernando",
-        "current_affiliation": "Software Engineer, WSO2",
-        "testimony": "Studying machine learning at Peradeniya was a transformative experience, opening doors to technologies I never imagined. The program’s blend of theory and practical applications has been essential in my work at WSO2."
-    },
-    {
         "image": "/images/home/testimonials/Imesh_Balasuriya.jpeg",
         "alt": "E17Imesh-Image",
         "name": "Imesh Balasuriya",
         "current_affiliation": "Graduate Engineer - CPU Performance Team, Arm",
         "testimony": "Studying at the Department of Computer Engineering, University of Peradeniya equipped me with the valuable skills and experience to excel as an engineer and opened the doors to opportunities I never imagined."
+    },
+    {
+        "image": "/images/home/testimonials/",
+        "alt": "testi-image",
+        "name": "asdf",
+        "current_affiliation": "title",
+        "testimony": "sample text"
     }
 ]

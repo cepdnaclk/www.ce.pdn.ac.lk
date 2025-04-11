@@ -114,47 +114,6 @@ navbar_active: "Home"
 </div>
 <!-- About End -->
 
-<!-- Features Start -->
-<div class="container-fluid feature mt-5 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="container">
-        <div class="row g-0">
-            <div class="col-lg-6 pt-lg-5">
-                <div class="bg-white p-5 mt-lg-5">
-                    <h1 class="display-6 mb-4 wow fadeIn" data-wow-delay="0.3s">Vision and Mission Statements</h1>
-                    <p class="mb-4 wow fadeIn" data-wow-delay="0.4s">The Department of Computer Engineering is committed to excellence in education and research, shaping future leaders in technology with global recognition.</p>
-                    <div class="row g-5 pt-2 mb-5">
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
-                            <div class="icon-box-primary mb-4">
-                                <i class="bi bi-bullseye text-dark"></i>
-                            </div>
-                            <h5 class="mb-3">Vision</h5>
-                            <span>To be a leading center for computer engineering education and research in Sri Lanka and the region, producing globally recognized graduates equipped to lead in modern computing and technology.</span>
-                        </div>
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
-                            <div class="icon-box-primary mb-4">
-                                <i class="bi bi-check-all text-dark"></i>
-                            </div>
-                            <h5 class="mb-3">Mission</h5>
-                            <span>To deliver internationally aligned academic and research programs, fostering technical expertise, innovation, communication, and lifelong learning for successful careers in computer engineering.</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="row h-100 align-items-end">
-                    <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
-                        <div class="d-flex align-items-center justify-content-center" style="min-height: 300px;">
-                        </div>
-                    </div>
-                    <div class="col-12">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Features End -->
-
 <!-- Service Start -->
 <div class="container-fluid container-service py-5">
     <div class="container pt-5">
@@ -279,7 +238,7 @@ navbar_active: "Home"
                             </div>
                             <p class="fs-5 mb-4">{{ testimony.testimony }}</p>
                             <div class="d-flex align-items-center">
-                                <img class="flex-shrink-0" src="{{ testimony.image }}" alt="{{ testimony.alt }}">
+                                <img class="flex-shrink-0" src="{{ testimony.image | relative_url }}" alt="{{ testimony.alt }}">
                                 <div class="ps-3">
                                     <h5 class="mb-1">{{ testimony.name }}</h5>
                                     <span class="text-primary">{{ testimony.current_affiliation }}</span>
