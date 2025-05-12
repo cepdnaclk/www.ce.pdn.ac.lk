@@ -42,6 +42,11 @@ jobs:
         run: |
           cd ./python_scripts/taxonomy/
           python intranet.py
+
+      - name: "Update Research Groups"
+        run: |
+          cd ./python_scripts/
+          python research_groups.py
           cd ../../
 
       - name: Commit and push into the main branch

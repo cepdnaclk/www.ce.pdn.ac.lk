@@ -4,6 +4,7 @@ layout: wrappers_table
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     {% include meta.html %}
     <title>{{ page.title }} </title>
@@ -58,19 +59,19 @@ layout: wrappers_table
                         {% for image in page.galery_images %}
 
                         {% if image.thumb %}
-                        <li class='col-lg-3 col-md-4 col-sm-6 d-flex align-self-center pb-2 mb-2' data-responsive="{{ image.url }} 800" data-src="{{ image.url }}" data-sub-html=''>
+                        <li class='col-lg-3 col-md-4 col-sm-6 d-flex align-self-center pb-2 mb-2'
+                            data-responsive="{{ image.url }} 800" data-src="{{ image.url }}" data-sub-html=''>
                             <a href='javascript:void(0)'>
-                                <img class="w-100" alt='{{ image.caption }} - YouTube'
-                                class='img-responsive'
-                                src="{{ image.thumb }}">
+                                <img class="w-100" alt='{{ image.caption }} - YouTube' class='img-responsive'
+                                    src="{{ image.thumb }}">
                             </a>
                         </li>
                         {% else %}
-                        <li class='col-lg-3 col-md-4 col-sm-6 d-flex align-self-center pb-2 mb-2' data-responsive="{{ image.url }} 800" data-src="{{ image.url }}" data-sub-html=''>
+                        <li class='col-lg-3 col-md-4 col-sm-6 d-flex align-self-center pb-2 mb-2'
+                            data-responsive="{{ image.url }} 800" data-src="{{ image.url }}" data-sub-html=''>
                             <a href='javascript:void(0)'>
-                                <img class="w-100" alt='{{ image.caption }}'
-                                class='img-responsive'
-                                src="{{ image.url }}">
+                                <img class="w-100" alt='{{ image.caption }}' class='img-responsive'
+                                    src="{{ image.url }}">
                             </a>
                         </li>
                         {% endif %}
@@ -85,7 +86,9 @@ layout: wrappers_table
             <h4 class="mt-5 mb-3 pb-3">{{ page.video.title }}</h4>
             <p>{{ page.video.description }}</p>
             <div class="ratio ratio-16x9">
-                <iframe width="560" height="315" src="{{ page.video.url }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="{{ page.video.url }}" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </div>
             {% endif %}
 
@@ -95,12 +98,37 @@ layout: wrappers_table
                 <div class="container px-4">
                     {% for res in page.resource_list %}
                     <div class="pb-1">
-                        <i class="fa fa-link me-2" aria-hidden="true"></i> <a href="{{ res.url }}" target='_blank'>{{ res.text }}</a>
+                        <i class="fa fa-link me-2" aria-hidden="true"></i> <a href="{{ res.url }}" target='_blank'>{{
+                            res.text }}</a>
                     </div>
                     {% endfor %}
                 </div>
             </div>
             {% endif %}
+
+            <div class="mt-5">
+                <h5>Share this article:</h5>
+                <div class="d-flex gap-2 social-share">
+                    <!-- Facebook -->
+                    <a class="btn btn-primary facebook" target="_blank"
+                        href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url | url_encode }}">
+                        <i class="fab fa-facebook-f"></i> Share
+                    </a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-info text-white twitter" target="_blank"
+                        href="https://twitter.com/intent/tweet?text={{ page.title }}&amp;url={{ site.url }}{{ page.url }}">
+                        <i class="fab fa-twitter"></i> Tweet
+                    </a>
+
+                    <!-- LinkedIn -->
+                    <a class="btn btn-primary linkedin" style="background-color:#0077b5; border-color:#0077b5;"
+                        target="_blank"
+                        href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url | url_encode }}{{ page.url }}&amp;title={{ page.title }}">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
 
         </div>
     </div>
