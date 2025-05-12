@@ -18,8 +18,8 @@ minima:
 permalink: /:categories/:year-:month-:day-:title:output_ext
 
 plugins:
-    - jekyll-seo-tag
-    - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 exclude:
   [
@@ -39,7 +39,7 @@ exclude:
     "graphic_templates",
     "*.py",
     "*.sh",
-    "*.yml"
+    "*.yml",
   ]
 
 # Guideline:https://www.digitalocean.com/community/tutorials/jekyll-compress-html

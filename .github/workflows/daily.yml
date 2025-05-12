@@ -38,6 +38,12 @@ jobs:
           python update_events.py
           cd ../../
 
+      - name: "Update Taxonomy - Intranet"
+        run: |
+          cd ./python_scripts/taxonomy/
+          python intranet.py
+          cd ../../
+
       - name: Commit and push into the main branch
         run: |
           git config user.name github-actions
