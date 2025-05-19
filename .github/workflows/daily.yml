@@ -38,6 +38,11 @@ jobs:
           python update_events.py
           cd ../../
 
+      - name: "Update Taxonomy - Intranet"
+        run: |
+          cd ./python_scripts/taxonomy/
+          python intranet.py
+
       - name: "Update Research Groups"
         run: |
           cd ./python_scripts/
