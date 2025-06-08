@@ -11,7 +11,7 @@ link_caption: ""
 author: Ridma Jayasundara
 
 published_date: 2025-04-01
-updated_at: 2025-04-02 02:49:09+00:00
+updated_at: 2025-06-08 09:08:36+00:00
 ---
 
 <p>The Department of Computer Engineering is pleased to announce the appointment of Dr. Asitha Bandaranayake as the new Head of the Department. Dr. Bandaranayake has been an integral part of our faculty, contributing significantly as a lecturer and researcher. We look forward to his leadership in fostering innovation, academic excellence, and the continued growth of our department.</p>
