@@ -4,6 +4,8 @@ title: Computational Biology Research Group
 permalink: /research/old/computational-biology/
 navbar_active: Research
 page_banner: images/banners/computational-biology-banner.jpg
+icon_name: bi bi-heart-pulse
+brief_desc : 
 ---
 
 As much as there is a universe as we look up, there is a universe to explore within ourselves, at micro level. The computational biology research lab at Department of Computer Engineering, University of Peradeniya focuses on exploring the use of Computer science and Engineering to elucidate the biological systems around us and using that knowledge in various applications.

@@ -1,7 +1,7 @@
 [
     {
         "display": true,
-        "image": "/images/home/cover_1.jpg",
+        "image": "/images/home/cover_1.jpeg",
         "alt": "",
         "title": "",
         "subtitle": "",
@@ -10,7 +10,7 @@
     },
     {
         "display": true,
-        "image": "/images/home/cover_2.jpg",
+        "image": "/images/home/cover_2.jpeg",
         "alt": "",
         "title": "",
         "subtitle": "",
@@ -19,7 +19,7 @@
     },
     {
         "display": true,
-        "image": "/images/home/cover_3.jpg",
+        "image": "/images/home/cover_3.jpeg",
         "alt": "",
         "title": "",
         "subtitle": "",
@@ -28,7 +28,7 @@
     },
         {
         "display": true,
-        "image": "/images/home/cover_4.jpg",
+        "image": "/images/home/cover_4.jpeg",
         "alt": "",
         "title": "",
         "subtitle": "",
@@ -37,7 +37,7 @@
     },
         {
         "display": true,
-        "image": "/images/home/cover_5.jpg",
+        "image": "/images/home/cover_5.jpeg",
         "alt": "",
         "title": "",
         "subtitle": "",
