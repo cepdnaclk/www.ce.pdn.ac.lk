@@ -37,7 +37,7 @@ title: Undergraduate Courses - Curriculum Effective From E22
 
 
 	<div class="container pt-5 py-3">
-		{%- for sem in site.data.Semesters_from_e22 -%}
+		{%- for sem in site.data.Semesters_new -%}
 		<div class="container pb-3">
 			<h4>{{ sem[1]["title"] }}
 				<small><a class="ms-2 text-muted" href="{{ sem[1]['url'] }}"><i class="fa fa-link"></i></a></small>
@@ -47,8 +47,8 @@ title: Undergraduate Courses - Curriculum Effective From E22
 		<div class="container row">
 			{% assign sem_id = sem[0] | strip | downcase %}
 			
-			{% if site.data.courses_e22[sem_id] and site.data.courses_e22[sem_id]["courses"] %}
-				{%- for course in site.data.courses_e22[sem_id]["courses"] -%}
+			{% if site.data.courses_new[sem_id] and site.data.courses_new[sem_id]["courses"] %}
+				{%- for course in site.data.courses_new[sem_id]["courses"] -%}
 					{% assign course_prefix = course.code | slice: 0,2 %}
 					{% case course_prefix %}
 					{% when 'CO' %}

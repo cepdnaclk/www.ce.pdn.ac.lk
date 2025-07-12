@@ -47,12 +47,12 @@
   
   "general-electives": {
     "title": "General Electives",
-    "description": "E22 Curriculum - General Electives",
+    "description": "",
     "url": "/courses/undergraduate/e22/general-electives/"
   },
   "technical-electives": {
     "title": "Technical Electives",
-    "description": "E22 Curriculum - Technical Electives",
+    "description": "",
     "url": "/courses/undergraduate/e22/technical-electives/"
   }
 }
