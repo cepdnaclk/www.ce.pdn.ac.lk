@@ -1,0 +1,58 @@
+{
+  "semester1": {
+    "title": "Semester 1",
+    "description": "All Engineering students follow the same first semester. These courses are credited towards their general programme (first semester) - E22 Curriculum.",
+    "url": "/courses/undergraduate/e22/semester1/"
+  },
+  "semester2": {
+    "title": "Semester 2", 
+    "description": "",
+    "url": "/courses/undergraduate/e22/semester2/"
+  },
+    "short-semester1": {
+    "title": "Short Semester 1",
+    "description": "During this 8 weeks semester students will follow General Elective courses of at least 9 credits",
+    "url": "/courses/undergraduate/e22/short-semester1/"
+  },
+  "semester3": {
+    "title": "Semester 3",
+    "description": "",
+    "url": "/courses/undergraduate/e22/semester3/"
+  },
+  "semester4": {
+    "title": "Semester 4",
+    "description": "In this semester students will follow Technical Elective courses of 4 credits with these moduels. ",
+    "url": "/courses/undergraduate/e22/semester4/"
+  },
+  "semester5": {
+    "title": "Semester 5",
+    "description": "In this semester students will follow Technical Elective courses of 6 credits with these moduels.", 
+    "url": "/courses/undergraduate/e22/semester5/"
+  },
+  "semester6": {
+    "title": "Semester 6",
+    "description": "In this semester students will follow Technical Elective courses of 6 credits with these moduels.",
+    "url": "/courses/undergraduate/e22/semester6/"
+  },
+  "short-semester2": {
+    "title": "Short Semester 2", 
+    "description": "This is a 8 weeks semester",
+    "url": "/courses/undergraduate/e22/short-semester2/"
+  },
+  "semester7": {
+    "title": "Semester 7",
+    "description": "In this semester students will follow Technical Elective courses of 10 credits with these moduels.",
+    "url": "/courses/undergraduate/e22/semester7/"
+  },
+  
+  "general-electives": {
+    "title": "General Electives",
+    "description": "E22 Curriculum - General Electives",
+    "url": "/courses/undergraduate/e22/general-electives/"
+  },
+  "technical-electives": {
+    "title": "Technical Electives",
+    "description": "E22 Curriculum - Technical Electives",
+    "url": "/courses/undergraduate/e22/technical-electives/"
+  }
+}
