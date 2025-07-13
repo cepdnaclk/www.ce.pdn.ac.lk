@@ -36,7 +36,7 @@ def get_courses_list(COURSES_API_URL, curriculum_key):
         response = requests.get(url, timeout=10)
         api_data = response.json()
 
-        print(f">> Page {page + 1}: {response.status_code}")
+        print(f">> Page {page} | Response:{response.status_code}")
 
         courses.extend(api_data["data"])
 
@@ -76,7 +76,7 @@ def create_new_course_pages(course_data):
             # course_title = course["name"]
             # course_credits = course["credits"]
             # type = course["type"]
-            prerequisties = course.get("prerequisites", "NULL")
+            prerequisites = course.get("prerequisites", "NULL")
 
             # content = course["content"]
             # objectives = course["objectives"]
@@ -106,7 +106,7 @@ course_title: {course["name"]}
 credits: {course["credits"]}
 type: {course["type"]}
 
-prerequisites: {prerequisties}
+prerequisites: {prerequisites}
 aims_and_objectives: "{course.get("objectives", "")}"
 
 modules: {course["modules"]}
@@ -123,9 +123,9 @@ faq_page: {course["urls"].get("faq_page", "#")}
             # Write into a file
             file_url = f"../../pages/courses/undergraduate/{semester['url']}/{course_code.strip().upper()}.html"
             os.makedirs(os.path.dirname(file_url), exist_ok=True)
-            htmlFile = open(file_url, "w")
-            htmlFile.write(outputString)
-            htmlFile.close()
+            with open(file_url, "w") as htmlFile:
+                htmlFile.write(outputString)
+
             print("Generated: " + course_code.upper() + ".html")
 
         print("")

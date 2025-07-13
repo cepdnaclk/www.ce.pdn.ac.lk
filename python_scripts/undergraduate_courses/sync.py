@@ -4,7 +4,6 @@ Author: Nuwan Jaliyagoda
 
 import json
 
-import requests
 from utils import (
     create_new_course_pages,
     delete_existing_course_pages,
