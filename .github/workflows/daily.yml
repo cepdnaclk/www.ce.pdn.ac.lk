@@ -48,11 +48,6 @@ jobs:
         run: |
           python intranet.py
 
-      - name: "Update Taxonomy - Intranet"
-        run: |
-          cd ./python_scripts/taxonomy/
-          python intranet.py
-
       - name: "Update Research Groups"
         working-directory: ./python_scripts/
         run: |
