@@ -1,5 +1,7 @@
 """
-Author: E/18/227 Dinuka Mudalige - e18227@eng.pdn.ac.lk
+Authors:
+    Dinuka Mudalige (e18227@eng.pdn.ac.lk)
+    Nuwan Jaliyagoda (nuwanjaliyagoda@eng.pdn.ac.lk)
 
 - This script will read the data files and create html files for each course.
 - This will be a daily process, run as a Cron job

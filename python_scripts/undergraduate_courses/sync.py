@@ -1,5 +1,5 @@
 """
-Author: Nuwan Jaliyagoda
+Author: Nuwan Jaliyagoda (nuwanjaliyagoda@eng.pdn.ac.lk)
 """
 
 import json
