@@ -1,0 +1,936 @@
+{
+  "semester1": {
+    "title": "Semester 1",
+    "description": "All Engineering students follow the same first semester. These courses are credited towards their general programme (first year).",
+    "courses": [
+      {
+        "code": "CE1010",
+        "name": "Engineering mechanics",
+        "credits": 3,
+        "type": "CORE",
+        "prerequisites": "None",
+        "content": "Fundamentals of Physicsin macroscopic elements.",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester1/CE1010/"
+        }
+      },
+      {
+        "code": "CO1010",
+        "name": "Programming for Engineers I",
+        "credits": 3,
+        "type": "CORE",
+        "prerequisites": "None",
+        "content": "Fundamentals of Programming.",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester1/CO1010/"
+        }
+      },
+      {
+        "code": "EE1010",
+        "name": "Electricity",
+        "credits": 3,
+        "type": "CORE",
+        "prerequisites": "None",
+        "content": "Fundamentals of physics of Electricity.",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester1/EE1010/"
+        }
+      },
+      {
+        "code": "EF1010",
+        "name": "English for communication I",
+        "credits": 3,
+        "type": "CORE",
+        "prerequisites": "None",
+        "content": "Listning, speaking, reading, and writing skills in English.",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester1/EF1010/"
+        }
+      },
+      {
+        "code": "EM1010",
+        "name": "Calculas I",
+        "credits": 4,
+        "type": "CORE",
+        "prerequisites": "None",
+        "content": "mathematical concepts arising in the areas of calculus and functions of complex variables",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester1/EM1010/"
+        }
+      },
+      {
+        "code": "MA1100",
+        "name": "Ethics and Sustainability",
+        "credits": 2,
+        "type": "CORE",
+        "prerequisites": "None",
+        "content": "Basic concepts of sustainability and ethics",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester1/MA1100/"
+        }
+      }
+    ]
+  },
+  "semester2": {
+     "title": "Semester 2",
+      "description": "",
+       "courses": [
+      {
+        "code": "CO1020",
+        "name": "Computer Systems Programming",
+        "credits": 5,
+        "type": "CORE",
+        "prerequisites": "None",
+        "content": "foundation of computer programming and understanding about computer systems from a programmer’s perspective.",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester1/CO1020/"
+        }
+      },
+      {
+        "code": "CO1030",
+        "name": "Data Structures and Algorithms I",
+        "credits": 2,
+        "type": "CORE",
+        "prerequisites": "None",
+        "content": "Algorithm analysis,Search and sort strategies,Linear data structures",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester1/CO1030/"
+        }
+      },
+      {
+        "code": "EE1810",
+        "name": "Electronics",
+        "credits": 3,
+        "type": "CORE",
+        "prerequisites": "None",
+        "content": "operational characteristics, circuit design considerations and applications of fundamental devices in analog electronics.",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester1/EE1810/"
+        }
+      },
+      {
+        "code": "EM1020",
+        "name": "Linear Algebra",
+        "credits": 3,
+        "type": "CORE",
+        "prerequisites": "None",
+        "content": "Matrix Algebra, Determinants, Vector spaces, Linear Transformations,System of linear equations ,Characteristic value problem and Real Symmetric matrices",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester1/EM1020/"
+        }
+      },
+      {
+        "code": "EM1030",
+        "name": "Differential Equations",
+        "credits": 3,
+        "type": "CORE",
+        "prerequisites": "None",
+        "content": "analytical solving techniques for differential equations with constant coefficients and interpret the solutions.",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester1/EM1030/"
+        }
+      },
+      {
+        "code": "EM1050",
+        "name": "Discrete Mathematics",
+        "credits": 3,
+        "type": "CORE",
+        "prerequisites": "None",
+        "content": "Predicate calculus, mathematical models forcomputing machines and algorithms using fundamentals of number theory, algebraicstructures, Boolean algebras and graph theory",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester1/EM1050/"
+        }
+      }
+       ] },
+  "short-semester1": { "title": "Short Semester 1", "description": "During this semester students will follow General Elective courses of at least 9 credits", "courses": [] },
+  "semester3": { "title": "Semester 3",
+   "description": "",
+    "courses": [
+      {
+        "code": "CO2010",
+        "name": " DigitalCircuitsDesign",
+        "credits": 4,
+        "type": "CORE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester1/CO2010/"
+        }
+      },
+      {
+        "code": "CO2020",
+        "name": "ComputerNetworking",
+        "credits": 3,
+        "type": "CORE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester1/CO2020/"
+        }
+      },
+      {
+        "code": "CO2030",
+        "name": "Data Structuresand Algorithms II",
+        "credits": 3,
+        "type": "CORE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester1/CO1030/"
+        }
+      },
+      {
+        "code": "CO2040",
+        "name": "Software Design and Development",
+        "credits": 2,
+        "type": "CORE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester1/CO2040/"
+        }
+      },
+      {
+        "code": "CO2060",
+        "name": "Software Systems Design Project (ContinuetoSemester-4)",
+        "credits": 2,
+        "type": "CORE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester1/CO2060/"
+        }
+      },
+      {
+        "code": "EM2020",
+        "name": "Probability and Statistics",
+        "credits": 2,
+        "type": "CORE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester1/EM2020/"
+        }
+      },
+      {
+        "code": "EM2060",
+        "name": " NumericalMethods",
+        "credits": 3,
+        "type": "CORE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester1/EM2060/"
+        }
+      }
+  ] },
+  "semester4": { "title": "Semester 4",
+   "description": "",
+    "courses": [
+      {
+        "code": "CO2050",
+        "name": "Database Systems",
+        "credits": 2,
+        "type": "CORE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester4/CO2050/"
+        }
+      },
+      {
+        "code": "CO2060",
+        "name": "Software Systems Design Project (continued from semester-3)",
+        "credits": 2,
+        "type": "CORE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester4/CO2060/"
+        }
+      },
+      {
+        "code": "CO2070",
+        "name": " Computer Architecture",
+        "credits": 4,
+        "type": "CORE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester4/CO2070/"
+        }
+      },
+      {
+        "code": "CO2080",
+        "name": "Network Design Principles",
+        "credits": 3,
+        "type": "CORE",
+        "prerequisites": "",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester4/CO2080/"
+        }
+      },
+      {
+        "code": "EE2820",
+        "name": "Applied Electronics",
+        "credits": 3,
+        "type": "CORE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester4/EE2820/"
+        }
+      },
+      {
+        "code": "EM2010",
+        "name": "Calculus II",
+        "credits": 2,
+        "type": "CORE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester4/EM2010/"
+        }
+      }
+    ] },
+  "semester5": { "title": "Semester 5",
+   "description": "",
+    "courses": [
+      {
+        "code": "CO3010",
+        "name": "Embedded Systems",
+        "credits": 4,
+        "type": "CORE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester5/CO3010/"
+        }
+      },
+      {
+        "code": "CO3040",
+        "name": " Cloud Computing Systems",
+        "credits": 3,
+        "type": "CORE",
+        "prerequisites": "",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester5/CO3040/"
+        }
+      },
+      {
+        "code": "CO3060",
+        "name": "Computer Systems Design Project (Continue to Semester-6)",
+        "credits": 6,
+        "type": "CORE",
+        "prerequisites": "",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester5/CO3060/"
+        }
+      },
+      {
+        "code": "EF1020",
+        "name": "English for Communication II",
+        "credits": 2,
+        "type": "CORE",
+        "prerequisites": "",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester5/EF1020/"
+        }
+      }
+
+    ] },
+  "semester6": { "title": "Semester 6",
+   "description": "",
+    "courses": [
+      {
+        "code": "CO3020",
+        "name": " OperatingSystems",
+        "credits": 3,
+        "type": "CORE",
+        "prerequisites": "",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester6/CO3020/"
+        }
+      },
+      {
+        "code": "CO3030",
+        "name": "Computer Systems Security",
+        "credits": 2,
+        "type": "CORE",
+        "prerequisites": "",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester6/CO3030/"
+        }
+      },
+      {
+        "code": "CO3050",
+        "name": "Signal Processing",
+        "credits": 3,
+        "type": "CORE",
+        "prerequisites": "",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester6/CO3050/"
+        }
+      },
+      {
+        "code": "CO3060",
+        "name": "Computer Systems Design Project (continued from semester-5)",
+        "credits": 6,
+        "type": "CORE",
+        "prerequisites": "",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester6/CO3060/"
+        }
+      },
+      {
+        "code": "CO3090",
+        "name": " Machine Learning Theory",
+        "credits": 2,
+        "type": "CORE",
+        "prerequisites": "",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester6/CO3090/"
+        }
+      },
+      {
+        "code": "CO3100",
+        "name": "Research Methodology",
+        "credits": 1,
+        "type": "CORE",
+        "prerequisites": "",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester6/CO3100/"
+        }
+      }
+    ] },
+  "short-semester2": { "title": "Short Semester 2",
+   "description": "",
+    "courses": [
+      {
+        "code": "CO4010",
+        "name": "Professional Practices for Computer Engineers",
+        "credits": 2,
+        "type": "CORE",
+        "prerequisites": "",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester7/CO4010/"
+        }
+      },
+      {
+        "code": "CO4020",
+        "name": " Software Project Management",
+        "credits": 2,
+        "type": "CORE",
+        "prerequisites": "",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester7/CO4020/"
+        }
+      },
+      {
+        "code": "CO4030",
+        "name": "Information Systems Management",
+        "credits": 2,
+        "type": "CORE",
+        "prerequisites": "",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester7/CO4030/"
+        }
+      },
+      {
+        "code": "CO4060",
+        "name": "Computer Engineering Research Project(Continue to Semester-7)",
+        "credits": 6,
+        "type": "CORE",
+        "prerequisites": "",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester7/CO4060/"
+        }
+      }
+    ] },
+  "semester7": { "title": "Semester 7",
+   "description": "",
+    "courses": [
+      {
+        "code": "CO3070",
+        "name": "Fundamentals of Artificial Intelligence",
+        "credits": 3,
+        "type": "CORE",
+        "prerequisites": "",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester7/CO3070/"
+        }
+      },
+      {
+        "code": "CO3080",
+        "name": "Applied Operating Systems",
+        "credits": 2,
+        "type": "CORE",
+        "prerequisites": "",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester7/CO3080/"
+        }
+      },
+      {
+        "code": "CO4060",
+        "name": "Computer Engineering Research Project (continued from Short semester-2)",
+        "credits": 6,
+        "type": "CORE",
+        "prerequisites": "",
+        "content": "",
+        "urls": {
+          "view": "/courses/undergraduate/e22/semester7/ CO4060/"
+        }
+      }
+  
+    ] },
+  "general-electives": { "title": "General Electives",
+   "description": "",
+    "courses": [
+      {
+        "code": "EF3010",
+        "name": "The Engineer in Society",
+        "credits": 2,
+        "type": "ELECTIVE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/general-electives/EF3010/" }
+      },
+      {
+        "code": "EF3020",
+        "name": "Social Project",
+        "credits": 2,
+        "type": "ELECTIVE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/general-electives/EF3020/" }
+      },
+      {
+        "code": "EF3030",
+        "name": "Introduction to Music",
+        "credits": 2,
+        "type": "ELECTIVE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/general-electives/EF3030/" }
+      },
+      {
+        "code": "EF3040",
+        "name": "Painting and Sculpture",
+        "credits": 2,
+        "type": "ELECTIVE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/general-electives/EF3040/" }
+      },
+      {
+        "code": "EF3050",
+        "name": "Written English for Communication",
+        "credits": 1,
+        "type": "ELECTIVE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/general-electives/EF3050/" }
+      },
+      {
+        "code": "EF3060",
+        "name": "Effective Communicating in English through Speech",
+        "credits": 1,
+        "type": "ELECTIVE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/general-electives/EF3060/" }
+      },
+      {
+        "code": "EF3070",
+        "name": "Introduction to Digital Art",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/general-electives/EF3070/" }
+      },
+      {
+        "code": "EF3080",
+        "name": "Mindfulness for Engineers",
+        "credits": 2,
+        "type": "ELECTIVE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/general-electives/EF3080/" }
+      },
+      {
+        "code": "MA5500",
+        "name": "Business Communication",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/general-electives/MA5500/" }
+      },
+      {
+        "code": "MA5510",
+        "name": "Circular Economy for Engineering",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/general-electives/MA5510/" }
+      },
+      {
+        "code": "MA5520",
+        "name": "Marketing for Engineers",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/general-electives/MA5520/" }
+      },
+      {
+        "code": "MA5600",
+        "name": "Economics for Engineers",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/general-electives/MA5600/" }
+      },
+      {
+        "code": "MA5610",
+        "name": "Corporate Finance and Accounting for Engineers",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/general-electives/MA5610/" }
+      },
+      {
+        "code": "MA5620",
+        "name": "Business Law and Intellectual Property",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/general-electives/MA5620/" }
+      },
+      {
+        "code": "MA5700",
+        "name": "Environmental Economics",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/general-electives/MA5700/" }
+      },
+      {
+        "code": "MA5710",
+        "name": "Project Management",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/general-electives/MA5710/" }
+      },
+      {
+        "code": "MA5720",
+        "name": "Organizational and Industrial Psychology",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/general-electives/MA5720/" }
+      },
+      {
+        "code": "MA5800",
+        "name": "Sustainable Technology and Economic Development",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/general-electives/MA5800/" }
+      },
+      {
+        "code": "MA5810",
+        "name": "Procurement Management",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/general-electives/MA5810/" }
+      },
+      {
+        "code": "MA5820",
+        "name": "Engineer as an Entrepreneur",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "None",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/general-electives/MA5820/" }
+      }
+    ]
+  },
+  "technical-electives": {
+    "title": "Technical Electives",
+    "description": "",
+    "courses": [
+      {
+        "code": "CO5010",
+        "name": "Advanced Embedded Systems",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "CO2070",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/technical-electives/CO5010/" }
+      },
+      {
+        "code": "CO5020",
+        "name": "Advanced Computer Architecture",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "CO2070",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/technical-electives/CO5020/" }
+      },
+      {
+        "code": "CO5030",
+        "name": "Advanced Operating Systems",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/technical-electives/CO5030/" }
+      },
+      {
+        "code": "CO5040",
+        "name": "Compilers",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "CO2030",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/technical-electives/CO5040/" }
+      },
+      {
+        "code": "CO5050",
+        "name": "Programming Language",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "CO2030",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/technical-electives/CO5050/" }
+      },
+      {
+        "code": "CO5060",
+        "name": "Theory of Computation",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "EM1040",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/technical-electives/CO5060/" }
+      },
+      {
+        "code": "CO5070",
+        "name": "Parallel Computation and Algorithms",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "CO2070",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/technical-electives/CO5070/" }
+      },
+      {
+        "code": "CO5080",
+        "name": "Cyber Physical Systems",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/technical-electives/CO5080/" }
+      },
+      {
+        "code": "CO5090",
+        "name": "Advanced Algorithms",
+        "credits": 2,
+        "type": "ELECTIVE",
+        "prerequisites": "CO2030",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/technical-electives/CO5090/" }
+      },
+      {
+        "code": "CO5210",
+        "name": "Advanced Computer Communication Networks",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "CO2080",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/technical-electives/CO5210/" }
+      },
+      {
+        "code": "CO5220",
+        "name": "Optical Communication Networks",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "CO2080",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/technical-electives/CO5220/" }
+      },
+      {
+        "code": "CO5230",
+        "name": "Network Virtualization",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "CO2080",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/technical-electives/CO5230/" }
+      },
+      {
+        "code": "CO5240",
+        "name": "Cybersecurity",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/technical-electives/CO5240/" }
+      },
+      {
+        "code": "CO5310",
+        "name": "Applied Software Architecture",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "CO2040",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/technical-electives/CO5310/" }
+      },
+      {
+        "code": "CO5320",
+        "name": "Advanced Database Systems",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "CO2050",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/technical-electives/CO5320/" }
+      },
+      {
+        "code": "CO5410",
+        "name": "Applied Data Science",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/technical-electives/CO5410/" }
+      },
+      {
+        "code": "CO5420",
+        "name": "Artificial Neural Networks and Deep Learning",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/technical-electives/CO5420/" }
+      },
+      {
+        "code": "CO5430",
+        "name": "Image Processing",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/technical-electives/CO5430/" }
+      },
+      {
+        "code": "CO5440",
+        "name": "Data Engineering",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/technical-electives/CO5440/" }
+      },
+      {
+        "code": "CO5450",
+        "name": "Game Theory and Markov Decision Processes",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "EM2020",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/technical-electives/CO5450/" }
+      },
+      {
+        "code": "CO5460",
+        "name": "Computer Vision",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/technical-electives/CO5460/" }
+      },
+      {
+        "code": "CO5470",
+        "name": "Natural Language Processing",
+        "credits": 2,
+        "type": "ELECTIVE",
+        "prerequisites": "",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/technical-electives/CO5470/" }
+      },
+      {
+        "code": "CO5480",
+        "name": "Data Warehousing & Big Data Analytics",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "CO2050",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/technical-electives/CO5480/" }
+      },
+      {
+        "code": "CO5510",
+        "name": "Formal Verification Tools and Techniques for Complex Reactive Systems",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "EM1050",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/technical-electives/CO5510/" }
+      },
+      {
+        "code": "CO5520",
+        "name": "Mathematics of Cryptography",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/technical-electives/CO5520/" }
+      },
+      {
+        "code": "CO5530",
+        "name": "Computational Bioengineering",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/technical-electives/CO5530/" }
+      },
+      {
+        "code": "CO5540",
+        "name": "Trends in Internet of Things",
+        "credits": 3,
+        "type": "ELECTIVE",
+        "prerequisites": "",
+        "content": "",
+        "urls": { "view": "/courses/undergraduate/e22/technical-electives/CO5540/" }
+      }
+    ]
+  }
+}
