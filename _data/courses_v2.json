@@ -1,0 +1,1468 @@
+{
+  "11": {
+    "id": 11,
+    "title": "Semester 3",
+    "academic_program": {
+      "category": "undergraduate",
+      "version": 2,
+      "curriculum_name": "Curriculum - Effective from E22"
+    },
+    "description": null,
+    "url": "curriculum-02-sem-3",
+    "courses_count": 6,
+    "created_at": "2024-11-13T13:57:31.000000Z",
+    "updated_at": "2024-11-13T13:58:46.000000Z",
+    "courses": [
+      {
+        "id": 51,
+        "code": "CO2020",
+        "name": "Computer Networking",
+        "content": "Course Content: (Only main topics & subtopics)\nIntroduction to Networking\nWhat is the internet, the network edge and core, packet-switched networks, network\nperformance measurement, layered architecture and service models, networks under attack\nApplication Layer\nNetwork applications and their requirements: web and HTTP, FTP, email, DNS, peer-to-peer\napplications, video conferencing, content distribution networks, and other emerging\napplications.\nNetwork Application Development\nIntroduction to UDP and TCP, client-server model, socket programming and network\napplications.\nTransport Layer\nTransport layer services, connectionless transport: UDP, principles of reliable data transfer,\nconnection-oriented transport: TCP, principles of congestion Control, TCP congestion control,\nevolution of transport-layer functionality.\nNetwork Layer: Data Plane\nForwarding and routing: network data and control planes, network service models, router\ndesign principles, IP design principles, generalized forwarding and SDN, middleboxes:\nfirewalls, NATs, DPIs and load balancers.\nNetwork Layer: Control Plane\nRouting algorithms, Intra-AS routing, exterior gateway protocols: role, design principles and\npractice, SDN control plane, ICMP, and network management.\nLink Layer and LANs\nLink layer services, error detection and correction, multiple access links and protocols\nRetrospection\nA comparative analysis: a day in the life of a web page request",
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 11,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 2,
+          "curriculum_name": "Curriculum - Effective from E22"
+        },
+        "teaching_methods": "Flipped classrooms, small group discussion classes, project-based learning.",
+        "objectives": "\u25cf The goal of this course is to provide a fundamental view behind the general purpose\ncomputer networks: the principles upon which the Internet and most other computer\nnetworks are built; how those principles translate into deployed protocols; and hands-on\nexperience solving challenging problems with network protocols.\n\u25cf This course provides an introduction to fundamental concepts in the design and\nimplementation of computer networks, their protocols, and applications.",
+        "time_allocation": {
+          "lecture": 26,
+          "tutorial": 8,
+          "practical": 16,
+          "design": 6,
+          "assignment": null,
+          "independent_learning": 94
+        },
+        "marks_allocation": {
+          "practicals": 30,
+          "quizzes": null,
+          "assignments": 20,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": 20,
+          "end_exam": 30
+        },
+        "ilos": {
+          "general": [
+            "ILO1: explain the layered network architectures, and critique the role of each layer and their\ninterdependence;\nILO2: explain the concepts of error control, flow control and congestion control;\nILO3: illustrate how a packet is routed over the Internet;\nILO4: describe how to control access to a shared channel by multiple stations;\nILO5: design, build, and describe a client-server application;"
+          ],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "\u25cf James Kurose and Keith Ross, Computer Networks, 8th Edition, 2021"
+        ],
+        "modules": [],
+        "created_at": "2025-04-21T07:53:57.000000Z",
+        "updated_at": "2025-04-21T07:53:57.000000Z",
+        "urls": {
+          "view": "/curriculum-02-sem-3/CO2020/"
+        }
+      },
+      {
+        "id": 52,
+        "code": "CO2030",
+        "name": "Data Structures and Algorithms II",
+        "content": "Course Content: (Only main topics & subtopics)\nTrees\nTree ADT, linked implementation, tree traversal, efficiency of search and maintenance\noperations, binary search trees, balanced BSTs, AVL and red-black trees, binary heaps,\npriority queues, heapsort, other applications of tree data structures (abstract-syntax-trees,\nXML/JSON parsing, radix-trees, Huffman-trees, B-trees), using trees to represent\ncomputational problems.\nGraphs\nGraph ADT, graph types and properties, matrix and list based implementations, graph\ntraversal (depth-first, breadth-first), efficiency of search and maintenance operations,\ntopological sort, Eulerian and Hamiltonian cycles, spanning trees, Kruskal\u2019s algorithm, Prim\u2019s\nalgorithm, greedy algorithms and local optima, shortest-path algorithms (Dijkstra\u2019s, A*,\nFloyd-Warshall), reachability, Kosaraju\u2019s algorithm, graph coloring, applications of graph data\nstructures (in location maps, flow networks, social networks, games, etc.), using graphs to\nrepresent computational problems\nHashing\nAssociative-array (map/dictionary/set) ADT, the dictionary problem, tree implementations,\nhash table implementations, hash functions and codes, collision handling, efficiency of search\nand operations, associative-array applications (in programming languages, memoization,\nJSON, No-SQL databases), using hashing to efficiently solve computational problems.",
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 11,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 2,
+          "curriculum_name": "Curriculum - Effective from E22"
+        },
+        "teaching_methods": "Flipped classrooms, small group discussion classes, project-based learning.",
+        "objectives": "\u25cf To expand the notion of efficiently representing and solving non-trivial computational\nproblems without resorting to na\u00efve or brute-force techniques.\n\u25cf To familiarize students with real world applications of Tree, Graph and\nAssociative-arrayADT (Abstract Data Type) based data structures and algorithms.",
+        "time_allocation": {
+          "lecture": 21,
+          "tutorial": 6,
+          "practical": 24,
+          "design": 12,
+          "assignment": null,
+          "independent_learning": 87
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": 50,
+          "end_exam": 50
+        },
+        "ilos": {
+          "general": [
+            "ILO1: describe tree/graph/associative-array-based data structures and related algorithms\nused in practice, estimate and compare their performance;\nILO2: critique the suitability of a given data structure to efficiently represent a non-trivial\ncomputational problem;\nILO3: apply suitable data structures to efficiently represent non-trivial computational\nproblems;\nILO4: select a suitable algorithm to efficiently solve a given non-trivial\ncomputational problem;\nILO5: apply suitable algorithms to efficiently solve non-trivial computational problems;"
+          ],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "Introduction to Algorithms by Cormen, Leiserson, Rivest and Stein",
+          "Data structures and algorithms by Aho, Hopcroft and Ullman",
+          "Algorithms by Sedgewick and Wayne",
+          "Algorithm Design Manual by S S Skiena"
+        ],
+        "modules": [],
+        "created_at": "2025-04-21T08:01:08.000000Z",
+        "updated_at": "2025-07-13T18:04:55.000000Z",
+        "urls": {
+          "view": "/curriculum-02-sem-3/CO2030/"
+        }
+      },
+      {
+        "id": 53,
+        "code": "CO2040",
+        "name": "Software Design and Development",
+        "content": "Software Process\nGoals of software engineering, challenges of large scale software projects, evolution of software\nprocess models, details of agile software development\nRequirement Analysis\nIdentifying functional requirements and non-functional requirements, illustrating use cases.\nSoftware Design\nDesign fundamentals and design qualities, object oriented design (OOD) concepts, introducing\ndesign patterns.\nSoftware Testing\nBlackbox vs glass-box testing, test case design, unit testing, integration testing, test frameworks.\nWeb Applications\nHTTP and HTML, processing user input, producing dynamic output, client-side scripting",
+        "credits": 2,
+        "type": "Core",
+        "semester_id": 11,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 2,
+          "curriculum_name": "Curriculum - Effective from E22"
+        },
+        "teaching_methods": "Flipped classrooms, small group discussion classes, project-based learning.",
+        "objectives": null,
+        "time_allocation": {
+          "lecture": 15,
+          "tutorial": 5,
+          "practical": 12,
+          "design": 8,
+          "assignment": null,
+          "independent_learning": 60
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": 60,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": 40
+        },
+        "ilos": {
+          "general": [
+            "ILO1: describe modern software process models, and their key components;\nILO2: compare modern software process models, and their key components;\nILO2: construct a basic three-tier web application using modern tools and techniques.\n"
+          ],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "\u25cf Software Engineering, 10th Edition, Ian Sommerville, Pearson Education\n\u25cf Lean Architecture: for Agile Software Development, 1st Edition, James O. Coplien and\nGertrud Bj\u00f8rnvig, Wiley\n\u25cf Object-oriented reengineering patterns, Serge Demeyer, St\u00e9phane Ducasse and Oscar\nNierstrasz, http://scg.unibe.ch/download/oorp/"
+        ],
+        "modules": [],
+        "created_at": "2025-04-21T08:03:38.000000Z",
+        "updated_at": "2025-04-21T08:03:38.000000Z",
+        "urls": {
+          "view": "/curriculum-02-sem-3/CO2040/"
+        }
+      },
+      {
+        "id": 54,
+        "code": "CO2060",
+        "name": "Software Systems Design Project",
+        "content": "Requirement analysis and elicitation\nIdentification and presenting of functional requirements and non-functional requirements,\nrelevant tools.\nSoftware systems design and development\nApply software and database design concepts to design a non-trivial software solution and\nimplement it, user experience and user interfaces design, software deployment, good practices\nin software design and development (documentation, version control, code reusability, etc.),\nrelevant tools\nSoftware testing\nDesign test cases and perform: unit testing; integration testing; and acceptance testing,\nrelevant tools.",
+        "credits": 2,
+        "type": "Core",
+        "semester_id": 11,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 2,
+          "curriculum_name": "Curriculum - Effective from E22"
+        },
+        "teaching_methods": "Flipped classrooms, small group discussion classes, project-based learning.",
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": 22,
+          "design": 38,
+          "assignment": null,
+          "independent_learning": 40
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": null
+        },
+        "ilos": {
+          "general": [
+            "ILO1: construct a requirement specification for a non-trivial software design;\nILO2: design and implement a non-trivial software system based on specification;\nILO3: construct test-cases and perform testing on a specified software system;\nILO4: demonstrate good practices in software design and development.\n"
+          ],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "\u25cf Software Engineering, 10th Edition of Ian Sommerville (Link:\nhttps://iansommerville.com/software-engineering-book/)\n\u25cf Lean Architecture: for Agile Software Development, 1st Edition, James O. Coplien and\nGertrud Bj\u00f8rnvig, Wiley\n\u25cf Object-oriented reengineering patterns, Serge Demeyer, St\u00e9phane Ducasse and Oscar\nNierstrasz, http://scg.unibe.ch/download/oorp/\n\u25cf Elmasri and Navathe, Fundamentals of Database Systems\n\u25cf Raghu Ramakrishnan and Johannes Gehrke, Database Management Systems"
+        ],
+        "modules": [],
+        "created_at": "2025-04-23T03:21:05.000000Z",
+        "updated_at": "2025-04-23T03:21:05.000000Z",
+        "urls": {
+          "view": "/curriculum-02-sem-3/CO2060/"
+        }
+      },
+      {
+        "id": 55,
+        "code": "EM2020",
+        "name": "Probability and Statistics",
+        "content": "",
+        "credits": 2,
+        "type": "Core",
+        "semester_id": 11,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 2,
+          "curriculum_name": "Curriculum - Effective from E22"
+        },
+        "teaching_methods": "Classroom lectures, tutorial discussions and in-class assignments",
+        "objectives": "\u25cf To introduce basic concepts of probability and inferential statistics.\n",
+        "time_allocation": {
+          "lecture": 24,
+          "tutorial": 4,
+          "practical": null,
+          "design": null,
+          "assignment": 4,
+          "independent_learning": 68
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": 10,
+          "projects": null,
+          "participation": null,
+          "mid_exam": 30,
+          "end_exam": 60
+        },
+        "ilos": {
+          "general": [
+            "ILO1: Demonstrate fundamental probability and statistical concepts.\nILO2: Apply standard discrete and continuous probability distributions and\nobserve their role as the foundation for statistical inference.\nILO3: Perform estimation and testing of hypotheses on common measures in\ndecision making.\n"
+          ],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "\u25cf D.C. Montgomery and G.C. Runger Applied Statistics and Probability for Engineers, 6th\nedition,(2013), John Wiley and Sons Inc.\n\u25cf Jay L. Devore, Probability and Statistics for Engineering and the Sciences, 8th edition,\n(2010), Cengage Learning."
+        ],
+        "modules": [
+          {
+            "id": 35,
+            "course_id": 55,
+            "topic": "Probability and Statistics",
+            "description": "Concepts of probability:\nDiscrete and continuous random variables, probability distributions, mean, expectation\nand variance, moment generating functions\nDiscrete probability distributions:\nBernoulli (Point binomial) Distribution, Binomial distribution, Poisson distribution,\ngeometric distribution, Hypergeometric distribution.\nContinuous probability distributions:\nUniform distribution, exponential distribution, normal distribution, Student-t distribution,\nWeibull distribution and Chi-squared distribution.\nSampling distributions:\nThe central limit theorem and normal approximation to the binomial distribution,\nsampling distribution of sample mean and sample variance.\nEstimation and Confidence Intervals:\nEstimation and calculation of Confidence Intervals for mean, difference of means and\nvariance.",
+            "time_allocation": "{\"lecture\":\"24\",\"tutorial\":\"4\",\"practical\":\"\",\"design\":null,\"assignment\":\"4\",\"independent_learning\":\"68\"}",
+            "created_at": "2025-04-23T03:25:46.000000Z",
+            "updated_at": "2025-04-23T03:25:46.000000Z",
+            "created_by": 34,
+            "updated_by": 34
+          }
+        ],
+        "created_at": "2025-04-23T03:25:46.000000Z",
+        "updated_at": "2025-04-23T03:25:46.000000Z",
+        "urls": {
+          "view": "/curriculum-02-sem-3/EM2020/"
+        }
+      },
+      {
+        "id": 56,
+        "code": "EM2060",
+        "name": "Numerical Methods",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 11,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 2,
+          "curriculum_name": "Curriculum - Effective from E22"
+        },
+        "teaching_methods": "Classroom lectures, tutorial discussions and in-class assignments",
+        "objectives": null,
+        "time_allocation": {
+          "lecture": 30,
+          "tutorial": 3,
+          "practical": null,
+          "design": null,
+          "assignment": 24,
+          "independent_learning": 93
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": 40,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": 60
+        },
+        "ilos": {
+          "general": [
+            "ILO1: Demonstrate the limitations and identify the need of approximation, of numerical methods.\nILO2: Apply and derive numerical methods to solve nonlinear equations and solve systems of\nlinear equations.\nILO3: Derive and apply interpolation and integration methods and their errors.\nILO4: Solve ordinary differential equations and partial differential equations numerically"
+          ],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "\u25cf Ackleh et al. Classical and Modern Numerical Analysis,1st Edition(2009) Chapman\nand Hall/CRC.\n\u25cf Quarteroni et al. Scientific Computing with MATLAB and Octave,2nd\nEdition(2014) Springer.\n\u25cf Strang. Computational Science and Engineering,1st Edition(2007),\nWellesley-Cambridge Press\n\u25cf Gockenbach. Partial Differential Equations: Analytical and Numerical Methods,2\nnd\nEdition (2002)SIAM"
+        ],
+        "modules": [
+          {
+            "id": 36,
+            "course_id": 56,
+            "topic": "Numerical Methods",
+            "description": "Preliminaries:\nFloating point arithmetic, Big O notation, matrix norms, Review of programming\nError Analysis:\nNumerical solutions to nonlinear equations:\nFixed point iteration, Bisection method, Newton-Raphson method\nNumerical solutions to systems of linear equations:\nGaussian elimination, Jacobi method, Gauss-Seidel method\nInterpolation:\nLagrange interpolating polynomial, Newton\u2019s interpolating polynomials, Spline\ninterpolation\nNumerical integration:\nTrapezoidal rule, Simpson rule, Gaussian quadrature\nNumerical solutions to ordinary differential equations:\nInitial value problems: Euler method, Runge - Kutta methods;\nBoundary value problem: Finite difference method, Adaptive step size mechanisms\nNumerical solutions to partial differential equations:\nExplicit and implicit finite difference methods, Basics of finite element methods\nComputational labs:\nCovering selected topics & appropriate problems from the respective fields",
+            "time_allocation": "{\"lecture\":\"30\",\"tutorial\":\"3\",\"practical\":null,\"design\":null,\"assignment\":\"24\",\"independent_learning\":\"93\"}",
+            "created_at": "2025-04-23T03:29:02.000000Z",
+            "updated_at": "2025-04-23T03:29:02.000000Z",
+            "created_by": 34,
+            "updated_by": 34
+          }
+        ],
+        "created_at": "2025-04-23T03:29:02.000000Z",
+        "updated_at": "2025-04-23T03:29:02.000000Z",
+        "urls": {
+          "view": "/curriculum-02-sem-3/EM2060/"
+        }
+      }
+    ]
+  },
+  "12": {
+    "id": 12,
+    "title": "Semester 4",
+    "academic_program": {
+      "category": "undergraduate",
+      "version": 2,
+      "curriculum_name": "Curriculum - Effective from E22"
+    },
+    "description": null,
+    "url": "curriculum-02-sem-4",
+    "courses_count": 5,
+    "created_at": "2024-11-13T13:57:51.000000Z",
+    "updated_at": "2024-11-13T13:59:06.000000Z",
+    "courses": [
+      {
+        "id": 57,
+        "code": "CO2050",
+        "name": "Database Systems",
+        "content": null,
+        "credits": 2,
+        "type": "Core",
+        "semester_id": 12,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 2,
+          "curriculum_name": "Curriculum - Effective from E22"
+        },
+        "teaching_methods": "Flipped classrooms, small group discussion classes, project-based learning",
+        "objectives": null,
+        "time_allocation": {
+          "lecture": 20,
+          "tutorial": 4,
+          "practical": 12,
+          "design": null,
+          "assignment": null,
+          "independent_learning": 64
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": 50,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": 50
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "\u25cf Elmasri and Navathe, Fundamentals of Database Systems\n\u25cf Raghu Ramakrishnan and Johannes Gehrke, Database Management Systems"
+        ],
+        "modules": [
+          {
+            "id": 37,
+            "course_id": 57,
+            "topic": "Database Systems",
+            "description": "Introduction to database systems\nInformation models and systems, database system evolution, file based systems, DBMS\napproach, database environment and components, DBMS functions, DBMS architecture, data\nindependence, database system life cycle.\nData modeling\nConceptual models (ER/EER and UML), logical models (relational and object oriented\nmodels), relational mapping, NoSQL, Comparison of NoSQL data model with relational data\nmodel..\nRDBMS concepts\nNormalization (1NF, 2NF, 3NF and BCNF), object oriented extensions.\nDatabase query languages\n4GL environments; SQL (DDL, DML and DCL), triggers, views.\nDatabase programming techniques\nEmbedded SQL, database programming with function/procedure calls (ODBC, JDBC), stored\nprocedures, Object-relational mapping.\nIntroduction to indexing and transaction processing\nTypes of indexes, transactions, ACID properties, concurrency control, failure and recovery.\nDatabase security\nSecurity issues and threats, access privileges, relationship between database security and\nprivacy, encryption.",
+            "time_allocation": "{\"lecture\":\"20\",\"tutorial\":\"4\",\"practical\":\"12\",\"design\":null,\"assignment\":null,\"independent_learning\":\"64\"}",
+            "created_at": "2025-04-23T03:31:49.000000Z",
+            "updated_at": "2025-04-23T03:31:49.000000Z",
+            "created_by": 34,
+            "updated_by": 34
+          }
+        ],
+        "created_at": "2025-04-23T03:31:49.000000Z",
+        "updated_at": "2025-04-23T03:31:49.000000Z",
+        "urls": {
+          "view": "/curriculum-02-sem-4/CO2050/"
+        }
+      },
+      {
+        "id": 58,
+        "code": "CO2070",
+        "name": "Computer Architecture",
+        "content": null,
+        "credits": 4,
+        "type": "Core",
+        "semester_id": 12,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 2,
+          "curriculum_name": "Curriculum - Effective from E22"
+        },
+        "teaching_methods": "Flipped classrooms, small group discussion classes, project-based learning.",
+        "objectives": "\u25cf To provide a strong understanding on the role of microprocessors in computer systems,\nand to provide an insight into microprocessor design..",
+        "time_allocation": {
+          "lecture": 29,
+          "tutorial": 9,
+          "practical": 21,
+          "design": 23,
+          "assignment": null,
+          "independent_learning": 118
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": 50,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": 50
+        },
+        "ilos": {
+          "general": [
+            "ILO1: describe the fundamental concepts in ISA (instruction set architecture), microarchitecture\nmemory hierarchy, interfacing and multiprocessors;\nILO2: critique tradeoffs and decisions made in ISA, microarchitecture, memory hierarchy,\ninterfacing and multiprocessors design;"
+          ],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "David Patterson, John L. Hennessy, Computer Organization and Design: The\nHardware/Software Interface (ARM, MIPS and RISC-V) Editions"
+        ],
+        "modules": [
+          {
+            "id": 38,
+            "course_id": 58,
+            "topic": "Computer Architecture",
+            "description": "Introduction to computer architecture\nReview of Von Neumann machine concept and computer systems organization, history of\ncomputer technology and current trends.\nPerformance evaluation\nMetrics of computer performance, response time vs throughput, CPU time vs elapsed time,\nclock rate, cycles per instruction, benchmarks, design tradeoffs.\nInstruction Set Architecture\nReview of programmer model and ISA, instruction encoding, operand types (immediate,\nregister, memory), instruction types (data processing, data transfer and flow control), register\nconventions, addressing modes, software interrupts, comparison of CISC and RISC\nprogrammer models.\nCPU organization\nImplementation of the Von Neumann machine using a specified ISA, datapath and control,\nregister file, arithmetic and logic unit, control unit, instruction fetching and decoding,\nexecution of instructions in a single-cycle datapath, timing and clocking, critical path and\nperformance considerations, implementation of a single-cycle CPU using Verilog HDL\nbehavioral modeling.\nPipelined datapath and control\nIntroduction to pipelining and instruction level parallelism, datapath and control in a pipelined\nCPU using specified ISA, pipeline hazards and stalls, hazard mitigation techniques (data\nforwarding, code scheduling, branch prediction), clocking and performance considerations.\nMemory sub-system\nMemory layout, overview of memory technologies, latency and performance, memory\nhierarchy and principles of locality, caching and cache control, data blocks placement and\naddress mapping, write policies, replacement policies, cache performance, multi-level caches,\nvirtual memory and address translation using page tables, page faults, translation look-aside\nbuffer, secondary storage technologies (disk and flash storage).\nInterfacing and I/O\nOverview of interfacing in a computer, bus interconnects (types, signals, synchronization,\narbitration), crossbar switch networks, mesh and grid interconnects, I/O fundamentals,\nprogrammed vs interrupt driven I/O, direct memory access, systems-on-chip.\nMultiprocessor systems\nParallel processing, shared-memory multiprocessors, uniform memory access and symmetric\nmultiprocessors, cache coherence and bus snooping, non-uniform memory access,\ndirectory-based cache coherence, message passing multiprocessors, Flynn\u2019s classification",
+            "time_allocation": "{\"lecture\":\"29\",\"tutorial\":\"9\",\"practical\":\"21\",\"design\":\"23\",\"assignment\":null,\"independent_learning\":\"118\"}",
+            "created_at": "2025-04-23T17:52:14.000000Z",
+            "updated_at": "2025-04-23T17:52:14.000000Z",
+            "created_by": 34,
+            "updated_by": 34
+          }
+        ],
+        "created_at": "2025-04-23T17:52:14.000000Z",
+        "updated_at": "2025-04-23T17:52:14.000000Z",
+        "urls": {
+          "view": "/curriculum-02-sem-4/CO2070/"
+        }
+      },
+      {
+        "id": 59,
+        "code": "CO2080",
+        "name": "Network Design Principles",
+        "content": "Retrospection\nRevising the layered architecture and overall operation of a network; a day in the life of a web\npage request; network troubleshooting analysis.\nNetwork Design and Configuration: Principles and Practice\nEthernet/IEEE 802.3, multiple-access protocols (CSMA/CD), switched LANs: link-layer\naddressing and ARP, link-layer (L2) switches: basic and advanced functionality, VLANs, IP,\nforwarding and routing, subnetting and supernetting, VLANs vs subnets, network-layer (L3)\nswitches, routers, routing principles, and network diagnostics: fundamentals and tools.Network Design and Configuration: Campus Networks\nComplex designs with switched LANs, link-layer (L2) switches, VLANs, network-layer (L3)\nswitches, and routers.\nNetwork Programming Project\nLayered network application development: blocking and non-blocking calls, IO multiplexing,\nsignal handling, asynchronous IO, IP header options (e.g., timestamping).\nRetrospection\nReliability, flow-control, addressing, multiplexing/demultiplexing across layers: a\ncomparative analysis; networking troubleshooting roundup.",
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 12,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 2,
+          "curriculum_name": "Curriculum - Effective from E22"
+        },
+        "teaching_methods": "Flipped classrooms, small group discussion classes, project-based learning.",
+        "objectives": null,
+        "time_allocation": {
+          "lecture": 17,
+          "tutorial": 10,
+          "practical": 32,
+          "design": 4,
+          "assignment": null,
+          "independent_learning": 87
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": 10,
+          "tutorials": null,
+          "projects": 40,
+          "participation": null,
+          "mid_exam": 20,
+          "end_exam": 30
+        },
+        "ilos": {
+          "general": [
+            "ILO1: design complex and varied computer networks based on specified requirements, and\nperform troubleshooting of functional and performance issues of such networks;\nILO2: appraise networking fundamentals (theory) and practice;\nILO3: critique network design principles and evaluate current networking concepts and\nresearch directions."
+          ],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "\u25cf James Kurose and Keith Ross, Computer Networks, 8th Edition, 2021\n\u25cf James Bernstein, Networking Made Easy: Get Yourself Connected (Computers Made\nEasy), 1st Edition, 2018\n\u25cf Russ White and Denise Donohue, Art of Network Architecture, The: Business-Driven\nDesign (Networking Technology) 1st Edition, 2014"
+        ],
+        "modules": [],
+        "created_at": "2025-04-23T17:54:48.000000Z",
+        "updated_at": "2025-04-23T17:54:48.000000Z",
+        "urls": {
+          "view": "/curriculum-02-sem-4/CO2080/"
+        }
+      },
+      {
+        "id": 60,
+        "code": "EE2820",
+        "name": "Applied Electronics",
+        "content": "Operational Amplifiers (OPAMP)\nThe ideal OPAMP, open-loop gain, input resistance and output resistance. Characteristics of real\nOp-Amps: open-loop transfer function, voltage gain, bandwidth, slew rate, power bandwidth,\nclipping, offset voltages and currents, rejection ratios.\nOPAMP Applications\nLinear applications: (Inverting and Non- Inverting amplifiers, Differential and Summing amplifiers,\nIntegrators and Differentiators), Nonlinear applications (precision rectifiers, peak detectors,\nSchmitt-trigger comparator and logarithmic amplifiers).\nActive Filters\nLow-pass, high-pass, band-pass and band-stop sections, Butterworth, Chebyshev, Elliptic and\nBessel functions, circuit realization of single pole and two-pole transfer functions; frequency and\nimpedance scaling. Implementation of filters using OPAMPs.\nData conversion circuits\nAnalog to Digital converters: definitions, codes, LSB, MSB, linearity, differential linearity, offset\nand gain errors, missing codes; Counting converters: successive approximations, single-and-dual\nslope converters, flash converters, delta-sigma converters; Sample-and-hold circuits, sampling rate\nselection and setting, integrating an analog signal to a digital system.Digital to Analog converters: definitions, codes, LSB, MSB, linearity, differential linearity, offset\nand gain errors; weighted resistor D/A converter; R/2R ladders and D/A converters; weighted\ncurrent source converters; integrating a digital signal to an analog system.\nClock synchronizing the Analog to Digital and Digital to Analog conversion operations using\nsystem clock signals.\nOscillators\nBasic concepts and definitions; Wien-bridge oscillator\nCircuit modeling and simulation\nIntroduction to electronic Computer Aided Design (CAD) tools, dc analysis, ac analysis, transient\nanalysis; simulation control options, built-in-solid-state device models, device parameter control\nlibraries, Designing electronic circuits.\nLogic Circuits\nSOP and POS representation for logic functions, K-map representation, simplification of logic\nfunctions using K-map, minimization of logical functions, don\u2019t care conditions.\nFlip flops, latches, edge triggered flip flops, master slave flip flops. Flip flop applications in data\nstorage, shift registers and counters.\nTiming diagrams",
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 12,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 2,
+          "curriculum_name": "Curriculum - Effective from E22"
+        },
+        "teaching_methods": "Lectures, Tutorials, Practical Work, and Assignments",
+        "objectives": null,
+        "time_allocation": {
+          "lecture": 32,
+          "tutorial": 7,
+          "practical": 6,
+          "design": null,
+          "assignment": 6,
+          "independent_learning": 99
+        },
+        "marks_allocation": {
+          "practicals": 15,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": 25,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": 60
+        },
+        "ilos": {
+          "general": [
+            "ILO1: describe the characteristics of an operational amplifier.\nILO2: explain the operation of analogue electronic circuits based on operational amplifiers.\nILO3: design electronic circuits.\nILO4: Implement electronic designs."
+          ],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "\u25cf Robert F. Coughlin, Frederick F. Driscoll, (2001) \u201cOperational Amplifiers and Linear\nIntegrated Circuits\u201d, 6th Edition, Prentice Hall\n\u25cf Maurizio Di Paolo Emilio, (2013) \u201cData Acquisition Systems \u2013 From Fundamentals to\nApplied Design\u201d, Springer"
+        ],
+        "modules": [],
+        "created_at": "2025-04-23T17:57:29.000000Z",
+        "updated_at": "2025-04-23T17:57:29.000000Z",
+        "urls": {
+          "view": "/curriculum-02-sem-4/EE2820/"
+        }
+      },
+      {
+        "id": 61,
+        "code": "EM2010",
+        "name": "Calculus II",
+        "content": "Functions of several variables:\nSketching level curves and level surfaces of functions of two and three variables,\nsketching surfaces and volumes, limit, and continuity of functions of two and three\nvariables; Tangent planes, gradient vector and directional derivative, scalar line\nintegrals.\nDouble and Triple Integration:\nDefinitions of double and triple integrals, double and triple integrals over rectangular\ndomains, double and triple integrals over any general domains; cylindrical and\nspherical polar coordinates, Jacobian and its properties, applications of double and\ntriple integrals(change of coordinates).\nVector Fields and Vector Operators:\nScalar fields and vector fields, gradient, divergence and curl and their geometricaland physical interpretations.\nLine, Surface and Volume Integrals:\nLine integrals of vector valued functions and path independence of line integrals,\nsimply connected domains and conservative vector fields, surface integrals of\nscalar fields and vector fields, area and volume elements in terms of orthogonal\ncurvilinear coordinates; Surface integrals with orthogonal curvilinear coordinates,\nOrthogonal curvilinear coordinates, Surface integrals and Integral Theorems:\nGreen's Theorem on the plane, Stokes\u2019 theorem and divergence theorem, applications of\nintegral theorems in terms of orthogonal curvilinear coordinates.",
+        "credits": 2,
+        "type": "Core",
+        "semester_id": 12,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 2,
+          "curriculum_name": "Curriculum - Effective from E22"
+        },
+        "teaching_methods": "Classroom lectures, tutorial discussions and in-class assignments",
+        "objectives": null,
+        "time_allocation": {
+          "lecture": 24,
+          "tutorial": 6,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": 70
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": 10,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": 30,
+          "end_exam": 60
+        },
+        "ilos": {
+          "general": [
+            "ILO1: Sketch level curves and level surfaces of functions of two and three\nvariables, and sketch their surfaces and solids.\nILO2: Compute double and triple integrals of scalar functions over any given\n2D and 3D regions.\nILO3: Compute gradient, divergence and curl of a given function using\northogonal. curvilinear coordinates and to solve related problems using\ncylindrical and spherical coordinates.\nILO4: Evaluate line, surface and volume integrals of continuous scalar and\nvector fields over a given domain and apply integral theorems."
+          ],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "Recommended Reading:\n\u25cf James Stewart, Calculus, 5th edition, (2006), Thomson Brooks/Cole.\n\u25cf Watson Fulks, Advanced Calculus and Introduction to Analysis, 3rd Edition,(1978),\nJohn Wiley & SonsInc.\n\u25cf E. B. Saff and A. D. Sinder, Fundamentals of Complex Analysis with Applications to\nEngineering, Science, and Mathematics, 3rd edition,(2014), Pearson Education Ltd."
+        ],
+        "modules": [],
+        "created_at": "2025-04-23T18:13:24.000000Z",
+        "updated_at": "2025-04-23T18:13:24.000000Z",
+        "urls": {
+          "view": "/curriculum-02-sem-4/EM2010/"
+        }
+      }
+    ]
+  },
+  "13": {
+    "id": 13,
+    "title": "Semester 2",
+    "academic_program": {
+      "category": "undergraduate",
+      "version": 2,
+      "curriculum_name": "Curriculum - Effective from E22"
+    },
+    "description": null,
+    "url": "curriculum-02-sem-2",
+    "courses_count": 6,
+    "created_at": "2024-11-13T13:58:09.000000Z",
+    "updated_at": "2024-11-13T13:58:59.000000Z",
+    "courses": [
+      {
+        "id": 2,
+        "code": "CO2010",
+        "name": "Digital Circuits Design",
+        "content": null,
+        "credits": 4,
+        "type": "Core",
+        "semester_id": 13,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 2,
+          "curriculum_name": "Curriculum - Effective from E22"
+        },
+        "teaching_methods": "Classroom lectures, tutorial discussions and in-class assignments",
+        "objectives": "To introduce digital electronics with emphasis on practical design techniques for logic circuits, analysis of static and dynamic behavior of logic circuits and optimized circuit implementation with its principles in Boolean algebra.\n\nTo introduce the design of combinational and sequential logic circuits with gate level implementation.\n\nTo teach how simple combinational and sequential modules are used to build complete systems, reflecting real-world digital design.",
+        "time_allocation": {
+          "lecture": 34,
+          "tutorial": 2,
+          "practical": 20,
+          "design": 28,
+          "assignment": null,
+          "independent_learning": 116
+        },
+        "marks_allocation": {
+          "practicals": 60,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": 40
+        },
+        "ilos": {
+          "general": [
+            "Perform Boolean manipulations, circuit minimization and synthesis of sequential and combinational circuits",
+            "Describe static and dynamic behavior of digital circuits",
+            "Construct the formal requirement specification starting from an informal requirement",
+            "Design basic combinational and sequential circuits with considerations to common problems such as hazards, race conditions and instability in these circuits",
+            "Implement combinational and sequential logic circuits using logic ICs, as well as using a hardware description language and programmable logic",
+            "Demonstrate the conformance of a design to its specifications including temporal behavior"
+          ],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "Morris Mano, Digital Design, 3rd Edition",
+          "William James Dally and R. Curtis Harting, Digital Design - A Systems Approach"
+        ],
+        "modules": [
+          {
+            "id": 26,
+            "course_id": 2,
+            "topic": "Introduction to logic circuits design",
+            "description": "Purpose and role of logic circuits in computer systems, use of Boolean logic and basic logic gates in circuit design, levels of integration, overview of logic circuits design flow, digital electronic signals and different logic families.",
+            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "created_at": "2024-11-13T15:39:44.000000Z",
+            "updated_at": "2024-11-13T15:39:44.000000Z",
+            "created_by": 13,
+            "updated_by": 13
+          },
+          {
+            "id": 27,
+            "course_id": 2,
+            "topic": "Number systems and data representation",
+            "description": "Binary and hex number systems, binary representation of unsigned and signed decimals, binary arithmetic, character representation.",
+            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "created_at": "2024-11-13T15:39:44.000000Z",
+            "updated_at": "2024-11-13T15:39:44.000000Z",
+            "created_by": 13,
+            "updated_by": 13
+          },
+          {
+            "id": 28,
+            "course_id": 2,
+            "topic": "Boolean Logic",
+            "description": "Boolean logic operations, Boolean algebra laws and theorems, Boolean expressions, sum-of-products, and product-of-sums methods, simplifications of Boolean expressions, truth tables, Karnaugh maps, Quine Mc-Cluskey method, \u201cdon\u2019t care\u201d combinations.",
+            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "created_at": "2024-11-13T15:39:44.000000Z",
+            "updated_at": "2024-11-13T15:39:44.000000Z",
+            "created_by": 13,
+            "updated_by": 13
+          },
+          {
+            "id": 29,
+            "course_id": 2,
+            "topic": "Basic logic circuits",
+            "description": "Physical logic gate implementations for basic and derived Boolean operations, high-impedance condition and tri-state logic realizing Boolean expressions using two-level gate forms and multi-level gates, positive/negative/mixed-logic design conventions, physical properties of logic gates and design tradeoffs, interfacing different logic families, Hardware Description Languages and logic synthesis process, simulation and verification.",
+            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "created_at": "2024-11-13T15:39:44.000000Z",
+            "updated_at": "2024-11-13T15:39:44.000000Z",
+            "created_by": 13,
+            "updated_by": 13
+          },
+          {
+            "id": 30,
+            "course_id": 2,
+            "topic": "Modular design of combinational logic circuits",
+            "description": "Multiplexers, de-multiplexers, encoders, decoders, adders, subtractors, shifters, comparators, modular Arithmetic & Logic Unit.",
+            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "created_at": "2024-11-13T15:39:44.000000Z",
+            "updated_at": "2024-11-13T15:39:44.000000Z",
+            "created_by": 13,
+            "updated_by": 13
+          },
+          {
+            "id": 31,
+            "course_id": 2,
+            "topic": "Modular design of sequential logic circuits and memory elements",
+            "description": "Latches, gated/edge-triggered/master-slave operation, flip-flops, timing characteristics, registers, counters, shift-registers, serial-parallel conversion, timing diagrams, error detection and correction techniques, static memory, dynamic memory.",
+            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "created_at": "2024-11-13T15:39:44.000000Z",
+            "updated_at": "2024-11-13T15:39:44.000000Z",
+            "created_by": 13,
+            "updated_by": 13
+          },
+          {
+            "id": 32,
+            "course_id": 2,
+            "topic": "Synchronous sequential logic circuits design",
+            "description": "Analysis of synchronous circuits, Finite State Machine (FSM) models, state diagrams and state tables, FSM timing diagrams, state minimization, state assignment, assignment rules, next state and output equation realization",
+            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "created_at": "2024-11-13T15:39:44.000000Z",
+            "updated_at": "2024-11-13T15:39:44.000000Z",
+            "created_by": 13,
+            "updated_by": 13
+          },
+          {
+            "id": 33,
+            "course_id": 2,
+            "topic": "Asynchronous sequential logic circuits design",
+            "description": "Analysis of asynchronous circuits, design procedure, flow tables, reduction of state and flow tables, and race-free state assignment.",
+            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "created_at": "2024-11-13T15:39:44.000000Z",
+            "updated_at": "2024-11-13T15:39:44.000000Z",
+            "created_by": 13,
+            "updated_by": 13
+          },
+          {
+            "id": 34,
+            "course_id": 2,
+            "topic": "Programmable Logic",
+            "description": "History of programmable logic, programmable logic architectures and their basic elements.",
+            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "created_at": "2024-11-13T15:39:44.000000Z",
+            "updated_at": "2024-11-13T15:39:44.000000Z",
+            "created_by": 13,
+            "updated_by": 13
+          }
+        ],
+        "created_at": "2024-11-13T14:05:36.000000Z",
+        "updated_at": "2024-11-13T14:05:36.000000Z",
+        "urls": {
+          "view": "/curriculum-02-sem-2/CO2010/"
+        }
+      },
+      {
+        "id": 62,
+        "code": "CO1020",
+        "name": "Computer Systems Programming",
+        "content": "Overview of computer systems and the programming process:\nAbstractions in software (from algorithms to machine code) and hardware (from silicon to\nmicroarchitecture), Von Neumann machine concept, organization of a computer system\n(application software, system software, instructions & microarchitecture, memory, peripheral\nhardware such as secondary storage and networking, firmware), the process of building and\nexecuting programs (pre-processing, compiling, assembling, linking, storing/loading, execution\nin a GNU/Linux environment)Introduction to C programming syntax:\nComments, variables, data types, type casting, operators, expressions, flow control (conditions,\nloops, interrupting loop flow, program termination), statements & blocks, library functions,\nbasic user inputs & outputs.\nStructured programming:\nFunctions syntax, naming conventions, parameter passing by value and reference, recursion.\nError detection and prevention:\nSyntax/semantic/logical errors, compile-time/run-time errors, assertions, debugging tools (GNU\ndebugger), good practices in programming, testing to verify correctness using proper test cases.\nMemory allocation and peripheral I/O:\nMemory layout (stack, heap, global data, code/text), stack tracing for debugging, static memory\nallocation, arrays, string representation, string manipulation, pointers, structures, file input and\noutput, network socket programming.\nAssembly language programming:\nIntroduction to assembly syntax using a specified ISA, integer arithmetic and logic operations\nusing register/immediate operands, branching and conditional execution, function calls, register\nconventions, stack operations, nested calls, accessing data memory.",
+        "credits": 5,
+        "type": "Core",
+        "semester_id": 13,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 2,
+          "curriculum_name": "Curriculum - Effective from E22"
+        },
+        "teaching_methods": "Flipped classrooms, small group discussion classes, project-based learning.",
+        "objectives": null,
+        "time_allocation": {
+          "lecture": 22,
+          "tutorial": 19,
+          "practical": 36,
+          "design": 32,
+          "assignment": null,
+          "independent_learning": 141
+        },
+        "marks_allocation": {
+          "practicals": 20,
+          "quizzes": null,
+          "assignments": 20,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": 60
+        },
+        "ilos": {
+          "general": [
+            "ILO1: describe how computer programs are written, built (pre-processed, compiled,\nassembled and linked), stored in memory and executed in a computer system;\nILO2: interpret and write assembly language programs based on a specified ISA;\nILO3: independently use the C programming language to write computer programs with\nmemory and I/O operations, build and run them in a Linux text-based environment;\nILO4: use debugging and testing techniques to understand the execution of computer\nprograms and identify errors;\nILO5: demonstrate good practices in programming such as pre-planning, naming\nconventions, commenting, modularization and testing in order to write high quality\nand efficient code."
+          ],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "\u25cf Randal E. Bryant, David R. O'Hallaron, Computer Systems: A Programmer's Perspective 3rd\nEdition, 2015\n\u25cf Brian W. Kernighan and Dennis M. Ritchie, The C Programming Language, Second Edition,\n1990\n\u25cf Jeffrey D. Ullman, Alfred V. Aho, Foundations of Computer Science C Edition, 1994\n\u25cf David Patterson, John L. Hennessy, Computer Organization and Design: The\nHardware/Software Interface"
+        ],
+        "modules": [],
+        "created_at": "2025-04-23T18:17:30.000000Z",
+        "updated_at": "2025-04-23T18:17:30.000000Z",
+        "urls": {
+          "view": "/curriculum-02-sem-2/CO1020/"
+        }
+      },
+      {
+        "id": 63,
+        "code": "CO1030",
+        "name": "Data Structures and Algorithms I",
+        "content": "Algorithm analysis:\nEmpirical measuring of algorithm performance, Running time vs. time complexity,\nasymptotic analysis (Big-O/Big-Omega/Big-Theta notations), time complexity of\nrecursive algorithms, master theorem, space efficiency.\nSearch and sort strategies:\nLinear search, concept of divide and conquer using binary search, efficiency of search\n(sorted vs unsorted linear data), analysis of sorting algorithms: bubble-sort; selection-sort\n(greedy algorithms); insertion-sort (dynamic programming); quick-sort and merge-sort\n(divide and conquer).\nLinear data structures:Introduction to abstract data types (ADT) as opposed to data structures, the list ADT,\nlinked vs array based implementations, efficiency of list search and maintenance\noperations, stack and queue data structures and their applications, implementation using\ndifferent programming languages.",
+        "credits": 2,
+        "type": "Core",
+        "semester_id": 13,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 2,
+          "curriculum_name": "Curriculum - Effective from E22"
+        },
+        "teaching_methods": "Flipped classrooms, small group discussion classes, project-based learning.",
+        "objectives": null,
+        "time_allocation": {
+          "lecture": 14,
+          "tutorial": null,
+          "practical": 18,
+          "design": 14,
+          "assignment": null,
+          "independent_learning": 54
+        },
+        "marks_allocation": {
+          "practicals": 50,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": 0,
+          "mid_exam": null,
+          "end_exam": 50
+        },
+        "ilos": {
+          "general": [
+            "ILO1: estimate the performance of a given algorithm using empirical and mathematical\ntechniques;\nILO2: describe different algorithmic techniques used for searching and sorting\nlinearly structured data, and compare their performance."
+          ],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "\u25cf Introduction to Algorithms by Cormen, Leiserson, Rivest, Stein\n\u25cf Algorithm Design Manual by S S Skiena"
+        ],
+        "modules": [],
+        "created_at": "2025-04-23T18:21:51.000000Z",
+        "updated_at": "2025-04-23T18:21:51.000000Z",
+        "urls": {
+          "view": "/curriculum-02-sem-2/CO1030/"
+        }
+      },
+      {
+        "id": 64,
+        "code": "EE1810",
+        "name": "Electronics",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 13,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 2,
+          "curriculum_name": "Curriculum - Effective from E22"
+        },
+        "teaching_methods": "Classroom lectures, tutorial discussions, assignments, and practical classes",
+        "objectives": null,
+        "time_allocation": {
+          "lecture": 35,
+          "tutorial": 10,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": 105
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": 20,
+          "projects": null,
+          "participation": null,
+          "mid_exam": 30,
+          "end_exam": 50
+        },
+        "ilos": {
+          "general": [
+            "ILO1: Apply the knowledge of matrices, Gaussian reduction and determinants to solve\nsystems of linear equations.\nILO2: Apply the properties of vector spaces and to generalize the concepts of Euclidean\ngeometry to arbitrary vector spaces.\nILO3: Identify linear transformations, represent them in terms of matrices, and interpret\ntheir geometric aspects.\nILO4: Calculate eigenvalues and Eigenvectors of matrices and linear transformations and\napply the concepts in physical situations.\nILO5: Prove eigenvalue properties of real symmetric matrices and apply them in\nquadratic forms."
+          ],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "\u25cf Gilbert Strang, Introduction to Linear Algebra, 5th edition, (2010), Cambridge Press.\n\u25cf David C. Lay, S. R. Lay & J. Mcdonald, Linear Algebra and its Applications, 5th edition,\n(2012), Pearson.\n\u25cf David Poole, Linear Algebra: A Modern introduction, 4th edition, (2005), Cengage.\n\u25cf Thomas. S. Shores, Applied Linear Algebra and Matrix Analysis, (2007), Springer."
+        ],
+        "modules": [],
+        "created_at": "2025-04-23T18:29:07.000000Z",
+        "updated_at": "2025-04-23T18:29:07.000000Z",
+        "urls": {
+          "view": "/curriculum-02-sem-2/EE1810/"
+        }
+      },
+      {
+        "id": 65,
+        "code": "EM1030",
+        "name": "Differential Equations",
+        "content": "Second Order Ordinary Differential Equations:\nSpring mass damper equation: forced oscillations and resonance.\nLaplace Transform:\nDefinition, existence and properties; Laplace transform of standard functions,\nderivatives and integrals; solve ordinary differential equations with constant\ncoefficients; discontinuous forcing functions; convolution.\nBoundary Value Problems:Boundary value problem of a second order differential equation with constant\ncoefficients using direct calculation; Euler Bernoulli equation and Macaulay\u2019s\nBracket method.\nSystems of ODEs:\nConverting higher-order differential equations to a system of first-order differential\nequations; eigenvalue eigenvector method; matrix exponential method.\nFirst order linear partial differential equations:\nPartial differential equations as a mathematical model and Classification; Method\nof characteristics.\nSecond order linear partial differential equations:\nclassification: hyperbolic, parabolic and elliptic equations; Fourier series; method\nof separation of variables: wave equation, heat equation, Laplace equation on\nrectangular domains with homogeneous boundary conditions.",
+        "credits": 2,
+        "type": "Core",
+        "semester_id": 13,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 2,
+          "curriculum_name": "Curriculum - Effective from E22"
+        },
+        "teaching_methods": "Classroom lectures, tutorial discussions and in-class assignments",
+        "objectives": "\u25cf To introduce analytical solving techniques for differential equations with constant\ncoefficients and interpret the solutions.",
+        "time_allocation": {
+          "lecture": 24,
+          "tutorial": 6,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": 70
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": 20,
+          "projects": null,
+          "participation": null,
+          "mid_exam": 30,
+          "end_exam": 50
+        },
+        "ilos": {
+          "general": [
+            "ILO1: Solve higher order ordinary differential equations with constant\ncoefficients.\nILO2: Analyze the solution of a second order ordinary differential equation with\nconstant coefficients.\nILO3: Apply matrix methods and Laplace transform in solving systems of\nordinary differential equations with constant coefficients.\nILO4: Select analytical solutions of first order linear partial differential equations\nusing method of characteristics.\nILO5: Classify second order linear partial differential equations and solve the\nwave equation, the Laplace equation and the heat equation."
+          ],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "\u25cf R.K. Nagle, E.W. Saff, A.D. Snider, Fundamentals of Differential Equations, 8th\nedition, (2012), Pearson Education.\n\u25cf E. Kreyszig, Advanced Engineering Mathematics, 9th edition, (2010), John Wiley\n&sons Inc.\n\u25cf Ji\u0159\u00ed Lebl, Differential Equations for Engineers, Open Education Resource (OER)\nLibreTexts Project (https://LibreTexts.org).\n\u25cf Walter A. Strauss, Partial Differential Equations, 2nd edition,(2007), John Wiley\nand Sons Inc."
+        ],
+        "modules": [],
+        "created_at": "2025-04-23T18:33:20.000000Z",
+        "updated_at": "2025-04-23T18:33:20.000000Z",
+        "urls": {
+          "view": "/curriculum-02-sem-2/EM1030/"
+        }
+      },
+      {
+        "id": 66,
+        "code": "EM1050",
+        "name": "Discrete Mathematics",
+        "content": "Fundamentals:\nSet theory, relations and functions, axiomatic systems, ordinary Induction, invariants,\nstrong induction.\nNumber Theory:\nDivisibility, the greatest common divisor, Modular arithmetic, Fermat\u2019s Little theorem,\nRSA algorithm\nAlgebraic Structures:\nMonoids, groups, rings and fields.\nLogic and Proofs:\nPropositional and predicate logic, proof methods and strategy.Graph Theory:\nGraphs, representation of a graph in a computer, isomorphic graphs, Eulerian and\nHamiltonian graphs, planar graphs, graph coloring, trees, spanning trees, binary\ntrees, tree searching, Hasse diagrams.\nAlgorithms:\nGreedy algorithms, searching and sorting algorithms, algorithms to obtain minimum\nspanning tree and shortest path of a weighted graph, complexity of an algorithm.\nMathematical models for Computing Machines:\nFinite state machines, finite state automata, Turing machines.",
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 13,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 2,
+          "curriculum_name": "Curriculum - Effective from E22"
+        },
+        "teaching_methods": "Classroom lectures, tutorial discussions and in-class assignments",
+        "objectives": null,
+        "time_allocation": {
+          "lecture": 35,
+          "tutorial": 10,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": 105
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": 20,
+          "projects": null,
+          "participation": null,
+          "mid_exam": 30,
+          "end_exam": 50
+        },
+        "ilos": {
+          "general": [
+            "ILO1: Apply the concepts of number theory and algebraic structures to solve advanced\nmathematical /physical problems.\nILO2: Evaluate statements in propositional and predicate logic and check the validity of an\nargument.\nILO3: Solve advanced mathematical and physical problems. Using graph theory and\nalgorithms"
+          ],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "\u25cf D. K. Joshi, Foundations of Discrete Mathematics,(1989/2015), Wiley-Inter Science.\n\u25cf D. K. Joshi, Applied Discrete Structures,(2001/2014), New Age International.\n\u25cf Thomas Koshy, Discrete Mathematics with Applications,1st edition,(2004), Elsevier\nAcademic Press.\n\u25cf Ian Anderson, A First Course in Discrete Mathematics, (2001), Springer-Verlag. London\nLimited.\n\u25cf Kenneth H. Rossen Discrete Mathematics and Applications, (2002),McGraw-Hill Higher\nEducation."
+        ],
+        "modules": [],
+        "created_at": "2025-04-23T18:35:38.000000Z",
+        "updated_at": "2025-04-23T18:35:38.000000Z",
+        "urls": {
+          "view": "/curriculum-02-sem-2/EM1050/"
+        }
+      }
+    ]
+  },
+  "15": {
+    "id": 15,
+    "title": "Semester 5",
+    "academic_program": {
+      "category": "undergraduate",
+      "version": 2,
+      "curriculum_name": "Curriculum - Effective from E22"
+    },
+    "description": null,
+    "url": "curriculum-02-sem-5",
+    "courses_count": 4,
+    "created_at": "2025-05-20T03:38:45.000000Z",
+    "updated_at": "2025-05-20T03:39:15.000000Z",
+    "courses": [
+      {
+        "id": 67,
+        "code": "CO3010",
+        "name": "Embedded Systems",
+        "content": "Course Content: (Only main topics & subtopics)\nIntroduction to embedded systems\nEmbedded systems and their applications, characteristics and metrics: dependability\n(availability, reliability, safety, security); efficiency (energy, cost, resource utilization,\nsize/weight, latency/throughput), event-driven architecture and state machines, embedded\nsystems classifications and controller platform types, peripheral devices.\nMicrocontrollers\nFeatures and applications of microcontrollers, architecture, instructions and addressing modes,\nmemory organization of microcontrollers (program memory, data memory, EEPROM, banked\nand linear memory architectures), programming process and bootup, assembly and C language in programming microcontrollers, debugging, general purpose I/O ports and pins, I/O pin\nconfiguration (input, strong drive, weak pullup/pulldown, open-drain, tri-state), using parallel\nI/O for peripheral interfacing (keypads, LCDs, etc.).\nInterrupts\nInterrupt system (implementation and usage), interrupt vectors and service routines, priority\nand nesting, interrupts vs. polling, data buffering.\nTiming and waveform generation\nTimer/counter device operation, timing accuracy, waveform generation,\npulse-width-modulation, PWM applications\nData acquisition and control\nDigital vs analog signals, analog-to-digital conversion (ADC) and digital-to-analog\nconversion (DAC), ADC and DAC characteristics (sampling rate, reference voltage,\nconversion time, precision, range, encoding method), ADC and DAC architectures, sensors\nand sensing physical qualities, actuators and control of physical quantity\nSerial communication\nParallel vs serial I/O, half duplex and full duplex communication, asynchronous and\nsynchronous communication, single-ended and differential signaling, standard protocols and\napplications (SPI, I2C, UART, USART, RS232, RS485, USB, CAN), implementation details\nof a selection of representative communication protocols.\nMobile and networked embedded systems\nNetworked embedded systems, topologies, data and control flow, wired and wireless\nconnectivity, low-power operation techniques, data security and persistent storage (EEPROM,\nFlash, SD card, etc.)\nIndustrial standards\nPlatform/interface independent communication, MQTT, IEEE-488 and IVI standards,\nSCADA, OPC UA, PLCs, industrial ethernet, MODBUS, PROFIBUS, PROFINET, ASi,\nimplementation details of selected industry standard protocols\n",
+        "credits": 4,
+        "type": "Core",
+        "semester_id": 15,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 2,
+          "curriculum_name": "Curriculum - Effective from E22"
+        },
+        "teaching_methods": "Flipped classrooms, small group discussion classes, project-based learning",
+        "objectives": "To provide a broad understanding on developing embedded computer systems containing\nhardware and software components, and integrating using interfacing techniques.\n\u25cf To provide practical experience in using current embedded systems technologies, tools,\nand industrial standards..",
+        "time_allocation": {
+          "lecture": 29,
+          "tutorial": null,
+          "practical": 40,
+          "design": 22,
+          "assignment": null,
+          "independent_learning": 109
+        },
+        "marks_allocation": {
+          "practicals": 20,
+          "quizzes": 30,
+          "assignments": 50,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": null
+        },
+        "ilos": {
+          "general": [
+            "ILO1: describe the characteristics of embedded systems and the operation of associated\nhardware and software technologies (controllers, peripherals, interfacing and\ncommunication);\nILO2: identify suitable hardware and software technologies for a specified embedded systems\napplication, and critique design choices;\nILO3: demonstrate the application of specified hardware and software technologies in an\nembedded system."
+          ],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "\u25cf Microcontrollers and Microcomputers- Principles of Software and Hardware Engineering\nby Fredrick M. Cady\n\u25cf Logic and Computer Design Fundamentals by M.M. Mano and C.R. Kime\n\u25cf Industrial Communication Systems by Bogdan M. Wilamowski and J. David Irwin"
+        ],
+        "modules": [],
+        "created_at": "2025-05-20T03:51:41.000000Z",
+        "updated_at": "2025-05-20T03:51:41.000000Z",
+        "urls": {
+          "view": "/curriculum-02-sem-5/CO3010/"
+        }
+      },
+      {
+        "id": 69,
+        "code": "CO3040",
+        "name": "Cloud Computing Systems",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 15,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 2,
+          "curriculum_name": "Curriculum - Effective from E22"
+        },
+        "teaching_methods": "Flipped classrooms, small group discussion classes, project-based learning.",
+        "objectives": null,
+        "time_allocation": {
+          "lecture": 26,
+          "tutorial": 4,
+          "practical": 14,
+          "design": 16,
+          "assignment": null,
+          "independent_learning": 90
+        },
+        "marks_allocation": {
+          "practicals": 30,
+          "quizzes": 30,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": 40
+        },
+        "ilos": {
+          "general": [
+            "ILO1: design and construct distributed applications using modern tools and techniques,\ngiven a set of business and technical constraints;\nILO2: analyze a distributed application design to ensure graceful failure, minimizing data\nloss and downtime when underlying infrastructure or systems software fails;\nILO3: use appropriate techniques and tools to protect applications and data from accidental\nor malicious misuse by users;"
+          ],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "\u25cf Designing Data-Intensive Applications -- Martin Kleppman. ISBN: 9781449373320\n(1449373321)\n\u25cf Distributed systems for fun and profit -- Mikito Takada.\n\u25cf Course notes from Columbia University Course COMS 4113\n\u25cf Building Secure and Reliable Systems -- Heather Adkins, Betsy Beyer, Paul Blankinship,\nAna Oprea, Piotr Lewandowski, Adam Stubblefield."
+        ],
+        "modules": [
+          {
+            "id": 39,
+            "course_id": 69,
+            "topic": "Cloud Computing Systems",
+            "description": "Course Content: (Only main topics & subtopics)\nNetworked application preliminaries\nClient-server vs peer-to-peer architecture, datagram vs. stream oriented sockets, data\nserialization: binary vs. text., synchronous (request-response) vs. asynchronous\n(message-oriented) application protocols, Deutsch\u2019s fallacies of distributed computing.\nRequest-response protocols\nHTTP request structure and response structure, metadata and status codes, text serialization\nformats: JSON.\nConcurrency\nConcurrency model: processes, threads, coroutines (event driven I/O.), data races and mutual\nexclusion, race conditions and transactions, statelessness and idempotence, modeling stateful\nservices with finite automata\nRemote procedure calls\nRPC abstraction and interface definition languages.\nRPC failure modes.\nBinary serialization formats: Protocol buffers.\nAsynchronous coordination\nPublish-subscribe protocols: MQTT, message brokers (topics and message routing), message\ndelivery semantics (MQTT QoS): at least once, at most once, exactly once.\nDistributed data storage\nStreaming datastores: distributed commit logs, BLOB storage: distributed hash tables\n(key-value stores.), replicas and partitions (shards.), consistency models, Brewer\u2019s CAP\ntheorem.\nApplication security\nThreat models (STRIDE), abuse cases and common application vulnerabilities, protocols for\nweb application access control (Oauth) and authentication (Webauthn.), security\nconsiderations for \u201cIoT\u201d devices (mutual authentication, root of trust.)\nProvisioning and deployment\nCloud platforms: infrastructure as a service vs. platform as a service, infrastructure as code:\ndeclarative vs imperative provisioning tools, application packaging: dependency management\nand containers.\nOperability and observability\nDefining service level objectives, application logging, metrics and alerting, container\norchestration: declarative deployment, rollback and self-healing, incident postmortem and root\ncause analysis.",
+            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "created_at": "2025-05-22T05:28:03.000000Z",
+            "updated_at": "2025-05-22T05:28:03.000000Z",
+            "created_by": 34,
+            "updated_by": 34
+          }
+        ],
+        "created_at": "2025-05-22T05:28:03.000000Z",
+        "updated_at": "2025-05-22T05:28:03.000000Z",
+        "urls": {
+          "view": "/curriculum-02-sem-5/CO3040/"
+        }
+      },
+      {
+        "id": 70,
+        "code": "CO3060",
+        "name": "Computer Systems Design Project",
+        "content": null,
+        "credits": 6,
+        "type": "Core",
+        "semester_id": 15,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 2,
+          "curriculum_name": "Curriculum - Effective from E22"
+        },
+        "teaching_methods": "Flipped classrooms, small group discussion classes, project-based learning.",
+        "objectives": "\u25cf To provide the students with guidance and opportunity to work as a team to design and\nimplement a real-world cyber-physical system using modern technology, containing a\nmajor distributed software component.",
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": 30,
+          "practical": 38,
+          "design": 82,
+          "assignment": null,
+          "independent_learning": 150
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": 70,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": 30
+        },
+        "ilos": {
+          "general": [
+            "ILO1: identify a real-world problem, develop a technological product as a solution, and\ndevise a feasible project plan to implement the product;\nILO2: apply a breadth of engineering knowledge to design, implement and test a\nreal-world cyber-physical system using industry standard tools and technologies;\nILO3: justify design decisions and technology choices with respect to dependability,\nefficiency and security;\nILO4: build devices and software with enhanced usability;\nILO5: demonstrate best practices in systems design and development;\nILO6: effectively and coherently present information (oral and written)."
+          ],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "\u25cf Cyber-Physical Systems: A Model-Based Approach by Walid M. Taha, Abd-Elhamid M.\nTaha, Johan Thunberg\n\u25cf Software Engineering, 10th Edition by Ian Sommerville"
+        ],
+        "modules": [
+          {
+            "id": 40,
+            "course_id": 70,
+            "topic": "Computer Systems Design Project",
+            "description": "Course Content: (Only main topics & subtopics)\nProduct Design and Development\nProduct classification, product development process (concept development, requirement\nspecification, market analysis), project planning, best practices in project management, related\ntools and technologies.\nCyber-Physical Systems Design\nHigh-level architecture, distributed and networked software, embedded hardware (sensing,\ncontrol, interfacing and processing), network communication, cloud deployment, related tools\nand technologies.\nComputer Systems and Data Security\nInformation flow control, network security, hardware security, software applications security,\nrelated tools and technologies.\nComputer Systems Testing\nTest planning, test types, test case design, related tools and technologies.\nUser-Experience and Usability\nUser experience vs. user interfaces, best practices in UX design, usability studies, related tools\nand technologies.\nComputer Aided Design and Manufacturing Technologies\nDesign tools (system design, software design, electronics design, 2D and 3D design), choice\nof materials, manufacturing tools and technologies.\nEffective Presentation of Information\nBest practices in oral presentation, online documentation and reporting, related tools and\ntechnologies.",
+            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "created_at": "2025-05-22T05:31:07.000000Z",
+            "updated_at": "2025-05-22T05:31:07.000000Z",
+            "created_by": 34,
+            "updated_by": 34
+          }
+        ],
+        "created_at": "2025-05-22T05:31:07.000000Z",
+        "updated_at": "2025-05-22T05:31:07.000000Z",
+        "urls": {
+          "view": "/curriculum-02-sem-5/CO3060/"
+        }
+      },
+      {
+        "id": 71,
+        "code": "EF1020",
+        "name": "English for Communication II",
+        "content": null,
+        "credits": 2,
+        "type": "Core",
+        "semester_id": 15,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 2,
+          "curriculum_name": "Curriculum - Effective from E22"
+        },
+        "teaching_methods": "\u2b9a Student centered learning through presentations, interactive group work \u2b9a Classroom teaching \u2b9a Self-assessment",
+        "objectives": "Course Aim: To develop the learners\u2019 English Language skills to communicate and interact\neffectively, mainly through a student-centered approach.",
+        "time_allocation": {
+          "lecture": 8,
+          "tutorial": null,
+          "practical": 22,
+          "design": null,
+          "assignment": null,
+          "independent_learning": 70
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": 60,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": 40
+        },
+        "ilos": {
+          "general": [
+            "ILO1: Demonstrate fundamental skills of effective communication.\nILO2: Produce formal written correspondence effectively to relevant authorities or\nestablishments\nILO3: Propose solutions to current problems and communicate them skillfully to a\nselected audience."
+          ],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [
+          {
+            "id": 41,
+            "course_id": 71,
+            "topic": "English for Communication II",
+            "description": "Introduction to fundamentals of effective communication through building up selfconfidence\nand personality. Congruence: Maintaining a balance between expectation\nand reality through discussions and role play\nCommunicating effectively and appropriately in familiar social situations.\nInteractions at the workplace, apologies, excuses, requests, telephone etiquette etc.\nEnhancement of presentation skills: Guiding students to do effective presentations on\ntechnical and non-technical topics to different types of audiences\nOfficial correspondence: Writing formal letters (letters of request, complaint, invitation,\nexcuse etc.), Writing official e-mails, Introduction to report writing\nInterpretation of visual information: Presenting information via charts, graphs etc.,\nWriting compositions, Group presentations based on interpreting information",
+            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "created_at": "2025-05-22T05:34:17.000000Z",
+            "updated_at": "2025-05-22T05:34:17.000000Z",
+            "created_by": 34,
+            "updated_by": 34
+          }
+        ],
+        "created_at": "2025-05-22T05:34:17.000000Z",
+        "updated_at": "2025-05-22T05:34:17.000000Z",
+        "urls": {
+          "view": "/curriculum-02-sem-5/EF1020/"
+        }
+      }
+    ]
+  },
+  "16": {
+    "id": 16,
+    "title": "Semester 6",
+    "academic_program": {
+      "category": "undergraduate",
+      "version": 2,
+      "curriculum_name": "Curriculum - Effective from E22"
+    },
+    "description": null,
+    "url": "curriculum-02-sem-6",
+    "courses_count": 2,
+    "created_at": "2025-05-22T09:01:58.000000Z",
+    "updated_at": "2025-05-22T09:02:09.000000Z",
+    "courses": [
+      {
+        "id": 72,
+        "code": "CO3020",
+        "name": "Operating Systems",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 16,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 2,
+          "curriculum_name": "Curriculum - Effective from E22"
+        },
+        "teaching_methods": "Flipped classrooms, small group discussion classes, project-based learning",
+        "objectives": null,
+        "time_allocation": {
+          "lecture": 30,
+          "tutorial": null,
+          "practical": 20,
+          "design": 10,
+          "assignment": null,
+          "independent_learning": 90
+        },
+        "marks_allocation": {
+          "practicals": 50,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": 50
+        },
+        "ilos": {
+          "general": [
+            "ILO1: describe the role of an OS as a resource manager and a service provider for application\nexecution;\nILO2: describe basic OS concepts and abstractions (such as processes and threads, address\nspaces, files, input/output and information protection) and their implementation;\nILO3: critique the tradeoffs involved with realizing the OS concepts on actual hardware."
+          ],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "\u25cf Modern Operating Systems, Fourth Edition, Andrew S. Tanenbaum\n\u25cf Operating System Concepts, 10th Edition, Silberschatz, Abraham, Peter B. Galvin, and\nGreg Gagne."
+        ],
+        "modules": [
+          {
+            "id": 42,
+            "course_id": 72,
+            "topic": "Operating Systems",
+            "description": "Introduction to Operating Systems\nThe role of an OS, history of OS, OS kernel, structure of a computer system\nAn overview of basic OS concepts\nHigh level introduction to processes and threads, concurrency and deadlocks, memory\nmanagement, file system, scheduling and resource management and information protection\nInterrupts and exceptions\nIntroduction to interrupts, interrupt cycle, exceptions, hardware exception handling, stack\nframes \nSystem calls\nRole of system calls, classes of system calls, system call mechanism and calling conventions\nProcesses and threads\nIntroduction to processes and threads, process creation and termination, process/thread states,\nscheduling, implementation of processes and threads, user-level threads and kernel threads,\ncontext switch\nConcurrency and synchronization\nCritical region and race conditions, mutual exclusion using busy waiting, mutual exclusion\nusing sleep and wake up, realization of mutual exclusion using synchronization primitives\nsuch as semaphores, mutexes and monitors, formal definition of a deadlock, deadlock\nmodeling, deadlock detection and recovery, deadlock avoidance, deadlock prevention\nMemory management\nMemory hierarchy, fixed and dynamic memory partitioning, swapping, virtual memory,\nintroduction to paging, page tables, speeding up paging, page replacement policies, virtual\nmemory design and implementation issues, segmentation\nFile systems\nFile naming, file structure, file types, file access methods, file attributes, file operations,\ndirectories, directory organization, directory properties, directory operations, file system\nimplementation, virtual file system, file system management and optimization\nInput/output (I/O) management\nI/O devices, device controllers, memory-mapped I/O, bus architectures, interrupts, I/O\nsoftware, programmed I/O, interrupt-driven I/O, direct memory access (DMA), I/O\nmanagement software: interrupt handlers, device drivers, device independent I/O software",
+            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "created_at": "2025-05-22T09:05:03.000000Z",
+            "updated_at": "2025-05-22T09:05:03.000000Z",
+            "created_by": 34,
+            "updated_by": 34
+          }
+        ],
+        "created_at": "2025-05-22T09:05:03.000000Z",
+        "updated_at": "2025-05-22T09:05:03.000000Z",
+        "urls": {
+          "view": "/curriculum-02-sem-6/CO3020/"
+        }
+      },
+      {
+        "id": 73,
+        "code": "CO3030",
+        "name": "Computer Systems Security",
+        "content": null,
+        "credits": 2,
+        "type": "Core",
+        "semester_id": 16,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 2,
+          "curriculum_name": "Curriculum - Effective from E22"
+        },
+        "teaching_methods": "Flipped classrooms, small group discussion classes, project-based learning.",
+        "objectives": "To provide a broad understanding about the importance of computer systems security,\nsecurity vulnerabilities present at various levels in computer systems, and approaches to\nmitigate them.",
+        "time_allocation": {
+          "lecture": 23,
+          "tutorial": null,
+          "practical": null,
+          "design": 14,
+          "assignment": null,
+          "independent_learning": 63
+        },
+        "marks_allocation": {
+          "practicals": 40,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": 60
+        },
+        "ilos": {
+          "general": [
+            "On successful completion of the course, the students should be able to:\nILO1: identify security vulnerabilities in a given computer system;\nILO2: assess the impact of security vulnerabilities in a given computer system;\nILO3: propose viable solutions to well defined security issues in computer systems;"
+          ],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "Introduction to Modern Cryptography (2nd Ed) by Katz and Lindell"
+        ],
+        "modules": [
+          {
+            "id": 43,
+            "course_id": 73,
+            "topic": "Computer Systems Security",
+            "description": "Course Content: (Only main topics & subtopics)\nIntroduction to Computer Systems Security\nImportance of computer systems security (history, breaches and impact), basic concepts, threat\nmodels, common security goals.\nCryptography Basics\nIntroduction, modern cryptographic protocols (and their history, applications, depreciation),\nencryption, authentication, message authentication codes, hash functions, one-way functions,\nsecret and public-key cryptography, secure channels, zero-knowledge proof, integration of\ncryptographic protocols into distributed systems and other applications.\nSoftware Security\nImportance of software security, authentication vs authorization and their importance,\nsandboxing.\nNetwork SecurityImportance, secure protocols (TCP/IP), firewalls, network segmentation, intrusion and\ndetection.\nWeb Security\nImportance of web security, SSL, HTTPS, basic authentication, oauth2, authorization and fine\ngrain permission validation (OPA, XACML), SSO (SAML).\nHardware Security\nHardware security modules, side-channel attacks, hardware trojans\nAdvanced Topics\nA selection of modern topics such as blockchain and cryptocurrency, privacy and secure\ncommunications, trusted computing, mobile security, operating systems security, ethical\nhacking, AI-driven security, data protection regulations (GDPR, POPI etc), compliance\ncertifications.",
+            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "created_at": "2025-05-22T09:07:50.000000Z",
+            "updated_at": "2025-05-22T09:07:50.000000Z",
+            "created_by": 34,
+            "updated_by": 34
+          }
+        ],
+        "created_at": "2025-05-22T09:07:50.000000Z",
+        "updated_at": "2025-05-22T09:07:50.000000Z",
+        "urls": {
+          "view": "/curriculum-02-sem-6/CO3030/"
+        }
+      }
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /courses/undergraduate/
-title: Undergraduate Courses
+permalink: /courses/undergraduate/new
+title: Undergraduate Courses (New Curriculum Effective from E22)
 ---
 
 <div class="bg-secondary p-3 pb-1 rounded">
@@ -24,8 +24,15 @@ title: Undergraduate Courses
 </div>
 
 <div class="page-entry">
+  <div class="container pt-5 px-4">
+    <a
+      href="{{ '/assets/documents/Computer_Engineering_New_Curriculum.pdf' | relative_url }}"
+      >Curriculum - Effective from E22</a
+    >
+  </div>
+
   <div class="container pt-5 py-3">
-    {%- for sem in site.data.courses_v1 -%}
+    {%- for sem in site.data.courses_v2 -%}
     <div class="container pb-3">
       <h4>
         {{ sem[1]["title"] }}
@@ -38,10 +45,9 @@ title: Undergraduate Courses
     </div>
     <div class="container row">
       {% assign sem_id = sem[1]["id"] %}
-      <!-- For each course -->
+      <!--  -->
       {%- for course in sem[1]["courses"] -%}
-
-      <!-- Assign color codes -->
+      <!--  -->
       {% assign course_prefix = course.code | slice: 0,2 %} {% case
       course_prefix %} {% when 'CO' %} {% assign course_color =
       "btn-outline-primary" %} {% when 'EE' %} {% assign course_color =

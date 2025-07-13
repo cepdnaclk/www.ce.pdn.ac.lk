@@ -1,0 +1,2641 @@
+{
+  "1": {
+    "id": 1,
+    "title": "Semester 3",
+    "academic_program": {
+      "category": "undergraduate",
+      "version": 1,
+      "curriculum_name": "Current Curriculum"
+    },
+    "description": null,
+    "url": "curriculum-01-sem-03",
+    "courses_count": 7,
+    "created_at": "2024-10-12T12:07:00.000000Z",
+    "updated_at": "2024-10-17T09:27:44.000000Z",
+    "courses": [
+      {
+        "id": 1,
+        "code": "CO221",
+        "name": "Digital Design",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 1,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": "To introduce digital electronics with emphasis on practical design techniques for digital circuits, analysis of static and dynamic behaviour of digital circuits and optimized circuit implementation; its principles in Boolean algebra and the design of combinational and sequential circuits with implementation at logic circuit level. Also to teach how simple combinational and sequential modules are used to build complete systems, reflecting real-world digital design.",
+        "time_allocation": {
+          "lecture": 30,
+          "tutorial": null,
+          "practical": 16,
+          "design": null,
+          "assignment": 14,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": 30,
+          "tutorials": 10,
+          "quizzes": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": 20,
+          "end_exam": 40
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [
+            "Perform Boolean manipulation, circuit minimization and synthesis of sequential and combinational circuits.",
+            "Analyse static and dynamic behaviour of digital circuits."
+          ],
+          "skills": [
+            "Draw up the formal requirement specification starting from an informal requirement.",
+            "Design and implement basic combinational and sequential circuits with considerations to common problems such as hazards, race conditions and instability in these circuits.",
+            "Demonstrate the conformance of a design to its specifications including temporal behaviour."
+          ],
+          "attitudes": [
+            "The student must have developed sufficient confidence to be able to undertake digital circuit design for real-world engineering requirements by acquiring any further domain knowledge through self-study.",
+            "Discourage trial and error implementation of the circuits."
+          ]
+        },
+        "references": [
+          "Morris Mano, Digital Design, 3rd Edition",
+          "William James Dally and R. Curtis Harting, Digital Design - A Systems Approach"
+        ],
+        "modules": [
+          {
+            "id": 9,
+            "course_id": 1,
+            "topic": "Introduction to digital logic",
+            "description": "Digital signals, Digital Logic, Computers and Digital Systems, Purpose and role of digital logic in computer engineering, CMOS logic circuits",
+            "time_allocation": "{\"lecture\":\"1\",\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "created_at": "2024-10-12T12:18:24.000000Z",
+            "updated_at": "2024-10-12T12:18:24.000000Z",
+            "created_by": 13,
+            "updated_by": 13
+          },
+          {
+            "id": 10,
+            "course_id": 1,
+            "topic": "Number systems and digital logic",
+            "description": "Binary number system , Number Base Conversions, A Representation of Negative Numbers, Binary arithmetic, Levels of Description of Logic Networks, Basic logic gates, Positive and negative logic",
+            "time_allocation": "{\"lecture\":\"3\",\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "created_at": "2024-10-12T12:18:24.000000Z",
+            "updated_at": "2024-10-12T12:18:24.000000Z",
+            "created_by": 13,
+            "updated_by": 13
+          },
+          {
+            "id": 11,
+            "course_id": 1,
+            "topic": "Combinational logic circuits",
+            "description": "Boolean algebra, Boolean laws and theorems, Sum-of-products and Product-of-sums methods, Simplifications of Boolean expressions, Truth tables, Karnaugh Maps, Quine Mc-clusky method, Don\u2019t care combinations, Elimination of timing Hazards",
+            "time_allocation": "{\"lecture\":\"6\",\"tutorial\":null,\"practical\":\"2\",\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "created_at": "2024-10-12T12:18:24.000000Z",
+            "updated_at": "2024-10-12T12:18:24.000000Z",
+            "created_by": 13,
+            "updated_by": 13
+          },
+          {
+            "id": 12,
+            "course_id": 1,
+            "topic": "Modular design of combinational circuits",
+            "description": "Introduction of Levels of Integration, Multiplexers, De-multiplexers, Encoders, Decoders, read only memory (ROM), programmable logic arrays",
+            "time_allocation": "{\"lecture\":\"4\",\"tutorial\":null,\"practical\":\"5\",\"design\":null,\"assignment\":\"5\",\"independent_learning\":null}",
+            "created_at": "2024-10-12T12:18:24.000000Z",
+            "updated_at": "2024-10-12T12:18:24.000000Z",
+            "created_by": 13,
+            "updated_by": 13
+          },
+          {
+            "id": 13,
+            "course_id": 1,
+            "topic": "Sequential logic circuits and memory elements",
+            "description": "SR flip flops, Gated, edge-triggered and Master-slave operation, JK flip flop, D flip-flop, T flip-flop, Registers, Serial/Parallel conversion, CodesError detection and correction",
+            "time_allocation": "{\"lecture\":\"6\",\"tutorial\":null,\"practical\":\"4\",\"design\":null,\"assignment\":\"2\",\"independent_learning\":null}",
+            "created_at": "2024-10-12T12:18:24.000000Z",
+            "updated_at": "2024-10-12T12:18:24.000000Z",
+            "created_by": 13,
+            "updated_by": 13
+          },
+          {
+            "id": 14,
+            "course_id": 1,
+            "topic": "Design of synchronous sequential circuits",
+            "description": "Analysis of Synchronous circuits, Mealy-Moore Networks and Models, State diagrams and state tables State minimization, State assignment, Assignment Rules, Next state and output equation realization, Design of Counters, ROM utilization for Sequential circuits",
+            "time_allocation": "{\"lecture\":\"5\",\"tutorial\":null,\"practical\":\"4\",\"design\":null,\"assignment\":\"4\",\"independent_learning\":null}",
+            "created_at": "2024-10-12T12:18:24.000000Z",
+            "updated_at": "2024-10-12T12:18:24.000000Z",
+            "created_by": 13,
+            "updated_by": 13
+          },
+          {
+            "id": 15,
+            "course_id": 1,
+            "topic": "Analysis and design of asynchronous sequential circuits",
+            "description": "Analysis of Asynchronous circuits, Design Procedure, Flow tables, Reduction of state and flow tables, Race free State assignment, Hazards in asynchronous circuits",
+            "time_allocation": "{\"lecture\":\"5\",\"tutorial\":null,\"practical\":\"4\",\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "created_at": "2024-10-12T12:18:24.000000Z",
+            "updated_at": "2024-10-12T12:18:24.000000Z",
+            "created_by": 13,
+            "updated_by": 13
+          },
+          {
+            "id": 16,
+            "course_id": 1,
+            "topic": "Digital circuit design and implementation",
+            "description": "Solving a relatively complex problem via self-study and consolidating the knowledge acquired",
+            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":\"6\",\"independent_learning\":null}",
+            "created_at": "2024-10-12T12:18:24.000000Z",
+            "updated_at": "2024-10-12T12:18:24.000000Z",
+            "created_by": 13,
+            "updated_by": 13
+          }
+        ],
+        "created_at": "2024-10-12T12:13:20.000000Z",
+        "updated_at": "2024-10-12T12:17:51.000000Z",
+        "urls": {
+          "view": "/curriculum-01-sem-03/CO221/"
+        }
+      },
+      {
+        "id": 3,
+        "code": "CO222",
+        "name": "Programming Methodology",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 1,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": "Problem solving, Storing and naming data and operators, Control flow, Using standard library functions, Structured programming, Static allocation, References (pointers), Linked structures, Memory layout, Language tool-chains, Support tools",
+        "time_allocation": {
+          "lecture": 24,
+          "tutorial": 8,
+          "practical": 14,
+          "design": null,
+          "assignment": 12,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": 20,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": 20,
+          "participation": null,
+          "mid_exam": 20,
+          "end_exam": 40
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [
+            "At the end of this course, a student will be able to;\nConvert a simple well defined problem into a correct computer program using a typical Clike programming language.\nUnderstand the logic of a simple piece of code and reason about it"
+          ],
+          "skills": [
+            "At the end of this course, a student will be able to;\nPractice good coding techniques (naming conventions, indentation, comments, organizing operations into functions, modularization).\nVisualise program control flow and memory structures.\nUse assertions and debugging to understand and debug programs"
+          ],
+          "attitudes": [
+            "Inculcate a disciplined attitude towards programming in the small.\nDiscourage trial-and-error programming"
+          ]
+        },
+        "references": [
+          "J.D. Ulman, Foundations of Computer Science C edition"
+        ],
+        "modules": [],
+        "created_at": "2025-04-08T07:32:17.000000Z",
+        "updated_at": "2025-04-08T07:32:17.000000Z",
+        "urls": {
+          "view": "/curriculum-01-sem-03/CO222/"
+        }
+      },
+      {
+        "id": 4,
+        "code": "CO223",
+        "name": "Computer Communication Networks 1",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 1,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": 30,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": 20,
+          "end_exam": 50
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "J. F. Kurose and K. W. Ross. Computer Networking; A Top Down Approach."
+        ],
+        "modules": [],
+        "created_at": "2025-04-08T07:34:41.000000Z",
+        "updated_at": "2025-04-08T07:34:41.000000Z",
+        "urls": {
+          "view": "/curriculum-01-sem-03/CO223/"
+        }
+      },
+      {
+        "id": 5,
+        "code": "EE282",
+        "name": "Network Analysis for Computer Engineering",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 1,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": "To provide knowledge required to analyse basic electrical networks with passive components so that students will be able to understand and analyse different electrical circuits under steady state and transient conditions and dc and ac excitations.\n",
+        "time_allocation": {
+          "lecture": 45,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": 20,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": 30,
+          "end_exam": 50
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "Network Analysis 3rd Edition, M.E. Van Valkenburg, Prentice Hall\n                                                                                           \nLinear and Non-Linear circuits, Leon O. Chua, Charles A. Desoer, Ernest S. Kuh, Mcgraw Hill"
+        ],
+        "modules": [],
+        "created_at": "2025-04-08T07:37:31.000000Z",
+        "updated_at": "2025-04-08T07:37:31.000000Z",
+        "urls": {
+          "view": "/curriculum-01-sem-03/EE282/"
+        }
+      },
+      {
+        "id": 6,
+        "code": "EM211",
+        "name": "Ordinary Differencial Equations",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 1,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": 10,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": 30,
+          "end_exam": 60
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-08T07:39:07.000000Z",
+        "updated_at": "2025-04-08T07:39:07.000000Z",
+        "urls": {
+          "view": "/curriculum-01-sem-03/EM211/"
+        }
+      },
+      {
+        "id": 7,
+        "code": "EM213",
+        "name": "Probability & Statistics",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 1,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": 24,
+          "tutorial": 4,
+          "practical": null,
+          "design": null,
+          "assignment": 4,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": 10,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": 30,
+          "end_exam": 60
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [
+            "At the end of this course, a student will be able to;\nDescribe and apply basic concepts of probability and statistics."
+          ],
+          "skills": [
+            "At the end of this course, a student will be able to;\nModel and analyze real world problems dealing with uncertainty using the discrete and the continuous random variables"
+          ],
+          "attitudes": [
+            "Apply concepts of sampling distributions and point estimation for statistical inference and testing hypothesis related to decision making"
+          ]
+        },
+        "references": [
+          "D.C. Montgomery and G.C. Runger (2007). Applied Statistics and Probability for Engineers. 4th Edition (or any later edition), John Wiley and Sons, Inc\nJay L. Devore, Probability and Statistics for Engineering and the Sciences, 8th edition, (2010),Cengage learning."
+        ],
+        "modules": [],
+        "created_at": "2025-04-08T07:42:00.000000Z",
+        "updated_at": "2025-04-08T07:42:00.000000Z",
+        "urls": {
+          "view": "/curriculum-01-sem-03/EM213/"
+        }
+      },
+      {
+        "id": 8,
+        "code": "EM214",
+        "name": "Discrete Mathematics",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 1,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": 36,
+          "tutorial": 9,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": 10,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": 30,
+          "end_exam": 60
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "Kenneth H. Rosen, Discrete Mathematics & It's Applications seventh edition"
+        ],
+        "modules": [],
+        "created_at": "2025-04-08T07:43:41.000000Z",
+        "updated_at": "2025-04-08T07:43:41.000000Z",
+        "urls": {
+          "view": "/curriculum-01-sem-03/EM214/"
+        }
+      }
+    ]
+  },
+  "2": {
+    "id": 2,
+    "title": "Semester 4",
+    "academic_program": {
+      "category": "undergraduate",
+      "version": 1,
+      "curriculum_name": "Current Curriculum"
+    },
+    "description": null,
+    "url": "curriculum-01-sem-04",
+    "courses_count": 6,
+    "created_at": "2024-10-12T12:07:19.000000Z",
+    "updated_at": "2024-10-17T09:27:26.000000Z",
+    "courses": [
+      {
+        "id": 9,
+        "code": "CO224",
+        "name": "Computer Architecture",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 2,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": "To teach the elements of a computer and how they are organized and explain how instructions of a program will be executed by the microprocessor and how performance can be evaluated and enhanced so as to widen the vision of students in understanding programs behaviour on a computer system.",
+        "time_allocation": {
+          "lecture": 29,
+          "tutorial": 4,
+          "practical": 14,
+          "design": null,
+          "assignment": 10,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": 20,
+          "quizzes": null,
+          "assignments": 20,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": 20,
+          "end_exam": 40
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [
+            "At the end of this course, a student will be able to;\nRepresent and manipulate numbers in different formats.\nDescribe the elements of a computer such as microprocessor, cache, memory and system buses.\nExplain the memory hierarchy and how it operates.\nDescribe multiprocessor systems, SIMD, GPU and Vector and elaborate their importance.\nDesign and analyse single-, multi-cycle and pipelined processors.\nAnalyse issues related to system performance."
+          ],
+          "skills": [
+            "At the end of this course, a student will be able to;\nDesign architectural solutions and describe designs using an HDL.\nUse simulator to test a designed processor."
+          ],
+          "attitudes": [
+            "Gain appreciation of computer systems and how they are built and tested using tools."
+          ]
+        },
+        "references": [
+          "David Patterson, John L. Hennessy, Computer Organization and Design; The Hardware/Software Interface, 4th Edition"
+        ],
+        "modules": [],
+        "created_at": "2025-04-15T09:45:26.000000Z",
+        "updated_at": "2025-04-15T09:45:26.000000Z",
+        "urls": {
+          "view": "/curriculum-01-sem-04/CO224/"
+        }
+      },
+      {
+        "id": 10,
+        "code": "CO225",
+        "name": "Software Construction",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 2,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": "Use a problem-based approach to introduce the tools and techniques afforded by high-level languages, standard libraries and operating systems so that students will be able to use these primitives while constructing relatively large software.",
+        "time_allocation": {
+          "lecture": 25,
+          "tutorial": 6,
+          "practical": 20,
+          "design": null,
+          "assignment": 8,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": 30,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": 30,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": 40
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [
+            "At the end of this course, a student will be able to;\nChoose an appropriate data collection for efficiently representing a problem's data and its associated computations.\nApply declarative programming to data-intensive problems.\nUse objects or algebraic data types to construct a suitable data representation for problems involving trees and graphs.\nIdentify opportunities for concurrency in existing code or a problem description.\nCleanly separate user interface and input/output concerns from core program logic."
+          ],
+          "skills": [
+            "At the end of this course, a student will be able to;\nScan and parse unstructured and structured textual formats to extract data.\nTraverse a linked data structure to perform a computation.\nWrite a simple network client (e.g. web crawler).\nBuild programs usable via multiple interfaces (command-line, GUI.)\nWrite secure, testable and modular code.\n"
+          ],
+          "attitudes": [
+            "Use the right tool/technique for the job.\nDo one thing and do it well (UNIX \u201ctiny tools\u201d philosophy)."
+          ]
+        },
+        "references": [
+          "Mark Pilgrim, Dive into Python 3; http://www.diveinto.org/python3/\nSoftware Carpentry Lessons; http://software-carpentry.org/v4/\nBrad Miller and David Ranum, Problem Solving with Algorithms and Data Structures; http://interactivepython.org/runestone/static/pythonds/index.html"
+        ],
+        "modules": [],
+        "created_at": "2025-04-15T09:48:08.000000Z",
+        "updated_at": "2025-04-15T09:48:08.000000Z",
+        "urls": {
+          "view": "/curriculum-01-sem-04/CO225/"
+        }
+      },
+      {
+        "id": 11,
+        "code": " CO226",
+        "name": " Database Systems",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 2,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": 31,
+          "tutorial": 4,
+          "practical": 12,
+          "design": null,
+          "assignment": 8,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": 10,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": 20,
+          "participation": null,
+          "mid_exam": 20,
+          "end_exam": 50
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "Ramez Elmasri and Shamkant B. Navathe, Fundamentals of Database Systems 7th Edition, 2016\nRaghu Ramakrishnan and Johannes Gehrke, Database Management Systems, 3rd Edition, McGrawHill, 2004"
+        ],
+        "modules": [],
+        "created_at": "2025-04-15T09:50:14.000000Z",
+        "updated_at": "2025-04-15T09:50:14.000000Z",
+        "urls": {
+          "view": "/curriculum-01-sem-04/ CO226/"
+        }
+      },
+      {
+        "id": 12,
+        "code": "EE285",
+        "name": "Electronics I",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 2,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": "To introduce commonly used electronics components, their operations, characteristics and practical use for designing electronic circuits. At the end of this course students should be able to implement single stage amplifiers, use a BJT as a switch and explain the behavior of the circuit, select a suitable OP-Amp for a given application and implement OP-Amp circuits for common applications.",
+        "time_allocation": {
+          "lecture": 30,
+          "tutorial": 3,
+          "practical": 21,
+          "design": null,
+          "assignment": 3,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": 20,
+          "quizzes": null,
+          "assignments": 10,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": 20,
+          "end_exam": 50
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [
+            "At the end of this course, a student will be able to;\nDescribe commonly used electronic components.\nDescribe their operations and characteristics.\nDescribe their applications."
+          ],
+          "skills": [
+            "At the end of this course, a student will be able to;\nObtain characteristics of electronic components experimentally.\nSelect suitable components to design a given electronic circuit.\nDesign simple circuits using electronic components."
+          ],
+          "attitudes": [
+            "At the end of the course, students should be able to appreciate the different types of electronic components and their applicability for building different types of electronic circuits"
+          ]
+        },
+        "references": [
+          "Millman and Halkias, Integrated Electronics\n"
+        ],
+        "modules": [],
+        "created_at": "2025-04-15T09:52:35.000000Z",
+        "updated_at": "2025-04-15T09:52:53.000000Z",
+        "urls": {
+          "view": "/curriculum-01-sem-04/EE285/"
+        }
+      },
+      {
+        "id": 13,
+        "code": "EM212",
+        "name": "Calculus II",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 2,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": 36,
+          "tutorial": 9,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": 10,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": 30,
+          "end_exam": 60
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-15T09:54:07.000000Z",
+        "updated_at": "2025-04-15T09:54:07.000000Z",
+        "urls": {
+          "view": "/curriculum-01-sem-04/EM212/"
+        }
+      },
+      {
+        "id": 14,
+        "code": "EM215",
+        "name": "Numerical Methods",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 2,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": 31,
+          "tutorial": 4,
+          "practical": null,
+          "design": null,
+          "assignment": 20,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": 10,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": 30,
+          "end_exam": 60
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "Steven C. Chapra, Raymond P. Canale (2015). Numerical methods for engineers. 7th edition, McGraw-Hill publishers, New York."
+        ],
+        "modules": [],
+        "created_at": "2025-04-15T09:55:15.000000Z",
+        "updated_at": "2025-04-15T09:55:15.000000Z",
+        "urls": {
+          "view": "/curriculum-01-sem-04/EM215/"
+        }
+      }
+    ]
+  },
+  "3": {
+    "id": 3,
+    "title": "Short Semester",
+    "academic_program": {
+      "category": "undergraduate",
+      "version": 1,
+      "curriculum_name": "Current Curriculum"
+    },
+    "description": "During this semester, the students will follow a Guided Software Engineering project with General Elective courses of at least 9 credits. The semester is 7 weeks long.",
+    "url": "curriculum-01-sem-short",
+    "courses_count": 1,
+    "created_at": "2024-10-12T12:08:00.000000Z",
+    "updated_at": "2024-10-17T09:24:50.000000Z",
+    "courses": [
+      {
+        "id": 15,
+        "code": "CO227",
+        "name": "Computer Engineering Project",
+        "content": null,
+        "credits": 2,
+        "type": "Core",
+        "semester_id": 3,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": "The objective of this course is to let the students work with limited guidance on a project designed to consolidate theory and practice, and inculcate an attitude of self-learning and team work",
+        "time_allocation": {
+          "lecture": 5,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": 50,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": 100,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": null
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [
+            "At the end of this course, a student will be able to;\nConstruct relatively complex software solutions for real world problem using the knowledge they gained during their specialization (in particular CO225 and CO226)."
+          ],
+          "skills": [
+            "At the end of this course, a student will be able to;\nModel a real-world problem using suitable techniques.\nBreak a project into manageable tasks.\nUse appropriate programming techniques, tools for the task at hand.\nWork effectively as a team and manage time to meet deadlines.\nCollect and analyze project outcomes.\nWrite technical report."
+          ],
+          "attitudes": [
+            "Able to work independently on a project.\nHave the confidence to undertake a nontrivial project.\nSelf-directed learning of skills required for a project."
+          ]
+        },
+        "references": [
+          "Damith C. Rajapakse, Practical tips for software intensive student projects"
+        ],
+        "modules": [],
+        "created_at": "2025-04-15T09:58:13.000000Z",
+        "updated_at": "2025-04-15T09:58:13.000000Z",
+        "urls": {
+          "view": "/curriculum-01-sem-short/CO227/"
+        }
+      }
+    ]
+  },
+  "4": {
+    "id": 4,
+    "title": "Semester 5",
+    "academic_program": {
+      "category": "undergraduate",
+      "version": 1,
+      "curriculum_name": "Current Curriculum"
+    },
+    "description": null,
+    "url": "curriculum-01-sem-5",
+    "courses_count": 6,
+    "created_at": "2024-10-12T12:08:28.000000Z",
+    "updated_at": "2024-10-17T09:24:44.000000Z",
+    "courses": [
+      {
+        "id": 16,
+        "code": "CO321",
+        "name": "Embedded Systems",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 4,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": 31,
+          "tutorial": null,
+          "practical": 20,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": 20,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": 20,
+          "participation": null,
+          "mid_exam": 20,
+          "end_exam": 40
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "Book - AVR Microcontroller and Embedded Systems\nFredrick M. Cady; Microcontrollers and Microcomputers- Principles of Software and Hardware Engineering.\nMano, M.M. & Kime, C.R.; Logic and Computer Design Fundamentals\n"
+        ],
+        "modules": [],
+        "created_at": "2025-04-20T09:23:05.000000Z",
+        "updated_at": "2025-04-20T09:23:05.000000Z",
+        "urls": {
+          "view": "/curriculum-01-sem-5/CO321/"
+        }
+      },
+      {
+        "id": 17,
+        "code": " CO322",
+        "name": "Data Structures and Algorithms",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 4,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": 30,
+          "tutorial": null,
+          "practical": 18,
+          "design": null,
+          "assignment": 12,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": 20,
+          "quizzes": null,
+          "assignments": 20,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": 20,
+          "end_exam": 40
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "Cormen, Rivest, Introduction to Algorithms\nAho, Hopcroft and Ullman, Data structures and algorithms\nSedgewick and Wayne, Algorithms\nCO322 Syllabus; https://drive.google.com/open?id=195_ITaRnKvyU_tFimv8xo4gH-gwonesi\n"
+        ],
+        "modules": [],
+        "created_at": "2025-04-20T09:25:26.000000Z",
+        "updated_at": "2025-04-20T09:25:26.000000Z",
+        "urls": {
+          "view": "/curriculum-01-sem-5/ CO322/"
+        }
+      },
+      {
+        "id": 18,
+        "code": "CO323",
+        "name": "Computer Communication Networks II",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 4,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": 20,
+          "quizzes": null,
+          "assignments": 10,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": 20,
+          "end_exam": 50
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "J. F. Kurose and K. W. Ross. Computer Networking; A Top Down Approach. 6th edition.\nL. Garcia and I. Widjaja, Communication Networks; Fundamental Concepts and Key Architectures. 2nd edition."
+        ],
+        "modules": [],
+        "created_at": "2025-04-20T09:27:05.000000Z",
+        "updated_at": "2025-04-20T09:27:05.000000Z",
+        "urls": {
+          "view": "/curriculum-01-sem-5/CO323/"
+        }
+      },
+      {
+        "id": 19,
+        "code": "CO324",
+        "name": "Network and Web Application Design",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 4,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": 26,
+          "tutorial": 4,
+          "practical": 16,
+          "design": null,
+          "assignment": 14,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": 30,
+          "quizzes": null,
+          "assignments": 30,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": 40
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "John Goerzen and Brandon Rhodes, Foundations of Python Network Programming\nJan Newmarch, Network programming with Go (http://jan.newmarch.name/go/)\n\n"
+        ],
+        "modules": [],
+        "created_at": "2025-04-20T09:28:42.000000Z",
+        "updated_at": "2025-04-20T09:28:42.000000Z",
+        "urls": {
+          "view": "/curriculum-01-sem-5/CO324/"
+        }
+      },
+      {
+        "id": 20,
+        "code": "CO325",
+        "name": "Computer and Network Security",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 4,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": 30,
+          "tutorial": 5,
+          "practical": 10,
+          "design": null,
+          "assignment": 10,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": 10,
+          "quizzes": null,
+          "assignments": 10,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": 20,
+          "end_exam": 60
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "Ross Anderson, Security Engineering\nBehrouz Forouzan, Cryptography & Network Security"
+        ],
+        "modules": [],
+        "created_at": "2025-04-20T09:30:20.000000Z",
+        "updated_at": "2025-04-20T09:30:20.000000Z",
+        "urls": {
+          "view": "/curriculum-01-sem-5/CO325/"
+        }
+      },
+      {
+        "id": 21,
+        "code": "EE386",
+        "name": "Electronics II",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 4,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": 33,
+          "tutorial": null,
+          "practical": 24,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": 20,
+          "quizzes": null,
+          "assignments": 10,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": 20,
+          "end_exam": 50
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "Millman and Taub, Pulse and digital circuits\nMillman and Halkias, Integrated Electronics"
+        ],
+        "modules": [],
+        "created_at": "2025-04-20T09:31:47.000000Z",
+        "updated_at": "2025-04-20T09:31:47.000000Z",
+        "urls": {
+          "view": "/curriculum-01-sem-5/EE386/"
+        }
+      }
+    ]
+  },
+  "5": {
+    "id": 5,
+    "title": "Semester 6",
+    "academic_program": {
+      "category": "undergraduate",
+      "version": 1,
+      "curriculum_name": "Current Curriculum"
+    },
+    "description": null,
+    "url": "curriculum-01-sem-6",
+    "courses_count": 4,
+    "created_at": "2024-10-12T12:08:41.000000Z",
+    "updated_at": "2024-10-17T09:24:35.000000Z",
+    "courses": [
+      {
+        "id": 22,
+        "code": "CO326",
+        "name": "Computer Systems Engineering - Industrial Networks",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 5,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": 20,
+          "quizzes": null,
+          "assignments": 10,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": 20,
+          "end_exam": 50
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-20T09:33:37.000000Z",
+        "updated_at": "2025-04-20T09:33:37.000000Z",
+        "urls": {
+          "view": "/curriculum-01-sem-6/CO326/"
+        }
+      },
+      {
+        "id": 23,
+        "code": "CO327",
+        "name": "Operating Systems",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 5,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": 15,
+          "quizzes": null,
+          "assignments": 25,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": 20,
+          "end_exam": 40
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "A. Tanenbaum, Modern Operating Systems\nVahalia, Unix Internals; The new frontiers"
+        ],
+        "modules": [],
+        "created_at": "2025-04-20T09:35:27.000000Z",
+        "updated_at": "2025-04-20T09:35:27.000000Z",
+        "urls": {
+          "view": "/curriculum-01-sem-6/CO327/"
+        }
+      },
+      {
+        "id": 24,
+        "code": "CO328",
+        "name": " Software Engineering",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 5,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": 10,
+          "quizzes": null,
+          "assignments": 30,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": 20,
+          "end_exam": 40
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "Eric Evans, Domain-Driven Design; Tackling Complexity in the Heart of Software\nJames O. Coplien, Gertrud Bj\u00c3\u0192\u00c2\u00b8rnvig, Lean Architecture for Agile Software Development\nSerge Demeyer, St\u00c3\u0192\u00c2\u00a9phane Ducasse, Oscar Nierstrasz, Object-Oriented Reengineering Patterns"
+        ],
+        "modules": [],
+        "created_at": "2025-04-20T09:36:51.000000Z",
+        "updated_at": "2025-04-20T09:36:51.000000Z",
+        "urls": {
+          "view": "/curriculum-01-sem-6/CO328/"
+        }
+      },
+      {
+        "id": 25,
+        "code": "EE387",
+        "name": "Signal Processing",
+        "content": null,
+        "credits": 4,
+        "type": "Core",
+        "semester_id": 5,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": 15,
+          "quizzes": null,
+          "assignments": 10,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": 25,
+          "end_exam": 50
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [
+          "Discrete time signal processing 3rd edition\nSignals and systems 3rd edition\n"
+        ],
+        "modules": [],
+        "created_at": "2025-04-20T09:38:45.000000Z",
+        "updated_at": "2025-04-20T09:38:45.000000Z",
+        "urls": {
+          "view": "/curriculum-01-sem-6/EE387/"
+        }
+      }
+    ]
+  },
+  "6": {
+    "id": 6,
+    "title": "Semester 7",
+    "academic_program": {
+      "category": "undergraduate",
+      "version": 1,
+      "curriculum_name": "Current Curriculum"
+    },
+    "description": "This is a short semester of 8 weeks, the students will start their final year projects and follow a few mandatory general elective courses",
+    "url": "curriculum-01-sem-7",
+    "courses_count": 1,
+    "created_at": "2024-10-12T12:09:18.000000Z",
+    "updated_at": "2024-10-17T09:24:29.000000Z",
+    "courses": [
+      {
+        "id": 26,
+        "code": "CO421",
+        "name": "Final Year Project I",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 6,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": null
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-20T09:40:31.000000Z",
+        "updated_at": "2025-04-20T09:40:31.000000Z",
+        "urls": {
+          "view": "/curriculum-01-sem-7/CO421/"
+        }
+      }
+    ]
+  },
+  "7": {
+    "id": 7,
+    "title": "Industrial Training",
+    "academic_program": {
+      "category": "undergraduate",
+      "version": 1,
+      "curriculum_name": "Current Curriculum"
+    },
+    "description": null,
+    "url": "curriculum-01-industrial-training",
+    "courses_count": 0,
+    "created_at": "2024-10-12T12:09:47.000000Z",
+    "updated_at": "2024-10-17T09:24:24.000000Z",
+    "courses": []
+  },
+  "8": {
+    "id": 8,
+    "title": "Semester 8",
+    "academic_program": {
+      "category": "undergraduate",
+      "version": 1,
+      "curriculum_name": "Current Curriculum"
+    },
+    "description": null,
+    "url": "curriculum-01-sem-8",
+    "courses_count": 1,
+    "created_at": "2024-10-12T12:10:12.000000Z",
+    "updated_at": "2024-10-17T09:24:19.000000Z",
+    "courses": [
+      {
+        "id": 27,
+        "code": "CO425",
+        "name": "Final Year Project II",
+        "content": null,
+        "credits": 3,
+        "type": "Core",
+        "semester_id": 8,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": null
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-20T09:41:34.000000Z",
+        "updated_at": "2025-04-20T09:41:34.000000Z",
+        "urls": {
+          "view": "/curriculum-01-sem-8/CO425/"
+        }
+      }
+    ]
+  },
+  "9": {
+    "id": 9,
+    "title": "General Electives",
+    "academic_program": {
+      "category": "undergraduate",
+      "version": 1,
+      "curriculum_name": "Current Curriculum"
+    },
+    "description": null,
+    "url": "curriculum-01-general-electives",
+    "courses_count": 4,
+    "created_at": "2024-10-12T12:10:40.000000Z",
+    "updated_at": "2024-10-17T09:24:12.000000Z",
+    "courses": [
+      {
+        "id": 28,
+        "code": "CO422",
+        "name": " Professional Practices",
+        "content": null,
+        "credits": 2,
+        "type": "GE",
+        "semester_id": 9,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": null
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-21T07:08:52.000000Z",
+        "updated_at": "2025-04-21T07:08:52.000000Z",
+        "urls": {
+          "view": "/curriculum-01-general-electives/CO422/"
+        }
+      },
+      {
+        "id": 29,
+        "code": " CO423",
+        "name": "Software Project Management",
+        "content": null,
+        "credits": 2,
+        "type": "GE",
+        "semester_id": 9,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": null
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-21T07:09:54.000000Z",
+        "updated_at": "2025-04-21T07:09:54.000000Z",
+        "urls": {
+          "view": "/curriculum-01-general-electives/ CO423/"
+        }
+      },
+      {
+        "id": 30,
+        "code": " CO424",
+        "name": "Information Systems Management",
+        "content": null,
+        "credits": 2,
+        "type": "GE",
+        "semester_id": 9,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": 50,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": 50
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-21T07:11:39.000000Z",
+        "updated_at": "2025-04-21T07:11:39.000000Z",
+        "urls": {
+          "view": "/curriculum-01-general-electives/ CO424/"
+        }
+      },
+      {
+        "id": 31,
+        "code": "EF501",
+        "name": "The Engineer in Society",
+        "content": null,
+        "credits": 2,
+        "type": "GE",
+        "semester_id": 9,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": null
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-21T07:12:17.000000Z",
+        "updated_at": "2025-04-21T07:12:17.000000Z",
+        "urls": {
+          "view": "/curriculum-01-general-electives/EF501/"
+        }
+      }
+    ]
+  },
+  "10": {
+    "id": 10,
+    "title": "Technical Electives",
+    "academic_program": {
+      "category": "undergraduate",
+      "version": 1,
+      "curriculum_name": "Current Curriculum"
+    },
+    "description": null,
+    "url": "curriculum-01-technical-electives",
+    "courses_count": 19,
+    "created_at": "2024-10-12T12:11:01.000000Z",
+    "updated_at": "2024-10-17T09:24:01.000000Z",
+    "courses": [
+      {
+        "id": 32,
+        "code": "CO553",
+        "name": "Formal Verification Tools and Techniques for Complex Reactive Systems",
+        "content": null,
+        "credits": 3,
+        "type": "TE",
+        "semester_id": 10,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": null
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-21T07:16:17.000000Z",
+        "updated_at": "2025-04-21T07:16:17.000000Z",
+        "urls": {
+          "view": "/curriculum-01-technical-electives/CO553/"
+        }
+      },
+      {
+        "id": 33,
+        "code": "CO552",
+        "name": "Game Theory and Markov Decision Processes",
+        "content": null,
+        "credits": 3,
+        "type": "TE",
+        "semester_id": 10,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": null
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-21T07:18:45.000000Z",
+        "updated_at": "2025-04-21T07:18:45.000000Z",
+        "urls": {
+          "view": "/curriculum-01-technical-electives/CO552/"
+        }
+      },
+      {
+        "id": 34,
+        "code": " CO551",
+        "name": "Theory of Computation",
+        "content": null,
+        "credits": 3,
+        "type": "TE",
+        "semester_id": 10,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": null
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-21T07:20:19.000000Z",
+        "updated_at": "2025-04-21T07:20:19.000000Z",
+        "urls": {
+          "view": "/curriculum-01-technical-electives/ CO551/"
+        }
+      },
+      {
+        "id": 35,
+        "code": "CO544",
+        "name": "Machine Learning and Data Mining",
+        "content": null,
+        "credits": 3,
+        "type": "TE",
+        "semester_id": 10,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": null
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-21T07:21:21.000000Z",
+        "updated_at": "2025-04-21T07:21:21.000000Z",
+        "urls": {
+          "view": "/curriculum-01-technical-electives/CO544/"
+        }
+      },
+      {
+        "id": 36,
+        "code": "CO543",
+        "name": "Image Processing",
+        "content": null,
+        "credits": 3,
+        "type": "TE",
+        "semester_id": 10,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": null
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-21T07:23:45.000000Z",
+        "updated_at": "2025-04-21T07:23:45.000000Z",
+        "urls": {
+          "view": "/curriculum-01-technical-electives/CO543/"
+        }
+      },
+      {
+        "id": 37,
+        "code": "CO542",
+        "name": "Neural Networks and Fuzzy Systems",
+        "content": null,
+        "credits": 3,
+        "type": "TE",
+        "semester_id": 10,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": "Apply theories and techniques of Artificial Neural Networks and Fuzzy Systems to identify potential applications in real-life product design, commercial/trade and scientific problems, Analyse and formulate the problem for solution using Artificial Neural Networks and Fuzzy Systems, Develop prototype solutions to the formulated problem and validate them, Continue developing their Artificial Neural Networks and Fuzzy Systems skills by keeping abreast with new learning in the area through continuous learning.\n",
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": null
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-21T07:25:03.000000Z",
+        "updated_at": "2025-04-21T07:25:32.000000Z",
+        "urls": {
+          "view": "/curriculum-01-technical-electives/CO542/"
+        }
+      },
+      {
+        "id": 38,
+        "code": "CO541",
+        "name": "Artificial Intelligence",
+        "content": null,
+        "credits": 3,
+        "type": "TE",
+        "semester_id": 10,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": null
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-21T07:26:35.000000Z",
+        "updated_at": "2025-04-21T07:26:35.000000Z",
+        "urls": {
+          "view": "/curriculum-01-technical-electives/CO541/"
+        }
+      },
+      {
+        "id": 39,
+        "code": "CO528",
+        "name": "Applied Software Architecture",
+        "content": null,
+        "credits": 3,
+        "type": "TE",
+        "semester_id": 10,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": null
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-21T07:27:44.000000Z",
+        "updated_at": "2025-04-21T07:27:44.000000Z",
+        "urls": {
+          "view": "/curriculum-01-technical-electives/CO528/"
+        }
+      },
+      {
+        "id": 40,
+        "code": "CO527",
+        "name": "Advanced Database Systems",
+        "content": null,
+        "credits": 3,
+        "type": "TE",
+        "semester_id": 10,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": null
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-21T07:29:05.000000Z",
+        "updated_at": "2025-04-21T07:29:05.000000Z",
+        "urls": {
+          "view": "/curriculum-01-technical-electives/CO527/"
+        }
+      },
+      {
+        "id": 41,
+        "code": "CO526",
+        "name": "Advanvced Operating Systems",
+        "content": null,
+        "credits": 3,
+        "type": "TE",
+        "semester_id": 10,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": null
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-21T07:30:01.000000Z",
+        "updated_at": "2025-04-21T07:30:01.000000Z",
+        "urls": {
+          "view": "/curriculum-01-technical-electives/CO526/"
+        }
+      },
+      {
+        "id": 42,
+        "code": "CO524",
+        "name": "Parallel Computers and Algorithms",
+        "content": null,
+        "credits": 3,
+        "type": "TE",
+        "semester_id": 10,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": null
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-21T07:32:14.000000Z",
+        "updated_at": "2025-04-21T07:32:14.000000Z",
+        "urls": {
+          "view": "/curriculum-01-technical-electives/CO524/"
+        }
+      },
+      {
+        "id": 43,
+        "code": "CO523",
+        "name": "Programming Languages",
+        "content": null,
+        "credits": 3,
+        "type": "TE",
+        "semester_id": 10,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": null
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-21T07:33:00.000000Z",
+        "updated_at": "2025-04-21T07:33:00.000000Z",
+        "urls": {
+          "view": "/curriculum-01-technical-electives/CO523/"
+        }
+      },
+      {
+        "id": 44,
+        "code": "CO521",
+        "name": "Compilers",
+        "content": null,
+        "credits": 3,
+        "type": "TE",
+        "semester_id": 10,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": null
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-21T07:36:03.000000Z",
+        "updated_at": "2025-04-21T07:36:03.000000Z",
+        "urls": {
+          "view": "/curriculum-01-technical-electives/CO521/"
+        }
+      },
+      {
+        "id": 45,
+        "code": "CO515",
+        "name": "Advances in Computer Networks:Selected Topics",
+        "content": null,
+        "credits": 3,
+        "type": "TE",
+        "semester_id": 10,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": null
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-21T07:37:02.000000Z",
+        "updated_at": "2025-04-21T07:37:02.000000Z",
+        "urls": {
+          "view": "/curriculum-01-technical-electives/CO515/"
+        }
+      },
+      {
+        "id": 46,
+        "code": "CO514",
+        "name": "Optical Communication Networks",
+        "content": null,
+        "credits": 3,
+        "type": "TE",
+        "semester_id": 10,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": null
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-21T07:38:36.000000Z",
+        "updated_at": "2025-04-21T07:38:36.000000Z",
+        "urls": {
+          "view": "/curriculum-01-technical-electives/CO514/"
+        }
+      },
+      {
+        "id": 47,
+        "code": "CO513",
+        "name": "Advanced Computer Communication Networks",
+        "content": null,
+        "credits": 3,
+        "type": "TE",
+        "semester_id": 10,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": null
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-21T07:39:09.000000Z",
+        "updated_at": "2025-04-21T07:39:09.000000Z",
+        "urls": {
+          "view": "/curriculum-01-technical-electives/CO513/"
+        }
+      },
+      {
+        "id": 48,
+        "code": "CO504",
+        "name": "Hardware Software Co-design",
+        "content": null,
+        "credits": 3,
+        "type": "TE",
+        "semester_id": 10,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": null
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-21T07:40:03.000000Z",
+        "updated_at": "2025-04-21T07:40:03.000000Z",
+        "urls": {
+          "view": "/curriculum-01-technical-electives/CO504/"
+        }
+      },
+      {
+        "id": 49,
+        "code": "CO503",
+        "name": "Advanced Embedded Systems",
+        "content": null,
+        "credits": 3,
+        "type": "TE",
+        "semester_id": 10,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": null
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-21T07:41:29.000000Z",
+        "updated_at": "2025-07-13T18:20:50.000000Z",
+        "urls": {
+          "view": "/curriculum-01-technical-electives/CO503/"
+        }
+      },
+      {
+        "id": 50,
+        "code": "CO502",
+        "name": "Advanced Computer Architecture",
+        "content": null,
+        "credits": 3,
+        "type": "TE",
+        "semester_id": 10,
+        "academic_program": {
+          "category": "undergraduate",
+          "version": 1,
+          "curriculum_name": "Current Curriculum"
+        },
+        "teaching_methods": null,
+        "objectives": null,
+        "time_allocation": {
+          "lecture": null,
+          "tutorial": null,
+          "practical": null,
+          "design": null,
+          "assignment": null,
+          "independent_learning": null
+        },
+        "marks_allocation": {
+          "practicals": null,
+          "quizzes": null,
+          "assignments": null,
+          "tutorials": null,
+          "projects": null,
+          "participation": null,
+          "mid_exam": null,
+          "end_exam": null
+        },
+        "ilos": {
+          "general": [],
+          "knowledge": [],
+          "skills": [],
+          "attitudes": []
+        },
+        "references": [],
+        "modules": [],
+        "created_at": "2025-04-21T07:42:06.000000Z",
+        "updated_at": "2025-07-13T18:21:16.000000Z",
+        "urls": {
+          "view": "/curriculum-01-technical-electives/CO502/"
+        }
+      }
+    ]
+  }
+}

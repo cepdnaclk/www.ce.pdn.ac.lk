@@ -312,15 +312,18 @@
 					<table class="table table-sm table-bordered border-dark">
 						<tr>
 							<th style="text-align:center; vertical-align:middle">Assessment</th>
-							<th style="text-align:center; vertical-align:middle">Percentage Marks</th>
+							<th style="text-align:center; vertical-align:middle">Marks</th>
 						</tr>
 
 						{%- for item in page.marks -%}
+						{%- if item[1] != "None" -%}
 						<tr>
-							<td style="vertical-align:middle">{{item["description"]}}</td>
-							<td style="text-align:center; vertical-align:middle">{{item["allocation"]}}</td>
+							<td style="vertical-align:middle">{{ item[0] | capitalize }}</td>
+							<td style="text-align:center; vertical-align:middle">{{ item[1] }}%</td>
 						</tr>
+						{%- endif -%}
 						{%- endfor -%}
+
 					</table>
 					{%- else if -%}
 					<p class="text-center p-5 text-muted">Marks Allocation details not available for this course</p>
