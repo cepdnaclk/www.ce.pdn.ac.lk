@@ -16,9 +16,9 @@ link_caption: ""
 
 author: Nuwan Jaliyagoda
 published_date: 2021-05-07
-updated_at: 2025-07-21 17:05:59+00:00
+updated_at: 2025-07-21 17:29:12+00:00
 ---
 
-<p>Organized by the Department of Computer Engineering.</p><p>&nbsp;</p>
+<p>Organized by the Department of Computer Engineering.</p>
 
 <!-- Automated Update by GitHub Actions -->
