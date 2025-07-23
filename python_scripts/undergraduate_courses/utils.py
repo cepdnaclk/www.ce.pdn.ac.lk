@@ -10,8 +10,10 @@ Authors:
 
 import os
 import shutil
+from datetime import datetime
 
 import requests
+import yaml
 
 
 def get_semesters_list(SEMESTERS_API_URL, curriculum_key):
@@ -54,6 +56,7 @@ def get_courses_list(COURSES_API_URL, curriculum_key):
 
 def delete_existing_course_pages():
     """Delete the existing folder"""
+
     dir_path = "../../pages/courses/undergraduate/"
     try:
         shutil.rmtree(dir_path)
@@ -62,73 +65,84 @@ def delete_existing_course_pages():
 
 
 def create_new_course_pages(course_data):
-    # TODO Use yml library
-    # Get the list of Semesters
-    # semesters = json.load(open("../../_data/semesters.json"))
-    # courses = json.load(open("../../_data/courses.json"))
+    """Create new course pages from the course data"""
+
     for semester in course_data.values():
         courses = semester["courses"]
         print("- " + semester["title"] + " -\n")
 
         for course in courses:
-            # print(course)
-
             course_code = course["code"]
-            # print(course_code)
-            # course_title = course["name"]
-            # course_credits = course["credits"]
-            # type = course["type"]
-            prerequisites = course.get("prerequisites", "NULL")
+            page_url = course["urls"]["view"]
 
-            # content = course["content"]
-            # objectives = course["objectives"]
-            # ilos_knowledge = course["ILOs"]["Knowledge"]
-            # ilos_skill = course["ILOs"]["Skill"]
-            # ilos_attitude = course["ILOs"]["Attitude"]
+            title = " ".join([course["code"].strip().upper(), course["name"].strip()])
+            marks_allocation = {
+                k: v for k, v in course["marks_allocation"].items() if v is not None
+            }
+            course_references = [ref.strip() for ref in course.get("references", [])]
+            course_modules = [
+                {
+                    "topic": module["topic"].strip(),
+                    "description": module["description"].strip(),
+                    "time_allocation": {},
+                    # "time_allocation": {
+                    #     k: v
+                    #     for k, v in module["time_allocation"].items()
+                    #     if v is not None
+                    # },
+                }
+                for module in course["modules"]
+            ]
 
-            modules = course["modules"]
-            marks = course["marks_allocation"]
-            # statistics = course["statistics"]
+            try:
+                last_edit = datetime.fromisoformat(course["updated_at"]).strftime(
+                    "%Y-%m-%d"
+                )
+            except ValueError:
+                last_edit = ""
+                print(f"Error: Invalid date format for course {course['code']}")
 
-            pageURL = course["urls"]["view"]
-            # gh_page = "https://github.com/cepdnaclk/ce.pdn.ac.lk/tree/main{0}".format(
-            #     course["urls"]["edit"]
-            # )
-            last_edit = course["updated_at"]
-
-            outputString = f"""---
-layout: page_course
-permalink: "{pageURL}"
-
-title: {course["code"].upper()} {course["name"]}
-semester: {semester["title"]}
-course_code: {course["code"].upper()}
-course_title: {course["name"]}
-
-credits: {course["credits"]}
-type: {course["type"]}
-
-prerequisites: {prerequisites}
-aims_and_objectives: "{course.get("objectives", "")}"
-
-modules: {course["modules"]}
-textbooks_references: {course["references"]}
-
-marks: {marks}
-
-last_edit: {last_edit}
-gh_page: #
-faq_page: {course["urls"].get("faq_page", "#")}
-
----"""
+            course_data = {
+                "layout": "page_course",
+                "permalink": page_url,
+                #
+                "title": title,
+                "course_code": course["code"].upper(),
+                "course_title": course["name"].strip(),
+                "curriculum": course["curriculum"].strip(),
+                "semester": semester["title"].strip(),
+                #
+                "credits": course["credits"],
+                "type": course["type"],
+                "prerequisites": course.get("prerequisites"),
+                "aims_and_objectives": course.get("objectives"),
+                "modules": course_modules,
+                "textbooks_references": course_references,
+                "marks": marks_allocation,
+                #
+                "ilos_general": course["ilos"].get("general", []),
+                "ilos_knowledge": course["ilos"].get("knowledge", []),
+                "ilos_skills": course["ilos"].get("skills", []),
+                "ilos_attitudes": course["ilos"].get("attitudes", []),
+                #
+                "last_edit": last_edit,
+                "edit_page": "#",  # TODO get from the API after update
+                "faq_page": course["urls"].get("faq_page", "#"),
+                "color_code": course["color_code"],
+            }
 
             # Write into a file
-            file_url = f"../../pages/courses/undergraduate/{semester['url']}/{course_code.strip().upper()}.html"
+            file_url = f"../../pages/courses/undergraduate/{course['curriculum']}/{course_code.strip().upper()}.html"
             os.makedirs(os.path.dirname(file_url), exist_ok=True)
-            with open(file_url, "w") as htmlFile:
-                htmlFile.write(outputString)
-
-            print("Generated: " + course_code.upper() + ".html")
+            try:
+                with open(file_url, "w", encoding="utf-8") as f:
+                    f.write("---\n")
+                    f.write(yaml.dump(course_data, sort_keys=False))
+                    f.write("---\n\n")
+                    f.write("")
+                print("Generated: " + course_code.upper() + ".html")
+            except Exception as e:
+                print(f"Error: generating file for course {course_code.upper()}: {e}")
 
         print("")
 

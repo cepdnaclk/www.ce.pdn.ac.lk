@@ -12,9 +12,6 @@
 <body>
 	{% include navbar.html %}
 
-	{%- assign semesterPage = site.pages | where: "code", page.semester -%}
-
-
 	{%- assign prerequisites_count = page.prerequisites | size -%}
 	{%- assign module_count = page.modules | size -%}
 	{%- assign ilos_count = page.ilos | size -%}
@@ -42,10 +39,7 @@
 						</a>
 					</li>
 
-					<li class="breadcrumb-item"><a href="{{ semesterPage[0].permalink | relative_url }}"
-							class="link-light">{{
-							semesterPage[0].title }}</a>
-					</li>
+					<li class="breadcrumb-item text-white">{{ page.semester }}</li>
 
 					<li class="breadcrumb-item text-white">{{ page.title }}</li>
 
@@ -170,9 +164,10 @@
 
 							<!-- ILOs -->
 							<hr>
+							{%- assign ilos_general_count = page.ilos_general | size -%}
 							{%- assign ilos_knowledge_count = page.ilos_knowledge | size -%}
-							{%- assign ilos_skill_count = page.ilos_skill | size -%}
-							{%- assign ilos_attitude_count = page.ilos_attitude | size -%}
+							{%- assign ilos_skill_count = page.ilos_skills | size -%}
+							{%- assign ilos_attitude_count = page.ilos_attitudes | size -%}
 
 							{%- if ilos_attitude_count > 0 or ilos_knowledge_count > 0 or ilos_skill_count >0 -%}
 							<div class="row">
@@ -181,6 +176,19 @@
 								</div>
 
 								<div class="col-sm-9">
+									<!-- ILO General (new curriculum) -->
+									{%- if ilos_general_count > 0 -%}
+									<div class="text-secondary">
+										At the end of this course, a student will be able to;
+										<ul>
+											{%- for item in page.ilos_knowledge -%}
+											<li>{{item}}</li>
+											{%- endfor -%}
+										</ul>
+									</div>
+									{%- endif -%}
+
+									<!-- ILO Knowledge -->
 									{%- if ilos_knowledge_count > 0 -%}
 									<div>
 										<span class="mb-0" style="font-weight: 500">Knowledge:</span>
@@ -196,29 +204,31 @@
 									</div>
 									{%- endif -%}
 
+									<!-- ILO Skills -->
 									{%- if ilos_skill_count > 0 -%}
 									<div>
-										<span class="mb-0" style="font-weight: 500">Skill:</span>
+										<span class="mb-0" style="font-weight: 500">Skills:</span>
 									</div>
 
 									<div class="text-secondary">
 										At the end of this course, a student will be able to;
 										<ul>
-											{%- for item in page.ilos_skill -%}
+											{%- for item in page.ilos_skills -%}
 											<li>{{item}}</li>
 											{%- endfor -%}
 										</ul>
 									</div>
 									{%- endif -%}
 
+									<!-- ILO Attitudes -->
 									{%- if ilos_attitude_count > 0 -%}
 									<div>
-										<span class="mb-0" style="font-weight: 500">Attitude:</span>
+										<span class="mb-0" style="font-weight: 500">Attitudes:</span>
 									</div>
 
 									<div class="text-secondary">
 										<ul>
-											{%- for item in page.ilos_attitude -%}
+											{%- for item in page.ilos_attitudes -%}
 											<li>{{item}}</li>
 											{%- endfor -%}
 										</ul>
@@ -247,7 +257,8 @@
 							<hr>
 							{% endif %}
 
-							{% if page.faq_page %}
+							<!-- FAQ page -->
+							{% if page.faq_page != "#" %}
 							<div class="row">
 								<div class="col-sm-3">
 									<span class="mb-0" style="font-weight: 500">FAQ</span>
@@ -316,10 +327,17 @@
 						</tr>
 
 						{%- for item in page.marks -%}
-						{%- if item[1] != "None" -%}
+						{%- if item[1] -%}
 						<tr>
 							<td style="vertical-align:middle">{{ item[0] | capitalize }}</td>
-							<td style="text-align:center; vertical-align:middle">{{ item[1] }}%</td>
+							<td style="text-align:center; vertical-align:middle">
+								{%- if item[1] == "0" -%}
+								-
+								{%- else -%}
+								{{ item[1] }}%
+								{%- endif -%}
+
+							</td>
 						</tr>
 						{%- endif -%}
 						{%- endfor -%}
@@ -360,15 +378,14 @@
 			</div>
 		</div>
 
-		{%- if page.gh_page -%}
 		<div class="container text-end pt-5">
 			<span class="text-muted">Last Update: {{ page.last_edit }}</span>
-			{{ ' | ' }}
-			<a href="{{ page.gh_page }}" target="_blank" class="text-decoration-none">
-				Edit this page <i class="fab fa-github"></i>
+			{%- if page.edit_page != '#' -%}
+			<a href="{{ page.edit_page }}" target="_blank" class="text-decoration-none">
+				{{ ' | ' }} Edit this page
 			</a>
+			{%- endif -%}
 		</div>
-		{%- endif -%}
 	</main>
 
 	{% include footer.html %}

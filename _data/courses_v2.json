@@ -61,8 +61,10 @@
         "created_at": "2025-04-21T07:53:57.000000Z",
         "updated_at": "2025-04-21T07:53:57.000000Z",
         "urls": {
-          "view": "/curriculum-02-sem-3/CO2020/"
-        }
+          "view": "/courses/undergraduate/CO2020/"
+        },
+        "curriculum": "rev-2022",
+        "color_code": "btn-outline-primary"
       },
       {
         "id": 52,
@@ -115,8 +117,10 @@
         "created_at": "2025-04-21T08:01:08.000000Z",
         "updated_at": "2025-07-13T18:04:55.000000Z",
         "urls": {
-          "view": "/curriculum-02-sem-3/CO2030/"
-        }
+          "view": "/courses/undergraduate/CO2030/"
+        },
+        "curriculum": "rev-2022",
+        "color_code": "btn-outline-primary"
       },
       {
         "id": 53,
@@ -166,8 +170,10 @@
         "created_at": "2025-04-21T08:03:38.000000Z",
         "updated_at": "2025-04-21T08:03:38.000000Z",
         "urls": {
-          "view": "/curriculum-02-sem-3/CO2040/"
-        }
+          "view": "/courses/undergraduate/CO2040/"
+        },
+        "curriculum": "rev-2022",
+        "color_code": "btn-outline-primary"
       },
       {
         "id": 54,
@@ -217,8 +223,10 @@
         "created_at": "2025-04-23T03:21:05.000000Z",
         "updated_at": "2025-04-23T03:21:05.000000Z",
         "urls": {
-          "view": "/curriculum-02-sem-3/CO2060/"
-        }
+          "view": "/courses/undergraduate/CO2060/"
+        },
+        "curriculum": "rev-2022",
+        "color_code": "btn-outline-primary"
       },
       {
         "id": 55,
@@ -280,8 +288,10 @@
         "created_at": "2025-04-23T03:25:46.000000Z",
         "updated_at": "2025-04-23T03:25:46.000000Z",
         "urls": {
-          "view": "/curriculum-02-sem-3/EM2020/"
-        }
+          "view": "/courses/undergraduate/EM2020/"
+        },
+        "curriculum": "rev-2022",
+        "color_code": "btn-outline-danger"
       },
       {
         "id": 56,
@@ -343,8 +353,10 @@
         "created_at": "2025-04-23T03:29:02.000000Z",
         "updated_at": "2025-04-23T03:29:02.000000Z",
         "urls": {
-          "view": "/curriculum-02-sem-3/EM2060/"
-        }
+          "view": "/courses/undergraduate/EM2060/"
+        },
+        "curriculum": "rev-2022",
+        "color_code": "btn-outline-danger"
       }
     ]
   },
@@ -420,8 +432,10 @@
         "created_at": "2025-04-23T03:31:49.000000Z",
         "updated_at": "2025-04-23T03:31:49.000000Z",
         "urls": {
-          "view": "/curriculum-02-sem-4/CO2050/"
-        }
+          "view": "/courses/undergraduate/CO2050/"
+        },
+        "curriculum": "rev-2022",
+        "color_code": "btn-outline-primary"
       },
       {
         "id": 58,
@@ -483,8 +497,10 @@
         "created_at": "2025-04-23T17:52:14.000000Z",
         "updated_at": "2025-04-23T17:52:14.000000Z",
         "urls": {
-          "view": "/curriculum-02-sem-4/CO2070/"
-        }
+          "view": "/courses/undergraduate/CO2070/"
+        },
+        "curriculum": "rev-2022",
+        "color_code": "btn-outline-primary"
       },
       {
         "id": 59,
@@ -534,8 +550,10 @@
         "created_at": "2025-04-23T17:54:48.000000Z",
         "updated_at": "2025-04-23T17:54:48.000000Z",
         "urls": {
-          "view": "/curriculum-02-sem-4/CO2080/"
-        }
+          "view": "/courses/undergraduate/CO2080/"
+        },
+        "curriculum": "rev-2022",
+        "color_code": "btn-outline-primary"
       },
       {
         "id": 60,
@@ -585,8 +603,10 @@
         "created_at": "2025-04-23T17:57:29.000000Z",
         "updated_at": "2025-04-23T17:57:29.000000Z",
         "urls": {
-          "view": "/curriculum-02-sem-4/EE2820/"
-        }
+          "view": "/courses/undergraduate/EE2820/"
+        },
+        "curriculum": "rev-2022",
+        "color_code": "btn-outline-success"
       },
       {
         "id": 61,
@@ -636,8 +656,10 @@
         "created_at": "2025-04-23T18:13:24.000000Z",
         "updated_at": "2025-04-23T18:13:24.000000Z",
         "urls": {
-          "view": "/curriculum-02-sem-4/EM2010/"
-        }
+          "view": "/courses/undergraduate/EM2010/"
+        },
+        "curriculum": "rev-2022",
+        "color_code": "btn-outline-danger"
       }
     ]
   },
@@ -809,8 +831,10 @@
         "created_at": "2024-11-13T14:05:36.000000Z",
         "updated_at": "2024-11-13T14:05:36.000000Z",
         "urls": {
-          "view": "/curriculum-02-sem-2/CO2010/"
-        }
+          "view": "/courses/undergraduate/CO2010/"
+        },
+        "curriculum": "rev-2022",
+        "color_code": "btn-outline-primary"
       },
       {
         "id": 62,
@@ -860,8 +884,10 @@
         "created_at": "2025-04-23T18:17:30.000000Z",
         "updated_at": "2025-04-23T18:17:30.000000Z",
         "urls": {
-          "view": "/curriculum-02-sem-2/CO1020/"
-        }
+          "view": "/courses/undergraduate/CO1020/"
+        },
+        "curriculum": "rev-2022",
+        "color_code": "btn-outline-primary"
       },
       {
         "id": 63,
@@ -911,8 +937,10 @@
         "created_at": "2025-04-23T18:21:51.000000Z",
         "updated_at": "2025-04-23T18:21:51.000000Z",
         "urls": {
-          "view": "/curriculum-02-sem-2/CO1030/"
-        }
+          "view": "/courses/undergraduate/CO1030/"
+        },
+        "curriculum": "rev-2022",
+        "color_code": "btn-outline-primary"
       },
       {
         "id": 64,
@@ -962,8 +990,10 @@
         "created_at": "2025-04-23T18:29:07.000000Z",
         "updated_at": "2025-04-23T18:29:07.000000Z",
         "urls": {
-          "view": "/curriculum-02-sem-2/EE1810/"
-        }
+          "view": "/courses/undergraduate/EE1810/"
+        },
+        "curriculum": "rev-2022",
+        "color_code": "btn-outline-success"
       },
       {
         "id": 65,
@@ -1013,8 +1043,10 @@
         "created_at": "2025-04-23T18:33:20.000000Z",
         "updated_at": "2025-04-23T18:33:20.000000Z",
         "urls": {
-          "view": "/curriculum-02-sem-2/EM1030/"
-        }
+          "view": "/courses/undergraduate/EM1030/"
+        },
+        "curriculum": "rev-2022",
+        "color_code": "btn-outline-danger"
       },
       {
         "id": 66,
@@ -1064,8 +1096,10 @@
         "created_at": "2025-04-23T18:35:38.000000Z",
         "updated_at": "2025-04-23T18:35:38.000000Z",
         "urls": {
-          "view": "/curriculum-02-sem-2/EM1050/"
-        }
+          "view": "/courses/undergraduate/EM1050/"
+        },
+        "curriculum": "rev-2022",
+        "color_code": "btn-outline-danger"
       }
     ]
   },
@@ -1131,8 +1165,10 @@
         "created_at": "2025-05-20T03:51:41.000000Z",
         "updated_at": "2025-05-20T03:51:41.000000Z",
         "urls": {
-          "view": "/curriculum-02-sem-5/CO3010/"
-        }
+          "view": "/courses/undergraduate/CO3010/"
+        },
+        "curriculum": "rev-2022",
+        "color_code": "btn-outline-primary"
       },
       {
         "id": 69,
@@ -1194,8 +1230,10 @@
         "created_at": "2025-05-22T05:28:03.000000Z",
         "updated_at": "2025-05-22T05:28:03.000000Z",
         "urls": {
-          "view": "/curriculum-02-sem-5/CO3040/"
-        }
+          "view": "/courses/undergraduate/CO3040/"
+        },
+        "curriculum": "rev-2022",
+        "color_code": "btn-outline-primary"
       },
       {
         "id": 70,
@@ -1257,8 +1295,10 @@
         "created_at": "2025-05-22T05:31:07.000000Z",
         "updated_at": "2025-05-22T05:31:07.000000Z",
         "urls": {
-          "view": "/curriculum-02-sem-5/CO3060/"
-        }
+          "view": "/courses/undergraduate/CO3060/"
+        },
+        "curriculum": "rev-2022",
+        "color_code": "btn-outline-primary"
       },
       {
         "id": 71,
@@ -1318,8 +1358,10 @@
         "created_at": "2025-05-22T05:34:17.000000Z",
         "updated_at": "2025-05-22T05:34:17.000000Z",
         "urls": {
-          "view": "/curriculum-02-sem-5/EF1020/"
-        }
+          "view": "/courses/undergraduate/EF1020/"
+        },
+        "curriculum": "rev-2022",
+        "color_code": "btn-outline-secondary"
       }
     ]
   },
@@ -1397,8 +1439,10 @@
         "created_at": "2025-05-22T09:05:03.000000Z",
         "updated_at": "2025-05-22T09:05:03.000000Z",
         "urls": {
-          "view": "/curriculum-02-sem-6/CO3020/"
-        }
+          "view": "/courses/undergraduate/CO3020/"
+        },
+        "curriculum": "rev-2022",
+        "color_code": "btn-outline-primary"
       },
       {
         "id": 73,
@@ -1460,8 +1504,10 @@
         "created_at": "2025-05-22T09:07:50.000000Z",
         "updated_at": "2025-05-22T09:07:50.000000Z",
         "urls": {
-          "view": "/curriculum-02-sem-6/CO3030/"
-        }
+          "view": "/courses/undergraduate/CO3030/"
+        },
+        "curriculum": "rev-2022",
+        "color_code": "btn-outline-primary"
       }
     ]
   }
