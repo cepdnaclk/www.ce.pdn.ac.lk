@@ -15,104 +15,164 @@ navbar_active: Sitemap
 <h2>Sitemap</h2>
 
 <div class="container">
-    <div class="row">
+  <div class="row">
+    <ul>
+      <li><a href="{{ '/' | relative_url }}">Home</a></li>
+      <li>
+        <a href="{{ '/academics/' | relative_url }}">Academics</a>
         <ul>
-            <li><a href="{{ '/' | relative_url }}">Home</a></li>
-            <li>
-                <a href="{{ '/academics/' | relative_url }}">Academics</a>
-                <ul>
-                    <li>
-                        <a href="{{ '/undergraduate-courses/' | relative_url }}">Undergraduate Courses</a>
-                        <ul>
-                            {%- for sem in site.data.semesters -%}
-                            <li>
-                                <a href="{{ sem[1]['url'] }}">{{ sem[1]["title"] }}</a>
-                            </li>
-                            {%- endfor -%}
-                        </ul>
-                    </li>
-                    <li><a href="{{ '/postgraduate-courses/' | relative_url }}">Postgraduate Courses</a></li>
-                </ul>
-            </li>
-            <li><a href="{{ '/research/' | relative_url }}">Research</a>
-                {% assign pages = site.pages | where: "layout", "page_research" %}
-                <ul>
-                    {% for p in pages %}
-                    <li><a href="{{ p.permalink | relative_url }}">{{p.title}}</a></li>
-                    {% endfor %}
-                </ul>
-            </li>
-            <li><a href="{{ '/facilities/' | relative_url }}">Facilities</a>
-                {% assign pages = site.pages | where: "layout", "page_facilities" %}
-                <ul>
-                    {% for p in pages %}
-                    <li><a href="{{ p.permalink | relative_url }}">{{p.title}}</a></li>
-                    {% endfor %}
-                </ul>
-            </li>
-            <li><a href="https://projects.ce.pdn.ac.lk/">Projects</a>
-                <ul>
-                    <li><a href="https://projects.ce.pdn.ac.lk/4yp/">Undergraduate Research Projects</a></li>
-                    <li><a href="https://projects.ce.pdn.ac.lk/3yp/">Cyber-Physical Systems Projects</a></li>
-                    <li><a href="https://projects.ce.pdn.ac.lk/">Other Course Projects</a></li>
-                </ul>
-            </li>
-            <li><a href="https://people.ce.pdn.ac.lk/">People</a>
-                <ul>
-                    <li><a href="https://people.ce.pdn.ac.lk/staff/academic/">Academic Staff</a></li>
-                    <li><a href="https://people.ce.pdn.ac.lk/staff/temporary-academic-staff/">Temporary Academic
-                            Staff</a></li>
-                    <li><a href="https://people.ce.pdn.ac.lk/staff/academic-support-staff/">Academic Support
-                            Staff</a></li>
-                    <li><a href="https://people.ce.pdn.ac.lk/staff/academic/past/">Past Academic Staff</a></li>
-                    <li><a href="https://people.ce.pdn.ac.lk/staff/past-heads-of-dep/">Past heads of the
-                            Department</a></li>
-                    <li><a href="https://people.ce.pdn.ac.lk/alumni/">Undergraduate Students</a>
-                        <ul>
-                            {%- assign batches = site.data.students -%}
-                            {%- for b in batches -%}
-                            <li><a href="https://people.ce.pdn.ac.lk{{ b.url }}">{{ b.title }}</a></li>
-                            {%- endfor -%}
-                            <li><a href="https://people.ce.pdn.ac.lk/alumni/">Alumni</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-
-            <li><a href="{{ '/news/' | relative_url }}">News</a></li>
-            <li><a href="{{ '/events/' | relative_url }}">Events</a></li>
-            <li><a href="{{ '/achievements/' | relative_url }}">Achievements</a></li>
-            <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
-            <li><a href="{{ '/faq/' | relative_url }}">FAQ</a></li>
-            <li>Links
-                <ul>
-                    {% assign links = site.data.links -%}
-                    {% for l in links %}
-                    <li><a href="{{ l[1] }}">{{ l[0] }}</a></li>
-                    {% endfor -%}
-                </ul>
-            </li>
-
-            <li>Other
-                <ul>
-                    {% assign internal_pages = site.html_pages | where: "layout", "page" -%}
-
-                    {% for page in internal_pages %}
-                    {% if page.permalink and page.permalink != "//" and page.sitemap!=false and
-                    page.index_page!=true -%}
-                    <li><a href="{{ page.permalink | prepend: site.baseurl }}">
-                            {% if page.title -%}
-                            {{ page.title }}
-                            {% else -%}
-                            {{ page.permalink }}
-                            {% endif -%}
-                        </a></li>
-                    {% endif -%}
-                    {% endfor -%}
-
-                    <li><a href="{{ '/department-map/'| relative_url }}">Interactive Department Map</a></li>
-                </ul>
-            </li>
+          <li>
+            <a href="{{ '/undergraduate-courses/' | relative_url }}"
+              >Undergraduate Courses</a
+            >
+            <ul>
+              <li>
+                <a href="{{ '/courses/undergraduate/' | relative_url }}"
+                  >Undergraduate Courses - Curriculum Effective till E21</a
+                >
+              </li>
+              <li>
+                <a href="{{ '/courses/undergraduate/' | relative_url }}"
+                  >Undergraduate Courses - Curriculum Effective from E22</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="{{ '/postgraduate-courses/' | relative_url }}"
+              >Postgraduate Courses</a
+            >
+          </li>
         </ul>
-    </div>
+      </li>
+      <li>
+        <a href="{{ '/research/' | relative_url }}">Research</a>
+        {% assign pages = site.pages | where: "layout", "page_research" %}
+        <ul>
+          {% for p in pages %}
+          <li>
+            <a href="{{ p.permalink | relative_url }}">{{p.title}}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </li>
+      <li>
+        <a href="{{ '/facilities/' | relative_url }}">Facilities</a>
+        {% assign pages = site.pages | where: "layout", "page_facilities" %}
+        <ul>
+          {% for p in pages %}
+          <li>
+            <a href="{{ p.permalink | relative_url }}">{{p.title}}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </li>
+      <li>
+        <a href="https://projects.ce.pdn.ac.lk/">Projects</a>
+        <ul>
+          <li>
+            <a href="https://projects.ce.pdn.ac.lk/4yp/"
+              >Undergraduate Research Projects</a
+            >
+          </li>
+          <li>
+            <a href="https://projects.ce.pdn.ac.lk/3yp/"
+              >Cyber-Physical Systems Projects</a
+            >
+          </li>
+          <li>
+            <a href="https://projects.ce.pdn.ac.lk/">Other Course Projects</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="https://people.ce.pdn.ac.lk/">People</a>
+        <ul>
+          <li>
+            <a href="https://people.ce.pdn.ac.lk/staff/academic/"
+              >Academic Staff</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://people.ce.pdn.ac.lk/staff/temporary-academic-staff/"
+              >Temporary Academic Staff</a
+            >
+          </li>
+          <li>
+            <a href="https://people.ce.pdn.ac.lk/staff/academic-support-staff/"
+              >Academic Support Staff</a
+            >
+          </li>
+          <li>
+            <a href="https://people.ce.pdn.ac.lk/staff/academic/past/"
+              >Past Academic Staff</a
+            >
+          </li>
+          <li>
+            <a href="https://people.ce.pdn.ac.lk/staff/past-heads-of-dep/"
+              >Past heads of the Department</a
+            >
+          </li>
+          <li>
+            <a href="https://people.ce.pdn.ac.lk/alumni/"
+              >Undergraduate Students</a
+            >
+            <ul>
+              {%- assign batches = site.data.students -%} {%- for b in batches
+              -%}
+              <li>
+                <a href="https://people.ce.pdn.ac.lk{{ b.url }}"
+                  >{{ b.title }}</a
+                >
+              </li>
+              {%- endfor -%}
+              <li>
+                <a href="https://people.ce.pdn.ac.lk/alumni/">Alumni</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+
+      <li><a href="{{ '/news/' | relative_url }}">News</a></li>
+      <li><a href="{{ '/events/' | relative_url }}">Events</a></li>
+      <li>
+        <a href="{{ '/achievements/' | relative_url }}">Achievements</a>
+      </li>
+      <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
+      <li><a href="{{ '/faq/' | relative_url }}">FAQ</a></li>
+      <li>
+        Links
+        <ul>
+          {% assign links = site.data.links -%} {% for l in links %}
+          <li><a href="{{ l[1] }}">{{ l[0] }}</a></li>
+          {% endfor -%}
+        </ul>
+      </li>
+
+      <li>
+        Other
+        <ul>
+          {% assign internal_pages = site.html_pages | where: "layout", "page"
+          -%} {% for page in internal_pages %} {% if page.permalink and
+          page.permalink != "//" and page.sitemap!=false and
+          page.index_page!=true -%}
+          <li>
+            <a href="{{ page.permalink | prepend: site.baseurl }}">
+              {% if page.title -%} {{ page.title }} {% else -%} {{
+              page.permalink }} {% endif -%}
+            </a>
+          </li>
+          {% endif -%} {% endfor -%}
+
+          <li>
+            <a href="{{ '/department-map/'| relative_url }}"
+              >Interactive Department Map</a
+            >
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
 </div>

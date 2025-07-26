@@ -1,106 +1,228 @@
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-    <div class="container px-3 d-flex">
-        {% if page.title != "Home" %}
-        <a class="navbar-brand me-5" href="{{ '/' | prepend: site.baseurl }}">
-            <img style="max-width: 50vw;" class="img-fluid"
-                src="{{ '/assets/images/banner.svg' | prepend: site.baseurl }}" alt="" width="300">
-        </a>
-        {% else %}
-        <a class="navbar-brand me-5 d-sm-block d-md-none" href="{{ '/' | prepend: site.baseurl }}">
-            <img style="max-width: 50vw;" class="img-fluid"
-                src="{{ '/assets/images/banner.svg' | prepend: site.baseurl }}" alt="" width="300">
-        </a>
-        {%- endif -%}
+  <div class="container px-3 d-flex">
+    {% if page.title != "Home" %}
+    <a class="navbar-brand me-5" href="{{ '/' | prepend: site.baseurl }}">
+      <img
+        style="max-width: 50vw"
+        class="img-fluid"
+        src="{{ '/assets/images/banner.svg' | prepend: site.baseurl }}"
+        alt=""
+        width="300"
+      />
+    </a>
+    {% else %}
+    <a
+      class="navbar-brand me-5 d-sm-block d-md-none"
+      href="{{ '/' | prepend: site.baseurl }}"
+    >
+      <img
+        style="max-width: 50vw"
+        class="img-fluid"
+        src="{{ '/assets/images/banner.svg' | prepend: site.baseurl }}"
+        alt=""
+        width="300"
+      />
+    </a>
+    {%- endif -%}
 
-        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <button
+      class="navbar-toggler ms-auto"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#main_nav"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="collapse navbar-collapse ms-3" id="main_nav">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-between w-100">
-                <li class="nav-item active"><a class="nav-link" href="{{ '/' | prepend: site.baseurl }}">Home</a></li>
+    <div class="collapse navbar-collapse ms-3" id="main_nav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-between w-100">
+        <li class="nav-item active">
+          <a class="nav-link" href="{{ '/' | prepend: site.baseurl }}">Home</a>
+        </li>
 
-                <li class="nav-item dropdown dropdown-hover-all">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown_study" data-bs-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">Study</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown_study">
-                        <a class="dropdown-item" href="{{ 'courses/undergraduate/' | relative_url }}">Undergraduate
-                            Courses</a>
-                        <a class="dropdown-item"
-                            href="{{ '/postgraduate-courses/' | prepend: site.baseurl }}">Postgraduate Courses</a>
-                    </div>
-                </li>
+        <li class="nav-item dropdown dropdown-hover-all">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="dropdown_study"
+            data-bs-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            >Study</a
+          >
+          <div class="dropdown-menu" aria-labelledby="dropdown_study">
+            <a
+              class="dropdown-item"
+              href="{{ 'courses/undergraduate/rev-2013/' | relative_url }}"
+              >Undergraduate Courses (Effective till E21)</a
+            >
+            <a
+              class="dropdown-item"
+              href="{{ 'courses/undergraduate/rev-2022/' | relative_url }}"
+              >Undergraduate Courses (Effective from E22)</a
+            >
+            <a
+              class="dropdown-item"
+              href="{{ '/postgraduate-courses/' | prepend: site.baseurl }}"
+              >Postgraduate Courses</a
+            >
+          </div>
+        </li>
 
-                <li class="nav-item"><a class="nav-link" href="{{ '/research' | relative_url }}">Research</a></li>
-                <li class="nav-item"><a class="nav-link" href="https://projects.ce.pdn.ac.lk/">Projects</a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ '/research' | relative_url }}"
+            >Research</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://projects.ce.pdn.ac.lk/">Projects</a>
+        </li>
 
-                <li class="nav-item dropdown dropdown-hover-all">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-bs-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">People</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown02">
+        <li class="nav-item dropdown dropdown-hover-all">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="dropdown02"
+            data-bs-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            >People</a
+          >
+          <div class="dropdown-menu" aria-labelledby="dropdown02">
+            <div class="dropdown dropend">
+              <a
+                class="dropdown-item dropdown-toggle"
+                href="#"
+                id="dropdown-staff"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Staff
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropdown-staff">
+                <a
+                  class="dropdown-item"
+                  target="_blank"
+                  href="https://people.ce.pdn.ac.lk/staff/academic/"
+                  >Academic Staff</a
+                >
+                <a
+                  class="dropdown-item"
+                  target="_blank"
+                  href="https://people.ce.pdn.ac.lk/staff/temporary-academic-staff/"
+                  >Temporary Academic Staff</a
+                >
+                <a
+                  class="dropdown-item"
+                  target="_blank"
+                  href="https://people.ce.pdn.ac.lk/staff/academic-support-staff/"
+                  >Academic Support Staff</a
+                >
+                <div class="dropdown-divider"></div>
+                <a
+                  class="dropdown-item"
+                  target="_blank"
+                  href="https://people.ce.pdn.ac.lk/staff/past-heads-of-dep/"
+                  >Past Heads of the Department</a
+                >
+                <a
+                  class="dropdown-item"
+                  target="_blank"
+                  href="https://people.ce.pdn.ac.lk/staff/academic/past/"
+                  >Past Academic Staff</a
+                >
+              </div>
+            </div>
 
-                        <div class="dropdown dropend">
-                            <a class="dropdown-item dropdown-toggle" href="#" id="dropdown-staff"
-                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Staff
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown-staff">
-                                <a class="dropdown-item" target="_blank"
-                                    href="https://people.ce.pdn.ac.lk/staff/academic/">Academic Staff</a>
-                                <a class="dropdown-item" target="_blank"
-                                    href="https://people.ce.pdn.ac.lk/staff/temporary-academic-staff/">Temporary
-                                    Academic Staff</a>
-                                <a class="dropdown-item" target="_blank"
-                                    href="https://people.ce.pdn.ac.lk/staff/academic-support-staff/">Academic Support
-                                    Staff</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" target="_blank"
-                                    href="https://people.ce.pdn.ac.lk/staff/past-heads-of-dep/">Past Heads of the
-                                    Department</a>
-                                <a class="dropdown-item" target="_blank"
-                                    href="https://people.ce.pdn.ac.lk/staff/academic/past/">Past Academic Staff</a>
-                            </div>
-                        </div>
+            <div class="dropdown dropend">
+              <a
+                class="dropdown-item dropdown-toggle"
+                href="#"
+                id="dropdown-students"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Students
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropdown-students">
+                {%- for batch in site.data.students -%}
+                <a
+                  class="dropdown-item"
+                  target="_blank"
+                  href="https://people.ce.pdn.ac.lk/{{ batch.url }}"
+                  >{{batch.title}}</a
+                >
+                {%- endfor -%}
+              </div>
+            </div>
+            <!-- <div class="dropdown-divider"></div> -->
+            <a class="dropdown-item" href="https://people.ce.pdn.ac.lk/alumni/"
+              >Alumni</a
+            >
+          </div>
+        </li>
 
-                        <div class="dropdown dropend">
-                            <a class="dropdown-item dropdown-toggle" href="#" id="dropdown-students"
-                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Students
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown-students">
-                                {%- for batch in site.data.students -%}
-                                <a class="dropdown-item" target="_blank"
-                                    href="https://people.ce.pdn.ac.lk/{{ batch.url }}">{{batch.title}}</a>
-                                {%- endfor -%}
-                            </div>
-                        </div>
-                        <!-- <div class="dropdown-divider"></div> -->
-                        <a class="dropdown-item" href="https://people.ce.pdn.ac.lk/alumni/">Alumni</a>
-                    </div>
-                </li>
+        <!-- About us -->
+        <li class="nav-item dropdown dropdown-hover-all">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="dropdown_latest"
+            data-bs-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            >About us</a
+          >
+          <div class="dropdown-menu" aria-labelledby="dropdown_latest">
+            <a
+              class="dropdown-item"
+              href="{{ '/overview/' | prepend: site.baseurl }}"
+              >Overview</a
+            >
+            <a
+              class="dropdown-item"
+              href="{{ '/vision-and-mission/' | prepend: site.baseurl }}"
+              >Vision and Mission</a
+            >
+            <a
+              class="dropdown-item"
+              href="{{ '/department-history/' | prepend: site.baseurl }}"
+              >Department History</a
+            >
+            <a
+              class="dropdown-item"
+              href="{{ '/contact-us/' | prepend: site.baseurl }}"
+              >Contact Us</a
+            >
+            <a
+              class="dropdown-item"
+              href="{{ '/vacancies/' | prepend: site.baseurl }}"
+              >Vacancies</a
+            >
+            <a
+              class="dropdown-item"
+              href="{{ '/opportunities/' | prepend: site.baseurl }}"
+              >Opportunities</a
+            >
+            <a
+              class="dropdown-item"
+              href="{{ '/peracom-seminars/' | prepend: site.baseurl }}"
+              >Peracom Seminars</a
+            >
+          </div>
+        </li>
 
-                <!-- About us -->
-                <li class="nav-item dropdown dropdown-hover-all">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown_latest" data-bs-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">About us</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown_latest">
-                        <a class="dropdown-item" href="{{ '/overview/' | prepend: site.baseurl }}">Overview</a>
-                        <a class="dropdown-item" href="{{ '/vision-and-mission/' | prepend: site.baseurl }}">Vision and
-                            Mission</a>
-                        <a class="dropdown-item" href="{{ '/department-history/' | prepend: site.baseurl }}">Department
-                            History</a>
-                        <a class="dropdown-item" href="{{ '/contact-us/' | prepend: site.baseurl }}">Contact Us</a>
-                        <a class="dropdown-item" href="{{ '/vacancies/' | prepend: site.baseurl }}">Vacancies</a>
-                        <a class="dropdown-item"
-                            href="{{ '/opportunities/' | prepend: site.baseurl }}">Opportunities</a>
-                        <a class="dropdown-item" href="{{ '/peracom-seminars/' | prepend: site.baseurl }}">Peracom Seminars</a>
-                    </div>
-                </li>
-
-                <li class="nav-item"><a class="nav-link" href="{{ '/intranet' | relative_url}}">Intranet</a></li>
-
-            </ul>
-        </div>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ '/intranet' | relative_url}}"
+            >Intranet</a
+          >
+        </li>
+      </ul>
     </div>
+  </div>
 </nav>

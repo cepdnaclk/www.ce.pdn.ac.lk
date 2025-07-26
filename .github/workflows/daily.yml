@@ -38,14 +38,14 @@ jobs:
         run: |
           python update_events.py
 
+      - name: "Update Undergraduate Courses"
+        working-directory: ./python_scripts/undergraduate_courses
+        run: |
+          python sync.py
+
       - name: "Update Taxonomy - Intranet"
         working-directory: ./python_scripts/taxonomy
         run: |
-          python intranet.py
-
-      - name: "Update Taxonomy - Intranet"
-        run: |
-          cd ./python_scripts/taxonomy/
           python intranet.py
 
       - name: "Update Research Groups"
