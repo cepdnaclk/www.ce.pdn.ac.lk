@@ -21,7 +21,6 @@ def get_semesters_list(SEMESTERS_API_URL, curriculum_key):
     Fetches the list of semesters for a given curriculum from the API.
     """
     url = SEMESTERS_API_URL.format(curriculum_key)
-
     response = requests.get(url, timeout=10)
     api_data = response.json()
     return api_data.get("data", [])
@@ -74,11 +73,10 @@ def create_new_course_pages(course_data):
         for course in courses:
             course_code = course["code"]
             page_url = course["urls"]["view"]
+            title = " ".join([course["code"].strip().upper(), course["name"].strip()])
             curriculum_name = (
                 course["academic_program"].get("curriculum_name", "-").strip()
             )
-
-            title = " ".join([course["code"].strip().upper(), course["name"].strip()])
             marks_allocation = {
                 k: v for k, v in course["marks_allocation"].items() if v is not None
             }
@@ -118,13 +116,13 @@ def create_new_course_pages(course_data):
                 "permalink": page_url,
                 #
                 "title": title,
-                "course_code": course["code"].upper(),
-                "course_title": course["name"].strip(),
+                "course_code": course.get("code", "").upper(),
+                "course_title": course.get("name", "").strip(),
                 "curriculum": curriculum_name,
-                "semester": semester["title"].strip(),
+                "semester": semester.get("title", "").strip(),
                 #
-                "credits": course["credits"],
-                "type": course["type"],
+                "credits": course.get("credits"),
+                "type": course.get("type"),
                 "prerequisites": prerequisites,
                 "aims_and_objectives": course.get("objectives"),
                 "modules": course_modules,

@@ -11,10 +11,9 @@ from utils import (
     get_semesters_list,
 )
 
-# TODO get this from taxonomy
 curriculums = {
-    "v1": {"key": 1, "name": "rev-2013"},
-    "v2": {"key": 2, "name": "rev-2022"},
+    1: "rev-2013",
+    2: "rev-2022",
 }
 
 course_color_codes = {
@@ -23,7 +22,6 @@ course_color_codes = {
     "EM": "btn-outline-danger",
     "GP": "btn-outline-warning",
 }
-
 
 COURSES_API_URL = "https://portal.ce.pdn.ac.lk/api/academic/v1/undergraduate/courses?curriculum={0}&page={1}"
 SEMESTERS_API_URL = (
@@ -35,31 +33,35 @@ DIRECTORY = "../../_data/courses_v{0}.json"
 delete_existing_course_pages()
 
 
-for curriculum_name, curriculum in curriculums.items():
-    print(f"\nSyncing curriculum {curriculum_name}...")
+for curriculum_key, curriculum_name in curriculums.items():
+    print(f"\nSyncing curriculum {curriculum_key}...")
 
     # Phase 1: Fetch semester data for the curriculum
-    semesters = get_semesters_list(SEMESTERS_API_URL, curriculum["key"])
+    semesters = get_semesters_list(SEMESTERS_API_URL, curriculum_key)
     course_data = {
         semester["id"]: {**semester, "courses": []} for semester in semesters
     }
 
     # Phase 2: Fetch course data for the curriculum (using pagination)
-    courses = get_courses_list(COURSES_API_URL, curriculum["key"])
+    courses = get_courses_list(COURSES_API_URL, curriculum_key)
 
     # Phase 3: Aggregate course data under semesters while generating system data
     for item in courses:
         semester_id = item.get("semester_id")
+
+        # Use relative URLs for course links
         item["urls"]["view"] = item["urls"]["view"].replace(
-            "https://www.ce.pdn.ac.lk", ""
+            "https://www.ce.pdn.ac.lk/", "/"
         )
+
+        # Assign a custom color code based on the course code prefix
         item["color_code"] = course_color_codes.get(
             item["code"][0:2], "btn-outline-secondary"
         )
         course_data[semester_id]["courses"].append(item)
 
     # Phase 4: Save the aggregated data to a JSON file in the data directory
-    output_file = DIRECTORY.format(curriculum["key"])
+    output_file = DIRECTORY.format(curriculum_key)
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(course_data, f, indent=2)
 
