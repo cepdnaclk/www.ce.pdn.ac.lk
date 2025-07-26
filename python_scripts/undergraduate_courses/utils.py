@@ -60,7 +60,7 @@ def delete_existing_course_pages():
     try:
         shutil.rmtree(dir_path)
     except FileNotFoundError:
-        print("Error: Courses Folder Not Found!")
+        print(f"Error: Courses Folder Not Found at path: {dir_path}")
 
 
 def create_new_course_pages(course_data):
@@ -96,9 +96,11 @@ def create_new_course_pages(course_data):
             prerequisites = [
                 {
                     "id": p["id"],
-                    "code": p["code"],
-                    "name": p["name"],
-                    "url": p["urls"]["view"].replace("https://www.ce.pdn.ac.lk", ""),
+                    "code": p["code"].strip(),
+                    "name": p["name"].strip(),
+                    "url": p["urls"]["view"]
+                    .replace("https://www.ce.pdn.ac.lk", "")
+                    .replace(" ", ""),
                 }
                 for p in course.get("prerequisites", [])
             ]
@@ -109,7 +111,9 @@ def create_new_course_pages(course_data):
                 )
             except ValueError:
                 last_edit = ""
-                print(f"Error: Invalid date format for course {course['code']}")
+                print(
+                    f"Error: Invalid date format '{course['updated_at']}' for course {course['code']}"
+                )
 
             course_data = {
                 "layout": "page_course",
