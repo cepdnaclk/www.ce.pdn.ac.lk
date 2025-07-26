@@ -182,7 +182,7 @@
         "id": 54,
         "code": "CO2060",
         "name": "Software Systems Design Project",
-        "content": "Requirement analysis and elicitation\nIdentification and presenting of functional requirements and non-functional requirements,\nrelevant tools.\nSoftware systems design and development\nApply software and database design concepts to design a non-trivial software solution and\nimplement it, user experience and user interfaces design, software deployment, good practices\nin software design and development (documentation, version control, code reusability, etc.),\nrelevant tools\nSoftware testing\nDesign test cases and perform: unit testing; integration testing; and acceptance testing,\nrelevant tools.",
+        "content": "Requirement analysis and elicitation, Identification and presenting of functional requirements and non-functional requirements, relevant tools. Software systems design and development Apply software and database design concepts to design a non-trivial software solution and implement it, user experience and user interfaces design, software deploymen t, good practices in software design and development (documentation, version control, code reusability, etc.), relevant tools Software testing Design test cases and perform: unit testing; integration testing; and acceptance testing, relevant tools.",
         "credits": 2,
         "type": "Core",
         "semester_id": 11,
@@ -194,33 +194,37 @@
         "teaching_methods": "Flipped classrooms, small group discussion classes, project-based learning.",
         "objectives": null,
         "time_allocation": {
-          "lecture": null,
-          "tutorial": null,
-          "practical": 22,
-          "design": 38,
           "assignment": null,
-          "independent_learning": 40
+          "design": 38,
+          "independent_learning": 40,
+          "lecture": null,
+          "practical": 22,
+          "tutorial": null
         },
         "marks_allocation": {
-          "practicals": null,
-          "quizzes": null,
           "assignments": null,
-          "tutorials": null,
-          "projects": null,
-          "participation": null,
+          "end_exam": null,
           "mid_exam": null,
-          "end_exam": null
+          "participation": null,
+          "practicals": null,
+          "projects": null,
+          "quizzes": null,
+          "tutorials": null
         },
         "ilos": {
+          "attitudes": [],
           "general": [
             "ILO1: construct a requirement specification for a non-trivial software design;\nILO2: design and implement a non-trivial software system based on specification;\nILO3: construct test-cases and perform testing on a specified software system;\nILO4: demonstrate good practices in software design and development.\n"
           ],
           "knowledge": [],
-          "skills": [],
-          "attitudes": []
+          "skills": []
         },
         "references": [
-          "\u25cf Software Engineering, 10th Edition of Ian Sommerville (Link:\nhttps://iansommerville.com/software-engineering-book/)\n\u25cf Lean Architecture: for Agile Software Development, 1st Edition, James O. Coplien and\nGertrud Bj\u00f8rnvig, Wiley\n\u25cf Object-oriented reengineering patterns, Serge Demeyer, St\u00e9phane Ducasse and Oscar\nNierstrasz, http://scg.unibe.ch/download/oorp/\n\u25cf Elmasri and Navathe, Fundamentals of Database Systems\n\u25cf Raghu Ramakrishnan and Johannes Gehrke, Database Management Systems"
+          "Software Engineering, 10th Edition of Ian Sommerville",
+          "Lean Architecture: for Agile Software Development, 1st Edition, James O. Coplien and Gertrud Bj\u00f8rnvig, Wiley ",
+          " Object-oriented reengineering patterns, Serge Demeyer, St\u00e9phane Ducasse and Oscar Nierstrasz",
+          "Elmasri and Navathe, Fundamentals of Database Systems",
+          "Raghu Ramakrishnan and Johannes Gehrke, Database Management Systems"
         ],
         "modules": [],
         "prerequisites": [],
@@ -229,7 +233,7 @@
           "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/54"
         },
         "created_at": "2025-04-23T03:21:05.000000Z",
-        "updated_at": "2025-04-23T03:21:05.000000Z",
+        "updated_at": "2025-07-26T08:53:28.000000Z",
         "color_code": "btn-outline-primary"
       },
       {

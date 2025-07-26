@@ -130,6 +130,8 @@ def create_new_course_pages(course_data):
                     "curriculum": curriculum_name,
                     "semester": semester.get("title", "").strip(),
                     #
+                    "course_content": course.get("content") or "",
+                    #
                     "credits": course.get("credits"),
                     "type": course.get("type"),
                     "prerequisites": prerequisites,
