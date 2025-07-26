@@ -71,93 +71,105 @@ def create_new_course_pages(course_data):
         print("- " + semester["title"] + " -\n")
 
         for course in courses:
-            course_code = course["code"]
-            page_url = course["urls"]["view"]
-            title = " ".join([course["code"].strip().upper(), course["name"].strip()])
-            curriculum_name = (
-                course["academic_program"].get("curriculum_name", "-").strip()
-            )
-            marks_allocation = {
-                k: v for k, v in course["marks_allocation"].items() if v is not None
-            }
-            course_references = [ref.strip() for ref in course.get("references", [])]
-            course_modules = [
-                {
-                    "topic": module["topic"].strip(),
-                    "description": module["description"].strip(),
-                    "time_allocation": {
-                        k: v
-                        for k, v in module["time_allocation"].items()
-                        if v is not None
-                    },
-                }
-                for module in course["modules"]
-            ]
-            prerequisites = [
-                {
-                    "id": p["id"],
-                    "code": p["code"].strip(),
-                    "name": p["name"].strip(),
-                    "url": p["urls"]["view"]
-                    .replace("https://www.ce.pdn.ac.lk", "")
-                    .replace(" ", ""),
-                }
-                for p in course.get("prerequisites", [])
-            ]
-
             try:
-                last_edit = datetime.fromisoformat(course["updated_at"]).strftime(
-                    "%Y-%m-%d"
+                course_code = course["code"]
+                page_url = course["urls"]["view"]
+                title = " ".join(
+                    [course["code"].strip().upper(), course["name"].strip()]
                 )
-            except ValueError:
-                last_edit = ""
+                curriculum_name = (
+                    course["academic_program"].get("curriculum_name", "-").strip()
+                )
+                marks_allocation = {
+                    k: v for k, v in course["marks_allocation"].items() if v is not None
+                }
+                course_references = [
+                    ref.strip() for ref in course.get("references", [])
+                ]
+                course_modules = [
+                    {
+                        "topic": module["topic"].strip(),
+                        "description": module["description"].strip(),
+                        "time_allocation": {
+                            k: v
+                            for k, v in module["time_allocation"].items()
+                            if v is not None
+                        },
+                    }
+                    for module in course["modules"]
+                ]
+                prerequisites = [
+                    {
+                        "id": p["id"],
+                        "code": p["code"].strip(),
+                        "name": p["name"].strip(),
+                        "url": p["urls"]["view"]
+                        .replace("https://www.ce.pdn.ac.lk", "")
+                        .replace(" ", ""),
+                    }
+                    for p in course.get("prerequisites", [])
+                ]
+
+                try:
+                    last_edit = datetime.fromisoformat(course["updated_at"]).strftime(
+                        "%Y-%m-%d"
+                    )
+                except ValueError:
+                    last_edit = ""
+                    print(
+                        f"Error: Invalid date format '{course['updated_at']}' for course {course['code']}"
+                    )
+
+                course_data = {
+                    "layout": "page_course",
+                    "permalink": page_url,
+                    #
+                    "title": title,
+                    "course_code": course.get("code", "").upper(),
+                    "course_title": course.get("name", "").strip(),
+                    "curriculum": curriculum_name,
+                    "semester": semester.get("title", "").strip(),
+                    #
+                    "credits": course.get("credits"),
+                    "type": course.get("type"),
+                    "prerequisites": prerequisites,
+                    "aims_and_objectives": course.get("objectives"),
+                    "modules": course_modules,
+                    "textbooks_references": course_references,
+                    "marks": marks_allocation,
+                    #
+                    "ilos_general": course["ilos"].get("general", []),
+                    "ilos_knowledge": course["ilos"].get("knowledge", []),
+                    "ilos_skills": course["ilos"].get("skills", []),
+                    "ilos_attitudes": course["ilos"].get("attitudes", []),
+                    #
+                    "last_edit": last_edit,
+                    "edit_page": course["urls"].get("edit", "#"),
+                    "faq_page": course["urls"].get("faq", "#"),
+                    "color_code": course["color_code"],
+                }
+
+                # Write into a file
+                file_url = f"../../pages/courses/undergraduate/{course_code.strip().upper()}.html"
+                os.makedirs(os.path.dirname(file_url), exist_ok=True)
+                try:
+                    with open(file_url, "w", encoding="utf-8") as f:
+                        f.write("---\n")
+                        f.write(yaml.dump(course_data, sort_keys=False))
+                        f.write("---\n\n")
+                        f.write("")
+                    print("Generated: " + course_code.upper() + ".html")
+                except Exception as e:
+                    print(
+                        f"Error: generating file for course {course_code.upper()}: {e}"
+                    )
+
+            except KeyError as e:
                 print(
-                    f"Error: Invalid date format '{course['updated_at']}' for course {course['code']}"
+                    f"Error: Missing key {e} in course data for {course_code.upper()}"
                 )
-
-            course_data = {
-                "layout": "page_course",
-                "permalink": page_url,
-                #
-                "title": title,
-                "course_code": course.get("code", "").upper(),
-                "course_title": course.get("name", "").strip(),
-                "curriculum": curriculum_name,
-                "semester": semester.get("title", "").strip(),
-                #
-                "credits": course.get("credits"),
-                "type": course.get("type"),
-                "prerequisites": prerequisites,
-                "aims_and_objectives": course.get("objectives"),
-                "modules": course_modules,
-                "textbooks_references": course_references,
-                "marks": marks_allocation,
-                #
-                "ilos_general": course["ilos"].get("general", []),
-                "ilos_knowledge": course["ilos"].get("knowledge", []),
-                "ilos_skills": course["ilos"].get("skills", []),
-                "ilos_attitudes": course["ilos"].get("attitudes", []),
-                #
-                "last_edit": last_edit,
-                "edit_page": course["urls"].get("edit", "#"),
-                "faq_page": course["urls"].get("faq", "#"),
-                "color_code": course["color_code"],
-            }
-
-            # Write into a file
-            file_url = (
-                f"../../pages/courses/undergraduate/{course_code.strip().upper()}.html"
-            )
-            os.makedirs(os.path.dirname(file_url), exist_ok=True)
-            try:
-                with open(file_url, "w", encoding="utf-8") as f:
-                    f.write("---\n")
-                    f.write(yaml.dump(course_data, sort_keys=False))
-                    f.write("---\n\n")
-                    f.write("")
-                print("Generated: " + course_code.upper() + ".html")
             except Exception as e:
-                print(f"Error: generating file for course {course_code.upper()}: {e}")
+                print(f"Error: Unexpected error for course {course_code.upper()}: {e}")
 
         print("")
 
