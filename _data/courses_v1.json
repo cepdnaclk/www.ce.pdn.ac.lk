@@ -999,33 +999,160 @@
         "teaching_methods": null,
         "objectives": null,
         "time_allocation": {
-          "lecture": 31,
-          "tutorial": null,
-          "practical": 20,
-          "design": null,
           "assignment": null,
-          "independent_learning": null
+          "design": null,
+          "independent_learning": null,
+          "lecture": 31,
+          "practical": 20,
+          "tutorial": null
         },
         "marks_allocation": {
-          "practicals": 20,
-          "quizzes": null,
           "assignments": null,
-          "tutorials": null,
-          "projects": 20,
-          "participation": null,
+          "end_exam": 40,
           "mid_exam": 20,
-          "end_exam": 40
+          "participation": null,
+          "practicals": 20,
+          "projects": 20,
+          "quizzes": null,
+          "tutorials": null
         },
         "ilos": {
+          "attitudes": [],
           "general": [],
           "knowledge": [],
-          "skills": [],
-          "attitudes": []
+          "skills": []
         },
         "references": [
           "Book - AVR Microcontroller and Embedded Systems\nFredrick M. Cady; Microcontrollers and Microcomputers- Principles of Software and Hardware Engineering.\nMano, M.M. & Kime, C.R.; Logic and Computer Design Fundamentals\n"
         ],
-        "modules": [],
+        "modules": [
+          {
+            "topic": "Introduction to microcontrollers",
+            "description": "",
+            "time_allocation": {
+              "assignment": null,
+              "design": null,
+              "independent_learning": null,
+              "lecture": null,
+              "practical": null,
+              "tutorial": null
+            },
+            "created_at": "2025-07-26T08:00:49.000000Z",
+            "updated_at": "2025-07-26T08:00:49.000000Z"
+          },
+          {
+            "topic": "Memory organization of microcontrollers",
+            "description": "",
+            "time_allocation": {
+              "assignment": null,
+              "design": null,
+              "independent_learning": null,
+              "lecture": null,
+              "practical": null,
+              "tutorial": null
+            },
+            "created_at": "2025-07-26T08:00:49.000000Z",
+            "updated_at": "2025-07-26T08:00:49.000000Z"
+          },
+          {
+            "topic": "Programming of flash microcontrollers",
+            "description": "",
+            "time_allocation": {
+              "assignment": null,
+              "design": null,
+              "independent_learning": null,
+              "lecture": null,
+              "practical": null,
+              "tutorial": null
+            },
+            "created_at": "2025-07-26T08:00:49.000000Z",
+            "updated_at": "2025-07-26T08:00:49.000000Z"
+          },
+          {
+            "topic": "I/O port configuration and programming interfaces",
+            "description": "",
+            "time_allocation": {
+              "assignment": null,
+              "design": null,
+              "independent_learning": null,
+              "lecture": null,
+              "practical": null,
+              "tutorial": null
+            },
+            "created_at": "2025-07-26T08:00:49.000000Z",
+            "updated_at": "2025-07-26T08:00:49.000000Z"
+          },
+          {
+            "topic": "A/D converters and applications",
+            "description": "",
+            "time_allocation": {
+              "assignment": null,
+              "design": null,
+              "independent_learning": null,
+              "lecture": null,
+              "practical": null,
+              "tutorial": null
+            },
+            "created_at": "2025-07-26T08:00:49.000000Z",
+            "updated_at": "2025-07-26T08:00:49.000000Z"
+          },
+          {
+            "topic": "Timer systems of microcontrollers",
+            "description": "",
+            "time_allocation": {
+              "assignment": null,
+              "design": null,
+              "independent_learning": null,
+              "lecture": null,
+              "practical": null,
+              "tutorial": null
+            },
+            "created_at": "2025-07-26T08:00:49.000000Z",
+            "updated_at": "2025-07-26T08:00:49.000000Z"
+          },
+          {
+            "topic": "Applications of non-volatile memory",
+            "description": "",
+            "time_allocation": {
+              "assignment": null,
+              "design": null,
+              "independent_learning": null,
+              "lecture": null,
+              "practical": null,
+              "tutorial": null
+            },
+            "created_at": "2025-07-26T08:00:49.000000Z",
+            "updated_at": "2025-07-26T08:00:49.000000Z"
+          },
+          {
+            "topic": "Industrial Applications",
+            "description": "",
+            "time_allocation": {
+              "assignment": null,
+              "design": null,
+              "independent_learning": null,
+              "lecture": null,
+              "practical": null,
+              "tutorial": null
+            },
+            "created_at": "2025-07-26T08:00:49.000000Z",
+            "updated_at": "2025-07-26T08:00:49.000000Z"
+          },
+          {
+            "topic": "Student Project",
+            "description": "",
+            "time_allocation": {
+              "assignment": null,
+              "design": null,
+              "independent_learning": null,
+              "lecture": null,
+              "practical": null,
+              "tutorial": null
+            },
+            "created_at": "2025-07-26T08:00:49.000000Z",
+            "updated_at": "2025-07-26T08:00:49.000000Z"
+          }
+        ],
         "prerequisites": [
           {
             "id": 9,
@@ -1042,7 +1169,7 @@
           "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/16"
         },
         "created_at": "2025-04-20T09:23:05.000000Z",
-        "updated_at": "2025-04-20T09:23:05.000000Z",
+        "updated_at": "2025-07-26T08:00:49.000000Z",
         "color_code": "btn-outline-primary"
       },
       {
