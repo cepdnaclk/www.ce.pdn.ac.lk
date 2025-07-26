@@ -161,9 +161,3 @@ def create_new_course_pages(course_data):
 
     print("Course page generation completed !")
     print("--------------------------------")
-
-
-# ilos_general: "{course["ilos"]["general"]}"
-# ilos_knowledge: "{course["ilos"]["knowledge"]}"
-# ilos_skill: "{course["ilos"]["skills"]}"
-# ilos_attitude: "{course["ilos"]["attitudes"]}"

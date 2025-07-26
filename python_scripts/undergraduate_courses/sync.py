@@ -67,6 +67,3 @@ for curriculum_name, curriculum in curriculums.items():
 
     # Phase 5: Generate Course Pages
     create_new_course_pages(course_data)
-
-    # Phase 6: Generate Semester Pages
-    # TODO
