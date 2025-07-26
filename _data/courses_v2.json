@@ -58,12 +58,13 @@
           "\u25cf James Kurose and Keith Ross, Computer Networks, 8th Edition, 2021"
         ],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/CO2020",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/51"
+        },
         "created_at": "2025-04-21T07:53:57.000000Z",
         "updated_at": "2025-04-21T07:53:57.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO2020/"
-        },
-        "curriculum": "rev-2022",
         "color_code": "btn-outline-primary"
       },
       {
@@ -114,12 +115,13 @@
           "Algorithm Design Manual by S S Skiena"
         ],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/CO2030",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/52"
+        },
         "created_at": "2025-04-21T08:01:08.000000Z",
         "updated_at": "2025-07-13T18:04:55.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO2030/"
-        },
-        "curriculum": "rev-2022",
         "color_code": "btn-outline-primary"
       },
       {
@@ -167,12 +169,13 @@
           "\u25cf Software Engineering, 10th Edition, Ian Sommerville, Pearson Education\n\u25cf Lean Architecture: for Agile Software Development, 1st Edition, James O. Coplien and\nGertrud Bj\u00f8rnvig, Wiley\n\u25cf Object-oriented reengineering patterns, Serge Demeyer, St\u00e9phane Ducasse and Oscar\nNierstrasz, http://scg.unibe.ch/download/oorp/"
         ],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/CO2040",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/53"
+        },
         "created_at": "2025-04-21T08:03:38.000000Z",
         "updated_at": "2025-04-21T08:03:38.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO2040/"
-        },
-        "curriculum": "rev-2022",
         "color_code": "btn-outline-primary"
       },
       {
@@ -220,12 +223,13 @@
           "\u25cf Software Engineering, 10th Edition of Ian Sommerville (Link:\nhttps://iansommerville.com/software-engineering-book/)\n\u25cf Lean Architecture: for Agile Software Development, 1st Edition, James O. Coplien and\nGertrud Bj\u00f8rnvig, Wiley\n\u25cf Object-oriented reengineering patterns, Serge Demeyer, St\u00e9phane Ducasse and Oscar\nNierstrasz, http://scg.unibe.ch/download/oorp/\n\u25cf Elmasri and Navathe, Fundamentals of Database Systems\n\u25cf Raghu Ramakrishnan and Johannes Gehrke, Database Management Systems"
         ],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/CO2060",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/54"
+        },
         "created_at": "2025-04-23T03:21:05.000000Z",
         "updated_at": "2025-04-23T03:21:05.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO2060/"
-        },
-        "curriculum": "rev-2022",
         "color_code": "btn-outline-primary"
       },
       {
@@ -274,23 +278,27 @@
         ],
         "modules": [
           {
-            "id": 35,
-            "course_id": 55,
             "topic": "Probability and Statistics",
             "description": "Concepts of probability:\nDiscrete and continuous random variables, probability distributions, mean, expectation\nand variance, moment generating functions\nDiscrete probability distributions:\nBernoulli (Point binomial) Distribution, Binomial distribution, Poisson distribution,\ngeometric distribution, Hypergeometric distribution.\nContinuous probability distributions:\nUniform distribution, exponential distribution, normal distribution, Student-t distribution,\nWeibull distribution and Chi-squared distribution.\nSampling distributions:\nThe central limit theorem and normal approximation to the binomial distribution,\nsampling distribution of sample mean and sample variance.\nEstimation and Confidence Intervals:\nEstimation and calculation of Confidence Intervals for mean, difference of means and\nvariance.",
-            "time_allocation": "{\"lecture\":\"24\",\"tutorial\":\"4\",\"practical\":\"\",\"design\":null,\"assignment\":\"4\",\"independent_learning\":\"68\"}",
+            "time_allocation": {
+              "lecture": "24",
+              "tutorial": "4",
+              "practical": "",
+              "design": null,
+              "assignment": "4",
+              "independent_learning": "68"
+            },
             "created_at": "2025-04-23T03:25:46.000000Z",
-            "updated_at": "2025-04-23T03:25:46.000000Z",
-            "created_by": 34,
-            "updated_by": 34
+            "updated_at": "2025-04-23T03:25:46.000000Z"
           }
         ],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/EM2020",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/55"
+        },
         "created_at": "2025-04-23T03:25:46.000000Z",
         "updated_at": "2025-04-23T03:25:46.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/EM2020/"
-        },
-        "curriculum": "rev-2022",
         "color_code": "btn-outline-danger"
       },
       {
@@ -339,23 +347,27 @@
         ],
         "modules": [
           {
-            "id": 36,
-            "course_id": 56,
             "topic": "Numerical Methods",
             "description": "Preliminaries:\nFloating point arithmetic, Big O notation, matrix norms, Review of programming\nError Analysis:\nNumerical solutions to nonlinear equations:\nFixed point iteration, Bisection method, Newton-Raphson method\nNumerical solutions to systems of linear equations:\nGaussian elimination, Jacobi method, Gauss-Seidel method\nInterpolation:\nLagrange interpolating polynomial, Newton\u2019s interpolating polynomials, Spline\ninterpolation\nNumerical integration:\nTrapezoidal rule, Simpson rule, Gaussian quadrature\nNumerical solutions to ordinary differential equations:\nInitial value problems: Euler method, Runge - Kutta methods;\nBoundary value problem: Finite difference method, Adaptive step size mechanisms\nNumerical solutions to partial differential equations:\nExplicit and implicit finite difference methods, Basics of finite element methods\nComputational labs:\nCovering selected topics & appropriate problems from the respective fields",
-            "time_allocation": "{\"lecture\":\"30\",\"tutorial\":\"3\",\"practical\":null,\"design\":null,\"assignment\":\"24\",\"independent_learning\":\"93\"}",
+            "time_allocation": {
+              "lecture": "30",
+              "tutorial": "3",
+              "practical": null,
+              "design": null,
+              "assignment": "24",
+              "independent_learning": "93"
+            },
             "created_at": "2025-04-23T03:29:02.000000Z",
-            "updated_at": "2025-04-23T03:29:02.000000Z",
-            "created_by": 34,
-            "updated_by": 34
+            "updated_at": "2025-04-23T03:29:02.000000Z"
           }
         ],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/EM2060",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/56"
+        },
         "created_at": "2025-04-23T03:29:02.000000Z",
         "updated_at": "2025-04-23T03:29:02.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/EM2060/"
-        },
-        "curriculum": "rev-2022",
         "color_code": "btn-outline-danger"
       }
     ]
@@ -418,23 +430,27 @@
         ],
         "modules": [
           {
-            "id": 37,
-            "course_id": 57,
             "topic": "Database Systems",
             "description": "Introduction to database systems\nInformation models and systems, database system evolution, file based systems, DBMS\napproach, database environment and components, DBMS functions, DBMS architecture, data\nindependence, database system life cycle.\nData modeling\nConceptual models (ER/EER and UML), logical models (relational and object oriented\nmodels), relational mapping, NoSQL, Comparison of NoSQL data model with relational data\nmodel..\nRDBMS concepts\nNormalization (1NF, 2NF, 3NF and BCNF), object oriented extensions.\nDatabase query languages\n4GL environments; SQL (DDL, DML and DCL), triggers, views.\nDatabase programming techniques\nEmbedded SQL, database programming with function/procedure calls (ODBC, JDBC), stored\nprocedures, Object-relational mapping.\nIntroduction to indexing and transaction processing\nTypes of indexes, transactions, ACID properties, concurrency control, failure and recovery.\nDatabase security\nSecurity issues and threats, access privileges, relationship between database security and\nprivacy, encryption.",
-            "time_allocation": "{\"lecture\":\"20\",\"tutorial\":\"4\",\"practical\":\"12\",\"design\":null,\"assignment\":null,\"independent_learning\":\"64\"}",
+            "time_allocation": {
+              "lecture": "20",
+              "tutorial": "4",
+              "practical": "12",
+              "design": null,
+              "assignment": null,
+              "independent_learning": "64"
+            },
             "created_at": "2025-04-23T03:31:49.000000Z",
-            "updated_at": "2025-04-23T03:31:49.000000Z",
-            "created_by": 34,
-            "updated_by": 34
+            "updated_at": "2025-04-23T03:31:49.000000Z"
           }
         ],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/CO2050",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/57"
+        },
         "created_at": "2025-04-23T03:31:49.000000Z",
         "updated_at": "2025-04-23T03:31:49.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO2050/"
-        },
-        "curriculum": "rev-2022",
         "color_code": "btn-outline-primary"
       },
       {
@@ -483,23 +499,27 @@
         ],
         "modules": [
           {
-            "id": 38,
-            "course_id": 58,
             "topic": "Computer Architecture",
             "description": "Introduction to computer architecture\nReview of Von Neumann machine concept and computer systems organization, history of\ncomputer technology and current trends.\nPerformance evaluation\nMetrics of computer performance, response time vs throughput, CPU time vs elapsed time,\nclock rate, cycles per instruction, benchmarks, design tradeoffs.\nInstruction Set Architecture\nReview of programmer model and ISA, instruction encoding, operand types (immediate,\nregister, memory), instruction types (data processing, data transfer and flow control), register\nconventions, addressing modes, software interrupts, comparison of CISC and RISC\nprogrammer models.\nCPU organization\nImplementation of the Von Neumann machine using a specified ISA, datapath and control,\nregister file, arithmetic and logic unit, control unit, instruction fetching and decoding,\nexecution of instructions in a single-cycle datapath, timing and clocking, critical path and\nperformance considerations, implementation of a single-cycle CPU using Verilog HDL\nbehavioral modeling.\nPipelined datapath and control\nIntroduction to pipelining and instruction level parallelism, datapath and control in a pipelined\nCPU using specified ISA, pipeline hazards and stalls, hazard mitigation techniques (data\nforwarding, code scheduling, branch prediction), clocking and performance considerations.\nMemory sub-system\nMemory layout, overview of memory technologies, latency and performance, memory\nhierarchy and principles of locality, caching and cache control, data blocks placement and\naddress mapping, write policies, replacement policies, cache performance, multi-level caches,\nvirtual memory and address translation using page tables, page faults, translation look-aside\nbuffer, secondary storage technologies (disk and flash storage).\nInterfacing and I/O\nOverview of interfacing in a computer, bus interconnects (types, signals, synchronization,\narbitration), crossbar switch networks, mesh and grid interconnects, I/O fundamentals,\nprogrammed vs interrupt driven I/O, direct memory access, systems-on-chip.\nMultiprocessor systems\nParallel processing, shared-memory multiprocessors, uniform memory access and symmetric\nmultiprocessors, cache coherence and bus snooping, non-uniform memory access,\ndirectory-based cache coherence, message passing multiprocessors, Flynn\u2019s classification",
-            "time_allocation": "{\"lecture\":\"29\",\"tutorial\":\"9\",\"practical\":\"21\",\"design\":\"23\",\"assignment\":null,\"independent_learning\":\"118\"}",
+            "time_allocation": {
+              "lecture": "29",
+              "tutorial": "9",
+              "practical": "21",
+              "design": "23",
+              "assignment": null,
+              "independent_learning": "118"
+            },
             "created_at": "2025-04-23T17:52:14.000000Z",
-            "updated_at": "2025-04-23T17:52:14.000000Z",
-            "created_by": 34,
-            "updated_by": 34
+            "updated_at": "2025-04-23T17:52:14.000000Z"
           }
         ],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/CO2070",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/58"
+        },
         "created_at": "2025-04-23T17:52:14.000000Z",
         "updated_at": "2025-04-23T17:52:14.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO2070/"
-        },
-        "curriculum": "rev-2022",
         "color_code": "btn-outline-primary"
       },
       {
@@ -547,12 +567,13 @@
           "\u25cf James Kurose and Keith Ross, Computer Networks, 8th Edition, 2021\n\u25cf James Bernstein, Networking Made Easy: Get Yourself Connected (Computers Made\nEasy), 1st Edition, 2018\n\u25cf Russ White and Denise Donohue, Art of Network Architecture, The: Business-Driven\nDesign (Networking Technology) 1st Edition, 2014"
         ],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/CO2080",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/59"
+        },
         "created_at": "2025-04-23T17:54:48.000000Z",
         "updated_at": "2025-04-23T17:54:48.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO2080/"
-        },
-        "curriculum": "rev-2022",
         "color_code": "btn-outline-primary"
       },
       {
@@ -600,12 +621,13 @@
           "\u25cf Robert F. Coughlin, Frederick F. Driscoll, (2001) \u201cOperational Amplifiers and Linear\nIntegrated Circuits\u201d, 6th Edition, Prentice Hall\n\u25cf Maurizio Di Paolo Emilio, (2013) \u201cData Acquisition Systems \u2013 From Fundamentals to\nApplied Design\u201d, Springer"
         ],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/EE2820",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/60"
+        },
         "created_at": "2025-04-23T17:57:29.000000Z",
         "updated_at": "2025-04-23T17:57:29.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/EE2820/"
-        },
-        "curriculum": "rev-2022",
         "color_code": "btn-outline-success"
       },
       {
@@ -653,12 +675,13 @@
           "Recommended Reading:\n\u25cf James Stewart, Calculus, 5th edition, (2006), Thomson Brooks/Cole.\n\u25cf Watson Fulks, Advanced Calculus and Introduction to Analysis, 3rd Edition,(1978),\nJohn Wiley & SonsInc.\n\u25cf E. B. Saff and A. D. Sinder, Fundamentals of Complex Analysis with Applications to\nEngineering, Science, and Mathematics, 3rd edition,(2014), Pearson Education Ltd."
         ],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/EM2010",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/61"
+        },
         "created_at": "2025-04-23T18:13:24.000000Z",
         "updated_at": "2025-04-23T18:13:24.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/EM2010/"
-        },
-        "curriculum": "rev-2022",
         "color_code": "btn-outline-danger"
       }
     ]
@@ -729,111 +752,139 @@
         ],
         "modules": [
           {
-            "id": 26,
-            "course_id": 2,
             "topic": "Introduction to logic circuits design",
             "description": "Purpose and role of logic circuits in computer systems, use of Boolean logic and basic logic gates in circuit design, levels of integration, overview of logic circuits design flow, digital electronic signals and different logic families.",
-            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "time_allocation": {
+              "lecture": null,
+              "tutorial": null,
+              "practical": null,
+              "design": null,
+              "assignment": null,
+              "independent_learning": null
+            },
             "created_at": "2024-11-13T15:39:44.000000Z",
-            "updated_at": "2024-11-13T15:39:44.000000Z",
-            "created_by": 13,
-            "updated_by": 13
+            "updated_at": "2024-11-13T15:39:44.000000Z"
           },
           {
-            "id": 27,
-            "course_id": 2,
             "topic": "Number systems and data representation",
             "description": "Binary and hex number systems, binary representation of unsigned and signed decimals, binary arithmetic, character representation.",
-            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "time_allocation": {
+              "lecture": null,
+              "tutorial": null,
+              "practical": null,
+              "design": null,
+              "assignment": null,
+              "independent_learning": null
+            },
             "created_at": "2024-11-13T15:39:44.000000Z",
-            "updated_at": "2024-11-13T15:39:44.000000Z",
-            "created_by": 13,
-            "updated_by": 13
+            "updated_at": "2024-11-13T15:39:44.000000Z"
           },
           {
-            "id": 28,
-            "course_id": 2,
             "topic": "Boolean Logic",
             "description": "Boolean logic operations, Boolean algebra laws and theorems, Boolean expressions, sum-of-products, and product-of-sums methods, simplifications of Boolean expressions, truth tables, Karnaugh maps, Quine Mc-Cluskey method, \u201cdon\u2019t care\u201d combinations.",
-            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "time_allocation": {
+              "lecture": null,
+              "tutorial": null,
+              "practical": null,
+              "design": null,
+              "assignment": null,
+              "independent_learning": null
+            },
             "created_at": "2024-11-13T15:39:44.000000Z",
-            "updated_at": "2024-11-13T15:39:44.000000Z",
-            "created_by": 13,
-            "updated_by": 13
+            "updated_at": "2024-11-13T15:39:44.000000Z"
           },
           {
-            "id": 29,
-            "course_id": 2,
             "topic": "Basic logic circuits",
             "description": "Physical logic gate implementations for basic and derived Boolean operations, high-impedance condition and tri-state logic realizing Boolean expressions using two-level gate forms and multi-level gates, positive/negative/mixed-logic design conventions, physical properties of logic gates and design tradeoffs, interfacing different logic families, Hardware Description Languages and logic synthesis process, simulation and verification.",
-            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "time_allocation": {
+              "lecture": null,
+              "tutorial": null,
+              "practical": null,
+              "design": null,
+              "assignment": null,
+              "independent_learning": null
+            },
             "created_at": "2024-11-13T15:39:44.000000Z",
-            "updated_at": "2024-11-13T15:39:44.000000Z",
-            "created_by": 13,
-            "updated_by": 13
+            "updated_at": "2024-11-13T15:39:44.000000Z"
           },
           {
-            "id": 30,
-            "course_id": 2,
             "topic": "Modular design of combinational logic circuits",
             "description": "Multiplexers, de-multiplexers, encoders, decoders, adders, subtractors, shifters, comparators, modular Arithmetic & Logic Unit.",
-            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "time_allocation": {
+              "lecture": null,
+              "tutorial": null,
+              "practical": null,
+              "design": null,
+              "assignment": null,
+              "independent_learning": null
+            },
             "created_at": "2024-11-13T15:39:44.000000Z",
-            "updated_at": "2024-11-13T15:39:44.000000Z",
-            "created_by": 13,
-            "updated_by": 13
+            "updated_at": "2024-11-13T15:39:44.000000Z"
           },
           {
-            "id": 31,
-            "course_id": 2,
             "topic": "Modular design of sequential logic circuits and memory elements",
             "description": "Latches, gated/edge-triggered/master-slave operation, flip-flops, timing characteristics, registers, counters, shift-registers, serial-parallel conversion, timing diagrams, error detection and correction techniques, static memory, dynamic memory.",
-            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "time_allocation": {
+              "lecture": null,
+              "tutorial": null,
+              "practical": null,
+              "design": null,
+              "assignment": null,
+              "independent_learning": null
+            },
             "created_at": "2024-11-13T15:39:44.000000Z",
-            "updated_at": "2024-11-13T15:39:44.000000Z",
-            "created_by": 13,
-            "updated_by": 13
+            "updated_at": "2024-11-13T15:39:44.000000Z"
           },
           {
-            "id": 32,
-            "course_id": 2,
             "topic": "Synchronous sequential logic circuits design",
             "description": "Analysis of synchronous circuits, Finite State Machine (FSM) models, state diagrams and state tables, FSM timing diagrams, state minimization, state assignment, assignment rules, next state and output equation realization",
-            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "time_allocation": {
+              "lecture": null,
+              "tutorial": null,
+              "practical": null,
+              "design": null,
+              "assignment": null,
+              "independent_learning": null
+            },
             "created_at": "2024-11-13T15:39:44.000000Z",
-            "updated_at": "2024-11-13T15:39:44.000000Z",
-            "created_by": 13,
-            "updated_by": 13
+            "updated_at": "2024-11-13T15:39:44.000000Z"
           },
           {
-            "id": 33,
-            "course_id": 2,
             "topic": "Asynchronous sequential logic circuits design",
             "description": "Analysis of asynchronous circuits, design procedure, flow tables, reduction of state and flow tables, and race-free state assignment.",
-            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "time_allocation": {
+              "lecture": null,
+              "tutorial": null,
+              "practical": null,
+              "design": null,
+              "assignment": null,
+              "independent_learning": null
+            },
             "created_at": "2024-11-13T15:39:44.000000Z",
-            "updated_at": "2024-11-13T15:39:44.000000Z",
-            "created_by": 13,
-            "updated_by": 13
+            "updated_at": "2024-11-13T15:39:44.000000Z"
           },
           {
-            "id": 34,
-            "course_id": 2,
             "topic": "Programmable Logic",
             "description": "History of programmable logic, programmable logic architectures and their basic elements.",
-            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "time_allocation": {
+              "lecture": null,
+              "tutorial": null,
+              "practical": null,
+              "design": null,
+              "assignment": null,
+              "independent_learning": null
+            },
             "created_at": "2024-11-13T15:39:44.000000Z",
-            "updated_at": "2024-11-13T15:39:44.000000Z",
-            "created_by": 13,
-            "updated_by": 13
+            "updated_at": "2024-11-13T15:39:44.000000Z"
           }
         ],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/CO2010",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/2"
+        },
         "created_at": "2024-11-13T14:05:36.000000Z",
         "updated_at": "2024-11-13T14:05:36.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO2010/"
-        },
-        "curriculum": "rev-2022",
         "color_code": "btn-outline-primary"
       },
       {
@@ -881,12 +932,13 @@
           "\u25cf Randal E. Bryant, David R. O'Hallaron, Computer Systems: A Programmer's Perspective 3rd\nEdition, 2015\n\u25cf Brian W. Kernighan and Dennis M. Ritchie, The C Programming Language, Second Edition,\n1990\n\u25cf Jeffrey D. Ullman, Alfred V. Aho, Foundations of Computer Science C Edition, 1994\n\u25cf David Patterson, John L. Hennessy, Computer Organization and Design: The\nHardware/Software Interface"
         ],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/CO1020",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/62"
+        },
         "created_at": "2025-04-23T18:17:30.000000Z",
         "updated_at": "2025-04-23T18:17:30.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO1020/"
-        },
-        "curriculum": "rev-2022",
         "color_code": "btn-outline-primary"
       },
       {
@@ -934,12 +986,13 @@
           "\u25cf Introduction to Algorithms by Cormen, Leiserson, Rivest, Stein\n\u25cf Algorithm Design Manual by S S Skiena"
         ],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/CO1030",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/63"
+        },
         "created_at": "2025-04-23T18:21:51.000000Z",
         "updated_at": "2025-04-23T18:21:51.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO1030/"
-        },
-        "curriculum": "rev-2022",
         "color_code": "btn-outline-primary"
       },
       {
@@ -987,12 +1040,13 @@
           "\u25cf Gilbert Strang, Introduction to Linear Algebra, 5th edition, (2010), Cambridge Press.\n\u25cf David C. Lay, S. R. Lay & J. Mcdonald, Linear Algebra and its Applications, 5th edition,\n(2012), Pearson.\n\u25cf David Poole, Linear Algebra: A Modern introduction, 4th edition, (2005), Cengage.\n\u25cf Thomas. S. Shores, Applied Linear Algebra and Matrix Analysis, (2007), Springer."
         ],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/EE1810",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/64"
+        },
         "created_at": "2025-04-23T18:29:07.000000Z",
         "updated_at": "2025-04-23T18:29:07.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/EE1810/"
-        },
-        "curriculum": "rev-2022",
         "color_code": "btn-outline-success"
       },
       {
@@ -1040,12 +1094,13 @@
           "\u25cf R.K. Nagle, E.W. Saff, A.D. Snider, Fundamentals of Differential Equations, 8th\nedition, (2012), Pearson Education.\n\u25cf E. Kreyszig, Advanced Engineering Mathematics, 9th edition, (2010), John Wiley\n&sons Inc.\n\u25cf Ji\u0159\u00ed Lebl, Differential Equations for Engineers, Open Education Resource (OER)\nLibreTexts Project (https://LibreTexts.org).\n\u25cf Walter A. Strauss, Partial Differential Equations, 2nd edition,(2007), John Wiley\nand Sons Inc."
         ],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/EM1030",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/65"
+        },
         "created_at": "2025-04-23T18:33:20.000000Z",
         "updated_at": "2025-04-23T18:33:20.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/EM1030/"
-        },
-        "curriculum": "rev-2022",
         "color_code": "btn-outline-danger"
       },
       {
@@ -1093,12 +1148,13 @@
           "\u25cf D. K. Joshi, Foundations of Discrete Mathematics,(1989/2015), Wiley-Inter Science.\n\u25cf D. K. Joshi, Applied Discrete Structures,(2001/2014), New Age International.\n\u25cf Thomas Koshy, Discrete Mathematics with Applications,1st edition,(2004), Elsevier\nAcademic Press.\n\u25cf Ian Anderson, A First Course in Discrete Mathematics, (2001), Springer-Verlag. London\nLimited.\n\u25cf Kenneth H. Rossen Discrete Mathematics and Applications, (2002),McGraw-Hill Higher\nEducation."
         ],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/EM1050",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/66"
+        },
         "created_at": "2025-04-23T18:35:38.000000Z",
         "updated_at": "2025-04-23T18:35:38.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/EM1050/"
-        },
-        "curriculum": "rev-2022",
         "color_code": "btn-outline-danger"
       }
     ]
@@ -1162,12 +1218,23 @@
           "\u25cf Microcontrollers and Microcomputers- Principles of Software and Hardware Engineering\nby Fredrick M. Cady\n\u25cf Logic and Computer Design Fundamentals by M.M. Mano and C.R. Kime\n\u25cf Industrial Communication Systems by Bogdan M. Wilamowski and J. David Irwin"
         ],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 2,
+            "code": "CO2010",
+            "name": "Digital Circuits Design",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO2010",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/2"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/CO3010",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/67"
+        },
         "created_at": "2025-05-20T03:51:41.000000Z",
         "updated_at": "2025-05-20T03:51:41.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO3010/"
-        },
-        "curriculum": "rev-2022",
         "color_code": "btn-outline-primary"
       },
       {
@@ -1216,23 +1283,55 @@
         ],
         "modules": [
           {
-            "id": 39,
-            "course_id": 69,
             "topic": "Cloud Computing Systems",
             "description": "Course Content: (Only main topics & subtopics)\nNetworked application preliminaries\nClient-server vs peer-to-peer architecture, datagram vs. stream oriented sockets, data\nserialization: binary vs. text., synchronous (request-response) vs. asynchronous\n(message-oriented) application protocols, Deutsch\u2019s fallacies of distributed computing.\nRequest-response protocols\nHTTP request structure and response structure, metadata and status codes, text serialization\nformats: JSON.\nConcurrency\nConcurrency model: processes, threads, coroutines (event driven I/O.), data races and mutual\nexclusion, race conditions and transactions, statelessness and idempotence, modeling stateful\nservices with finite automata\nRemote procedure calls\nRPC abstraction and interface definition languages.\nRPC failure modes.\nBinary serialization formats: Protocol buffers.\nAsynchronous coordination\nPublish-subscribe protocols: MQTT, message brokers (topics and message routing), message\ndelivery semantics (MQTT QoS): at least once, at most once, exactly once.\nDistributed data storage\nStreaming datastores: distributed commit logs, BLOB storage: distributed hash tables\n(key-value stores.), replicas and partitions (shards.), consistency models, Brewer\u2019s CAP\ntheorem.\nApplication security\nThreat models (STRIDE), abuse cases and common application vulnerabilities, protocols for\nweb application access control (Oauth) and authentication (Webauthn.), security\nconsiderations for \u201cIoT\u201d devices (mutual authentication, root of trust.)\nProvisioning and deployment\nCloud platforms: infrastructure as a service vs. platform as a service, infrastructure as code:\ndeclarative vs imperative provisioning tools, application packaging: dependency management\nand containers.\nOperability and observability\nDefining service level objectives, application logging, metrics and alerting, container\norchestration: declarative deployment, rollback and self-healing, incident postmortem and root\ncause analysis.",
-            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "time_allocation": {
+              "lecture": null,
+              "tutorial": null,
+              "practical": null,
+              "design": null,
+              "assignment": null,
+              "independent_learning": null
+            },
             "created_at": "2025-05-22T05:28:03.000000Z",
-            "updated_at": "2025-05-22T05:28:03.000000Z",
-            "created_by": 34,
-            "updated_by": 34
+            "updated_at": "2025-05-22T05:28:03.000000Z"
           }
         ],
+        "prerequisites": [
+          {
+            "id": 53,
+            "code": "CO2040",
+            "name": "Software Design and Development",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO2040",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/53"
+            }
+          },
+          {
+            "id": 54,
+            "code": "CO2060",
+            "name": "Software Systems Design Project",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO2060",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/54"
+            }
+          },
+          {
+            "id": 59,
+            "code": "CO2080",
+            "name": "Network Design Principles",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO2080",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/59"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/CO3040",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/69"
+        },
         "created_at": "2025-05-22T05:28:03.000000Z",
         "updated_at": "2025-05-22T05:28:03.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO3040/"
-        },
-        "curriculum": "rev-2022",
         "color_code": "btn-outline-primary"
       },
       {
@@ -1281,23 +1380,37 @@
         ],
         "modules": [
           {
-            "id": 40,
-            "course_id": 70,
             "topic": "Computer Systems Design Project",
             "description": "Course Content: (Only main topics & subtopics)\nProduct Design and Development\nProduct classification, product development process (concept development, requirement\nspecification, market analysis), project planning, best practices in project management, related\ntools and technologies.\nCyber-Physical Systems Design\nHigh-level architecture, distributed and networked software, embedded hardware (sensing,\ncontrol, interfacing and processing), network communication, cloud deployment, related tools\nand technologies.\nComputer Systems and Data Security\nInformation flow control, network security, hardware security, software applications security,\nrelated tools and technologies.\nComputer Systems Testing\nTest planning, test types, test case design, related tools and technologies.\nUser-Experience and Usability\nUser experience vs. user interfaces, best practices in UX design, usability studies, related tools\nand technologies.\nComputer Aided Design and Manufacturing Technologies\nDesign tools (system design, software design, electronics design, 2D and 3D design), choice\nof materials, manufacturing tools and technologies.\nEffective Presentation of Information\nBest practices in oral presentation, online documentation and reporting, related tools and\ntechnologies.",
-            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "time_allocation": {
+              "lecture": null,
+              "tutorial": null,
+              "practical": null,
+              "design": null,
+              "assignment": null,
+              "independent_learning": null
+            },
             "created_at": "2025-05-22T05:31:07.000000Z",
-            "updated_at": "2025-05-22T05:31:07.000000Z",
-            "created_by": 34,
-            "updated_by": 34
+            "updated_at": "2025-05-22T05:31:07.000000Z"
           }
         ],
+        "prerequisites": [
+          {
+            "id": 54,
+            "code": "CO2060",
+            "name": "Software Systems Design Project",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO2060",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/54"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/CO3060",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/70"
+        },
         "created_at": "2025-05-22T05:31:07.000000Z",
         "updated_at": "2025-05-22T05:31:07.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO3060/"
-        },
-        "curriculum": "rev-2022",
         "color_code": "btn-outline-primary"
       },
       {
@@ -1344,23 +1457,27 @@
         "references": [],
         "modules": [
           {
-            "id": 41,
-            "course_id": 71,
             "topic": "English for Communication II",
             "description": "Introduction to fundamentals of effective communication through building up selfconfidence\nand personality. Congruence: Maintaining a balance between expectation\nand reality through discussions and role play\nCommunicating effectively and appropriately in familiar social situations.\nInteractions at the workplace, apologies, excuses, requests, telephone etiquette etc.\nEnhancement of presentation skills: Guiding students to do effective presentations on\ntechnical and non-technical topics to different types of audiences\nOfficial correspondence: Writing formal letters (letters of request, complaint, invitation,\nexcuse etc.), Writing official e-mails, Introduction to report writing\nInterpretation of visual information: Presenting information via charts, graphs etc.,\nWriting compositions, Group presentations based on interpreting information",
-            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "time_allocation": {
+              "lecture": null,
+              "tutorial": null,
+              "practical": null,
+              "design": null,
+              "assignment": null,
+              "independent_learning": null
+            },
             "created_at": "2025-05-22T05:34:17.000000Z",
-            "updated_at": "2025-05-22T05:34:17.000000Z",
-            "created_by": 34,
-            "updated_by": 34
+            "updated_at": "2025-05-22T05:34:17.000000Z"
           }
         ],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/EF1020",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/71"
+        },
         "created_at": "2025-05-22T05:34:17.000000Z",
         "updated_at": "2025-05-22T05:34:17.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/EF1020/"
-        },
-        "curriculum": "rev-2022",
         "color_code": "btn-outline-secondary"
       }
     ]
@@ -1425,23 +1542,46 @@
         ],
         "modules": [
           {
-            "id": 42,
-            "course_id": 72,
             "topic": "Operating Systems",
             "description": "Introduction to Operating Systems\nThe role of an OS, history of OS, OS kernel, structure of a computer system\nAn overview of basic OS concepts\nHigh level introduction to processes and threads, concurrency and deadlocks, memory\nmanagement, file system, scheduling and resource management and information protection\nInterrupts and exceptions\nIntroduction to interrupts, interrupt cycle, exceptions, hardware exception handling, stack\nframes \nSystem calls\nRole of system calls, classes of system calls, system call mechanism and calling conventions\nProcesses and threads\nIntroduction to processes and threads, process creation and termination, process/thread states,\nscheduling, implementation of processes and threads, user-level threads and kernel threads,\ncontext switch\nConcurrency and synchronization\nCritical region and race conditions, mutual exclusion using busy waiting, mutual exclusion\nusing sleep and wake up, realization of mutual exclusion using synchronization primitives\nsuch as semaphores, mutexes and monitors, formal definition of a deadlock, deadlock\nmodeling, deadlock detection and recovery, deadlock avoidance, deadlock prevention\nMemory management\nMemory hierarchy, fixed and dynamic memory partitioning, swapping, virtual memory,\nintroduction to paging, page tables, speeding up paging, page replacement policies, virtual\nmemory design and implementation issues, segmentation\nFile systems\nFile naming, file structure, file types, file access methods, file attributes, file operations,\ndirectories, directory organization, directory properties, directory operations, file system\nimplementation, virtual file system, file system management and optimization\nInput/output (I/O) management\nI/O devices, device controllers, memory-mapped I/O, bus architectures, interrupts, I/O\nsoftware, programmed I/O, interrupt-driven I/O, direct memory access (DMA), I/O\nmanagement software: interrupt handlers, device drivers, device independent I/O software",
-            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "time_allocation": {
+              "lecture": null,
+              "tutorial": null,
+              "practical": null,
+              "design": null,
+              "assignment": null,
+              "independent_learning": null
+            },
             "created_at": "2025-05-22T09:05:03.000000Z",
-            "updated_at": "2025-05-22T09:05:03.000000Z",
-            "created_by": 34,
-            "updated_by": 34
+            "updated_at": "2025-05-22T09:05:03.000000Z"
           }
         ],
+        "prerequisites": [
+          {
+            "id": 52,
+            "code": "CO2030",
+            "name": "Data Structures and Algorithms II",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO2030",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/52"
+            }
+          },
+          {
+            "id": 58,
+            "code": "CO2070",
+            "name": "Computer Architecture",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO2070",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/58"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/CO3020",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/72"
+        },
         "created_at": "2025-05-22T09:05:03.000000Z",
         "updated_at": "2025-05-22T09:05:03.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO3020/"
-        },
-        "curriculum": "rev-2022",
         "color_code": "btn-outline-primary"
       },
       {
@@ -1490,23 +1630,55 @@
         ],
         "modules": [
           {
-            "id": 43,
-            "course_id": 73,
             "topic": "Computer Systems Security",
             "description": "Course Content: (Only main topics & subtopics)\nIntroduction to Computer Systems Security\nImportance of computer systems security (history, breaches and impact), basic concepts, threat\nmodels, common security goals.\nCryptography Basics\nIntroduction, modern cryptographic protocols (and their history, applications, depreciation),\nencryption, authentication, message authentication codes, hash functions, one-way functions,\nsecret and public-key cryptography, secure channels, zero-knowledge proof, integration of\ncryptographic protocols into distributed systems and other applications.\nSoftware Security\nImportance of software security, authentication vs authorization and their importance,\nsandboxing.\nNetwork SecurityImportance, secure protocols (TCP/IP), firewalls, network segmentation, intrusion and\ndetection.\nWeb Security\nImportance of web security, SSL, HTTPS, basic authentication, oauth2, authorization and fine\ngrain permission validation (OPA, XACML), SSO (SAML).\nHardware Security\nHardware security modules, side-channel attacks, hardware trojans\nAdvanced Topics\nA selection of modern topics such as blockchain and cryptocurrency, privacy and secure\ncommunications, trusted computing, mobile security, operating systems security, ethical\nhacking, AI-driven security, data protection regulations (GDPR, POPI etc), compliance\ncertifications.",
-            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "time_allocation": {
+              "lecture": null,
+              "tutorial": null,
+              "practical": null,
+              "design": null,
+              "assignment": null,
+              "independent_learning": null
+            },
             "created_at": "2025-05-22T09:07:50.000000Z",
-            "updated_at": "2025-05-22T09:07:50.000000Z",
-            "created_by": 34,
-            "updated_by": 34
+            "updated_at": "2025-05-22T09:07:50.000000Z"
           }
         ],
+        "prerequisites": [
+          {
+            "id": 53,
+            "code": "CO2040",
+            "name": "Software Design and Development",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO2040",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/53"
+            }
+          },
+          {
+            "id": 54,
+            "code": "CO2060",
+            "name": "Software Systems Design Project",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO2060",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/54"
+            }
+          },
+          {
+            "id": 59,
+            "code": "CO2080",
+            "name": "Network Design Principles",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO2080",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/59"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/CO3030",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/73"
+        },
         "created_at": "2025-05-22T09:07:50.000000Z",
         "updated_at": "2025-05-22T09:07:50.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO3030/"
-        },
-        "curriculum": "rev-2022",
         "color_code": "btn-outline-primary"
       }
     ]

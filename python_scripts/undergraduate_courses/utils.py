@@ -74,6 +74,9 @@ def create_new_course_pages(course_data):
         for course in courses:
             course_code = course["code"]
             page_url = course["urls"]["view"]
+            curriculum_name = (
+                course["academic_program"].get("curriculum_name", "-").strip()
+            )
 
             title = " ".join([course["code"].strip().upper(), course["name"].strip()])
             marks_allocation = {
@@ -84,14 +87,22 @@ def create_new_course_pages(course_data):
                 {
                     "topic": module["topic"].strip(),
                     "description": module["description"].strip(),
-                    "time_allocation": {},
-                    # "time_allocation": {
-                    #     k: v
-                    #     for k, v in module["time_allocation"].items()
-                    #     if v is not None
-                    # },
+                    "time_allocation": {
+                        k: v
+                        for k, v in module["time_allocation"].items()
+                        if v is not None
+                    },
                 }
                 for module in course["modules"]
+            ]
+            prerequisites = [
+                {
+                    "id": p["id"],
+                    "code": p["code"],
+                    "name": p["name"],
+                    "url": p["urls"]["view"].replace("https://www.ce.pdn.ac.lk", ""),
+                }
+                for p in course.get("prerequisites", [])
             ]
 
             try:
@@ -109,12 +120,12 @@ def create_new_course_pages(course_data):
                 "title": title,
                 "course_code": course["code"].upper(),
                 "course_title": course["name"].strip(),
-                "curriculum": course["curriculum"].strip(),
+                "curriculum": curriculum_name,
                 "semester": semester["title"].strip(),
                 #
                 "credits": course["credits"],
                 "type": course["type"],
-                "prerequisites": course.get("prerequisites"),
+                "prerequisites": prerequisites,
                 "aims_and_objectives": course.get("objectives"),
                 "modules": course_modules,
                 "textbooks_references": course_references,
@@ -126,13 +137,15 @@ def create_new_course_pages(course_data):
                 "ilos_attitudes": course["ilos"].get("attitudes", []),
                 #
                 "last_edit": last_edit,
-                "edit_page": "#",  # TODO get from the API after update
-                "faq_page": course["urls"].get("faq_page", "#"),
+                "edit_page": course["urls"].get("edit", "#"),
+                "faq_page": course["urls"].get("faq", "#"),
                 "color_code": course["color_code"],
             }
 
             # Write into a file
-            file_url = f"../../pages/courses/undergraduate/{course['curriculum']}/{course_code.strip().upper()}.html"
+            file_url = (
+                f"../../pages/courses/undergraduate/{course_code.strip().upper()}.html"
+            )
             os.makedirs(os.path.dirname(file_url), exist_ok=True)
             try:
                 with open(file_url, "w", encoding="utf-8") as f:

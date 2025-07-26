@@ -67,100 +67,125 @@
         ],
         "modules": [
           {
-            "id": 9,
-            "course_id": 1,
             "topic": "Introduction to digital logic",
             "description": "Digital signals, Digital Logic, Computers and Digital Systems, Purpose and role of digital logic in computer engineering, CMOS logic circuits",
-            "time_allocation": "{\"lecture\":\"1\",\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "time_allocation": {
+              "lecture": "1",
+              "tutorial": null,
+              "practical": null,
+              "design": null,
+              "assignment": null,
+              "independent_learning": null
+            },
             "created_at": "2024-10-12T12:18:24.000000Z",
-            "updated_at": "2024-10-12T12:18:24.000000Z",
-            "created_by": 13,
-            "updated_by": 13
+            "updated_at": "2024-10-12T12:18:24.000000Z"
           },
           {
-            "id": 10,
-            "course_id": 1,
             "topic": "Number systems and digital logic",
             "description": "Binary number system , Number Base Conversions, A Representation of Negative Numbers, Binary arithmetic, Levels of Description of Logic Networks, Basic logic gates, Positive and negative logic",
-            "time_allocation": "{\"lecture\":\"3\",\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "time_allocation": {
+              "lecture": "3",
+              "tutorial": null,
+              "practical": null,
+              "design": null,
+              "assignment": null,
+              "independent_learning": null
+            },
             "created_at": "2024-10-12T12:18:24.000000Z",
-            "updated_at": "2024-10-12T12:18:24.000000Z",
-            "created_by": 13,
-            "updated_by": 13
+            "updated_at": "2024-10-12T12:18:24.000000Z"
           },
           {
-            "id": 11,
-            "course_id": 1,
             "topic": "Combinational logic circuits",
             "description": "Boolean algebra, Boolean laws and theorems, Sum-of-products and Product-of-sums methods, Simplifications of Boolean expressions, Truth tables, Karnaugh Maps, Quine Mc-clusky method, Don\u2019t care combinations, Elimination of timing Hazards",
-            "time_allocation": "{\"lecture\":\"6\",\"tutorial\":null,\"practical\":\"2\",\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "time_allocation": {
+              "lecture": "6",
+              "tutorial": null,
+              "practical": "2",
+              "design": null,
+              "assignment": null,
+              "independent_learning": null
+            },
             "created_at": "2024-10-12T12:18:24.000000Z",
-            "updated_at": "2024-10-12T12:18:24.000000Z",
-            "created_by": 13,
-            "updated_by": 13
+            "updated_at": "2024-10-12T12:18:24.000000Z"
           },
           {
-            "id": 12,
-            "course_id": 1,
             "topic": "Modular design of combinational circuits",
             "description": "Introduction of Levels of Integration, Multiplexers, De-multiplexers, Encoders, Decoders, read only memory (ROM), programmable logic arrays",
-            "time_allocation": "{\"lecture\":\"4\",\"tutorial\":null,\"practical\":\"5\",\"design\":null,\"assignment\":\"5\",\"independent_learning\":null}",
+            "time_allocation": {
+              "lecture": "4",
+              "tutorial": null,
+              "practical": "5",
+              "design": null,
+              "assignment": "5",
+              "independent_learning": null
+            },
             "created_at": "2024-10-12T12:18:24.000000Z",
-            "updated_at": "2024-10-12T12:18:24.000000Z",
-            "created_by": 13,
-            "updated_by": 13
+            "updated_at": "2024-10-12T12:18:24.000000Z"
           },
           {
-            "id": 13,
-            "course_id": 1,
             "topic": "Sequential logic circuits and memory elements",
             "description": "SR flip flops, Gated, edge-triggered and Master-slave operation, JK flip flop, D flip-flop, T flip-flop, Registers, Serial/Parallel conversion, CodesError detection and correction",
-            "time_allocation": "{\"lecture\":\"6\",\"tutorial\":null,\"practical\":\"4\",\"design\":null,\"assignment\":\"2\",\"independent_learning\":null}",
+            "time_allocation": {
+              "lecture": "6",
+              "tutorial": null,
+              "practical": "4",
+              "design": null,
+              "assignment": "2",
+              "independent_learning": null
+            },
             "created_at": "2024-10-12T12:18:24.000000Z",
-            "updated_at": "2024-10-12T12:18:24.000000Z",
-            "created_by": 13,
-            "updated_by": 13
+            "updated_at": "2024-10-12T12:18:24.000000Z"
           },
           {
-            "id": 14,
-            "course_id": 1,
             "topic": "Design of synchronous sequential circuits",
             "description": "Analysis of Synchronous circuits, Mealy-Moore Networks and Models, State diagrams and state tables State minimization, State assignment, Assignment Rules, Next state and output equation realization, Design of Counters, ROM utilization for Sequential circuits",
-            "time_allocation": "{\"lecture\":\"5\",\"tutorial\":null,\"practical\":\"4\",\"design\":null,\"assignment\":\"4\",\"independent_learning\":null}",
+            "time_allocation": {
+              "lecture": "5",
+              "tutorial": null,
+              "practical": "4",
+              "design": null,
+              "assignment": "4",
+              "independent_learning": null
+            },
             "created_at": "2024-10-12T12:18:24.000000Z",
-            "updated_at": "2024-10-12T12:18:24.000000Z",
-            "created_by": 13,
-            "updated_by": 13
+            "updated_at": "2024-10-12T12:18:24.000000Z"
           },
           {
-            "id": 15,
-            "course_id": 1,
             "topic": "Analysis and design of asynchronous sequential circuits",
             "description": "Analysis of Asynchronous circuits, Design Procedure, Flow tables, Reduction of state and flow tables, Race free State assignment, Hazards in asynchronous circuits",
-            "time_allocation": "{\"lecture\":\"5\",\"tutorial\":null,\"practical\":\"4\",\"design\":null,\"assignment\":null,\"independent_learning\":null}",
+            "time_allocation": {
+              "lecture": "5",
+              "tutorial": null,
+              "practical": "4",
+              "design": null,
+              "assignment": null,
+              "independent_learning": null
+            },
             "created_at": "2024-10-12T12:18:24.000000Z",
-            "updated_at": "2024-10-12T12:18:24.000000Z",
-            "created_by": 13,
-            "updated_by": 13
+            "updated_at": "2024-10-12T12:18:24.000000Z"
           },
           {
-            "id": 16,
-            "course_id": 1,
             "topic": "Digital circuit design and implementation",
             "description": "Solving a relatively complex problem via self-study and consolidating the knowledge acquired",
-            "time_allocation": "{\"lecture\":null,\"tutorial\":null,\"practical\":null,\"design\":null,\"assignment\":\"6\",\"independent_learning\":null}",
+            "time_allocation": {
+              "lecture": null,
+              "tutorial": null,
+              "practical": null,
+              "design": null,
+              "assignment": "6",
+              "independent_learning": null
+            },
             "created_at": "2024-10-12T12:18:24.000000Z",
-            "updated_at": "2024-10-12T12:18:24.000000Z",
-            "created_by": 13,
-            "updated_by": 13
+            "updated_at": "2024-10-12T12:18:24.000000Z"
           }
         ],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/CO221",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/1"
+        },
         "created_at": "2024-10-12T12:13:20.000000Z",
         "updated_at": "2024-10-12T12:17:51.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO221/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -212,12 +237,13 @@
           "J.D. Ulman, Foundations of Computer Science C edition"
         ],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/CO222",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/3"
+        },
         "created_at": "2025-04-08T07:32:17.000000Z",
         "updated_at": "2025-04-08T07:32:17.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO222/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -263,12 +289,13 @@
           "J. F. Kurose and K. W. Ross. Computer Networking; A Top Down Approach."
         ],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/CO223",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/4"
+        },
         "created_at": "2025-04-08T07:34:41.000000Z",
         "updated_at": "2025-04-08T07:34:41.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO223/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -314,12 +341,13 @@
           "Network Analysis 3rd Edition, M.E. Van Valkenburg, Prentice Hall\n                                                                                           \nLinear and Non-Linear circuits, Leon O. Chua, Charles A. Desoer, Ernest S. Kuh, Mcgraw Hill"
         ],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/EE282",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/5"
+        },
         "created_at": "2025-04-08T07:37:31.000000Z",
         "updated_at": "2025-04-08T07:37:31.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/EE282/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-success"
       },
       {
@@ -363,12 +391,13 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/EM211",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/6"
+        },
         "created_at": "2025-04-08T07:39:07.000000Z",
         "updated_at": "2025-04-08T07:39:07.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/EM211/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-danger"
       },
       {
@@ -420,12 +449,13 @@
           "D.C. Montgomery and G.C. Runger (2007). Applied Statistics and Probability for Engineers. 4th Edition (or any later edition), John Wiley and Sons, Inc\nJay L. Devore, Probability and Statistics for Engineering and the Sciences, 8th edition, (2010),Cengage learning."
         ],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/EM213",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/7"
+        },
         "created_at": "2025-04-08T07:42:00.000000Z",
         "updated_at": "2025-04-08T07:42:00.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/EM213/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-danger"
       },
       {
@@ -471,12 +501,13 @@
           "Kenneth H. Rosen, Discrete Mathematics & It's Applications seventh edition"
         ],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/EM214",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/8"
+        },
         "created_at": "2025-04-08T07:43:41.000000Z",
         "updated_at": "2025-04-08T07:43:41.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/EM214/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-danger"
       }
     ]
@@ -544,12 +575,32 @@
           "David Patterson, John L. Hennessy, Computer Organization and Design; The Hardware/Software Interface, 4th Edition"
         ],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 1,
+            "code": "CO221",
+            "name": "Digital Design",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO221",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/1"
+            }
+          },
+          {
+            "id": 3,
+            "code": "CO222",
+            "name": "Programming Methodology",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO222",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/3"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/CO224",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/9"
+        },
         "created_at": "2025-04-15T09:45:26.000000Z",
         "updated_at": "2025-04-15T09:45:26.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO224/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -601,12 +652,23 @@
           "Mark Pilgrim, Dive into Python 3; http://www.diveinto.org/python3/\nSoftware Carpentry Lessons; http://software-carpentry.org/v4/\nBrad Miller and David Ranum, Problem Solving with Algorithms and Data Structures; http://interactivepython.org/runestone/static/pythonds/index.html"
         ],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 3,
+            "code": "CO222",
+            "name": "Programming Methodology",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO222",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/3"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/CO225",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/10"
+        },
         "created_at": "2025-04-15T09:48:08.000000Z",
         "updated_at": "2025-04-15T09:48:08.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO225/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -652,12 +714,23 @@
           "Ramez Elmasri and Shamkant B. Navathe, Fundamentals of Database Systems 7th Edition, 2016\nRaghu Ramakrishnan and Johannes Gehrke, Database Management Systems, 3rd Edition, McGrawHill, 2004"
         ],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 3,
+            "code": "CO222",
+            "name": "Programming Methodology",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO222",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/3"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/+CO226",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/11"
+        },
         "created_at": "2025-04-15T09:50:14.000000Z",
         "updated_at": "2025-04-15T09:50:14.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO226/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-secondary"
       },
       {
@@ -709,12 +782,13 @@
           "Millman and Halkias, Integrated Electronics\n"
         ],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/EE285",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/12"
+        },
         "created_at": "2025-04-15T09:52:35.000000Z",
         "updated_at": "2025-04-15T09:52:53.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/EE285/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-success"
       },
       {
@@ -758,12 +832,13 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/EM212",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/13"
+        },
         "created_at": "2025-04-15T09:54:07.000000Z",
         "updated_at": "2025-04-15T09:54:07.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/EM212/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-danger"
       },
       {
@@ -809,12 +884,13 @@
           "Steven C. Chapra, Raymond P. Canale (2015). Numerical methods for engineers. 7th edition, McGraw-Hill publishers, New York."
         ],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/EM215",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/14"
+        },
         "created_at": "2025-04-15T09:55:15.000000Z",
         "updated_at": "2025-04-15T09:55:15.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/EM215/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-danger"
       }
     ]
@@ -882,12 +958,13 @@
           "Damith C. Rajapakse, Practical tips for software intensive student projects"
         ],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/CO227",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/15"
+        },
         "created_at": "2025-04-15T09:58:13.000000Z",
         "updated_at": "2025-04-15T09:58:13.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO227/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       }
     ]
@@ -949,12 +1026,23 @@
           "Book - AVR Microcontroller and Embedded Systems\nFredrick M. Cady; Microcontrollers and Microcomputers- Principles of Software and Hardware Engineering.\nMano, M.M. & Kime, C.R.; Logic and Computer Design Fundamentals\n"
         ],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 9,
+            "code": "CO224",
+            "name": "Computer Architecture",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO224",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/9"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/CO321",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/16"
+        },
         "created_at": "2025-04-20T09:23:05.000000Z",
         "updated_at": "2025-04-20T09:23:05.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO321/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -1000,12 +1088,23 @@
           "Cormen, Rivest, Introduction to Algorithms\nAho, Hopcroft and Ullman, Data structures and algorithms\nSedgewick and Wayne, Algorithms\nCO322 Syllabus; https://drive.google.com/open?id=195_ITaRnKvyU_tFimv8xo4gH-gwonesi\n"
         ],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 10,
+            "code": "CO225",
+            "name": "Software Construction",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO225",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/10"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/+CO322",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/17"
+        },
         "created_at": "2025-04-20T09:25:26.000000Z",
         "updated_at": "2025-04-20T09:25:26.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO322/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-secondary"
       },
       {
@@ -1051,12 +1150,23 @@
           "J. F. Kurose and K. W. Ross. Computer Networking; A Top Down Approach. 6th edition.\nL. Garcia and I. Widjaja, Communication Networks; Fundamental Concepts and Key Architectures. 2nd edition."
         ],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 4,
+            "code": "CO223",
+            "name": "Computer Communication Networks 1",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO223",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/4"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/CO323",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/18"
+        },
         "created_at": "2025-04-20T09:27:05.000000Z",
         "updated_at": "2025-04-20T09:27:05.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO323/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -1102,12 +1212,32 @@
           "John Goerzen and Brandon Rhodes, Foundations of Python Network Programming\nJan Newmarch, Network programming with Go (http://jan.newmarch.name/go/)\n\n"
         ],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 4,
+            "code": "CO223",
+            "name": "Computer Communication Networks 1",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO223",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/4"
+            }
+          },
+          {
+            "id": 10,
+            "code": "CO225",
+            "name": "Software Construction",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO225",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/10"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/CO324",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/19"
+        },
         "created_at": "2025-04-20T09:28:42.000000Z",
         "updated_at": "2025-04-20T09:28:42.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO324/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -1153,12 +1283,23 @@
           "Ross Anderson, Security Engineering\nBehrouz Forouzan, Cryptography & Network Security"
         ],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 4,
+            "code": "CO223",
+            "name": "Computer Communication Networks 1",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO223",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/4"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/CO325",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/20"
+        },
         "created_at": "2025-04-20T09:30:20.000000Z",
         "updated_at": "2025-04-20T09:30:20.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO325/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -1204,12 +1345,13 @@
           "Millman and Taub, Pulse and digital circuits\nMillman and Halkias, Integrated Electronics"
         ],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/EE386",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/21"
+        },
         "created_at": "2025-04-20T09:31:47.000000Z",
         "updated_at": "2025-04-20T09:31:47.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/EE386/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-success"
       }
     ]
@@ -1269,12 +1411,32 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 16,
+            "code": "CO321",
+            "name": "Embedded Systems",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO321",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/16"
+            }
+          },
+          {
+            "id": 21,
+            "code": "EE386",
+            "name": "Electronics II",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/EE386",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/21"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/CO326",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/22"
+        },
         "created_at": "2025-04-20T09:33:37.000000Z",
         "updated_at": "2025-04-20T09:33:37.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO326/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -1320,12 +1482,32 @@
           "A. Tanenbaum, Modern Operating Systems\nVahalia, Unix Internals; The new frontiers"
         ],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 9,
+            "code": "CO224",
+            "name": "Computer Architecture",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO224",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/9"
+            }
+          },
+          {
+            "id": 17,
+            "code": " CO322",
+            "name": "Data Structures and Algorithms",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/+CO322",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/17"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/CO327",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/23"
+        },
         "created_at": "2025-04-20T09:35:27.000000Z",
         "updated_at": "2025-04-20T09:35:27.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO327/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -1371,12 +1553,41 @@
           "Eric Evans, Domain-Driven Design; Tackling Complexity in the Heart of Software\nJames O. Coplien, Gertrud Bj\u00c3\u0192\u00c2\u00b8rnvig, Lean Architecture for Agile Software Development\nSerge Demeyer, St\u00c3\u0192\u00c2\u00a9phane Ducasse, Oscar Nierstrasz, Object-Oriented Reengineering Patterns"
         ],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 11,
+            "code": " CO226",
+            "name": " Database Systems",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/+CO226",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/11"
+            }
+          },
+          {
+            "id": 17,
+            "code": " CO322",
+            "name": "Data Structures and Algorithms",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/+CO322",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/17"
+            }
+          },
+          {
+            "id": 19,
+            "code": "CO324",
+            "name": "Network and Web Application Design",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO324",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/19"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/CO328",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/24"
+        },
         "created_at": "2025-04-20T09:36:51.000000Z",
         "updated_at": "2025-04-20T09:36:51.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO328/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -1422,12 +1633,23 @@
           "Discrete time signal processing 3rd edition\nSignals and systems 3rd edition\n"
         ],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 5,
+            "code": "EE282",
+            "name": "Network Analysis for Computer Engineering",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/EE282",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/5"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/EE387",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/25"
+        },
         "created_at": "2025-04-20T09:38:45.000000Z",
         "updated_at": "2025-04-20T09:38:45.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/EE387/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-success"
       }
     ]
@@ -1487,12 +1709,13 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/CO421",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/26"
+        },
         "created_at": "2025-04-20T09:40:31.000000Z",
         "updated_at": "2025-04-20T09:40:31.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO421/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       }
     ]
@@ -1567,12 +1790,13 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/CO425",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/27"
+        },
         "created_at": "2025-04-20T09:41:34.000000Z",
         "updated_at": "2025-04-20T09:41:34.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO425/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       }
     ]
@@ -1632,12 +1856,13 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/CO422",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/28"
+        },
         "created_at": "2025-04-21T07:08:52.000000Z",
         "updated_at": "2025-04-21T07:08:52.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO422/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -1681,12 +1906,23 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 24,
+            "code": "CO328",
+            "name": " Software Engineering",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO328",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/24"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/+CO423",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/29"
+        },
         "created_at": "2025-04-21T07:09:54.000000Z",
         "updated_at": "2025-04-21T07:09:54.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO423/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-secondary"
       },
       {
@@ -1730,12 +1966,23 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 24,
+            "code": "CO328",
+            "name": " Software Engineering",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO328",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/24"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/+CO424",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/30"
+        },
         "created_at": "2025-04-21T07:11:39.000000Z",
         "updated_at": "2025-04-21T07:11:39.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO424/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-secondary"
       },
       {
@@ -1779,12 +2026,13 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/EF501",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/31"
+        },
         "created_at": "2025-04-21T07:12:17.000000Z",
         "updated_at": "2025-04-21T07:12:17.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/EF501/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-secondary"
       }
     ]
@@ -1844,12 +2092,13 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/CO553",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/32"
+        },
         "created_at": "2025-04-21T07:16:17.000000Z",
         "updated_at": "2025-04-21T07:16:17.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO553/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -1893,12 +2142,13 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/CO552",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/33"
+        },
         "created_at": "2025-04-21T07:18:45.000000Z",
         "updated_at": "2025-04-21T07:18:45.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO552/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -1942,12 +2192,13 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/CO551",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/34"
+        },
         "created_at": "2025-04-21T07:20:19.000000Z",
         "updated_at": "2025-07-23T12:59:06.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO551/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -1991,12 +2242,23 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 17,
+            "code": " CO322",
+            "name": "Data Structures and Algorithms",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/+CO322",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/17"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/CO544",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/35"
+        },
         "created_at": "2025-04-21T07:21:21.000000Z",
         "updated_at": "2025-04-21T07:21:21.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO544/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -2040,12 +2302,13 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/CO543",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/36"
+        },
         "created_at": "2025-04-21T07:23:45.000000Z",
         "updated_at": "2025-04-21T07:23:45.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO543/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -2089,12 +2352,13 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/CO542",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/37"
+        },
         "created_at": "2025-04-21T07:25:03.000000Z",
         "updated_at": "2025-04-21T07:25:32.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO542/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -2138,12 +2402,23 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 3,
+            "code": "CO222",
+            "name": "Programming Methodology",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO222",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/3"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/CO541",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/38"
+        },
         "created_at": "2025-04-21T07:26:35.000000Z",
         "updated_at": "2025-04-21T07:26:35.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO541/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -2187,12 +2462,23 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 24,
+            "code": "CO328",
+            "name": " Software Engineering",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO328",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/24"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/CO528",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/39"
+        },
         "created_at": "2025-04-21T07:27:44.000000Z",
         "updated_at": "2025-04-21T07:27:44.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO528/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -2236,12 +2522,23 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 11,
+            "code": " CO226",
+            "name": " Database Systems",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/+CO226",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/11"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/CO527",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/40"
+        },
         "created_at": "2025-04-21T07:29:05.000000Z",
         "updated_at": "2025-04-21T07:29:05.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO527/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -2285,12 +2582,23 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 23,
+            "code": "CO327",
+            "name": "Operating Systems",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO327",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/23"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/CO526",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/41"
+        },
         "created_at": "2025-04-21T07:30:01.000000Z",
         "updated_at": "2025-04-21T07:30:01.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO526/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -2334,12 +2642,23 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 23,
+            "code": "CO327",
+            "name": "Operating Systems",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO327",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/23"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/CO524",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/42"
+        },
         "created_at": "2025-04-21T07:32:14.000000Z",
         "updated_at": "2025-04-21T07:32:14.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO524/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -2383,12 +2702,23 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 17,
+            "code": " CO322",
+            "name": "Data Structures and Algorithms",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/+CO322",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/17"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/CO523",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/43"
+        },
         "created_at": "2025-04-21T07:33:00.000000Z",
         "updated_at": "2025-04-21T07:33:00.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO523/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -2432,12 +2762,13 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [],
+        "urls": {
+          "view": "/courses/undergraduate/CO521",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/44"
+        },
         "created_at": "2025-04-21T07:36:03.000000Z",
         "updated_at": "2025-04-21T07:36:03.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO521/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -2481,12 +2812,23 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 18,
+            "code": "CO323",
+            "name": "Computer Communication Networks II",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO323",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/18"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/CO515",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/45"
+        },
         "created_at": "2025-04-21T07:37:02.000000Z",
         "updated_at": "2025-04-21T07:37:02.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO515/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -2530,12 +2872,23 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 18,
+            "code": "CO323",
+            "name": "Computer Communication Networks II",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO323",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/18"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/CO514",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/46"
+        },
         "created_at": "2025-04-21T07:38:36.000000Z",
         "updated_at": "2025-04-21T07:38:36.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO514/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -2579,12 +2932,23 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 18,
+            "code": "CO323",
+            "name": "Computer Communication Networks II",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO323",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/18"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/CO513",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/47"
+        },
         "created_at": "2025-04-21T07:39:09.000000Z",
         "updated_at": "2025-04-21T07:39:09.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO513/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -2628,12 +2992,23 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 9,
+            "code": "CO224",
+            "name": "Computer Architecture",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO224",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/9"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/CO504",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/48"
+        },
         "created_at": "2025-04-21T07:40:03.000000Z",
         "updated_at": "2025-04-21T07:40:03.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO504/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -2677,12 +3052,23 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 16,
+            "code": "CO321",
+            "name": "Embedded Systems",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO321",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/16"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/CO503",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/49"
+        },
         "created_at": "2025-04-21T07:41:29.000000Z",
         "updated_at": "2025-07-13T18:20:50.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO503/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       },
       {
@@ -2726,12 +3112,23 @@
         },
         "references": [],
         "modules": [],
+        "prerequisites": [
+          {
+            "id": 9,
+            "code": "CO224",
+            "name": "Computer Architecture",
+            "urls": {
+              "view": "https://www.ce.pdn.ac.lk/courses/undergraduate/CO224",
+              "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/9"
+            }
+          }
+        ],
+        "urls": {
+          "view": "/courses/undergraduate/CO502",
+          "edit": "https://portal.ce.pdn.ac.lk/dashboard/courses/edit/50"
+        },
         "created_at": "2025-04-21T07:42:06.000000Z",
         "updated_at": "2025-07-13T18:21:16.000000Z",
-        "urls": {
-          "view": "/courses/undergraduate/CO502/"
-        },
-        "curriculum": "rev-2013",
         "color_code": "btn-outline-primary"
       }
     ]

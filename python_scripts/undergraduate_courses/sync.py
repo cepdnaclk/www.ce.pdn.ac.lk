@@ -50,9 +50,9 @@ for curriculum_name, curriculum in curriculums.items():
     # Phase 3: Aggregate course data under semesters while generating system data
     for item in courses:
         semester_id = item.get("semester_id")
-
-        item["urls"] = {"view": f"/courses/undergraduate/{item['code'].strip()}/"}
-        item["curriculum"] = curriculum["name"]
+        item["urls"]["view"] = item["urls"]["view"].replace(
+            "https://www.ce.pdn.ac.lk", ""
+        )
         item["color_code"] = course_color_codes.get(
             item["code"][0:2], "btn-outline-secondary"
         )

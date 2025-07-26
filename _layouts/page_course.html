@@ -139,11 +139,11 @@
 									<span class="mb-0" style="font-weight: 500">Prerequisites</span>
 								</div>
 								<div class="col-sm-9 text-secondary">
-									{%- for p in page.prerequisites -%}
-									{%- assign p_data = site.data.courses_index[p] -%}
-									<a class="" href="{{ p_data.urls.view | relative_url }}">{{p}}</a>
-									{% if forloop.last %}{% else %}, {% endif %}
-									{%- endfor -%}
+									<ul>
+										{%- for p in page.prerequisites -%}
+										<li><a class="" href="{{ p.url | relative_url }}">{{p.code}} - {{p.name}}</a></li>
+										{%- endfor -%}
+									</ul>
 								</div>
 							</div>
 							{% endif %}
@@ -296,16 +296,16 @@
 								<b>{{item["topic"]}}</b> <br>{{item["description"]}}
 							</td>
 							<td style="text-align:center; vertical-align:middle">
-								{{ item["allocation"]["L"] }}
+								{{ item["time_allocation"]["lecture"] }}
 							</td>
 							<td style="text-align:center; vertical-align:middle">
-								{{ item["allocation"]["T"] }}
+								{{ item["time_allocation"]["tutorial"] }}
 							</td>
 							<td style="text-align:center; vertical-align:middle">
-								{{ item["allocation"]["P"] }}
+								{{ item["time_allocation"]["practical"] }}
 							</td>
 							<td style="text-align:center; vertical-align:middle">
-								{{ item["allocation"]["A"] }}
+								{{ item["time_allocation"]["assignment"] }}
 							</td>
 						</tr>
 						{%- endfor -%}
