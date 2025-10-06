@@ -7,10 +7,10 @@
     "cover_image": "/images/banners/computational-biology-banner.jpg",
     "contact": [
         {
-            "name": "Dr. Damayanthi Herath",
+            "name": "",
             "affiliation": "Department of Computer Engineering, University of Peradeniya",
             "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/damayanthi-herath/",
-            "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/damayanthi-herath.jpg"
+            "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/damayanthi-herath.jpg"
         }
     ],
     "maintainers": [
@@ -24,16 +24,16 @@
     "people": {
         "staff": [
             {
-                "name": "Dr. Damayanthi Herath",
+                "name": "",
                 "affiliation": "Department of Computer Engineering, University of Peradeniya",
                 "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/damayanthi-herath/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/damayanthi-herath.jpg"
+                "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/damayanthi-herath.jpg"
             },
             {
-                "name": "Dr. Asitha Bandaranayake",
+                "name": "",
                 "affiliation": "Department of Computer Engineering, University of Peradeniya",
                 "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/asitha-bandaranayake/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/asitha-bandaranayake-sq.jpg"
+                "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/asitha-bandaranayake.jpg"
             }
         ],
         "students": [

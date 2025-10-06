@@ -7,45 +7,45 @@
     "cover_image": "/images/banners/cryptography-research-banner.jpg",
     "contact": [
         {
-            "name": "Dr. Janaka Alawatugoda",
+            "name": "",
             "affiliation": "Department of Computer Engineering, University of Peradeniya",
             "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/janaka-alawatugoda/",
-            "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/janaka-alawatugoda.jpg"
+            "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/janaka-alawatugoda.jpg"
         },
         {
-            "name": "Prof. Roshan G. Ragel",
+            "name": "",
             "affiliation": "Department of Computer Engineering, University of Peradeniya",
             "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/",
-            "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/roshan-ragel.jpg"
+            "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/roshan-ragel.jpg"
         }
     ],
     "maintainers": [
         {
-            "name": "Dr. Janaka Alawatugoda",
+            "name": "",
             "affiliation": "Department of Computer Engineering, University of Peradeniya",
             "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/janaka-alawatugoda/",
-            "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/janaka-alawatugoda.jpg"
+            "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/janaka-alawatugoda.jpg"
         }
     ],
     "people": {
         "staff": [
             {
-                "name": "Dr. Janaka Alawatugoda",
+                "name": "",
                 "affiliation": "Department of Computer Engineering, University of Peradeniya",
                 "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/janaka-alawatugoda/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/janaka-alawatugoda.jpg"
+                "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/janaka-alawatugoda.jpg"
             },
             {
-                "name": "Prof. Roshan G. Ragel",
+                "name": "",
                 "affiliation": "Department of Computer Engineering, University of Peradeniya",
                 "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/roshan-ragel.jpg"
+                "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/roshan-ragel.jpg"
             },
             {
-                "name": "Dr. Upul Jayasinghe",
+                "name": "",
                 "affiliation": "Department of Computer Engineering, University of Peradeniya",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/upul/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/upul-jayasinghe.png"
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/upul-jayasinghe/",
+                "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/upul-jayasinghe.jpg"
             }
         ],
         "students": [
