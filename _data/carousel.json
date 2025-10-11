@@ -1,7 +1,7 @@
 [
     {
         "display": true,
-        "image": "/images/home/cover_1.jpeg",
+        "image": "/images/home/cover_1.webp",
         "alt": "",
         "title": "",
         "subtitle": "",
@@ -10,7 +10,7 @@
     },
     {
         "display": true,
-        "image": "/images/home/cover_2.jpeg",
+        "image": "/images/home/cover_2.webp",
         "alt": "",
         "title": "",
         "subtitle": "",
@@ -19,7 +19,7 @@
     },
     {
         "display": true,
-        "image": "/images/home/cover_3.jpeg",
+        "image": "/images/home/cover_3.webp",
         "alt": "",
         "title": "",
         "subtitle": "",
@@ -28,7 +28,7 @@
     },
         {
         "display": true,
-        "image": "/images/home/cover_4.jpeg",
+        "image": "/images/home/cover_4.webp",
         "alt": "",
         "title": "",
         "subtitle": "",
@@ -37,7 +37,7 @@
     },
         {
         "display": true,
-        "image": "/images/home/cover_5.jpeg",
+        "image": "/images/home/cover_5.webp",
         "alt": "",
         "title": "",
         "subtitle": "",
