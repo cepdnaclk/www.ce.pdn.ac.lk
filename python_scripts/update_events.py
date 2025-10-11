@@ -70,7 +70,7 @@ def save_event_page(details: dict, file_url: str):
         "start_time": start_date,
         "end_time": end_date,
         "location": (details.get("location") or "").strip(),
-        "event_type": ", ".join(details.get("event_type", [])),3.13
+        "event_types": details.get("event_type", []),
         "link_url": (details.get("link_url") or "#").strip() or "#",
         "link_caption": (details.get("link_caption") or "").strip(),
         "author": (details.get("author") or "").strip(),
