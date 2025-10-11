@@ -51,7 +51,7 @@ def save_news_page(details: dict, file_url: str):
     content = (details.get("description") or "").strip()
     data = {
         "layout": "page_news",
-        "id": details.get("id"),
+        "id": details.get("id", -1),
         "title": (details.get("title") or "").strip(),
         "image": download_image(details.get("image"), "/news/images"),
         "parent": "News",

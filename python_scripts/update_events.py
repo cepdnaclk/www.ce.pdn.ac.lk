@@ -63,15 +63,15 @@ def save_event_page(details: dict, file_url: str):
     end_date = format_date(details.get("end_at"))
     data = {
         "layout": "page_events",
-        "id": details.get("id", 99),
-        "title": details.get("title", "").strip(),
+        "id": details.get("id", -1),
+        "title": (details.get("title") or "").strip(),
         "parent": "Events",
         "image": download_image(details["image"].strip(), "/events/images"),
         "start_time": start_date,
         "end_time": end_date,
-        "location": details.get("location", "").strip(),
-        "event_type": ", ".join(details.get("event_type", [])),
-        "link_url": details.get("link_url", "#").strip() or "#",
+        "location": (details.get("location") or "").strip(),
+        "event_type": ", ".join(details.get("event_type", [])),3.13
+        "link_url": (details.get("link_url") or "#").strip() or "#",
         "link_caption": (details.get("link_caption") or "").strip(),
         "author": (details.get("author") or "").strip(),
         "published_date": (details.get("published_at") or "").strip(),
