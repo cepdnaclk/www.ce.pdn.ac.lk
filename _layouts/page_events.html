@@ -4,123 +4,148 @@ layout: wrappers_table
 
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     {% include meta.html %}
-    <title>{{ page.title }} </title>
+    <title>{{ page.title }}</title>
     {% include head.html %}
+  </head>
 
-
-</head>
-
-<body>
+  <body>
     {% include navbar.html %}
     <div class="container vh-75">
-        <div class="container  col-sm-12 col-md-10 col-lg-10 mx-auto mt-3 py-2">
-            <nav aria-label="breadcrumb" class="pb-3">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="{{ site.baseurl }}{% link pages/home.html %}">Home</a></li>
-                    <li class="breadcrumb-item"><a href="{{ site.baseurl }}{% link events/index.html %}">Events</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
-                </ol>
-            </nav>
+      <div class="container col-sm-12 col-md-10 col-lg-10 mx-auto mt-3 py-2">
+        <nav aria-label="breadcrumb" class="pb-3">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="{{ site.baseurl }}{% link pages/home.html %}">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="{{ site.baseurl }}{% link events/index.html %}"
+                >Events</a
+              >
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              {{ page.title }}
+            </li>
+          </ol>
+        </nav>
 
-            <span class="h3 pb-2">{{ page.title }}</span><br>
-            {%- if page.published_date -%}
-            <span class="text-muted">{{ page.published_date }} &middot; </span>
-            {%- endif -%}
+        <span class="h3 pb-2">{{ page.title }}</span><br />
+        {%- if page.published_date -%}
+        <span class="text-muted">{{ page.published_date }} &middot; </span>
+        {%- endif -%} {%- if page.author -%}
+        <span class="text-muted"> {{ page.author }} &middot; </span>
+        {%- endif -%}
 
-            {%- if page.author -%}
-            <span class="text-muted">
-                {{ page.author }} &middot;
-            </span>
-            {%- endif -%}
+        <span class="text-muted" title="Estimated read time">
+          {% include read_time.html content=page.content -%}
+        </span>
+        <hr />
 
-            <span class="text-muted" title="Estimated read time">
-                {% include read_time.html content=page.content -%}
-            </span>
-            <hr>
-
-            {%- if page.image -%}
-            <div class="row py-5">
-                <div class="col-8 mx-auto">
-                    <img src="{{ page.image}}" alt="{{ page.title }}" class="img-fluid img-thumbnail">
-                </div>
-            </div>
-            {%- endif -%}
-            <div class="row pt-3">
-                {{ content }}
-            </div>
-
-            {% if page.gallery == true %}
-            <div class="mt-5 mb-3">
-                <h4 class="project-section-title">Gallery</h4>
-                <div class="container demo-gallery p-4">
-                    <ul id="lightgallery" class="list-unstyled row">
-                        {% for image in page.galery_images %}
-
-                        {% if image.thumb %}
-                        <li class='col-lg-3 col-md-4 col-sm-6 d-flex align-self-center pb-2 mb-2'
-                            data-responsive="{{ image.url }} 800" data-src="{{ image.url }}" data-sub-html=''>
-                            <a href='javascript:void(0)'>
-                                <img class="w-100" alt='{{ image.caption }} - YouTube' class='img-responsive'
-                                    src="{{ image.thumb }}">
-                            </a>
-                        </li>
-                        {% else %}
-                        <li class='col-lg-3 col-md-4 col-sm-6 d-flex align-self-center pb-2 mb-2'
-                            data-responsive="{{ image.url }} 800" data-src="{{ image.url }}" data-sub-html=''>
-                            <a href='javascript:void(0)'>
-                                <img class="w-100" alt='{{ image.caption }}' class='img-responsive'
-                                    src="{{ image.url }}">
-                            </a>
-                        </li>
-                        {% endif %}
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
-            {% endif %}
-
-            {% if page.video %}
-            <h4 class="mt-5 mb-3 pb-3">{{ page.video.title }}</h4>
-            <p>{{ page.video.description }}</p>
-            <div class="ratio ratio-16x9">
-                <iframe width="560" height="315" src="{{ page.video.url }}" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-
-            {% endif %}
-
-            <div class="mt-5">
-                <h5>Share this article:</h5>
-                <div class="d-flex gap-2 social-share">
-                    <!-- Facebook -->
-                    <a class="btn btn-primary facebook" target="_blank"
-                        href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url | url_encode }}">
-                        <i class="fab fa-facebook-f"></i> Share
-                    </a>
-
-                    <!-- Twitter -->
-                    <a class="btn btn-info text-white twitter" target="_blank"
-                        href="https://twitter.com/intent/tweet?text={{ page.title }}&amp;url={{ site.url }}{{ page.url }}">
-                        <i class="fab fa-twitter"></i> Tweet
-                    </a>
-
-                    <!-- LinkedIn -->
-                    <a class="btn btn-primary linkedin" style="background-color:#0077b5; border-color:#0077b5;"
-                        target="_blank"
-                        href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url | url_encode }}{{ page.url }}&amp;title={{ page.title }}">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                </div>
-            </div>
-
-
-
+        {%- if page.image -%}
+        <div class="row py-5">
+          <div class="col-8 mx-auto">
+            <img
+              src="{{ page.image}}"
+              alt="{{ page.title }}"
+              class="img-fluid img-thumbnail"
+            />
+          </div>
         </div>
+        {%- endif -%}
+        <div class="row pt-3">{{ content }}</div>
+
+        {% if page.gallery == true %}
+        <div class="mt-5 mb-3">
+          <h4 class="project-section-title">Gallery</h4>
+          <div class="container demo-gallery p-4">
+            <ul id="lightgallery" class="list-unstyled row">
+              {% for image in page.galery_images %} {% if image.thumb %}
+              <li
+                class="col-lg-3 col-md-4 col-sm-6 d-flex align-self-center pb-2 mb-2"
+                data-responsive="{{ image.url }} 800"
+                data-src="{{ image.url }}"
+                data-sub-html=""
+              >
+                <a href="javascript:void(0)">
+                  <img
+                    class="w-100"
+                    alt="{{ image.caption }} - YouTube"
+                    class="img-responsive"
+                    src="{{ image.thumb }}"
+                  />
+                </a>
+              </li>
+              {% else %}
+              <li
+                class="col-lg-3 col-md-4 col-sm-6 d-flex align-self-center pb-2 mb-2"
+                data-responsive="{{ image.url }} 800"
+                data-src="{{ image.url }}"
+                data-sub-html=""
+              >
+                <a href="javascript:void(0)">
+                  <img
+                    class="w-100"
+                    alt="{{ image.caption }}"
+                    class="img-responsive"
+                    src="{{ image.url }}"
+                  />
+                </a>
+              </li>
+              {% endif %} {% endfor %}
+            </ul>
+          </div>
+        </div>
+        {% endif %} {% if page.video %}
+        <h4 class="mt-5 mb-3 pb-3">{{ page.video.title }}</h4>
+        <p>{{ page.video.description }}</p>
+        <div class="ratio ratio-16x9">
+          <iframe
+            width="560"
+            height="315"
+            src="{{ page.video.url }}"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        {% endif %}
+
+        <div class="mt-5">
+          <h5>Share this article:</h5>
+          <div class="d-flex gap-2 social-share">
+            <!-- Facebook -->
+            <a
+              class="btn btn-primary facebook"
+              target="_blank"
+              href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url | url_encode }}"
+            >
+              <i class="fab fa-facebook-f"></i> Share
+            </a>
+
+            <!-- Twitter -->
+            <a
+              class="btn btn-info text-white twitter"
+              target="_blank"
+              href="https://twitter.com/intent/tweet?text={{ page.title }}&amp;url={{ site.url }}{{ page.url }}"
+            >
+              <i class="fab fa-twitter"></i> Tweet
+            </a>
+
+            <!-- LinkedIn -->
+            <a
+              class="btn btn-primary linkedin"
+              style="background-color: #0077b5; border-color: #0077b5"
+              target="_blank"
+              href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url | url_encode }}{{ page.url }}&amp;title={{ page.title }}"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
     {% include footer.html %}
-
-</body>
+  </body>
+</html>
