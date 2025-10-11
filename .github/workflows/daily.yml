@@ -28,13 +28,14 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       # Individual scripts executing sub tasks
+
       - name: 'Update News'
-        working-directory: ./python_scripts/
+        working-directory: ./python_scripts/news_and_events
         run: |
           python update_news.py
 
       - name: 'Update Events'
-        working-directory: ./python_scripts/
+        working-directory: ./python_scripts/news_and_events
         run: |
           python update_events.py
 
