@@ -5,7 +5,7 @@ on:
 
   schedule:
     # At 18:45 UTC on everyday (12.15 mid night in Sri Lanka)
-    - cron: "15 18 * * *"
+    - cron: '15 18 * * *'
 
   # Enables a button on Actions tab
   workflow_dispatch:
@@ -27,28 +27,27 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       # Individual scripts executing sub tasks
-
-      - name: "Update News"
-        working-directory: ./python_scripts/news_and_events
+      - name: 'Update News'
+        working-directory: ./python_scripts/
         run: |
           python update_news.py
 
-      - name: "Update Events"
-        working-directory: ./python_scripts/news_and_events
+      - name: 'Update Events'
+        working-directory: ./python_scripts/
         run: |
           python update_events.py
 
-      - name: "Update Undergraduate Courses"
+      - name: 'Update Undergraduate Courses'
         working-directory: ./python_scripts/undergraduate_courses
         run: |
           python sync.py
 
-      - name: "Update Taxonomy - Intranet"
+      - name: 'Update Taxonomy - Intranet'
         working-directory: ./python_scripts/taxonomy
         run: |
           python intranet.py
 
-      - name: "Update Research Groups"
+      - name: 'Update Research Groups'
         working-directory: ./python_scripts/
         run: |
           python research_groups.py
