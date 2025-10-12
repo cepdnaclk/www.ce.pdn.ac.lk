@@ -4,27 +4,31 @@ title: Events
 permalink: /events/
 navbar_active: Events
 ---
+
 {% include page_tree_builder.html pages=site.html_pages -%}
 
 <div class="bg-secondary p-3 pb-1 rounded">
-    <h1 class="text-white">{{ page.title }}</h1>
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb page-breadcrumb">
-            <li class="breadcrumb-item"><a href="{{ '/' | prepend: site.baseurl }}" class="link-light">Home</a></li>
-            <li class="breadcrumb-item text-white">{{ page.title }}</li>
-        </ol>
-    </nav>
+  <h1 class="text-white">{{ page.title }}</h1>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb page-breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="{{ '/' | prepend: site.baseurl }}" class="link-light">Home</a>
+      </li>
+      <li class="breadcrumb-item text-white">{{ page.title }}</li>
+    </ol>
+  </nav>
 </div>
 
 {%- assign eventsList = site.categories["events"] | where: "draft", "false" -%}
 <div class="container">
-    <div class="row py-5">
-        <h1 class="text-center">Events</h1>
-        <h3 class="text-center text-muted">A range of events occurs within the department including seminars, students activities and gatherings</h3>
-    </div>
-    <div class="row">
-        {%- for post in eventsList -%}
-        {% include cards/card_events.html post=post%}
-        {%- endfor -%}
-    </div>
+  <div class="row py-5">
+    <h1 class="text-center">Events</h1>
+    <h3 class="text-center text-muted">
+      A range of events occurs within the department including seminars, students activities and
+      gatherings
+    </h3>
+  </div>
+  <div class="row">
+    {%- for post in eventsList -%} {% include cards/card_events.html post=post%} {%- endfor -%}
+  </div>
 </div>

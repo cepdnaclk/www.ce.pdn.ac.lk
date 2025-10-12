@@ -1,162 +1,218 @@
 {%- assign data = site.data.research_groups[page.code] -%}
 
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-<head>
-    {% include head.html %}
-
-    {% if page.forward_url %}
-    <meta http-equiv = "refresh" content = "0; url = {{ page.forward_url}}" />
+<!doctype html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    {% include head.html %} {% if page.forward_url %}
+    <meta http-equiv="refresh" content="0; url = {{ page.forward_url}}" />
     {% endif %}
-</head>
+  </head>
 
-<body>
+  <body>
     {% include navbar.html %}
 
     <main role="main" class="container pt-3 vh-75">
-        <div class="bg-secondary p-3 pb-1 rounded">
-            <h1 class="text-white">{{ data.title }}</h1>
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb page-breadcrumb">
-                    <li class="breadcrumb-item"><a href="{{ '/' | prepend: site.baseurl }}" class="link-light">Home</a></li>
-                    <li class="breadcrumb-item"><a href="{{ '/research' | prepend: site.baseurl }}" class="link-light">Research</a></li>
-                    <li class="breadcrumb-item text-white">{{ data.title }}</li>
-                </ol>
-            </nav>
-        </div>
+      <div class="bg-secondary p-3 pb-1 rounded">
+        <h1 class="text-white">{{ data.title }}</h1>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb page-breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="{{ '/' | prepend: site.baseurl }}" class="link-light">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="{{ '/research' | prepend: site.baseurl }}" class="link-light">Research</a>
+            </li>
+            <li class="breadcrumb-item text-white">{{ data.title }}</li>
+          </ol>
+        </nav>
+      </div>
 
-        <!-- Page Banner -->
-        {%- if page.page_banner -%}
-        <div class="container my-3 p-0" style="height: 300px; overflow: hidden; margin: 0 auto; position:relative">
-            <img style="width:100%; position: absolute;top:-100%; left:0; right: 0; bottom:-100%;margin: auto;" src="{{ page.page_banner | relative_url }}" class="img-fluid" alt="{{ page.title }}">
-        </div>
-        {%- endif -%}
+      <!-- Page Banner -->
+      {%- if page.page_banner -%}
+      <div
+        class="container my-3 p-0"
+        style="height: 300px; overflow: hidden; margin: 0 auto; position: relative"
+      >
+        <img
+          style="
+            width: 100%;
+            position: absolute;
+            top: -100%;
+            left: 0;
+            right: 0;
+            bottom: -100%;
+            margin: auto;
+          "
+          src="{{ page.page_banner | relative_url }}"
+          class="img-fluid"
+          alt="{{ page.title }}"
+        />
+      </div>
+      {%- endif -%}
 
-        <div class="container pt-2">
-            <div class="row">
-                <!-- Description Card -->
-                <div class="col-md-8">
-                    <div class=" card mr-1">
-                        <div class="card-body">
-                            {{ data.description }}
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Research Group's Investigators -->
-                <div class="col-md-4">
-                    <div class="card p-2">
-                        <h5>Investigators</h5>
-                        {%- for i in data.contact -%}
-                        <div class="container d-flex flex-wrap align-items-center pb-2">
-                            <div class="me-2">
-                                <img src="{{ i.profile_image | relative_url }}" class="" alt="{{ i.name }}" style="width: 64px;">
-                            </div>
-                            <div class="small">
-                                <span class="h6 me-3">{{ i.name }}</span>
-                                {% if i.profile_url != "" %}<a href="{{ i.profile_url }}" ><i class="fa fa-link"></i></a>{% endif %}
-                                <br>
-                                <span class="text-muted">{{ i.affiliation }}</span>
-                            </div>
-                        </div>
-                        {%- endfor -%}
-                    </div>
-                </div>
+      <div class="container pt-2">
+        <div class="row">
+          <!-- Description Card -->
+          <div class="col-md-8">
+            <div class="card mr-1">
+              <div class="card-body">{{ data.description }}</div>
             </div>
-        </div>
+          </div>
 
-        <div class="container pt-5">
-            {% if page.forward_url %}
-            <p>Redirecting...<br><br>Please click <a href="{{ page.forward_url}}">here</a> if the browser is not automatically redirected.</p>
-            {% endif %}
-
-            <!-- Original content -->
-            {{ content }}
-
-        </div>
-
-        <hr>
-        <div class="container pt-5 px-5">
-            <h3>People</h3>
-
-            <!-- Academic Staff -->
-            <div class="pt-2">
-                <h5><u>Academic Staff</u></h5>
-                <div class="row">
-                    {%- for i in data.people.staff -%}
-                    <div class="col-md-6 d-flex flex-row pb-2 align-items-center">
-                        <div class="px-3">
-                            <img src="{{ i.profile_image | relative_url }}" class="img-thumbnail0" alt="{{ i.name }}" style="width: 64px;">
-                        </div>
-                        <div class="">
-                            <span class="h6 me-3">{{ i.name }}</span>
-                            {% if i.profile_url != "" %}<a href="{{ i.profile_url }}" ><i class="fa fa-link"></i></a>{% endif %}
-                            <br>
-                            <span class="text-muted">{{ i.affiliation }}</span>
-                        </div>
-                    </div>
-                    {%- endfor -%}
+          <!-- Research Group's Investigators -->
+          <div class="col-md-4">
+            <div class="card p-2">
+              <h5>Investigators</h5>
+              {%- for i in data.contact -%}
+              <div class="container d-flex flex-wrap align-items-center pb-2">
+                <div class="me-2">
+                  <img
+                    src="{{ i.profile_image | relative_url }}"
+                    class=""
+                    alt="{{ i.name }}"
+                    style="width: 64px"
+                  />
                 </div>
-            </div>
-
-            <!-- External Collaborators -->
-            <div class="pt-2">
-                <h5><u>External Collaborators</u></h5>
-                <div class="row">
-                    {%- for i in data.people.external-collaborators -%}
-                    <div class="col-md-6 d-flex flex-row pb-2 align-items-center">
-                        <div class="px-3">
-                            <img src="{{ i.profile_image | relative_url }}" class="img-thumbnail0" alt="{{ i.name }}" style="width: 64px;">
-                        </div>
-                        <div class="">
-                            <span class="h6 me-3">{{ i.name }}</span>
-                            {% if i.profile_url != "" %}<a href="{{ i.profile_url }}" ><i class="fa fa-link"></i></a>{% endif %}
-                            <br>
-                            <span class="text-muted">{{ i.affiliation }}</span>
-                        </div>
-                    </div>
-                    {%- endfor -%}
+                <div class="small">
+                  <span class="h6 me-3">{{ i.name }}</span>
+                  {% if i.profile_url != "" %}
+                  <a href="{{ i.profile_url }}"><i class="fa fa-link"></i></a>
+                  {% endif %}
+                  <br />
+                  <span class="text-muted">{{ i.affiliation }}</span>
                 </div>
+              </div>
+              {%- endfor -%}
             </div>
+          </div>
+        </div>
+      </div>
 
-            <!-- Students / Past Students -->
-            <div class="pt-2">
-                <h5><u>Students / Past Students</u></h5>
-                <div class="row">
-                    {%- for i in data.people.students -%}
-                    <div class="col-md-6 d-flex flex-row pb-2 align-items-center">
-                        <div class="px-3">
-                            <img src="{{ i.profile_image | relative_url }}" class="img-thumbnail0" alt="{{ i.name }}" style="width: 64px;">
-                        </div>
-                        <div class="">
-                            <span class="h6 me-3">{{ i.name }}</span>
-                            {% if i.profile_url != "" %}<a href="{{ i.profile_url }}" ><i class="fa fa-link"></i></a>{% endif %}
-                            <br>
-                            <!-- <span class="text-muted">{{ i.affiliation }}</span> -->
-                        </div>
-                    </div>
-                    {%- endfor -%}
-                </div>
+      <div class="container pt-5">
+        {% if page.forward_url %}
+        <p>
+          Redirecting...
+          <br />
+          <br />
+          Please click
+          <a href="{{ page.forward_url}}">here</a>
+          if the browser is not automatically redirected.
+        </p>
+        {% endif %}
+
+        <!-- Original content -->
+        {{ content }}
+      </div>
+
+      <hr />
+      <div class="container pt-5 px-5">
+        <h3>People</h3>
+
+        <!-- Academic Staff -->
+        <div class="pt-2">
+          <h5><u>Academic Staff</u></h5>
+          <div class="row">
+            {%- for i in data.people.staff -%}
+            <div class="col-md-6 d-flex flex-row pb-2 align-items-center">
+              <div class="px-3">
+                <img
+                  src="{{ i.profile_image | relative_url }}"
+                  class="img-thumbnail0"
+                  alt="{{ i.name }}"
+                  style="width: 64px"
+                />
+              </div>
+              <div class="">
+                <span class="h6 me-3">{{ i.name }}</span>
+                {% if i.profile_url != "" %}
+                <a href="{{ i.profile_url }}"><i class="fa fa-link"></i></a>
+                {% endif %}
+                <br />
+                <span class="text-muted">{{ i.affiliation }}</span>
+              </div>
             </div>
+            {%- endfor -%}
+          </div>
         </div>
 
-        <hr>
-        <!-- Contact Information of the page's maintainers  -->
-        <div class="container pt-5">
-            If you have any inquiry, please contact one of following:
-            <ul>
-                {%- for i in data.maintainers -%}
-                <li><a href="{{ i.profile_url }}">{{ i.name }}</a></li>
-                {%- endfor -%}
-            </ul>
+        <!-- External Collaborators -->
+        <div class="pt-2">
+          <h5><u>External Collaborators</u></h5>
+          <div class="row">
+            {%- for i in data.people.external-collaborators -%}
+            <div class="col-md-6 d-flex flex-row pb-2 align-items-center">
+              <div class="px-3">
+                <img
+                  src="{{ i.profile_image | relative_url }}"
+                  class="img-thumbnail0"
+                  alt="{{ i.name }}"
+                  style="width: 64px"
+                />
+              </div>
+              <div class="">
+                <span class="h6 me-3">{{ i.name }}</span>
+                {% if i.profile_url != "" %}
+                <a href="{{ i.profile_url }}"><i class="fa fa-link"></i></a>
+                {% endif %}
+                <br />
+                <span class="text-muted">{{ i.affiliation }}</span>
+              </div>
+            </div>
+            {%- endfor -%}
+          </div>
         </div>
 
-        <!-- Link to the edit file in GitHub repository -->
-        <div class="d-flex justify-content-end">
-            <a target="_blank" href="{{ site.github_repository }}/blob/{{ site.github_branch }}/edit/research-groups.json"><i class="fab fa-github me-2"></i>Edit this page</a>
+        <!-- Students / Past Students -->
+        <div class="pt-2">
+          <h5><u>Students / Past Students</u></h5>
+          <div class="row">
+            {%- for i in data.people.students -%}
+            <div class="col-md-6 d-flex flex-row pb-2 align-items-center">
+              <div class="px-3">
+                <img
+                  src="{{ i.profile_image | relative_url }}"
+                  class="img-thumbnail0"
+                  alt="{{ i.name }}"
+                  style="width: 64px"
+                />
+              </div>
+              <div class="">
+                <span class="h6 me-3">{{ i.name }}</span>
+                {% if i.profile_url != "" %}
+                <a href="{{ i.profile_url }}"><i class="fa fa-link"></i></a>
+                {% endif %}
+                <br />
+                <!-- <span class="text-muted">{{ i.affiliation }}</span> -->
+              </div>
+            </div>
+            {%- endfor -%}
+          </div>
         </div>
+      </div>
+
+      <hr />
+      <!-- Contact Information of the page's maintainers  -->
+      <div class="container pt-5">
+        If you have any inquiry, please contact one of following:
+        <ul>
+          {%- for i in data.maintainers -%}
+          <li><a href="{{ i.profile_url }}">{{ i.name }}</a></li>
+          {%- endfor -%}
+        </ul>
+      </div>
+
+      <!-- Link to the edit file in GitHub repository -->
+      <div class="d-flex justify-content-end">
+        <a
+          target="_blank"
+          href="{{ site.github_repository }}/blob/{{ site.github_branch }}/edit/research-groups.json"
+        >
+          <i class="fab fa-github me-2"></i>
+          Edit this page
+        </a>
+      </div>
     </main>
 
     {% include footer.html %}
-</body>
+  </body>
 </html>

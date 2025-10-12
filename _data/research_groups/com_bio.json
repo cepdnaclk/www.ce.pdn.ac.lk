@@ -1,72 +1,70 @@
 {
-    "title": "Computational Biology Research Group",
-    "shortCode": "com_bio",
-    "description": "As much as there is a universe as we look up, there is a universe to explore within ourselves, at the micro level. The computational biology research lab at the Department of Computer Engineering, University of Peradeniya focuses on exploring the use of Computer science and Engineering to elucidate the biological systems around us and using that knowledge in various applications.",
-    "web_page": "/research/computational-biology/",
-    "web_site": "#",
-    "cover_image": "/images/banners/computational-biology-banner.jpg",
-    "contact": [
-        {
-            "name": "",
-            "affiliation": "Department of Computer Engineering, University of Peradeniya",
-            "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/damayanthi-herath/",
-            "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/damayanthi-herath.jpg"
-        }
+  "title": "Computational Biology Research Group",
+  "shortCode": "com_bio",
+  "description": "As much as there is a universe as we look up, there is a universe to explore within ourselves, at the micro level. The computational biology research lab at the Department of Computer Engineering, University of Peradeniya focuses on exploring the use of Computer science and Engineering to elucidate the biological systems around us and using that knowledge in various applications.",
+  "web_page": "/research/computational-biology/",
+  "web_site": "#",
+  "cover_image": "/images/banners/computational-biology-banner.jpg",
+  "contact": [
+    {
+      "name": "",
+      "affiliation": "Department of Computer Engineering, University of Peradeniya",
+      "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/damayanthi-herath/",
+      "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/damayanthi-herath.jpg"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Sandali Lokuge",
+      "affiliation": "",
+      "profile_url": "https://people.ce.pdn.ac.lk/students/e14/194/",
+      "profile_image": "https://people.ce.pdn.ac.lk/images/students/e14/e14194.jpg"
+    }
+  ],
+  "people": {
+    "staff": [
+      {
+        "name": "",
+        "affiliation": "Department of Computer Engineering, University of Peradeniya",
+        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/damayanthi-herath/",
+        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/damayanthi-herath.jpg"
+      },
+      {
+        "name": "",
+        "affiliation": "Department of Computer Engineering, University of Peradeniya",
+        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/asitha-bandaranayake/",
+        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/asitha-bandaranayake.jpg"
+      }
     ],
-    "maintainers": [
-        {
-            "name": "Sandali Lokuge",
-            "affiliation": "",
-            "profile_url": "https://people.ce.pdn.ac.lk/students/e14/194/",
-            "profile_image": "https://people.ce.pdn.ac.lk/images/students/e14/e14194.jpg"
-        }
+    "students": [
+      {
+        "name": "Sandali Lokuge",
+        "affiliation": "",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e14/194/",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e14/e14194.jpg"
+      },
+      {
+        "name": "Mr. J.M.S.M. Jayasundara",
+        "affiliation": "Department of Computer Science, Purdue University - West Lafayette",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e14/154/",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e14/e14154.jpg"
+      },
+      {
+        "name": "Puwasuru Ihalagedara",
+        "affiliation": "",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e14/141/",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e14/e14141.jpg"
+      }
     ],
-    "people": {
-        "staff": [
-            {
-                "name": "",
-                "affiliation": "Department of Computer Engineering, University of Peradeniya",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/damayanthi-herath/",
-                "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/damayanthi-herath.jpg"
-            },
-            {
-                "name": "",
-                "affiliation": "Department of Computer Engineering, University of Peradeniya",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/asitha-bandaranayake/",
-                "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/asitha-bandaranayake.jpg"
-            }
-        ],
-        "students": [
-            {
-                "name": "Sandali Lokuge",
-                "affiliation": "",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e14/194/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e14/e14194.jpg"
-            },
-            {
-                "name": "Mr. J.M.S.M. Jayasundara",
-                "affiliation": "Department of Computer Science, Purdue University - West Lafayette",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e14/154/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e14/e14154.jpg"
-            },
-            {
-                "name": "Puwasuru Ihalagedara",
-                "affiliation": "",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e14/141/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e14/e14141.jpg"
-            }
-        ],
-        "external-collaborators": [
-            {
-                "name": "Prof. Sen-Lin Tang",
-                "affiliation": "Academia Sinica, Taiwan",
-                "profile_url": "",
-                "profile_image": "/assets/images/profile_default.jpg"
-            }
-        ]
-    },
-    "courses": [],
-    "project-tags": [
-        "ComputationalBiology"
+    "external-collaborators": [
+      {
+        "name": "Prof. Sen-Lin Tang",
+        "affiliation": "Academia Sinica, Taiwan",
+        "profile_url": "",
+        "profile_image": "/assets/images/profile_default.jpg"
+      }
     ]
+  },
+  "courses": [],
+  "project-tags": ["ComputationalBiology"]
 }

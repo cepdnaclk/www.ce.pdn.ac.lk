@@ -19,8 +19,9 @@ navbar_active: News
   </nav>
 </div>
 
-{% assign newsList = site.categories["news"] | where: "draft", "false" %} {%-
-assign newsCount = newsList | size -%}
+{%- assign newsList = site.categories["news"] | where: "draft", "false" -%}
+<!--  -->
+{%- assign newsCount = newsList | size -%}
 
 <div class="container">
   <div class="row py-5">
@@ -31,7 +32,6 @@ assign newsCount = newsList | size -%}
   </div>
 
   <div class="row">
-    {%- for post in newsList -%} {% include cards/card_news.html post=post%} {%-
-    endfor -%}
+    {%- for post in newsList -%} {% include cards/card_news.html post=post%} {%- endfor -%}
   </div>
 </div>

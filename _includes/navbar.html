@@ -11,10 +11,7 @@
       />
     </a>
     {% else %}
-    <a
-      class="navbar-brand me-5 d-sm-block d-md-none"
-      href="{{ '/' | prepend: site.baseurl }}"
-    >
+    <a class="navbar-brand me-5 d-sm-block d-md-none" href="{{ '/' | prepend: site.baseurl }}">
       <img
         style="max-width: 50vw"
         class="img-fluid"
@@ -51,31 +48,24 @@
             data-bs-toggle="dropdown"
             aria-haspopup="true"
             aria-expanded="false"
-            >Study</a
           >
+            Study
+          </a>
           <div class="dropdown-menu" aria-labelledby="dropdown_study">
-            <a
-              class="dropdown-item"
-              href="{{ 'courses/undergraduate/rev-2013/' | relative_url }}"
-              >Undergraduate Courses (Effective till E21)</a
-            >
-            <a
-              class="dropdown-item"
-              href="{{ 'courses/undergraduate/rev-2022/' | relative_url }}"
-              >Undergraduate Courses (Effective from E22)</a
-            >
-            <a
-              class="dropdown-item"
-              href="{{ '/postgraduate-courses/' | prepend: site.baseurl }}"
-              >Postgraduate Courses</a
-            >
+            <a class="dropdown-item" href="{{ 'courses/undergraduate/rev-2013/' | relative_url }}">
+              Undergraduate Courses (Effective till E21)
+            </a>
+            <a class="dropdown-item" href="{{ 'courses/undergraduate/rev-2022/' | relative_url }}">
+              Undergraduate Courses (Effective from E22)
+            </a>
+            <a class="dropdown-item" href="{{ '/postgraduate-courses/' | prepend: site.baseurl }}">
+              Postgraduate Courses
+            </a>
           </div>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="{{ '/research' | relative_url }}"
-            >Research</a
-          >
+          <a class="nav-link" href="{{ '/research' | relative_url }}">Research</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://projects.ce.pdn.ac.lk/">Projects</a>
@@ -89,8 +79,9 @@
             data-bs-toggle="dropdown"
             aria-haspopup="true"
             aria-expanded="false"
-            >People</a
           >
+            People
+          </a>
           <div class="dropdown-menu" aria-labelledby="dropdown02">
             <div class="dropdown dropend">
               <a
@@ -108,33 +99,38 @@
                   class="dropdown-item"
                   target="_blank"
                   href="https://people.ce.pdn.ac.lk/staff/academic/"
-                  >Academic Staff</a
                 >
+                  Academic Staff
+                </a>
                 <a
                   class="dropdown-item"
                   target="_blank"
                   href="https://people.ce.pdn.ac.lk/staff/temporary-academic-staff/"
-                  >Temporary Academic Staff</a
                 >
+                  Temporary Academic Staff
+                </a>
                 <a
                   class="dropdown-item"
                   target="_blank"
                   href="https://people.ce.pdn.ac.lk/staff/academic-support-staff/"
-                  >Academic Support Staff</a
                 >
+                  Academic Support Staff
+                </a>
                 <div class="dropdown-divider"></div>
                 <a
                   class="dropdown-item"
                   target="_blank"
                   href="https://people.ce.pdn.ac.lk/staff/past-heads-of-dep/"
-                  >Past Heads of the Department</a
                 >
+                  Past Heads of the Department
+                </a>
                 <a
                   class="dropdown-item"
                   target="_blank"
                   href="https://people.ce.pdn.ac.lk/staff/academic/past/"
-                  >Past Academic Staff</a
                 >
+                  Past Academic Staff
+                </a>
               </div>
             </div>
 
@@ -155,15 +151,14 @@
                   class="dropdown-item"
                   target="_blank"
                   href="https://people.ce.pdn.ac.lk/{{ batch.url }}"
-                  >{{batch.title}}</a
                 >
+                  {{batch.title}}
+                </a>
                 {%- endfor -%}
               </div>
             </div>
             <!-- <div class="dropdown-divider"></div> -->
-            <a class="dropdown-item" href="https://people.ce.pdn.ac.lk/alumni/"
-              >Alumni</a
-            >
+            <a class="dropdown-item" href="https://people.ce.pdn.ac.lk/alumni/">Alumni</a>
           </div>
         </li>
 
@@ -176,51 +171,34 @@
             data-bs-toggle="dropdown"
             aria-haspopup="true"
             aria-expanded="false"
-            >About us</a
           >
+            About us
+          </a>
           <div class="dropdown-menu" aria-labelledby="dropdown_latest">
-            <a
-              class="dropdown-item"
-              href="{{ '/overview/' | prepend: site.baseurl }}"
-              >Overview</a
-            >
-            <a
-              class="dropdown-item"
-              href="{{ '/vision-and-mission/' | prepend: site.baseurl }}"
-              >Vision and Mission</a
-            >
-            <a
-              class="dropdown-item"
-              href="{{ '/department-history/' | prepend: site.baseurl }}"
-              >Department History</a
-            >
-            <a
-              class="dropdown-item"
-              href="{{ '/contact-us/' | prepend: site.baseurl }}"
-              >Contact Us</a
-            >
-            <a
-              class="dropdown-item"
-              href="{{ '/vacancies/' | prepend: site.baseurl }}"
-              >Vacancies</a
-            >
-            <a
-              class="dropdown-item"
-              href="{{ '/opportunities/' | prepend: site.baseurl }}"
-              >Opportunities</a
-            >
-            <a
-              class="dropdown-item"
-              href="{{ '/peracom-seminars/' | prepend: site.baseurl }}"
-              >Peracom Seminars</a
-            >
+            <a class="dropdown-item" href="{{ '/overview/' | prepend: site.baseurl }}">Overview</a>
+            <a class="dropdown-item" href="{{ '/vision-and-mission/' | prepend: site.baseurl }}">
+              Vision and Mission
+            </a>
+            <a class="dropdown-item" href="{{ '/department-history/' | prepend: site.baseurl }}">
+              Department History
+            </a>
+            <a class="dropdown-item" href="{{ '/contact-us/' | prepend: site.baseurl }}">
+              Contact Us
+            </a>
+            <a class="dropdown-item" href="{{ '/vacancies/' | prepend: site.baseurl }}">
+              Vacancies
+            </a>
+            <a class="dropdown-item" href="{{ '/opportunities/' | prepend: site.baseurl }}">
+              Opportunities
+            </a>
+            <a class="dropdown-item" href="{{ '/peracom-seminars/' | prepend: site.baseurl }}">
+              Peracom Seminars
+            </a>
           </div>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="{{ '/intranet' | relative_url}}"
-            >Intranet</a
-          >
+          <a class="nav-link" href="{{ '/intranet' | relative_url}}">Intranet</a>
         </li>
       </ul>
     </div>

@@ -41,6 +41,7 @@ navbar_active: About Us
 ### Gallery
 
 Posters from our previous seminars in 2024:
+
 <div class="d-flex justify-content-center">
 <!-- Seminar Posters Carousel -->
 <div id="peracomSeminarCarousel2024" class="carousel slide w-50" data-bs-ride="carousel">
@@ -113,7 +114,6 @@ Posters from our previous seminars in 2023:
 <p class="mt-4">
 Recordings of the seminars are available on our <a href="https://www.youtube.com/playlist?list=PLPcJ5gOQ5iyWySopQpO3cZnSnrJ04NugP" target="_blank">YouTube Playlist</a>.
 </p>
-
 
 ---
 

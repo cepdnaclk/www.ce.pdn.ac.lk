@@ -33,7 +33,7 @@ def sort_terms(terms):
 
 
 def fetch_and_transform():
-    response = requests.get(API_URL, timeout=10)
+    response = requests.get(API_URL, timeout=30)
     response.raise_for_status()
     api_data = response.json()
 
@@ -64,7 +64,7 @@ def fetch_and_transform():
 def save_to_file(data, path):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4, ensure_ascii=False)
+        json.dump(data, f, indent=2, ensure_ascii=False)
     print(f"intranet.json updated at: {path}")
 
 

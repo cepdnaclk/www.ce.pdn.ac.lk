@@ -233,9 +233,7 @@
             "Inculcate a disciplined attitude towards programming in the small.\nDiscourage trial-and-error programming"
           ]
         },
-        "references": [
-          "J.D. Ulman, Foundations of Computer Science C edition"
-        ],
+        "references": ["J.D. Ulman, Foundations of Computer Science C edition"],
         "modules": [],
         "prerequisites": [],
         "urls": {
@@ -285,9 +283,7 @@
           "skills": [],
           "attitudes": []
         },
-        "references": [
-          "J. F. Kurose and K. W. Ross. Computer Networking; A Top Down Approach."
-        ],
+        "references": ["J. F. Kurose and K. W. Ross. Computer Networking; A Top Down Approach."],
         "modules": [],
         "prerequisites": [],
         "urls": {
@@ -778,9 +774,7 @@
             "At the end of the course, students should be able to appreciate the different types of electronic components and their applicability for building different types of electronic circuits"
           ]
         },
-        "references": [
-          "Millman and Halkias, Integrated Electronics\n"
-        ],
+        "references": ["Millman and Halkias, Integrated Electronics\n"],
         "modules": [],
         "prerequisites": [],
         "urls": {

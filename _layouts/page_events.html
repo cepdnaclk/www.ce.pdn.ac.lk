@@ -20,13 +20,9 @@ layout: wrappers_table
               <a href="{{ site.baseurl }}{% link pages/home.html %}">Home</a>
             </li>
             <li class="breadcrumb-item">
-              <a href="{{ site.baseurl }}{% link events/index.html %}"
-                >Events</a
-              >
+              <a href="{{ site.baseurl }}{% link events/index.html %}">Events</a>
             </li>
-            <li class="breadcrumb-item active" aria-current="page">
-              {{ page.title }}
-            </li>
+            <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
           </ol>
         </nav>
 
@@ -38,11 +34,11 @@ layout: wrappers_table
         </div>
         <!--  -->
         {%- if page.published_date -%}
-        <span class="text-muted">{{ page.published_date }} &middot; </span>
+        <span class="text-muted">{{ page.published_date }} &middot;</span>
         {%- endif -%}
         <!--  -->
         {%- if page.author -%}
-        <span class="ms-1 text-muted"> {{ page.author }} &middot; </span>
+        <span class="ms-1 text-muted">{{ page.author }} &middot;</span>
         {%- endif -%}
         <!--  -->
         <span class="ms-1 text-muted" title="Estimated read time">
@@ -54,11 +50,7 @@ layout: wrappers_table
         {%- if page.image -%}
         <div class="row py-5">
           <div class="col-8 mx-auto">
-            <img
-              src="{{ page.image}}"
-              alt="{{ page.title }}"
-              class="img-fluid img-thumbnail"
-            />
+            <img src="{{ page.image}}" alt="{{ page.title }}" class="img-fluid img-thumbnail" />
           </div>
         </div>
         {%- endif -%}
@@ -130,7 +122,11 @@ layout: wrappers_table
               target="_blank"
               href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url | url_encode }}"
             >
-              <i class="fab fa-facebook-f"></i> Share
+              <<<<<<< HEAD
+              <i class="fab fa-facebook-f"></i>
+              Share =======
+              <i class="fab fa-facebook-f"></i>
+              Share >>>>>>> origin/main
             </a>
 
             <!-- Twitter -->
@@ -139,7 +135,11 @@ layout: wrappers_table
               target="_blank"
               href="https://twitter.com/intent/tweet?text={{ page.title }}&amp;url={{ site.url }}{{ page.url }}"
             >
-              <i class="fab fa-twitter"></i> Tweet
+              <<<<<<< HEAD
+              <i class="fab fa-twitter"></i>
+              Tweet =======
+              <i class="fab fa-twitter"></i>
+              Tweet >>>>>>> origin/main
             </a>
 
             <!-- LinkedIn -->
