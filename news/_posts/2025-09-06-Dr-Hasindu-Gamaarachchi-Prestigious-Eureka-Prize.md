@@ -10,8 +10,8 @@ link_caption: ""
 
 author: J.A.S. UTHPALA
 
-published_date: 2025-10-11
-updated_at: 2025-10-11 17:00:42+00:00
+published_date: 2025-09-06
+updated_at: 2025-10-12 06:52:11+00:00
 ---
 
 <p dir="ltr">We extend our heartfelt congratulations to Dr Hasindu Gamaarachchi, an alumnus of the Department of Computer Engineering, Faculty of Engineering, University of Peradeniya, who has been awarded the Australian Museum Eureka Prize for Outstanding Early Career Researcher.</p>
