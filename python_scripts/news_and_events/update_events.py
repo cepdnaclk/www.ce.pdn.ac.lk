@@ -83,7 +83,7 @@ def fetch_events(api_url):
     current_page = 1
 
     while True:
-        response = requests.get(f"{api_url}?page={current_page}")
+        response = requests.get(f"{api_url}?page={current_page}", timeout=30)
         print(f"> Page {current_page}: {response.status_code}")
 
         if response.status_code != 200:
@@ -204,7 +204,6 @@ def format_markdown(event_item):
     # Join event types into a string for display
     event_type_str = ", ".join(event_item.event_type) if event_item.event_type else ""
 
-
     return f"""---
 layout: page_events
 id: {event_item.id}
@@ -218,8 +217,8 @@ start_time: "{event_item.start_at}"
 location: "{event_item.location}"
 event_type: "{event_type_str}"
 
-link_url: {event_item.link_url or '#'}
-link_caption: "{event_item.link_caption or ''}"
+link_url: {event_item.link_url or "#"}
+link_caption: "{event_item.link_caption or ""}"
 
 author: {event_item.author}
 published_date: {event_item.published_at}

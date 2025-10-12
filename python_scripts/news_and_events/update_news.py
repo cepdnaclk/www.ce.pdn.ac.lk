@@ -84,7 +84,7 @@ def fetch_news(api_url):
     current_page = 1
 
     while True:
-        response = requests.get(f"{api_url}?page={current_page}")
+        response = requests.get(f"{api_url}?page={current_page}", timeout=30)
         print(f"> Page {current_page}: {response.status_code}")
 
         if response.status_code != 200:
@@ -200,8 +200,8 @@ title: "{news_item.title}"
 
 image: {news_item.image}
 parent: News
-link_url: {news_item.link_url or '#'}
-link_caption: "{news_item.link_caption or ''}"
+link_url: {news_item.link_url or "#"}
+link_caption: "{news_item.link_caption or ""}"
 
 author: {news_item.author}
 

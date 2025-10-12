@@ -1,11 +1,12 @@
-import requests
 import json
 import os
+
+import requests
 
 # Where the API is available
 apiIndex = "https://api.ce.pdn.ac.lk/publications/v1"
 
-r = requests.get("{0}/all".format(apiIndex))
+r = requests.get("{0}/all".format(apiIndex), timeout=30)
 
 # Fetch data from the api.ce.pdn.ac.lk
 if r.status_code == 200:
@@ -21,4 +22,4 @@ if r.status_code == 200:
     os.makedirs(os.path.dirname(filename), exist_ok=True)
 
     with open(filename, "w") as f:
-        f.write(json.dumps(publications_all, indent=4))
+        f.write(json.dumps(publications_all, indent=2))

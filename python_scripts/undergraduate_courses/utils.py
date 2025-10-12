@@ -21,7 +21,7 @@ def get_semesters_list(SEMESTERS_API_URL, curriculum_key):
     Fetches the list of semesters for a given curriculum from the API.
     """
     url = SEMESTERS_API_URL.format(curriculum_key)
-    response = requests.get(url, timeout=10)
+    response = requests.get(url, timeout=30)
     api_data = response.json()
     return api_data.get("data", [])
 
@@ -36,7 +36,7 @@ def get_courses_list(COURSES_API_URL, curriculum_key):
     url = COURSES_API_URL.format(curriculum_key, page)
 
     while url is not None:
-        response = requests.get(url, timeout=10)
+        response = requests.get(url, timeout=30)
         api_data = response.json()
 
         print(f">> Page {page} | Response:{response.status_code}")
