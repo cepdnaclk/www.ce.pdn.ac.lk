@@ -7,108 +7,146 @@ navbar_active: "Home"
 ---
 
 <header class="blog-header py-3 px-3 d-none d-sm-none d-md-block">
-    <div class="row flex-nowrap justify-content-between align-items-center">
-        <div class="col-5 pt-1">
-            <img class="ms-5 mx-auto d-block img-fluid" src="{{ '/assets/images/banner.svg' | prepend: site.baseurl }}"
-                alt="Logo">
-        </div>
-        <div class="col-8 d-none">
-            <!-- <a class="blog-header-logo text-white text-decoration-none" href="#">
+  <div class="row flex-nowrap justify-content-between align-items-center">
+    <div class="col-5 pt-1">
+      <img
+        class="ms-5 mx-auto d-block img-fluid"
+        src="{{ '/assets/images/banner.svg' | prepend: site.baseurl }}"
+        alt="Logo"
+      />
+    </div>
+    <div class="col-8 d-none">
+      <!-- <a class="blog-header-logo text-white text-decoration-none" href="#">
                 Department of Computer Engineering <br>
                 <small class="small">University of Peradeniya, Sri Lanka</small>
             </a> -->
-        </div>
-        <div class="col-2 d-flex justify-content-end align-items-center">
-            <a class="d-none btn btn-sm btn-outline-secondary" href="http://www.ce.pdn.ac.lk" target="_blank">Department
-                Site</a>
-        </div>
     </div>
+    <div class="col-2 d-flex justify-content-end align-items-center">
+      <a
+        class="d-none btn btn-sm btn-outline-secondary"
+        href="http://www.ce.pdn.ac.lk"
+        target="_blank"
+      >
+        Department Site
+      </a>
+    </div>
+  </div>
 </header>
 
 {% include navbar.html %}
 
 <!-- Home Carousel -->
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-        {% assign i = 0 -%}
-        {% for slide in site.data.carousel -%}
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="{{ i }}"
-            class="{% if forloop.first %} active{% endif %}" aria-current="{% if forloop.first %} true{% endif %}"
-            aria-label="Slide {{ i }}"></button>
-        {% assign i = i | plus:1 -%}
-        {% endfor -%}
+  <div class="carousel-indicators">
+    {% assign i = 0 -%} {% for slide in site.data.carousel -%}
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="{{ i }}"
+      class="{% if forloop.first %} active{% endif %}"
+      aria-current="{% if forloop.first %} true{% endif %}"
+      aria-label="Slide {{ i }}"
+    ></button>
+    {% assign i = i | plus:1 -%} {% endfor -%}
+  </div>
+  <div class="carousel-inner">
+    {% for slide in site.data.carousel -%}
+    <div
+      class="carousel-item{% if forloop.first %} active{% endif %}"
+      data-bs-interval="{{ slide.interval }}"
+    >
+      <img
+        src="{{ slide.image | prepend: site.baseurl }}"
+        class="d-block w-100"
+        alt="{{ slide.alt }}"
+      />
+      <div class="carousel-caption d-none d-md-block {% if slide.dark==true %}text-dark{% endif %}">
+        <h5>{{ slide.title }}</h5>
+        <p>{{ slide.subtitle }}</p>
+      </div>
     </div>
-    <div class="carousel-inner">
-        {% for slide in site.data.carousel -%}
-        <div class="carousel-item{% if forloop.first %} active{% endif %}" data-bs-interval="{{ slide.interval }}">
-            <img src="{{ slide.image | prepend: site.baseurl }}" class="d-block w-100" alt="{{ slide.alt }}">
-            <div class="carousel-caption d-none d-md-block {% if slide.dark==true %}text-dark{% endif %}">
-                <h5>{{ slide.title }}</h5>
-                <p>{{ slide.subtitle }}</p>
-            </div>
-        </div>
-        {% endfor -%}
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
+    {% endfor -%}
+  </div>
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-bs-target="#carouselExampleCaptions"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselExampleCaptions"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
 
 <main role="main" class="container pt-3 vh-50">
-    {% assign newsList = site.categories["news"] | where: "draft", "false" %}
-    {%- assign newsCount = newsList | size -%}
-    <div class="container">
-        <div class="row py-5">
-            <h1 class="text-center">Latest News</h1>
-            <h5 class="text-center text-muted">Read the latest news about the Department of Computer Engineering</h5>
-        </div>
-        <div class="row">
-            {%- for post in newsList limit:4 -%}
-            {% include cards/card_news.html post=post%}
-            {%- endfor -%}
-        </div>
-
-        {%- if newsCount > 4 -%}
-        <div class="row">
-            <div class="text-center py-3">
-                <a href="{{ site.baseurl }}{%- link news/index.html -%}" style="width:200px" class="btn btn-success">
-                    <i class="fas fa-arrow-alt-circle-right me-2"></i>View More News
-                </a>
-            </div>
-        </div>
-        {%- endif -%}
+  {% assign newsList = site.categories["news"] | where: "draft", "false" %} {%- assign newsCount =
+  newsList | size -%}
+  <div class="container">
+    <div class="row py-5">
+      <h1 class="text-center">Latest News</h1>
+      <h5 class="text-center text-muted">
+        Read the latest news about the Department of Computer Engineering
+      </h5>
+    </div>
+    <div class="row">
+      {%- for post in newsList limit:4 -%} {% include cards/card_news.html post=post%} {%- endfor
+      -%}
     </div>
 
-
-    {%- assign eventsList = site.categories["events"] | where: "draft", "false" -%}
-    {%- assign eventCount = eventsList | size -%}
-    <div class="container">
-        <div class="row py-5">
-            <h1 class="text-center">Events</h1>
-            <h5 class="text-center text-muted">A range of events occurs within the department including seminars,
-                students activities and gatherings</h5>
-        </div>
-        <div class="row">
-            {%- for post in eventsList limit:4 -%}
-            {% include cards/card_events.html post=post%}
-            {%- endfor -%}
-        </div>
-        {%- if eventCount > 4 -%}
-        <div class="row">
-            <div class="text-center py-3">
-                <a href="{{ site.baseurl }}{%- link events/index.html -%}" style="width:200px" class="btn btn-success">
-                    <i class="fas fa-arrow-alt-circle-right me-2"></i>View More Events
-                </a>
-            </div>
-        </div>
-        {%- endif -%}
+    {%- if newsCount > 4 -%}
+    <div class="row">
+      <div class="text-center py-3">
+        <a
+          href="{{ site.baseurl }}{%- link news/index.html -%}"
+          style="width: 200px"
+          class="btn btn-success"
+        >
+          <i class="fas fa-arrow-alt-circle-right me-2"></i>
+          View More News
+        </a>
+      </div>
     </div>
+    {%- endif -%}
+  </div>
 
+  {%- assign eventsList = site.categories["events"] | where: "draft", "false" -%} {%- assign
+  eventCount = eventsList | size -%}
+  <div class="container">
+    <div class="row py-5">
+      <h1 class="text-center">Events</h1>
+      <h5 class="text-center text-muted">
+        A range of events occurs within the department including seminars, students activities and
+        gatherings
+      </h5>
+    </div>
+    <div class="row">
+      {%- for post in eventsList limit:4 -%} {% include cards/card_events.html post=post%} {%-
+      endfor -%}
+    </div>
+    {%- if eventCount > 4 -%}
+    <div class="row">
+      <div class="text-center py-3">
+        <a
+          href="{{ site.baseurl }}{%- link events/index.html -%}"
+          style="width: 200px"
+          class="btn btn-success"
+        >
+          <i class="fas fa-arrow-alt-circle-right me-2"></i>
+          View More Events
+        </a>
+      </div>
+    </div>
+    {%- endif -%}
+  </div>
 </main>
 
 {% include footer.html %}

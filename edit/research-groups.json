@@ -1,82 +1,55 @@
 [
-    {
-        "title": "Computational Biology Research Group",
-        "shortCode": "com_bio",
+  {
+    "title": "Computational Biology Research Group",
+    "shortCode": "com_bio",
 
-        "description": "As much as there is a universe as we look up, there is a universe to explore within ourselves, at the micro level. The computational biology research lab at the Department of Computer Engineering, University of Peradeniya focuses on exploring the use of Computer science and Engineering to elucidate the biological systems around us and using that knowledge in various applications.",
+    "description": "As much as there is a universe as we look up, there is a universe to explore within ourselves, at the micro level. The computational biology research lab at the Department of Computer Engineering, University of Peradeniya focuses on exploring the use of Computer science and Engineering to elucidate the biological systems around us and using that knowledge in various applications.",
 
-        "web_page": "/research/computational-biology/",
-        "web_site": "#",
-        "cover_image": "/images/banners/computational-biology-banner.jpg",
-        "contact": [
-            "damayanthiherath@eng.pdn.ac.lk"
-        ],
-        "maintainers": [
-            "E/14/194"
-        ],
-        "people": {
-            "staff": [
-                "damayanthiherath@eng.pdn.ac.lk",
-                "asithab@eng.pdn.ac.lk"
-            ],
-            "external-collaborators": [
-                {
-                    "name": "Prof. Sen-Lin Tang",
-                    "affiliation": "Academia Sinica, Taiwan",
-                    "profile_url": "",
-                    "profile_image": ""
-                }
-            ],
-            "students": [
-                "E/14/194",
-                "E/14/154",
-                "E/14/141"
-            ]
-        },
-        "courses":[],
-        "project-tags":[
-            "ComputationalBiology"
-        ]
+    "web_page": "/research/computational-biology/",
+    "web_site": "#",
+    "cover_image": "/images/banners/computational-biology-banner.jpg",
+    "contact": ["damayanthiherath@eng.pdn.ac.lk"],
+    "maintainers": ["E/14/194"],
+    "people": {
+      "staff": ["damayanthiherath@eng.pdn.ac.lk", "asithab@eng.pdn.ac.lk"],
+      "external-collaborators": [
+        {
+          "name": "Prof. Sen-Lin Tang",
+          "affiliation": "Academia Sinica, Taiwan",
+          "profile_url": "",
+          "profile_image": ""
+        }
+      ],
+      "students": ["E/14/194", "E/14/154", "E/14/141"]
     },
+    "courses": [],
+    "project-tags": ["ComputationalBiology"]
+  },
 
-    {
-        "title": "Cryptography Research Laboratory",
-        "shortCode": "crl",
+  {
+    "title": "Cryptography Research Laboratory",
+    "shortCode": "crl",
 
-        "description": "Cryptography Research Laboratory (CRL) is a research group established in 2016. The primary focus of CRL is to research cryptographic fundamentals that enable secure communications. CRL develops new cryptographic building blocks, formally analyzes their security, implements cryptographic building blocks for secure communications, and finds attacks against existing cryptographic building blocks. The group is lead by Dr. Janaka Alawatugoda. The CRL is featured in the Hanthana Vision Research Magazine of the University of Peradeniya, Vol 7, Issue 1, in June 2021, and the Newsletter of the IEEE Computer Society Sri Lanka Chapter, Vol 1, Issue 1, in December 2021.",
+    "description": "Cryptography Research Laboratory (CRL) is a research group established in 2016. The primary focus of CRL is to research cryptographic fundamentals that enable secure communications. CRL develops new cryptographic building blocks, formally analyzes their security, implements cryptographic building blocks for secure communications, and finds attacks against existing cryptographic building blocks. The group is lead by Dr. Janaka Alawatugoda. The CRL is featured in the Hanthana Vision Research Magazine of the University of Peradeniya, Vol 7, Issue 1, in June 2021, and the Newsletter of the IEEE Computer Society Sri Lanka Chapter, Vol 1, Issue 1, in December 2021.",
 
-        "web_page": "/research/cryptography-research-laboratory/",
-        "web_site": "#",
-        "cover_image": "/images/banners/cryptography-research-banner.jpg",
-        "contact": [
-            "alawatugoda@eng.pdn.ac.lk",
-            "roshanr@eng.pdn.ac.lk"
-        ],
-        "maintainers": [
-            "alawatugoda@eng.pdn.ac.lk"
-        ],
-        "people": {
-            "staff": [
-                "alawatugoda@eng.pdn.ac.lk",
-                "roshanr@eng.pdn.ac.lk",
-                "upuljm@eng.pdn.ac.lk"
-            ],
-            "external-collaborators": [
-                {
-                    "name": "Dr. Chai Wen Chuah",
-                    "affiliation": "Tun Hussein Onn University of Malaysia, Malaysia",
-                    "profile_url": "",
-                    "profile_image": ""
-                }
-            ],
-            "students": [
-                "E/15/350",
-                "E/15/180"
-            ]
-        },
-        "courses":[],
-        "project-tags":[
-            "Cryptography"
-        ]
-    }
+    "web_page": "/research/cryptography-research-laboratory/",
+    "web_site": "#",
+    "cover_image": "/images/banners/cryptography-research-banner.jpg",
+    "contact": ["alawatugoda@eng.pdn.ac.lk", "roshanr@eng.pdn.ac.lk"],
+    "maintainers": ["alawatugoda@eng.pdn.ac.lk"],
+    "people": {
+      "staff": ["alawatugoda@eng.pdn.ac.lk", "roshanr@eng.pdn.ac.lk", "upuljm@eng.pdn.ac.lk"],
+      "external-collaborators": [
+        {
+          "name": "Dr. Chai Wen Chuah",
+          "affiliation": "Tun Hussein Onn University of Malaysia, Malaysia",
+          "profile_url": "",
+          "profile_image": ""
+        }
+      ],
+      "students": ["E/15/350", "E/15/180"]
+    },
+    "courses": [],
+    "project-tags": ["Cryptography"]
+  }
 ]

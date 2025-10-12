@@ -26,6 +26,7 @@ Cryptography Research Laboratory (CRL) is a research group established in 2016. 
 ### Research Projects
 
 ##### CRL2021(P2)
+
 - Project: On leakage-resilient quantum-safe cryptography
 - Grant: N/A. Ongoing since 2021
 - Investigators: Dr. Qinyi Li, Dr. Janaka Alawatugoda
@@ -34,6 +35,7 @@ Cryptography Research Laboratory (CRL) is a research group established in 2016. 
 At present providing quantum-safe security for systems became a major requirement to realize as existing secured cryptosystems may not survive after 30 years when quantum computers become a reality. Even though the existing quantum-safe cryptosystems are provably secure in theory, their security against side-channel (leakage) attacks may be problematic. In this research, we aim to construct leakage-resilient and quantum-safe cryptographic constructions.
 
 ##### 21-021 RG/MATHS/AS_1-FR3240319461
+
 - Project: On stronger authenticated key exchange over the Internet
 - Grant: 2021 UNESCO-TWAS Research Grant for Individual Scientists (Grant No: 21-021 RG/MATHS/AS_I-FR3240319461), November 2021 to November 2023 (Ongoing).
 - Investigators: Dr. Janaka Alawatugoda (PI), Dr. Taechan Kim (collaborator), Dr. Tatsuaki Okamoto (collaborator)
@@ -42,6 +44,7 @@ At present providing quantum-safe security for systems became a major requiremen
 Security models for two-party authenticated key exchange (AKE) protocols have been developed over the years to address various attack scenarios against AKE protocols. The extended Canetti–Krawczyk (eCK) security model is widely used to provide security arguments for AKE protocols because of its clear definitions of security as well as advanced adversarial capabilities. Most of the eCK-secure AKE protocols are proven to be secure in the random oracle model (ROM). The ROM is an ideal-world assumption, whereas the standard model captures the real-world assumptions. In this project, we investigate different security improvements on AKE protocols, such as leakage resiliency, secure pairing-based constructions, etc. Our aim is to come up with new provable-secure protocol constructions in the standard model.
 
 ##### E15-FYP (Gr13)
+
 - Project: Design of surveillance and censorship-resistant communication mechanism over the internet
 - Grant: N/A. Ongoing since 2020
 - Investigators: Dr. Janaka Alawatugoda. The research idea is from E15 batch Computer Engineering students Rishikeshan Lavakumar, Pasan Tennakoon, and Supipi Karunathilaka.
@@ -52,6 +55,7 @@ Surveillance and censorship-resistant communication have been interesting topics
 - Project Page: [Link](https://projects.ce.pdn.ac.lk/4yp/e15/anonymous-authentication)
 
 ##### H082
+
 - Project: Analysing side-channel attacks on key exchange protocols
 - Grant: Tier 01 Internal Research Grant of Research Management Centre, Tun Hussein Onn University of Malaysia (Grant No: H082), July 2018 to July 2020 (Completed).
 - Investigators: Dr. Chai Wen Chuah (PI), Dr. P. Siva Shamala Palaniappan, Dr. Sofia Najwa Binti Ramli, and Dr. Janaka Alawatugoda (external researcher).
@@ -63,18 +67,20 @@ In this research, we aim to address the partial leakage of long-term secret keys
 
 - Project Page: [link](http://www.ce.pdn.ac.lk/2019/06/10/on-implementing-eck-secure-key-exchange-protocol-for-openssl/)
 
-
 ##### URG2018/19/E
+
 - Project: Power analysis attacks on Trivium stream cipher
 - Grant: 2018 University Research Grant of University of Peradeniya, Sri Lanka (Grant No: URG 2018/19/E), November 2018 to November 2019 (Completed).
 - Investigators: Dr. Janaka Alawatugoda (PI) and Dr. Chai Wen Chuah (foreign collaborator).
 - Abstract:
 
 Power analysis attacks are a relatively new type of attack which measures and analyses the power consumption of electronic circuits to extract secret information. These attacks have become a huge threat to the security of embedded systems. Therefore, identifying ciphers which are vulnerable against these type of attacks and developing countermeasures is of paramount importance. Many studies have been done on this topic. However, most of them are on block ciphers. This research focuses on an attack done on Trivium, which is a stream cipher. Correlation power analysis (CPA) is used in this attack to analyze the power consumption of the cryptosystem and figure out the secret key.
+
 - Github Page: [Link](https://github.com/MalithaDilshan/Power-Analysis-Attack-on-Trivium)
 - Project Page: [Link](https://projects.ce.pdn.ac.lk/4yp/e13/power-analysis-attack-on-trivium-stream-cipher)
 
 ##### NRC 16-020
+
 - Project: Implementing server/client-side countermeasures against compression-based side-channel attacks
 - Grant: 2016 Investigator Driven Research Grant of National Research Council–Sri Lanka (Grant No: NRC 16-020), July 2016 to July 2017 (Completed).
 - Investigators: Dr. Janaka Alawatugoda (PI) and Professor Roshan G. Ragel (mentor).

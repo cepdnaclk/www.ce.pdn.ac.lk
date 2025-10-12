@@ -1,17 +1,17 @@
 {
-    "short_name": "Department of Comuputer Engineering - UoP",
-    "name": "Department of Comuputer Engineering - University of Peradeniya",
-    "icons": [
-        {
-            "src": "/assets/images/crest.png",
-            "type": "image/png",
-            "sizes": "90x90",
-            "purpose": "any maskable"
-        },
-    ],
-    "start_url": "/",
-    "background_color": "#ffffff",
-    "display": "standalone",
-    "scope": "/",
-    "theme_color": "#343a40"
+  "short_name": "Department of Comuputer Engineering - UoP",
+  "name": "Department of Comuputer Engineering - University of Peradeniya",
+  "icons": [
+    {
+      "src": "/assets/images/crest.png",
+      "type": "image/png",
+      "sizes": "90x90",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#343a40"
 }

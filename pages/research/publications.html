@@ -8,46 +8,48 @@ sitemap: true
 navbar_active: Research
 ---
 
-
 <div class="container pt-4">
-    {%- for p in site.data.publications -%}
-    {%- include publicationCard.html data=p title=p.title -%}
-    {%- endfor -%}
+  {%- for p in site.data.publications -%} {%- include publicationCard.html data=p title=p.title -%}
+  {%- endfor -%}
 </div>
 
-
 <div class="alert alert-primary" role="alert">
-    This webpage is based on the publications submitted through <a href="https://forms.gle/rT6Bt8JPzoMz4qGM9"
-        target="_blank">here</a>, managed via <a href="https://api.ce.pdn.ac.lk/">https://api.ce.pdn.ac.lk/</a>.
+  This webpage is based on the publications submitted through
+  <a href="https://forms.gle/rT6Bt8JPzoMz4qGM9" target="_blank">here</a>
+  , managed via
+  <a href="https://api.ce.pdn.ac.lk/">https://api.ce.pdn.ac.lk/</a>
+  .
 </div>
 
 <!-- Bookmark notiication toast -->
-<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 1000;">
-    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-        <div class="toast-header">
-            <strong class="me-auto">Notification</strong>
-            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-        </div>
-        <div class="toast-body" id="toast-message"></div>
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 1000">
+  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <strong class="me-auto">Notification</strong>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
     </div>
+    <div class="toast-body" id="toast-message"></div>
+  </div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
 <script>
-    function addBookmark(title, url) {
-        window.location.hash = url
+  function addBookmark(title, url) {
+    window.location.hash = url;
 
-        $('#toast-message').html('Press ' + (navigator.userAgent.toLowerCase().indexOf('mac') != -1 ? 'Command/Cmd' : 'CTRL') + '+D to bookmark this page.')
-        $('#liveToast').show()
-        setTimeout(function () {
-            $('#liveToast').hide()
-        }, 4000);
+    $("#toast-message").html(
+      "Press " +
+        (navigator.userAgent.toLowerCase().indexOf("mac") != -1 ? "Command/Cmd" : "CTRL") +
+        "+D to bookmark this page."
+    );
+    $("#liveToast").show();
+    setTimeout(function () {
+      $("#liveToast").hide();
+    }, 4000);
+  }
 
-    }
-
-
-    $(document).ready(() => {
-        $('#liveToast').addClass('showing').hide()
-    });
+  $(document).ready(() => {
+    $("#liveToast").addClass("showing").hide();
+  });
 </script>

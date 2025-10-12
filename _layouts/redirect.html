@@ -1,17 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
+  <head>
     <title>Redirecting...</title>
-</head>
-<body style="padding: 25px 100px;">
-    <meta http-equiv = "refresh" content = "0; url = {{ page.forward_url}}" />
-    <p>Redirecting...<br><br>Please click <a href="{{ page.forward_url}}">here</a> if the browser is not automatically redirected.</p>
-    <br><br>
- </body>
+  </head>
+  <body style="padding: 25px 100px">
+    <meta http-equiv="refresh" content="0; url = {{ page.forward_url}}" />
+    <p>
+      Redirecting...
+      <br />
+      <br />
+      Please click
+      <a href="{{ page.forward_url}}">here</a>
+      if the browser is not automatically redirected.
+    </p>
+    <br />
+    <br />
+  </body>
 
-
-
-<!--
+  <!--
 <script type="text/javascript">
     document.getElementById("msg").style.display = 'block';
     const timeout = 0; // Can add a timeout
@@ -25,5 +31,4 @@
     }
 
 </script> -->
-
 </html>

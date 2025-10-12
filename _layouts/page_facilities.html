@@ -1,36 +1,55 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-<head>
+<!doctype html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
     {% include head.html %}
-</head>
+  </head>
 
-<body>
+  <body>
     {% include navbar.html %}
 
     <main role="main" class="container pt-3 vh-75">
-        <div class="bg-secondary p-3 pb-1 rounded">
-            <h1 class="text-white">{{ page.title }}</h1>
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb page-breadcrumb">
-                    <li class="breadcrumb-item"><a href="{{ '/' | prepend: site.baseurl }}" class="link-light">Home</a></li>
-                    <li class="breadcrumb-item"><a href="{{ '/facilities' | prepend: site.baseurl }}" class="link-light">Facilities</a></li>
-                    <li class="breadcrumb-item text-white">{{ page.title }}</li>
-                </ol>
-            </nav>
-        </div>
+      <div class="bg-secondary p-3 pb-1 rounded">
+        <h1 class="text-white">{{ page.title }}</h1>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb page-breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="{{ '/' | prepend: site.baseurl }}" class="link-light">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="{{ '/facilities' | prepend: site.baseurl }}" class="link-light">
+                Facilities
+              </a>
+            </li>
+            <li class="breadcrumb-item text-white">{{ page.title }}</li>
+          </ol>
+        </nav>
+      </div>
 
-        {%- if page.page_banner -%}
-        <div class="container my-3 p-0" style="height: 300px; overflow: hidden; margin: 0 auto; position:relative">
-            <img style="width:100%; position: absolute;top:-100%; left:0; right: 0; bottom:-100%;margin: auto;" src="{{ page.page_banner | relative_url }}" class="img-fluid" alt="{{ page.title }}">
-        </div>
+      {%- if page.page_banner -%}
+      <div
+        class="container my-3 p-0"
+        style="height: 300px; overflow: hidden; margin: 0 auto; position: relative"
+      >
+        <img
+          style="
+            width: 100%;
+            position: absolute;
+            top: -100%;
+            left: 0;
+            right: 0;
+            bottom: -100%;
+            margin: auto;
+          "
+          src="{{ page.page_banner | relative_url }}"
+          class="img-fluid"
+          alt="{{ page.title }}"
+        />
+      </div>
 
-        {%- endif -%}
-        <div class="container pt-5">
-            {{ content }}
-        </div>
-
+      {%- endif -%}
+      <div class="container pt-5">{{ content }}</div>
     </main>
 
     {% include footer.html %}
-</body>
+  </body>
 </html>

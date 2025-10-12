@@ -54,9 +54,7 @@
           "skills": [],
           "attitudes": []
         },
-        "references": [
-          "\u25cf James Kurose and Keith Ross, Computer Networks, 8th Edition, 2021"
-        ],
+        "references": ["\u25cf James Kurose and Keith Ross, Computer Networks, 8th Edition, 2021"],
         "modules": [],
         "prerequisites": [],
         "urls": {
@@ -1629,9 +1627,7 @@
           "skills": [],
           "attitudes": []
         },
-        "references": [
-          "Introduction to Modern Cryptography (2nd Ed) by Katz and Lindell"
-        ],
+        "references": ["Introduction to Modern Cryptography (2nd Ed) by Katz and Lindell"],
         "modules": [
           {
             "topic": "Computer Systems Security",

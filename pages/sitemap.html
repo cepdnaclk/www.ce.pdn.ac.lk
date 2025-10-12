@@ -22,26 +22,22 @@ navbar_active: Sitemap
         <a href="{{ '/academics/' | relative_url }}">Academics</a>
         <ul>
           <li>
-            <a href="{{ '/undergraduate-courses/' | relative_url }}"
-              >Undergraduate Courses</a
-            >
+            <a href="{{ '/undergraduate-courses/' | relative_url }}">Undergraduate Courses</a>
             <ul>
               <li>
-                <a href="{{ '/courses/undergraduate/' | relative_url }}"
-                  >Undergraduate Courses - Curriculum Effective till E21</a
-                >
+                <a href="{{ '/courses/undergraduate/' | relative_url }}">
+                  Undergraduate Courses - Curriculum Effective till E21
+                </a>
               </li>
               <li>
-                <a href="{{ '/courses/undergraduate/' | relative_url }}"
-                  >Undergraduate Courses - Curriculum Effective from E22</a
-                >
+                <a href="{{ '/courses/undergraduate/' | relative_url }}">
+                  Undergraduate Courses - Curriculum Effective from E22
+                </a>
               </li>
             </ul>
           </li>
           <li>
-            <a href="{{ '/postgraduate-courses/' | relative_url }}"
-              >Postgraduate Courses</a
-            >
+            <a href="{{ '/postgraduate-courses/' | relative_url }}">Postgraduate Courses</a>
           </li>
         </ul>
       </li>
@@ -71,14 +67,10 @@ navbar_active: Sitemap
         <a href="https://projects.ce.pdn.ac.lk/">Projects</a>
         <ul>
           <li>
-            <a href="https://projects.ce.pdn.ac.lk/4yp/"
-              >Undergraduate Research Projects</a
-            >
+            <a href="https://projects.ce.pdn.ac.lk/4yp/">Undergraduate Research Projects</a>
           </li>
           <li>
-            <a href="https://projects.ce.pdn.ac.lk/3yp/"
-              >Cyber-Physical Systems Projects</a
-            >
+            <a href="https://projects.ce.pdn.ac.lk/3yp/">Cyber-Physical Systems Projects</a>
           </li>
           <li>
             <a href="https://projects.ce.pdn.ac.lk/">Other Course Projects</a>
@@ -89,42 +81,32 @@ navbar_active: Sitemap
         <a href="https://people.ce.pdn.ac.lk/">People</a>
         <ul>
           <li>
-            <a href="https://people.ce.pdn.ac.lk/staff/academic/"
-              >Academic Staff</a
-            >
+            <a href="https://people.ce.pdn.ac.lk/staff/academic/">Academic Staff</a>
           </li>
           <li>
-            <a
-              href="https://people.ce.pdn.ac.lk/staff/temporary-academic-staff/"
-              >Temporary Academic Staff</a
-            >
+            <a href="https://people.ce.pdn.ac.lk/staff/temporary-academic-staff/">
+              Temporary Academic Staff
+            </a>
           </li>
           <li>
-            <a href="https://people.ce.pdn.ac.lk/staff/academic-support-staff/"
-              >Academic Support Staff</a
-            >
+            <a href="https://people.ce.pdn.ac.lk/staff/academic-support-staff/">
+              Academic Support Staff
+            </a>
           </li>
           <li>
-            <a href="https://people.ce.pdn.ac.lk/staff/academic/past/"
-              >Past Academic Staff</a
-            >
+            <a href="https://people.ce.pdn.ac.lk/staff/academic/past/">Past Academic Staff</a>
           </li>
           <li>
-            <a href="https://people.ce.pdn.ac.lk/staff/past-heads-of-dep/"
-              >Past heads of the Department</a
-            >
+            <a href="https://people.ce.pdn.ac.lk/staff/past-heads-of-dep/">
+              Past heads of the Department
+            </a>
           </li>
           <li>
-            <a href="https://people.ce.pdn.ac.lk/alumni/"
-              >Undergraduate Students</a
-            >
+            <a href="https://people.ce.pdn.ac.lk/alumni/">Undergraduate Students</a>
             <ul>
-              {%- assign batches = site.data.students -%} {%- for b in batches
-              -%}
+              {%- assign batches = site.data.students -%} {%- for b in batches -%}
               <li>
-                <a href="https://people.ce.pdn.ac.lk{{ b.url }}"
-                  >{{ b.title }}</a
-                >
+                <a href="https://people.ce.pdn.ac.lk{{ b.url }}">{{ b.title }}</a>
               </li>
               {%- endfor -%}
               <li>
@@ -154,22 +136,18 @@ navbar_active: Sitemap
       <li>
         Other
         <ul>
-          {% assign internal_pages = site.html_pages | where: "layout", "page"
-          -%} {% for page in internal_pages %} {% if page.permalink and
-          page.permalink != "//" and page.sitemap!=false and
-          page.index_page!=true -%}
+          {% assign internal_pages = site.html_pages | where: "layout", "page" -%} {% for page in
+          internal_pages %} {% if page.permalink and page.permalink != "//" and page.sitemap!=false
+          and page.index_page!=true -%}
           <li>
             <a href="{{ page.permalink | prepend: site.baseurl }}">
-              {% if page.title -%} {{ page.title }} {% else -%} {{
-              page.permalink }} {% endif -%}
+              {% if page.title -%} {{ page.title }} {% else -%} {{ page.permalink }} {% endif -%}
             </a>
           </li>
           {% endif -%} {% endfor -%}
 
           <li>
-            <a href="{{ '/department-map/'| relative_url }}"
-              >Interactive Department Map</a
-            >
+            <a href="{{ '/department-map/'| relative_url }}">Interactive Department Map</a>
           </li>
         </ul>
       </li>

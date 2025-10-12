@@ -5,7 +5,8 @@ permalink: /vacancies/
 navbar_active: Join Us
 ---
 
-### Research Assistant (Computer Engineering/Computer Science/...) 
+### Research Assistant (Computer Engineering/Computer Science/...)
+
 - Project Title: Effective AI-Based Resource Distribution Management System for Hospitals in Sri Lanja
 - Supervisors: Mr.Uwin Ariyrathna (FOM), Dr. Nadisha Priyaratne (FOD) , Dr. Upul Jayasinghe (FOE), Dr. S KrishnaPradeep (FOM) and Dr. Hakim Usoof (FOS)
 - Project Description:
@@ -19,6 +20,6 @@ navbar_active: Join Us
   - Demonstrated ability to meet deadlines and manage research projects effectively.
   - High-level proficiency in report writing.
 - Please send your CV with a statement of interest on or before the 31st of May 2024.
-  - To Mr. Uwin Ariyarathna (uwina@mgt.pdn.ac.lk) | Contact Number — 071 073 6533 
+  - To Mr. Uwin Ariyarathna (uwina@mgt.pdn.ac.lk) | Contact Number — 071 073 6533
 
 {% include image.html align="text-left" src="https://github.com/cepdnaclk/www.ce.pdn.ac.lk/assets/74600957/c581f932-70e2-499f-9d3a-b437478d7657" alt="RA Call for Applications" %}

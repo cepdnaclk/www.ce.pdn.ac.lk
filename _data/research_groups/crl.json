@@ -1,78 +1,76 @@
 {
-    "title": "Cryptography Research Laboratory",
-    "shortCode": "crl",
-    "description": "Cryptography Research Laboratory (CRL) is a research group established in 2016. The primary focus of CRL is to research cryptographic fundamentals that enable secure communications. CRL develops new cryptographic building blocks, formally analyzes their security, implements cryptographic building blocks for secure communications, and finds attacks against existing cryptographic building blocks. The group is lead by Dr. Janaka Alawatugoda. The CRL is featured in the Hanthana Vision Research Magazine of the University of Peradeniya, Vol 7, Issue 1, in June 2021, and the Newsletter of the IEEE Computer Society Sri Lanka Chapter, Vol 1, Issue 1, in December 2021.",
-    "web_page": "/research/cryptography-research-laboratory/",
-    "web_site": "#",
-    "cover_image": "/images/banners/cryptography-research-banner.jpg",
-    "contact": [
-        {
-            "name": "",
-            "affiliation": "Department of Computer Engineering, University of Peradeniya",
-            "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/janaka-alawatugoda/",
-            "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/janaka-alawatugoda.jpg"
-        },
-        {
-            "name": "",
-            "affiliation": "Department of Computer Engineering, University of Peradeniya",
-            "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/",
-            "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/roshan-ragel.jpg"
-        }
-    ],
-    "maintainers": [
-        {
-            "name": "",
-            "affiliation": "Department of Computer Engineering, University of Peradeniya",
-            "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/janaka-alawatugoda/",
-            "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/janaka-alawatugoda.jpg"
-        }
-    ],
-    "people": {
-        "staff": [
-            {
-                "name": "",
-                "affiliation": "Department of Computer Engineering, University of Peradeniya",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/janaka-alawatugoda/",
-                "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/janaka-alawatugoda.jpg"
-            },
-            {
-                "name": "",
-                "affiliation": "Department of Computer Engineering, University of Peradeniya",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/",
-                "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/roshan-ragel.jpg"
-            },
-            {
-                "name": "",
-                "affiliation": "Department of Computer Engineering, University of Peradeniya",
-                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/upul-jayasinghe/",
-                "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/upul-jayasinghe.jpg"
-            }
-        ],
-        "students": [
-            {
-                "name": "Pasan Tennakoon",
-                "affiliation": "",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/350/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15350.jpg"
-            },
-            {
-                "name": "Supipi Karunathilaka",
-                "affiliation": "",
-                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/180/",
-                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15180.jpg"
-            }
-        ],
-        "external-collaborators": [
-            {
-                "name": "Dr. Chai Wen Chuah",
-                "affiliation": "Tun Hussein Onn University of Malaysia, Malaysia",
-                "profile_url": "",
-                "profile_image": "/assets/images/profile_default.jpg"
-            }
-        ]
+  "title": "Cryptography Research Laboratory",
+  "shortCode": "crl",
+  "description": "Cryptography Research Laboratory (CRL) is a research group established in 2016. The primary focus of CRL is to research cryptographic fundamentals that enable secure communications. CRL develops new cryptographic building blocks, formally analyzes their security, implements cryptographic building blocks for secure communications, and finds attacks against existing cryptographic building blocks. The group is lead by Dr. Janaka Alawatugoda. The CRL is featured in the Hanthana Vision Research Magazine of the University of Peradeniya, Vol 7, Issue 1, in June 2021, and the Newsletter of the IEEE Computer Society Sri Lanka Chapter, Vol 1, Issue 1, in December 2021.",
+  "web_page": "/research/cryptography-research-laboratory/",
+  "web_site": "#",
+  "cover_image": "/images/banners/cryptography-research-banner.jpg",
+  "contact": [
+    {
+      "name": "",
+      "affiliation": "Department of Computer Engineering, University of Peradeniya",
+      "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/janaka-alawatugoda/",
+      "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/janaka-alawatugoda.jpg"
     },
-    "courses": [],
-    "project-tags": [
-        "Cryptography"
+    {
+      "name": "",
+      "affiliation": "Department of Computer Engineering, University of Peradeniya",
+      "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/",
+      "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/roshan-ragel.jpg"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "",
+      "affiliation": "Department of Computer Engineering, University of Peradeniya",
+      "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/janaka-alawatugoda/",
+      "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/janaka-alawatugoda.jpg"
+    }
+  ],
+  "people": {
+    "staff": [
+      {
+        "name": "",
+        "affiliation": "Department of Computer Engineering, University of Peradeniya",
+        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/janaka-alawatugoda/",
+        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/janaka-alawatugoda.jpg"
+      },
+      {
+        "name": "",
+        "affiliation": "Department of Computer Engineering, University of Peradeniya",
+        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/",
+        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/roshan-ragel.jpg"
+      },
+      {
+        "name": "",
+        "affiliation": "Department of Computer Engineering, University of Peradeniya",
+        "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/upul-jayasinghe/",
+        "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/upul-jayasinghe.jpg"
+      }
+    ],
+    "students": [
+      {
+        "name": "Pasan Tennakoon",
+        "affiliation": "",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e15/350/",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15350.jpg"
+      },
+      {
+        "name": "Supipi Karunathilaka",
+        "affiliation": "",
+        "profile_url": "https://people.ce.pdn.ac.lk/students/e15/180/",
+        "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15180.jpg"
+      }
+    ],
+    "external-collaborators": [
+      {
+        "name": "Dr. Chai Wen Chuah",
+        "affiliation": "Tun Hussein Onn University of Malaysia, Malaysia",
+        "profile_url": "",
+        "profile_image": "/assets/images/profile_default.jpg"
+      }
     ]
+  },
+  "courses": [],
+  "project-tags": ["Cryptography"]
 }

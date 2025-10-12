@@ -4,30 +4,33 @@ title: News
 permalink: /news/
 navbar_active: News
 ---
+
 {% include page_tree_builder.html pages=site.html_pages -%}
 
 <div class="bg-secondary p-3 pb-1 rounded">
-    <h1 class="text-white">{{ page.title }}</h1>
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb page-breadcrumb">
-            <li class="breadcrumb-item"><a href="{{ '/' | prepend: site.baseurl }}" class="link-light">Home</a></li>
-            <li class="breadcrumb-item text-white">{{ page.title }}</li>
-        </ol>
-    </nav>
+  <h1 class="text-white">{{ page.title }}</h1>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb page-breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="{{ '/' | prepend: site.baseurl }}" class="link-light">Home</a>
+      </li>
+      <li class="breadcrumb-item text-white">{{ page.title }}</li>
+    </ol>
+  </nav>
 </div>
 
-{% assign newsList = site.categories["news"] | where: "draft", "false" %}
-{%- assign newsCount = newsList | size -%}
+{% assign newsList = site.categories["news"] | where: "draft", "false" %} {%- assign newsCount =
+newsList | size -%}
 
 <div class="container">
-    <div class="row py-5">
-        <h1 class="text-center">Latest News</h1>
-        <h3 class="text-center text-muted">Read the latest news about the Department of Computer Engineering</h3>
-    </div>
+  <div class="row py-5">
+    <h1 class="text-center">Latest News</h1>
+    <h3 class="text-center text-muted">
+      Read the latest news about the Department of Computer Engineering
+    </h3>
+  </div>
 
-    <div class="row">
-        {%- for post in newsList -%}
-        {% include cards/card_news.html post=post%}
-        {%- endfor -%}
-    </div>
+  <div class="row">
+    {%- for post in newsList -%} {% include cards/card_news.html post=post%} {%- endfor -%}
+  </div>
 </div>

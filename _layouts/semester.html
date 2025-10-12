@@ -1,57 +1,48 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: " en-US" }}">
+<!doctype html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    {% include head.html %} {% if page.forward_url %}
+    <meta http-equiv="refresh" content="0; url = {{ page.forward_url}}" />
+    {% endif %}
+  </head>
 
-<head>
-  {% include head.html %}
+  <body>
+    {% include navbar.html %}
 
-  {% if page.forward_url %}
-  <meta http-equiv="refresh" content="0; url = {{ page.forward_url}}" />
-  {% endif %}
-</head>
+    <main role="main" class="container pt-3 vh-75">
+      <div class="bg-secondary p-3 pb-1 rounded">
+        <h1 class="text-white">{{ page.title }}</h1>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb page-breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="{{ '/' | prepend: site.baseurl }}" class="link-light">Home</a>
+            </li>
 
-<body>
-  {% include navbar.html %}
+            <li class="breadcrumb-item">
+              <a href="{{ '/academics' | relative_url }}" class="link-light">Academics</a>
+            </li>
 
-  <main role="main" class="container pt-3 vh-75">
-    <div class="bg-secondary p-3 pb-1 rounded">
-      <h1 class="text-white">{{ page.title }}</h1>
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb page-breadcrumb">
-          <li class="breadcrumb-item"><a href="{{ '/' | prepend: site.baseurl }}" class="link-light">Home</a></li>
-
-          <li class="breadcrumb-item">
-            <a href="{{ '/academics' | relative_url }}" class="link-light">
-              Academics
-            </a>
-          </li>
-
-          <li class="breadcrumb-item"><a href="{{ '/courses/undergraduate' | relative_url }}"
-              class="link-light">Undergraduate
-              Courses</a></li>
-          <li class="breadcrumb-item text-white">{{ page.title }}</li>
-        </ol>
-      </nav>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-12 col-md-11 col-lg-10 p-5 mx-auto">
-
-        {%- if page.description -%}
-        <div class="alert alert-secondary" role="alert">{{ page.description }}</div>
-        {%- endif -%}
-
-        {%- assign course_list = site.data.courses[page.code] -%}
-
-        {%- for course in course_list["courses"] -%}
-        {% include cards/card_course.html course=course %}
-        {%- endfor -%}
+            <li class="breadcrumb-item">
+              <a href="{{ '/courses/undergraduate' | relative_url }}" class="link-light">
+                Undergraduate Courses
+              </a>
+            </li>
+            <li class="breadcrumb-item text-white">{{ page.title }}</li>
+          </ol>
+        </nav>
       </div>
-    </div>
-    </div>
 
-  </main>
+      <div class="row">
+        <div class="col-sm-12 col-md-11 col-lg-10 p-5 mx-auto">
+          {%- if page.description -%}
+          <div class="alert alert-secondary" role="alert">{{ page.description }}</div>
+          {%- endif -%} {%- assign course_list = site.data.courses[page.code] -%} {%- for course in
+          course_list["courses"] -%} {% include cards/card_course.html course=course %} {%- endfor
+          -%}
+        </div>
+      </div>
+    </main>
 
-  {% include footer.html %}
-</body>
-
+    {% include footer.html %}
+  </body>
 </html>

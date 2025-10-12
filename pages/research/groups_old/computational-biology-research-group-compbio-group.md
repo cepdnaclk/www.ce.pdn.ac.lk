@@ -9,6 +9,7 @@ page_banner: images/banners/computational-biology-banner.jpg
 As much as there is a universe as we look up, there is a universe to explore within ourselves, at micro level. The computational biology research lab at Department of Computer Engineering, University of Peradeniya focuses on exploring the use of Computer science and Engineering to elucidate the biological systems around us and using that knowledge in various applications.
 
 ### Recent Updates
+
 Last Updated on 25/12/2021
 
 - Our work on Accurate plant disease classification with transfer learning based on leaf images has been accepted for the 16th IEEE conference on Industrial and Automation Systems (ICIIS 2021)
@@ -19,7 +20,7 @@ Last Updated on 25/12/2021
 - Our systematic review titled “Machine learning for plant microRNA prediction: A systematic review” is now available as a preprint.
 - Our work miRNAFinder: A Comprehensive Web Resource for Plant Pre-microRNA Classification is now available as a preprint
 - Our work on Crop disease detection with Deep learning has been accepted for an oral presentation at iPURSE 2021. Further work on the project is up at [https://damayanthiherath.github.io/leaf-disease-classification/](https://damayanthiherath.github.io/leaf-disease-classification/)
-We will be organizing a [special session on data engineering for biology and medicine at ICIAFS conference 2021](http://spsr.sltc.ac.lk/events/iciafs-2021/for-authors/cfp-special-sessions/debm/).
+  We will be organizing a [special session on data engineering for biology and medicine at ICIAFS conference 2021](http://spsr.sltc.ac.lk/events/iciafs-2021/for-authors/cfp-special-sessions/debm/).
 
 ### People
 
@@ -33,6 +34,7 @@ We will be organizing a [special session on data engineering for biology and med
 ### Past Students
 
 ##### 2020
+
 - Sandali Lokuge
 - Puwasuru Ihalagedara
 - Shyaman Madhawa
@@ -47,32 +49,27 @@ We will be organizing a [special session on data engineering for biology and med
 
 ##### 2021
 
-|  	| Article 	| Remarks 	|
-|---	|---	|---	|
-| J 	| Machine learning for plant microRNA prediction: A systematic review 	|  	|
-| O 	| Herath, D., Counting the Uncountable: Estimating Species Diversity<br><br>measures of communities of viruses, Hantana Vision Magazine, Volume 7, Issue 1 	|  	|
-| J 	| Mirnafinder: A comprehensive web resource for plant mirna classfiication, BioSystems Journal 	| Submitted 	|
-| C 	| Revealing MicroRNA Biomarkers for Alzheimer’s Disease Using Next Generation Sequencing Data 	| ICIAFS 2021-Special Session on Data Engineering for Biology 	|
-
+|     | Article                                                                                                                                                  | Remarks                                                     |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| J   | Machine learning for plant microRNA prediction: A systematic review                                                                                      |                                                             |
+| O   | Herath, D., Counting the Uncountable: Estimating Species Diversity<br><br>measures of communities of viruses, Hantana Vision Magazine, Volume 7, Issue 1 |                                                             |
+| J   | Mirnafinder: A comprehensive web resource for plant mirna classfiication, BioSystems Journal                                                             | Submitted                                                   |
+| C   | Revealing MicroRNA Biomarkers for Alzheimer’s Disease Using Next Generation Sequencing Data                                                              | ICIAFS 2021-Special Session on Data Engineering for Biology |
 
 ##### 2020
 
-|  	| Article 	| Remarks 	|
-|---	|---	|---	|
-| J 	| Machine learning for plant microRNA prediction: A systematic review 	|  	|
-| O 	| Herath, D., Counting the Uncountable: Estimating Species Diversity<br><br>measures of communities of viruses, Hantana Vision Magazine, Volume 7, Issue 1 	|  	|
-| J 	| Mirnafinder: A comprehensive web resource for plant mirna classfiication, BioSystems Journal 	| Submitted 	|
-| C 	| Revealing MicroRNA Biomarkers for Alzheimer’s Disease Using Next Generation Sequencing Data 	| ICIAFS 2021-Special Session on Data Engineering for Biology 	|
-
-
-
+|     | Article                                                                                                                                                  | Remarks                                                     |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| J   | Machine learning for plant microRNA prediction: A systematic review                                                                                      |                                                             |
+| O   | Herath, D., Counting the Uncountable: Estimating Species Diversity<br><br>measures of communities of viruses, Hantana Vision Magazine, Volume 7, Issue 1 |                                                             |
+| J   | Mirnafinder: A comprehensive web resource for plant mirna classfiication, BioSystems Journal                                                             | Submitted                                                   |
+| C   | Revealing MicroRNA Biomarkers for Alzheimer’s Disease Using Next Generation Sequencing Data                                                              | ICIAFS 2021-Special Session on Data Engineering for Biology |
 
 ### Presentations/Talks
 
 {% include embedded-iframe-youtube.html width="585" height="329" url="https://www.youtube.com/embed/lka_QHXVqK8" %}
 
 {% include embedded-iframe-youtube.html width="585" height="329" url="https://www.youtube.com/embed/bqV0ZJzHT1o" %}
-
 
 <style>
 table, th, td {

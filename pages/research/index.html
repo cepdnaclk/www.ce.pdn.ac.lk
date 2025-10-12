@@ -6,42 +6,42 @@ navbar_active: Research
 index_page: true
 ---
 
-
 {% assign pages = site.pages | where: "layout", "page_research_new" %}
 
 <div class="row px-5 pb-5">
+  {% for p in pages %}
+  <div class="col-md-6">
+    <a class="text-decoration-none" href="{{ p.permalink | relative_url }}">
+      <div class="card research-group-card">
+        <img class="card-img-top" src="{{ p.page_banner | relative_url }}" alt="p.title" />
+        <div class="card-body text-center">
+          <span class="research-group-title btn-link">{{p.title}}</span>
+        </div>
+      </div>
+    </a>
+  </div>
+  {% endfor %}
+</div>
+
+<hr />
+
+<div class="pb-4">
+  {% assign pages = site.pages | where: "layout", "page_research" %}
+  <h4>Other Research Groups</h4>
+  <ul>
     {% for p in pages %}
-    <div class="col-md-6">
-        <a class="text-decoration-none" href="{{ p.permalink | relative_url }}">
-            <div class="card research-group-card">
-                <img class="card-img-top" src="{{ p.page_banner | relative_url }}" alt="p.title">
-                <div class="card-body text-center">
-                    <span class="research-group-title btn-link ">
-                        {{p.title}}
-                    </span>
-                </div>
-            </div>
-        </a>
-    </div>
+    <li><a href="{{ p.permalink | relative_url }}">{{p.title}}</a></li>
     {% endfor %}
+  </ul>
 </div>
 
-<hr>
+<hr />
 
 <div class="pb-4">
-    {% assign pages = site.pages | where: "layout", "page_research" %}
-    <h4>Other Research Groups</h4>
-    <ul>
-        {% for p in pages %}
-        <li><a href="{{ p.permalink | relative_url }}">{{p.title}}</a></li>
-        {% endfor %}
-    </ul>
-</div>
+  <h4>
+    Research Publications
+    <small>(Department Affiliated)</small>
+  </h4>
 
-<hr>
-
-<div class="pb-4">
-    <h4>Research Publications <small>(Department Affiliated)</small></h4>
-
-    <a href="{{  '/publications/' | relative_url }}">Research Publications</a>
+  <a href="{{  '/publications/' | relative_url }}">Research Publications</a>
 </div>

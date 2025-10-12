@@ -6,7 +6,6 @@ navbar_active: Research
 page_banner: images/banners/embedded-systems-banner.jpg
 ---
 
-
 The Embedded Systems and Computer Architecture Laboratory (ESCAL) is a research group at the Department of Computer Engineering at the University of Peradeniya. The primary focus of the group is inclined towards micro-architectural design aspects of embedded microprocessors and their security and reliability concerns. More information can be found in ESCAL official website ([http://escal.ce.pdn.ac.lk/](http://escal.ce.pdn.ac.lk/)).
 
 The group is led by Roshan Ragel and has continued collaborations with Professor Sri Parameswaran at the Embedded Systems Lab,School of Computer Science and Engineering, the University of New South Wales (UNSW), Sydney.

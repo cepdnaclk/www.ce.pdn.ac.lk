@@ -6,81 +6,80 @@ course_code: CO3040
 course_title: Cloud Computing Systems
 curriculum: Curriculum - Effective from E22
 semester: Semester 5
-course_content: ''
+course_content: ""
 credits: 3
 type: Core
 prerequisites:
-- id: 53
-  code: CO2040
-  name: Software Design and Development
-  url: /courses/undergraduate/CO2040
-- id: 54
-  code: CO2060
-  name: Software Systems Design Project
-  url: /courses/undergraduate/CO2060
-- id: 59
-  code: CO2080
-  name: Network Design Principles
-  url: /courses/undergraduate/CO2080
+  - id: 53
+    code: CO2040
+    name: Software Design and Development
+    url: /courses/undergraduate/CO2040
+  - id: 54
+    code: CO2060
+    name: Software Systems Design Project
+    url: /courses/undergraduate/CO2060
+  - id: 59
+    code: CO2080
+    name: Network Design Principles
+    url: /courses/undergraduate/CO2080
 aims_and_objectives: null
 modules:
-- topic: Cloud Computing Systems
-  description: "Course Content: (Only main topics & subtopics)\nNetworked application\
-    \ preliminaries\nClient-server vs peer-to-peer architecture, datagram vs. stream\
-    \ oriented sockets, data\nserialization: binary vs. text., synchronous (request-response)\
-    \ vs. asynchronous\n(message-oriented) application protocols, Deutsch\u2019s fallacies\
-    \ of distributed computing.\nRequest-response protocols\nHTTP request structure\
-    \ and response structure, metadata and status codes, text serialization\nformats:\
-    \ JSON.\nConcurrency\nConcurrency model: processes, threads, coroutines (event\
-    \ driven I/O.), data races and mutual\nexclusion, race conditions and transactions,\
-    \ statelessness and idempotence, modeling stateful\nservices with finite automata\n\
-    Remote procedure calls\nRPC abstraction and interface definition languages.\n\
-    RPC failure modes.\nBinary serialization formats: Protocol buffers.\nAsynchronous\
-    \ coordination\nPublish-subscribe protocols: MQTT, message brokers (topics and\
-    \ message routing), message\ndelivery semantics (MQTT QoS): at least once, at\
-    \ most once, exactly once.\nDistributed data storage\nStreaming datastores: distributed\
-    \ commit logs, BLOB storage: distributed hash tables\n(key-value stores.), replicas\
-    \ and partitions (shards.), consistency models, Brewer\u2019s CAP\ntheorem.\n\
-    Application security\nThreat models (STRIDE), abuse cases and common application\
-    \ vulnerabilities, protocols for\nweb application access control (Oauth) and authentication\
-    \ (Webauthn.), security\nconsiderations for \u201CIoT\u201D devices (mutual authentication,\
-    \ root of trust.)\nProvisioning and deployment\nCloud platforms: infrastructure\
-    \ as a service vs. platform as a service, infrastructure as code:\ndeclarative\
-    \ vs imperative provisioning tools, application packaging: dependency management\n\
-    and containers.\nOperability and observability\nDefining service level objectives,\
-    \ application logging, metrics and alerting, container\norchestration: declarative\
-    \ deployment, rollback and self-healing, incident postmortem and root\ncause analysis."
-  time_allocation: {}
+  - topic: Cloud Computing Systems
+    description: "Course Content: (Only main topics & subtopics)\nNetworked application\
+      \ preliminaries\nClient-server vs peer-to-peer architecture, datagram vs. stream\
+      \ oriented sockets, data\nserialization: binary vs. text., synchronous (request-response)\
+      \ vs. asynchronous\n(message-oriented) application protocols, Deutsch\u2019s fallacies\
+      \ of distributed computing.\nRequest-response protocols\nHTTP request structure\
+      \ and response structure, metadata and status codes, text serialization\nformats:\
+      \ JSON.\nConcurrency\nConcurrency model: processes, threads, coroutines (event\
+      \ driven I/O.), data races and mutual\nexclusion, race conditions and transactions,\
+      \ statelessness and idempotence, modeling stateful\nservices with finite automata\n\
+      Remote procedure calls\nRPC abstraction and interface definition languages.\n\
+      RPC failure modes.\nBinary serialization formats: Protocol buffers.\nAsynchronous\
+      \ coordination\nPublish-subscribe protocols: MQTT, message brokers (topics and\
+      \ message routing), message\ndelivery semantics (MQTT QoS): at least once, at\
+      \ most once, exactly once.\nDistributed data storage\nStreaming datastores: distributed\
+      \ commit logs, BLOB storage: distributed hash tables\n(key-value stores.), replicas\
+      \ and partitions (shards.), consistency models, Brewer\u2019s CAP\ntheorem.\n\
+      Application security\nThreat models (STRIDE), abuse cases and common application\
+      \ vulnerabilities, protocols for\nweb application access control (Oauth) and authentication\
+      \ (Webauthn.), security\nconsiderations for \u201CIoT\u201D devices (mutual authentication,\
+      \ root of trust.)\nProvisioning and deployment\nCloud platforms: infrastructure\
+      \ as a service vs. platform as a service, infrastructure as code:\ndeclarative\
+      \ vs imperative provisioning tools, application packaging: dependency management\n\
+      and containers.\nOperability and observability\nDefining service level objectives,\
+      \ application logging, metrics and alerting, container\norchestration: declarative\
+      \ deployment, rollback and self-healing, incident postmortem and root\ncause analysis."
+    time_allocation: {}
 textbooks_references:
-- "\u25CF Designing Data-Intensive Applications -- Martin Kleppman. ISBN: 9781449373320\n\
-  (1449373321)\n\u25CF Distributed systems for fun and profit -- Mikito Takada.\n\u25CF\
-  \ Course notes from Columbia University Course COMS 4113\n\u25CF Building Secure\
-  \ and Reliable Systems -- Heather Adkins, Betsy Beyer, Paul Blankinship,\nAna Oprea,\
-  \ Piotr Lewandowski, Adam Stubblefield."
+  - "\u25CF Designing Data-Intensive Applications -- Martin Kleppman. ISBN: 9781449373320\n\
+    (1449373321)\n\u25CF Distributed systems for fun and profit -- Mikito Takada.\n\u25CF\
+    \ Course notes from Columbia University Course COMS 4113\n\u25CF Building Secure\
+    \ and Reliable Systems -- Heather Adkins, Betsy Beyer, Paul Blankinship,\nAna Oprea,\
+    \ Piotr Lewandowski, Adam Stubblefield."
 marks:
   practicals: 30
   quizzes: 30
   end_exam: 40
 ilos_general:
-- 'ILO1: design and construct distributed applications using modern tools and techniques,
+  - "ILO1: design and construct distributed applications using modern tools and techniques,
 
-  given a set of business and technical constraints;
+    given a set of business and technical constraints;
 
-  ILO2: analyze a distributed application design to ensure graceful failure, minimizing
-  data
+    ILO2: analyze a distributed application design to ensure graceful failure, minimizing
+    data
 
-  loss and downtime when underlying infrastructure or systems software fails;
+    loss and downtime when underlying infrastructure or systems software fails;
 
-  ILO3: use appropriate techniques and tools to protect applications and data from
-  accidental
+    ILO3: use appropriate techniques and tools to protect applications and data from
+    accidental
 
-  or malicious misuse by users;'
+    or malicious misuse by users;"
 ilos_knowledge: []
 ilos_skills: []
 ilos_attitudes: []
-last_edit: '2025-05-22'
+last_edit: "2025-05-22"
 edit_page: https://portal.ce.pdn.ac.lk/dashboard/courses/edit/69
-faq_page: '#'
+faq_page: "#"
 color_code: btn-outline-primary
 ---
-

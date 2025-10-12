@@ -6,26 +6,28 @@ navbar_active: Facilities
 index_page: true
 ---
 
-
 {% assign pages = site.pages | where: "layout", "page_facilities" %}
 
 <div class="container">
-    <div class="row d-flex">
-        {% for p in pages %}
-        <div class="col-md-6 p-3 d-flex">
-            <div class="card flex-fill">
-                <img src="{{ site.baseurl }}{{ p.thumbnail }}" class="card-img-top" alt="{{ p.title }}">
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">{{ p.title }}</h5>
-                    <p class="card-text">
-                        {{ p.description }}
-                    </p>
-                    <div class="d-grid mt-auto">
-                        <a href="{{ p.permalink | prepend: site.baseurl }}" class="btn btn-primary btn-sm btn-block">Read More</a>
-                    </div>
-                </div>
-            </div>
+  <div class="row d-flex">
+    {% for p in pages %}
+    <div class="col-md-6 p-3 d-flex">
+      <div class="card flex-fill">
+        <img src="{{ site.baseurl }}{{ p.thumbnail }}" class="card-img-top" alt="{{ p.title }}" />
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">{{ p.title }}</h5>
+          <p class="card-text">{{ p.description }}</p>
+          <div class="d-grid mt-auto">
+            <a
+              href="{{ p.permalink | prepend: site.baseurl }}"
+              class="btn btn-primary btn-sm btn-block"
+            >
+              Read More
+            </a>
+          </div>
         </div>
-        {% endfor %}
+      </div>
     </div>
+    {% endfor %}
+  </div>
 </div>

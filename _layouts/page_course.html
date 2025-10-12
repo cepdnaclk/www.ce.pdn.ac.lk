@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ site.lang | default: 'en-US' }}">
   <head>
     {% include head.html %} {% if page.forward_url %}
@@ -7,8 +7,7 @@
   </head>
 
   <body>
-    {% include navbar.html %} {%- assign prerequisites_count =
-    page.prerequisites | size -%}
+    {% include navbar.html %} {%- assign prerequisites_count = page.prerequisites | size -%}
 
     <!--  -->
     {%- assign module_count = page.modules | size -%}
@@ -29,22 +28,15 @@
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb page-breadcrumb">
             <li class="breadcrumb-item">
-              <a href="{{ '/' | prepend: site.baseurl }}" class="link-light"
-                >Home</a
-              >
+              <a href="{{ '/' | prepend: site.baseurl }}" class="link-light">Home</a>
             </li>
 
             <li class="breadcrumb-item">
-              <a href="{{ '/academics' | relative_url }}" class="link-light">
-                Academics
-              </a>
+              <a href="{{ '/academics' | relative_url }}" class="link-light">Academics</a>
             </li>
 
             <li class="breadcrumb-item">
-              <a
-                href="{{ '/courses/undergraduate' | relative_url }}"
-                class="link-light"
-              >
+              <a href="{{ '/courses/undergraduate' | relative_url }}" class="link-light">
                 Undergraduate Courses
               </a>
             </li>
@@ -98,8 +90,7 @@
               Marks Allocation
             </button>
 
-            {%- if statistics_count > 0 and page.statistics[0].year != "NULL"
-            -%}
+            {%- if statistics_count > 0 and page.statistics[0].year != "NULL" -%}
             <button
               class="nav-link"
               id="statistics"
@@ -132,13 +123,9 @@
                 {% if page.course_code %}
                 <div class="row">
                   <div class="col-sm-3">
-                    <span class="mb-0" style="font-weight: 500"
-                      >Course Code</span
-                    >
+                    <span class="mb-0" style="font-weight: 500">Course Code</span>
                   </div>
-                  <div class="col-sm-9 text-secondary">
-                    {{page.course_code}}
-                  </div>
+                  <div class="col-sm-9 text-secondary">{{page.course_code}}</div>
                 </div>
                 {% endif %}
 
@@ -147,13 +134,9 @@
                 <hr />
                 <div class="row">
                   <div class="col-sm-3">
-                    <span class="mb-0" style="font-weight: 500"
-                      >Course Title</span
-                    >
+                    <span class="mb-0" style="font-weight: 500">Course Title</span>
                   </div>
-                  <div class="col-sm-9 text-secondary">
-                    {{page.course_title}}
-                  </div>
+                  <div class="col-sm-9 text-secondary">{{page.course_title}}</div>
                 </div>
                 {% endif %}
 
@@ -173,13 +156,9 @@
                 <hr />
                 <div class="row">
                   <div class="col-sm-3">
-                    <span class="mb-0" style="font-weight: 500"
-                      >Course Type</span
-                    >
+                    <span class="mb-0" style="font-weight: 500">Course Type</span>
                   </div>
-                  <div class="col-sm-9 text-secondary">
-                    {{page.type | camelcase}}
-                  </div>
+                  <div class="col-sm-9 text-secondary">{{page.type | camelcase}}</div>
                 </div>
                 {% endif %}
 
@@ -188,17 +167,13 @@
                 <hr />
                 <div class="row">
                   <div class="col-sm-3">
-                    <span class="mb-0" style="font-weight: 500"
-                      >Prerequisites</span
-                    >
+                    <span class="mb-0" style="font-weight: 500">Prerequisites</span>
                   </div>
                   <div class="col-sm-9 text-secondary">
                     <ul>
                       {%- for p in page.prerequisites -%}
                       <li>
-                        <a class="" href="{{ p.url | relative_url }}"
-                          >{{p.code}} - {{p.name}}</a
-                        >
+                        <a class="" href="{{ p.url | relative_url }}">{{p.code}} - {{p.name}}</a>
                       </li>
                       {%- endfor -%}
                     </ul>
@@ -211,29 +186,21 @@
                 <hr />
                 <div class="row">
                   <div class="col-sm-3">
-                    <span class="mb-0" style="font-weight: 500"
-                      >Course Content</span
-                    >
+                    <span class="mb-0" style="font-weight: 500">Course Content</span>
                   </div>
-                  <div class="col-sm-9 text-secondary">
-                    {{page.course_content}}
-                  </div>
+                  <div class="col-sm-9 text-secondary">{{page.course_content}}</div>
                 </div>
                 {% endif %}
 
                 <!-- aims/objectives -->
-                {% assign objective_count = page.aims_and_objectives | size %}
-                {% if objective_count > 0 %}
+                {% assign objective_count = page.aims_and_objectives | size %} {% if objective_count
+                > 0 %}
                 <hr />
                 <div class="row">
                   <div class="col-sm-3">
-                    <span class="mb-0" style="font-weight: 500"
-                      >Aims/Objectives</span
-                    >
+                    <span class="mb-0" style="font-weight: 500">Aims/Objectives</span>
                   </div>
-                  <div class="col-sm-9 text-secondary">
-                    {{page.aims_and_objectives}}
-                  </div>
+                  <div class="col-sm-9 text-secondary">{{page.aims_and_objectives}}</div>
                 </div>
                 {% endif %}
 
@@ -248,14 +215,14 @@
                 {%- assign ilos_attitude_count = page.ilos_attitudes | size -%}
 
                 <!--  -->
-                {%- if ilos_attitude_count > 0 or ilos_knowledge_count > 0 or
-                ilos_skill_count >0 -%}
+                {%- if ilos_attitude_count > 0 or ilos_knowledge_count > 0 or ilos_skill_count >0
+                -%}
 
                 <div class="row">
                   <div class="col-sm-3">
-                    <span class="mb-0" style="font-weight: 500"
-                      >Intended Learning Outcomes (ILOs)</span
-                    >
+                    <span class="mb-0" style="font-weight: 500">
+                      Intended Learning Outcomes (ILOs)
+                    </span>
                   </div>
 
                   <div class="col-sm-9">
@@ -274,9 +241,7 @@
                     <!-- ILO Knowledge -->
                     {%- if ilos_knowledge_count > 0 -%}
                     <div>
-                      <span class="mb-0" style="font-weight: 500"
-                        >Knowledge:</span
-                      >
+                      <span class="mb-0" style="font-weight: 500">Knowledge:</span>
                     </div>
 
                     <div class="text-secondary">
@@ -308,9 +273,7 @@
                     <!-- ILO Attitudes -->
                     {%- if ilos_attitude_count > 0 -%}
                     <div>
-                      <span class="mb-0" style="font-weight: 500"
-                        >Attitudes:</span
-                      >
+                      <span class="mb-0" style="font-weight: 500">Attitudes:</span>
                     </div>
 
                     <div class="text-secondary">
@@ -327,13 +290,11 @@
                 {%- endif -%}
 
                 <!-- Textbooks and References -->
-                {% assign references_count = page.textbooks_references | size %}
-                {% if references_count > 0 %}
+                {% assign references_count = page.textbooks_references | size %} {% if
+                references_count > 0 %}
                 <div class="row">
                   <div class="col-sm-3">
-                    <span class="mb-0" style="font-weight: 500"
-                      >Textbooks and References</span
-                    >
+                    <span class="mb-0" style="font-weight: 500">Textbooks and References</span>
                   </div>
                   <div class="col-sm-9 text-secondary">
                     <ul>
@@ -371,8 +332,8 @@
             <div class="px-3">
               <h3>Course Modules:</h3>
 
-              {%- if module_count > 0 and page.modules[0].topic != "" -%} {%-
-              for item in page.modules -%}
+              {%- if module_count > 0 and page.modules[0].topic != "" -%} {%- for item in
+              page.modules -%}
               <div class="container px-2 card mb-3">
                 <div class="card-body">
                   <h5 class="card-title">{{item["topic"]}}</h5>
@@ -413,8 +374,7 @@
                   <div class="col col-sm-2">{{ item[0] | capitalize }}</div>
 
                   <div class="col col-sm-1">
-                    {%- if item[1] == "0" -%}-{%- else -%}{{ item[1] }}%{%-
-                    endif -%}
+                    {%- if item[1] == "0" -%}-{%- else -%}{{ item[1] }}%{%- endif -%}
                   </div>
                 </div>
                 {%- endfor -%}
@@ -442,15 +402,12 @@
             <div class="container pb-3">
               <h3>
                 Grades Distribution: {{ item.year }} {%- if item.batch != "" -%}
-                <span> - {{ item.batch }}</span>
+                <span>- {{ item.batch }}</span>
                 {%- endif -%}
               </h3>
 
               <div class="row">
-                <canvas
-                  id="chart-{{ item.year }}"
-                  style="width: 100%; max-width: 600px"
-                ></canvas>
+                <canvas id="chart-{{ item.year }}" style="width: 100%; max-width: 600px"></canvas>
               </div>
             </div>
 
@@ -463,11 +420,7 @@
       <div class="container text-end pt-5">
         <span class="text-muted">Last Update: {{ page.last_edit }}</span>
         {%- if page.edit_page != '#' -%}
-        <a
-          href="{{ page.edit_page }}"
-          target="_blank"
-          class="text-decoration-none"
-        >
+        <a href="{{ page.edit_page }}" target="_blank" class="text-decoration-none">
           {{ ' | ' }} Edit this page
         </a>
         {%- endif -%}
@@ -480,22 +433,20 @@
   <script type="text/javascript">
     $(document).ready(function () {
       // Switch to the right tab, absed on the location hash
-      const locHash = window.location.hash
-      if (locHash != '') {
-        var tabTrigger = new bootstrap.Tab(
-          $(locHash.replace('tab_', ''))
-        ).show()
+      const locHash = window.location.hash;
+      if (locHash != "") {
+        var tabTrigger = new bootstrap.Tab($(locHash.replace("tab_", ""))).show();
       }
 
       // Update the URL hash with tab selection
-      var tabsList = document.querySelectorAll('button[data-bs-toggle="tab"]')
+      var tabsList = document.querySelectorAll('button[data-bs-toggle="tab"]');
       tabsList.forEach((triggerEl) => {
-        triggerEl.addEventListener('shown.bs.tab', function (event) {
-          const tabID = 'tab_' + event.target.getAttribute('id')
-          event.preventDefault()
-          window.location.hash = tabID
-        })
-      })
-    })
+        triggerEl.addEventListener("shown.bs.tab", function (event) {
+          const tabID = "tab_" + event.target.getAttribute("id");
+          event.preventDefault();
+          window.location.hash = tabID;
+        });
+      });
+    });
   </script>
 </html>

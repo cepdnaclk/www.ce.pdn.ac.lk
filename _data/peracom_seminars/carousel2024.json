@@ -1,38 +1,38 @@
 [
-    {
-        "display": true,
-        "image": "/images/peracom-seminars/2024/seminar31.png",
-        "alt": "",
-        "title": "",
-        "subtitle": "",
-        "interval": 5000,
-        "dark": true
-    },
-    {
-        "display": true,
-        "image": "/images/peracom-seminars/2024/seminar30.jpg",
-        "alt": "",
-        "title": "",
-        "subtitle": "",
-        "interval": 5000,
-        "dark": true
-    },
-    {
-        "display": true,
-        "image": "/images/peracom-seminars/2024/seminar29.jpg",
-        "alt": "",
-        "title": "",
-        "subtitle": "",
-        "interval": 5000,
-        "dark": true
-    },
-    {
-        "display": true,
-        "image": "/images/peracom-seminars/2024/seminar27.jpeg",
-        "alt": "",
-        "title": "",
-        "subtitle": "",
-        "interval": 5000,
-        "dark": true
-    }
+  {
+    "display": true,
+    "image": "/images/peracom-seminars/2024/seminar31.png",
+    "alt": "",
+    "title": "",
+    "subtitle": "",
+    "interval": 5000,
+    "dark": true
+  },
+  {
+    "display": true,
+    "image": "/images/peracom-seminars/2024/seminar30.jpg",
+    "alt": "",
+    "title": "",
+    "subtitle": "",
+    "interval": 5000,
+    "dark": true
+  },
+  {
+    "display": true,
+    "image": "/images/peracom-seminars/2024/seminar29.jpg",
+    "alt": "",
+    "title": "",
+    "subtitle": "",
+    "interval": 5000,
+    "dark": true
+  },
+  {
+    "display": true,
+    "image": "/images/peracom-seminars/2024/seminar27.jpeg",
+    "alt": "",
+    "title": "",
+    "subtitle": "",
+    "interval": 5000,
+    "dark": true
+  }
 ]
