@@ -78,8 +78,7 @@ def save_event_page(details: dict, file_url: str):
         "updated_at": get_updated_at((details.get("updated_at") or "").strip()),
     }
     try:
-        if not os.path.exists(os.path.dirname(file_url)):
-            os.makedirs(os.path.dirname(file_url))
+        os.makedirs(os.path.dirname(file_url), exist_ok=True)
         with open(file_url, "w", encoding="utf-8") as f:
             f.write("---\n")
             f.write(yaml.dump(data, sort_keys=False))
