@@ -5,13 +5,12 @@ title: ACES ties up with Nenathambara to make its largest coding competition on 
   island to the next level
 image: /news/images/1753118738.jpg
 parent: News
-link_url: '#'
-link_caption: ''
+link_url: "#"
+link_caption: ""
 author: Super Admin
-published_date: '2021-07-01'
+published_date: "2021-07-01"
 updated_at: 2025-07-21 17:25:38+00:00
 ---
-
 
 <!-- Automated Update by GitHub Actions -->
 

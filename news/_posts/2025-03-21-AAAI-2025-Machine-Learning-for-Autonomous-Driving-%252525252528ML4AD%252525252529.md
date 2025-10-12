@@ -4,13 +4,12 @@ id: 16
 title: PeraCom Undergraduates Beat the Giants at AAAI-2025 ML4AD (on Autonomous Driving)
 image: /news/images/1753117711.jpg
 parent: News
-link_url: '#'
-link_caption: ''
+link_url: "#"
+link_caption: ""
 author: Ridma Jayasundara
-published_date: '2025-03-21'
+published_date: "2025-03-21"
 updated_at: 2025-07-21 17:08:31+00:00
 ---
-
 
 <!-- Automated Update by GitHub Actions -->
 

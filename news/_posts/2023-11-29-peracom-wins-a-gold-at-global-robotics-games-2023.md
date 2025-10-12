@@ -4,13 +4,12 @@ id: 7
 title: PeraCom wins a Gold at Global Robotics Games 2023 at Singapore
 image: /news/images/1753117869.jpg
 parent: News
-link_url: '#'
-link_caption: ''
+link_url: "#"
+link_caption: ""
 author: Super Admin
-published_date: '2023-11-29'
+published_date: "2023-11-29"
 updated_at: 2025-07-21 17:11:09+00:00
 ---
-
 
 <!-- Automated Update by GitHub Actions -->
 

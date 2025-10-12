@@ -8,14 +8,13 @@ start_time: November 03, 2020
 end_time: December 09, 2020
 location: Zoom (Online)
 event_types:
-- Event
-link_url: '#'
-link_caption: ''
+  - Event
+link_url: "#"
+link_caption: ""
 author: Nuwan Jaliyagoda
-published_date: '2021-01-15'
+published_date: "2021-01-15"
 updated_at: 2025-07-21 17:06:10+00:00
 ---
-
 
 <!-- Automated Update by GitHub Actions -->
 

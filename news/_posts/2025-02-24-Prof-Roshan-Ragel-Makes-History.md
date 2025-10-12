@@ -5,13 +5,12 @@ title: Prof. Roshan Ragel Makes History with the 2025 Mary Kenneth Keller Award
 image: /news/images/1753117680.jpg
 parent: News
 link_url: https://www.computer.org/volunteering/awards/cse-undergrad-teaching
-link_caption: 'computer.org: Mary Kenneth Keller Computer Science & Engineering Undergraduate
-  Teaching Award'
+link_caption: "computer.org: Mary Kenneth Keller Computer Science & Engineering Undergraduate
+  Teaching Award"
 author: Ridma Jayasundara
-published_date: '2025-02-24'
+published_date: "2025-02-24"
 updated_at: 2025-07-21 17:08:00+00:00
 ---
-
 
 <!-- Automated Update by GitHub Actions -->
 

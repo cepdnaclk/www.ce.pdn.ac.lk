@@ -4,13 +4,12 @@ id: 5
 title: Department Staff meets the Vice Chancellor on International Collaborations
 image: /news/images/1753117887.png
 parent: News
-link_url: '#'
-link_caption: ''
+link_url: "#"
+link_caption: ""
 author: Super Admin
-published_date: '2023-01-02'
+published_date: "2023-01-02"
 updated_at: 2025-07-21 17:11:28+00:00
 ---
-
 
 <!-- Automated Update by GitHub Actions -->
 

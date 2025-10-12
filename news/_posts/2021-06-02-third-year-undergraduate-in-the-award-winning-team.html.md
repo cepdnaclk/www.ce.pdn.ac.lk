@@ -4,13 +4,12 @@ id: 1
 title: Third year undergraduate in the award winning team working on Cloud Atlas
 image: /news/images/1753118184.jpg
 parent: News
-link_url: '#'
-link_caption: ''
+link_url: "#"
+link_caption: ""
 author: Super Admin
-published_date: '2021-06-02'
+published_date: "2021-06-02"
 updated_at: 2025-07-21 17:16:24+00:00
 ---
-
 
 <!-- Automated Update by GitHub Actions -->
 

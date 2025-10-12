@@ -4,13 +4,12 @@ id: 3
 title: The annual general meeting of the Association of Computer Engineering Students
 image: /news/images/1753117990.jpg
 parent: News
-link_url: '#'
-link_caption: ''
+link_url: "#"
+link_caption: ""
 author: Super Admin
-published_date: '2021-11-21'
+published_date: "2021-11-21"
 updated_at: 2025-07-21 17:13:10+00:00
 ---
-
 
 <!-- Automated Update by GitHub Actions -->
 

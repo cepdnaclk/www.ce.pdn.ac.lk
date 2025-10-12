@@ -4,13 +4,12 @@ id: 14
 title: PeraCom & Synopsis Academic and Research Alliance
 image: /news/images/1753117730.png
 parent: News
-link_url: '#'
-link_caption: ''
+link_url: "#"
+link_caption: ""
 author: Ridma Jayasundara
-published_date: '2024-09-12'
+published_date: "2024-09-12"
 updated_at: 2025-07-21 17:08:50+00:00
 ---
-
 
 <!-- Automated Update by GitHub Actions -->
 
