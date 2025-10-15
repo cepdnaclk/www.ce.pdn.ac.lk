@@ -1,7 +1,7 @@
 ---
 layout: page_events
 id: 6
-title: GSOC preparation mentoring program - 2021
+title: "GSOC preparation mentoring program - 2021"
 parent: Events
 image: /events/images/1753117559.png
 start_time: April 01, 2021
@@ -12,7 +12,7 @@ event_types:
 link_url: "#"
 link_caption: ""
 author: Nuwan Jaliyagoda
-published_date: "2021-05-07"
+published_date: 2021-05-07
 updated_at: 2025-10-12 07:06:12+00:00
 ---
 
