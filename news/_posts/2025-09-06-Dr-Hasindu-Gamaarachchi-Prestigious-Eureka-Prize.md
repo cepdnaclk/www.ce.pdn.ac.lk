@@ -1,18 +1,19 @@
 ---
 layout: page_news
 id: 22
-title: "Dr Hasindu Gamaarachchi Wins Prestigious Eureka Prize for Outstanding Early Career Researcher"
-
-image: https://portal.ce.pdn.ac.lk/img/news/1760202041.png
+title: Dr Hasindu Gamaarachchi Wins Prestigious Eureka Prize for Outstanding Early
+  Career Researcher
+image: /news/images/1760202041.png
 parent: News
-link_url: #
+link_url: "#"
 link_caption: ""
-
 author: J.A.S. UTHPALA
 
 published_date: 2025-09-06
 updated_at: 2025-10-12 06:52:11+00:00
 ---
+
+<!-- Automated Update by GitHub Actions -->
 
 <p dir="ltr">We extend our heartfelt congratulations to Dr Hasindu Gamaarachchi, an alumnus of the Department of Computer Engineering, Faculty of Engineering, University of Peradeniya, who has been awarded the Australian Museum Eureka Prize for Outstanding Early Career Researcher.</p>
 <p dir="ltr">Dr Gamaarachchi&rsquo;s groundbreaking work focuses on developing scalable and efficient computing solutions that make genomic sequencing more accessible across diverse fields, including agriculture, medicine, and ecology. His research advances scientific discovery and contributes to practical solutions with far-reaching global impact.</p>
@@ -23,5 +24,3 @@ updated_at: 2025-10-12 06:52:11+00:00
 <p dir="ltr"><a href="https://www.unsw.edu.au/newsroom/news/2025/09/Three-UNSW-winners-at-prestigious-Oscars-of-Science?fbclid=IwY2xjawMnV2JleHRuA2FlbQIxMABicmlkETEyZzlOZlJHdmQ1cUhhV1ZIAR7CLZ5TwnnBsvlSiu0nQMjioW0lVrFY9H1WTiwa2u413J-LNJrOA6bB8OGsTw_aem_wbnTFhm_zXo0DJxg3fRK2g">https://www.unsw.edu.au/newsroom/news/2025/09/Three-UNSW-winners-at-prestigious-Oscars-of-Science?fbclid=IwY2xjawMnV2JleHRuA2FlbQIxMABicmlkETEyZzlOZlJHdmQ1cUhhV1ZIAR7CLZ5TwnnBsvlSiu0nQMjioW0lVrFY9H1WTiwa2u413J-LNJrOA6bB8OGsTw_aem_wbnTFhm_zXo0DJxg3fRK2g</a><strong><br></strong></p>
 <p dir="ltr">Written By: Wethmi Ranasinghe (Editor/Association of Computer Engineering Students)</p>
 <p>&nbsp;</p>
-
-<!-- Automated Update by GitHub Actions -->

@@ -1,18 +1,17 @@
 ---
 layout: page_news
 id: 12
-title: "The Best Artifact Award at IPSN 2021"
-
-image: https://portal.ce.pdn.ac.lk/img/news/1753118156.jpg
+title: The Best Artifact Award at IPSN 2021
+image: /news/images/1753118156.jpg
 parent: News
 link_url: https://doi.org/10.1145/3412382.3458269
 link_caption: "Publication: DeepLight at IPSN Digital Library"
-
 author: Ridma Jayasundara
-
-published_date: 2021-05-24
+published_date: "2021-05-24"
 updated_at: 2025-10-11 15:51:51+00:00
 ---
+
+<!-- Automated Update by GitHub Actions -->
 
 <p>We warmly congratulate Gihan Jayathilake, from the Department of Computer Engineering, for winning the best artifact award at the International Conference on Information Processing in Sensor Networks (IPSN) 2021 conference for his work on &ldquo;Deeplight&rdquo;. IPSN is a leading annual forum on research in networked sensing and control, broadly defined.</p>
 <p>A paper co-authored by Gihan, titled &ldquo;DeepLight: Robust &amp; Unobtrusive Real-time Screen-Camera Communication for Real-World Displays" was accepted for IPSN 2021 (ACM/IEEE International Conference of Information Processing in Sensor Networks), which was held during 18-21 May 2021 in Nashville, Tennessee, USA. The conference had 105 submissions from all around the world and a 24% acceptance rate.</p>
@@ -24,5 +23,3 @@ updated_at: 2025-10-11 15:51:51+00:00
 <li><a href="https://larc-cmu-smu.github.io/deeplight/">https://larc-cmu-smu.github.io/deeplight/</a></li>
 <li><a href="https://ipsn.acm.org/2021/">https://ipsn.acm.org/2021/</a></li>
 </ul>
-
-<!-- Automated Update by GitHub Actions -->

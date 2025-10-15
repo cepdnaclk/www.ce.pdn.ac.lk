@@ -35,15 +35,13 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      # Individual scripts executing sub tasks
-
       - name: "Update News"
-        working-directory: ./python_scripts/news_and_events
+        working-directory: ./python_scripts/
         run: |
           python update_news.py
 
       - name: "Update Events"
-        working-directory: ./python_scripts/news_and_events
+        working-directory: ./python_scripts/
         run: |
           python update_events.py
 
