@@ -5,7 +5,7 @@ permalink: /department-history/
 navbar_active: About Us
 ---
 
-### 1895
+### 1995
 
 ##### Department of Computer Sciences
 
@@ -52,12 +52,6 @@ Established a fully equipped industry control systems lab funded by Schneider El
 #### Cambio Wearable Computing Lab
 
 A wearable computing lab funded by Cambio Software Engineering. This lab is equipped with modern high-end wearable computing devices such as OpenBCI boards, Human-to-Human Interfacing boards and Heart and Brain shields. More information about this facility can be found in official Cambio Wearable Computing webpage under the Facilities.
-
-### 2019
-
-#### New Computer Engineering Building
-
-The new building is equipped with modern lab facilities such as a new computing lab, robotics research facility, PCB printing unit, 3D printing facility and new computer networking lab. furthermore, this building will have new student project areas and modern conference rooms.
 
 ---
 
