@@ -68,3 +68,6 @@ A wearable computing lab funded by Cambio Software Engineering. This lab is equi
 - 14/01/2003 to 28/02/2006 : Prof K.S Walgama
 - 01/03/2006 to 01/01/2013 : Dr P.M.T.B Sandirigama
 - 02/01/2013 to 31/03/2019 : Dr D Elkaduwa
+- 01/04/2019 to 31/03/2022 : Prof. Kamalanath Samarakoon
+- 01/04/2022 to 31/03/2025 : Prof. Roshan G. Ragel
+- 01/04/2025 to Present : Dr. Asitha Bandaranayake
