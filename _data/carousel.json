@@ -26,18 +26,9 @@
         "interval": 5000,
         "dark": true
     },
-        {
+    {
         "display": true,
         "image": "/images/home/cover_4.webp",
-        "alt": "",
-        "title": "",
-        "subtitle": "",
-        "interval": 5000,
-        "dark": true
-    },
-        {
-        "display": true,
-        "image": "/images/home/cover_5.webp",
         "alt": "",
         "title": "",
         "subtitle": "",
