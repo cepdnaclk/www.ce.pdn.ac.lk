@@ -114,7 +114,41 @@ navbar_active: "Home"
 </div>
 <!-- About End -->
 
-<!-- Service Start -->
+<!-- Testimonial Start -->
+<div class="container-fluid testimonial py-5">
+    <div class="container pt-5">
+        <div class="row gy-5 gx-0">
+            <div class="col-lg-6 pe-lg-5 wow fadeIn" data-wow-delay="0.3s">
+                <h1 class="display-6 text-white mb-4">Voices from Our Community</h1>
+                <p class="text-white mb-5">Discover how the Department of Computer Engineering has influenced the lives and careers of our students, alumni, and partners around the world.</p>
+            </div>
+            <div class="col-lg-6 mb-n5 wow fadeIn" data-wow-delay="0.5s">
+                <div class="bg-white p-5">
+                    <div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay="0.1s">
+                        {% for testimony in site.data.testimonials %}
+                        <div class="testimonial-item">
+                            <div class="icon-box-primary mb-4">
+                                <i class="bi bi-chat-left-quote text-dark"></i>
+                            </div>
+                            <p class="fs-5 mb-4">{{ testimony.testimony }}</p>
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0" src="{{ testimony.image | relative_url }}" alt="{{ testimony.alt }}">
+                                <div class="ps-3">
+                                    <h5 class="mb-1">{{ testimony.name }}</h5>
+                                    <span class="text-primary">{{ testimony.current_affiliation }}</span>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial End -->
+
+<!-- Research and Impact Start -->
 <div class="container-fluid container-service py-5">
     <div class="container pt-5">
         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
@@ -138,9 +172,9 @@ navbar_active: "Home"
         </div>
     </div>
 </div>
-<!-- Service End -->
+<!-- Research and Impact End -->
 
-<!-- Team Start -->
+<!-- ACES Start -->
 <div class="container-fluid container-team py-5">
     <div class="container pb-5">
         <div class="row g-5 align-items-center mb-5">
@@ -162,7 +196,7 @@ navbar_active: "Home"
         </div>
     </div>
 </div>
-<!-- Team End -->
+<!-- ACES End -->
 
 
 <main role="main" class="container pt-3 vh-50">
@@ -217,39 +251,5 @@ navbar_active: "Home"
     </div>
 
 </main>
-
-<!-- Testimonial Start -->
-<div class="container-fluid testimonial py-5">
-    <div class="container pt-5">
-        <div class="row gy-5 gx-0">
-            <div class="col-lg-6 pe-lg-5 wow fadeIn" data-wow-delay="0.3s">
-                <h1 class="display-6 text-white mb-4">Voices from Our Community</h1>
-                <p class="text-white mb-5">Discover how the Department of Computer Engineering has influenced the lives and careers of our students, alumni, and partners around the world.</p>
-            </div>
-            <div class="col-lg-6 mb-n5 wow fadeIn" data-wow-delay="0.5s">
-                <div class="bg-white p-5">
-                    <div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay="0.1s">
-                        {% for testimony in site.data.testimonials %}
-                        <div class="testimonial-item">
-                            <div class="icon-box-primary mb-4">
-                                <i class="bi bi-chat-left-quote text-dark"></i>
-                            </div>
-                            <p class="fs-5 mb-4">{{ testimony.testimony }}</p>
-                            <div class="d-flex align-items-center">
-                                <img class="flex-shrink-0" src="{{ testimony.image | relative_url }}" alt="{{ testimony.alt }}">
-                                <div class="ps-3">
-                                    <h5 class="mb-1">{{ testimony.name }}</h5>
-                                    <span class="text-primary">{{ testimony.current_affiliation }}</span>
-                                </div>
-                            </div>
-                        </div>
-                        {% endfor %}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Testimonial End -->
 
 {% include footer.html %}
