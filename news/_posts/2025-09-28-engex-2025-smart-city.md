@@ -2,13 +2,13 @@
 layout: page_news
 id: 21
 title: PeraCom Smart City Shines at EngEx 2025
-image: /news/images/1759490178.jpg
+image: /news/images/1762186402.webp
 parent: News
 link_url: "#"
 link_caption: ""
 author: Ridma Jayasundara
 published_date: "2025-09-28"
-updated_at: 2025-10-03 11:16:18+00:00
+updated_at: 2025-11-03 16:13:23+00:00
 ---
 
 <!-- Automated Update by GitHub Actions -->
