@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page_research
 title: IoT and AI
 permalink: /research/wearable-computing/
@@ -31,4 +31,4 @@ by Theekshana Dissanayake, Yasitha Rajapaksha, Roshan Ragel, Isuru Nawinne
 by Theekshana Dissanayake, Yasitha Rajapaksha, Roshan Ragel, Isuru Nawinne
 
 
-### Ongoing Projects
+### Ongoing Projects -->

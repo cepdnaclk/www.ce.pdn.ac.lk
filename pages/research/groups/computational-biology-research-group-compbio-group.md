@@ -5,8 +5,10 @@ code: com_bio
 permalink: /research/computational-biology/
 navbar_active: Research
 page_banner: images/banners/computational-biology-banner.jpg
+icon_name: bi bi-heart-pulse
+forward_url: https://cepdnaclk.github.io/compbio/
 ---
-
+<!-- 
 ### Recent Updates
 Last Updated on 25/12/2021
 
@@ -58,4 +60,4 @@ table, th, td {
 td{
     padding: 6px;
 }
-</style>
+</style> -->

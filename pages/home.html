@@ -42,7 +42,7 @@ navbar_active: "Home"
         {% for slide in site.data.carousel -%}
         <div class="carousel-item{% if forloop.first %} active{% endif %}" data-bs-interval="{{ slide.interval }}">
             <img src="{{ slide.image | prepend: site.baseurl }}" class="d-block w-100" alt="{{ slide.alt }}">
-            <div class="carousel-caption d-none d-md-block {% if slide.dark==true %}text-dark{% endif %}">
+            <div class="d-none d-md-block {% if slide.dark==true %}text-dark{% endif %}">
                 <h5>{{ slide.title }}</h5>
                 <p>{{ slide.subtitle }}</p>
             </div>
@@ -156,7 +156,7 @@ navbar_active: "Home"
             <p class="mb-5">Our research drives innovation in cutting-edge technologies, addressing real-world challenges and fostering advancements in computer engineering. We collaborate globally to deliver impactful solutions that shape the future of technology.</p>
         </div>
         <div class="row g-4">
-            {% assign pages = site.pages | where: "layout", "page_research" %}
+            {% assign pages = site.pages | where: "layout", "page_research_new" %}
             {% for p in pages %}
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.{{ forloop.index | modulo: 4 | times: 2 }}s">
                 <div class="service-item">

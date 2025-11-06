@@ -1,13 +1,14 @@
 ---
-layout: page_research
+layout: page_research_new
 title: ESCAL
 permalink: /research/embedded-systems/
 navbar_active: Research
 page_banner: images/banners/embedded-systems-banner.jpg
 icon_name: bi bi-cpu
 brief_desc : Embedded Systems and Computer Architecture Laboratory
+forward_url: http://escal.ce.pdn.ac.lk/
 ---
-
+<!-- 
 
 The Embedded Systems and Computer Architecture Laboratory (ESCAL) is a research group at the Department of Computer Engineering at the University of Peradeniya. The primary focus of the group is inclined towards micro-architectural design aspects of embedded microprocessors and their security and reliability concerns. More information can be found in ESCAL official website ([http://escal.ce.pdn.ac.lk/](http://escal.ce.pdn.ac.lk/)).
 
@@ -20,4 +21,4 @@ The group consists of the academic staff members of the Department of Computer E
 - Security and Reliability of Embedded Systems
 - Side-Channel Attacks and Countermeasures
 - Application Specific Processor and Memory Hierarchy Design
-- High-Performance Computing
+- High-Performance Computing -->

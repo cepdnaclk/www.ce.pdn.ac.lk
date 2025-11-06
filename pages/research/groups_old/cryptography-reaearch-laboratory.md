@@ -1,20 +1,11 @@
----
+<!-- ---
 layout: page_research
 title: Cryptography Research Laboratory
-permalink: /research/old/cryptography-research-laboratory/
+code: crl
+permalink: /research/cryptography-research-laboratory/
 navbar_active: Research
 page_banner: images/banners/cryptography-research-banner.jpg
-icon_name: bi bi-shield-lock
-brief_desc : 
 ---
-
-Cryptography Research Laboratory (CRL) is a research group established in 2016. The primary focus of CRL is to research cryptographic fundamentals that enable secure communications. CRL develops new cryptographic building blocks, formally analyzes their security, implements cryptographic building blocks for secure communications, and finds attacks against existing cryptographic building blocks. The group is lead by Dr. Janaka Alawatugoda. The CRL is featured in the Hanthana Vision Research Magazine of the University of Peradeniya, Vol 7, Issue 1, in June 2021, and the Newsletter of the IEEE Computer Society Sri Lanka Chapter, Vol 1, Issue 1, in December 2021.
-
-### Investigators
-
-- Dr. Janaka Alawatugoda
-- Professor Roshan G. Ragel
-- Dr. Upul Jayasinghe
 
 ### Distinguished Collaborators
 
@@ -94,4 +85,4 @@ Relatively less research has been carried out in analyzing the leakage of plaint
 
 The obvious mitigation technique is to eliminate data compression before the encryption, which is not desirable as it will waste the communication bandwidth. There are a number of mitigation techniques proposed by Gluck et al. [GHP13], without formal security arguments. In 2015, Alawatugoda et al. [ASB15] formally proved the security of one mitigation technique proposed by Gluck et al, as well as proposed a new proven secure mitigation technique; separating secrets from user inputs and fixed-dictionary compression, respectively. Currently, it is an open research question to adopt the proven secure mitigation techniques against compression-based side-channel attacks with real-world security protocol suites such as TLS/SSL protocol suites.
 
-- Project Page: [Link](https://projects.ce.pdn.ac.lk/4yp/e12/implementing-a-proven-secure-and-cost-effective-countermeasure)
+- Project Page: [Link](https://projects.ce.pdn.ac.lk/4yp/e12/implementing-a-proven-secure-and-cost-effective-countermeasure) -->

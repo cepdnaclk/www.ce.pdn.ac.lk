@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page_research
 title: GPU Computing
 permalink: /research/nvidia-research-center/
@@ -65,4 +65,4 @@ Members: (T.N.Dahanayaka,K.T.N.Kalamullage),(H.D.T.V.Perera,K.D.B.C.Udugama,C.T.
 An Ongoing Third Year Undergraduate Project – Members: H.G.S.P.Kumara, I.C.Paranawithana, U.D.D.Udurawana, Hasindu Gamaarachchi, Roshan Ragel
 
 #### A GPU-Based Approach for Accelerating DNA Sequence Analysis Algorithms
-An Ongoing Masters Project – Members: Thangavadivel Senthooran and Roshan Ragel
+An Ongoing Masters Project – Members: Thangavadivel Senthooran and Roshan Ragel -->
