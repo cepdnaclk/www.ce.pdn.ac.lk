@@ -107,10 +107,7 @@
     "venue": "Asia Pacific Advanced Network Conference (APANConf 2024)",
     "year": "2025",
     "abstract": "This paper investigates the use of DRL-driven digital twins in digit trading. The proposed system used a Deep Q-Network (DQN) agent to predict market digit values. The simulated digital twin optimized the trading strategies using loss filtering algorithms. The DQN agent demonstrated effective prediction results, closely tracking market dynamics and outperforming the random prediction baseline for trading operations. This system\u00e2\u0080\u0099s critical features were dynamic position sizing and rebalancing mechanisms designed for digit trading. The research highlighted the potential of DRL-driven digital twins in enhancing trading performance by mitigating risks and increasing the rate of return with risk tolerance through loss-filtering operations. Future directions involve developing specialized agents for specific prediction tasks and exploring multi-agent RL digit trading systems. The findings emphasized the advancements that DRL-driven digital twins can bring to financial market strategies, positioning them as valuable tools for achieving consistent and optimized trading performance.",
-    "authors": [
-      "Ishta H. Jayakody",
-      "Mahela Bandara & Asitha U. Bandaranayake"
-    ],
+    "authors": ["Ishta H. Jayakody", "Mahela Bandara & Asitha U. Bandaranayake"],
     "author_info": [
       {
         "name": "Ishta H. Jayakody",
@@ -136,9 +133,7 @@
     "presentation_url": "#",
     "project_url": "https://projects.ce.pdn.ac.lk/4yp/e18/Analyzing-and-predicting-the-volatile-market-patterns-for-trading-using-a-Digital-Twin/",
     "codebase": "https://github.com/cepdnaclk/e18-4yp-Analyzing-and-predicting-the-volatile-market-patterns-for-trading-using-a-Digital-Twin",
-    "research_groups": [
-      "Smart and Intelligent Systems (IoT / AI / Wearable Computing)"
-    ],
+    "research_groups": ["Smart and Intelligent Systems (IoT / AI / Wearable Computing)"],
     "tags": [],
     "funding": "",
     "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.1007/978-3-031-89813-6_9/",
@@ -150,11 +145,7 @@
     "venue": "International Conference on Asia Pacific Advanced Network (APANConf 2024)",
     "year": "2025",
     "abstract": "This paper investigates the use of DRL-driven digital twins in digit trading. The proposed system used a Deep Q-Network (DQN) agent to predict market digit values. The simulated digital twin optimized the trading strategies using loss filtering algorithms. The DQN agent demonstrated effective prediction results, closely tracking market dynamics and outperforming the random prediction baseline for trading operations. This system\u00e2\u0080\u0099s critical features were dynamic position sizing and rebalancing mechanisms designed for digit trading. The research highlighted the potential of DRL-driven digital twins in enhancing trading performance by mitigating risks and increasing the rate of return with risk tolerance through loss-filtering operations. Future directions involve developing specialized agents for specific prediction tasks and exploring multi-agent RL digit trading systems. The findings emphasized the advancements that DRL-driven digital twins can bring to financial market strategies, positioning them as valuable tools for achieving consistent and optimized trading performance.",
-    "authors": [
-      "Ishta H Jayakody",
-      "Mahela Bandara",
-      "Asitha U Bandaranayake"
-    ],
+    "authors": ["Ishta H Jayakody", "Mahela Bandara", "Asitha U Bandaranayake"],
     "author_info": [
       {
         "name": "Ishta H Jayakody",
@@ -274,10 +265,7 @@
     "presentation_url": "https://gamma.app/docs/FYP-Forecasting-Dengue-Outbreaks-in-Sri-Lanka-q0tby8ocrsu3brh?mode=doc",
     "project_url": "https://projects.ce.pdn.ac.lk/4yp/e18/Dengue-outbreak-prediction-in-Sri-Lanka-using-machine-learning-techniques/",
     "codebase": "https://github.com/cepdnaclk/e18-4yp-Dengue-outbreak-prediction-in-Sri-Lanka-using-machine-learning-techniques",
-    "research_groups": [
-      "Computational BioEngineering",
-      "Machine Learning and Data Mining"
-    ],
+    "research_groups": ["Computational BioEngineering", "Machine Learning and Data Mining"],
     "tags": [
       "Dengue",
       "Dengue outbreak prediction",
@@ -380,12 +368,7 @@
       "Smart and Intelligent Systems (IoT / AI / Wearable Computing)",
       "ESCAL: Computer Systems (Embedded Systems / Robotics )"
     ],
-    "tags": [
-      "Swarm Robotics",
-      "Collaborative Mapping",
-      "Swarm Intelligence",
-      "Mixed Reality"
-    ],
+    "tags": ["Swarm Robotics", "Collaborative Mapping", "Swarm Intelligence", "Mixed Reality"],
     "funding": "",
     "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.1109/SCSE65633.2025.11030968/",
     "edit_url": "https://github.com/cepdnaclk/api.ce.pdn.ac.lk/blob/main/publications/v1/10.1109/SCSE65633.2025.11030968/index.json",
@@ -485,11 +468,7 @@
     "venue": "2024 6th International Conference on Advancements in Computing (ICAC)",
     "year": "2024",
     "abstract": "This paper presents the design and optimization of a Multiprocessor System-on-Chip (MPSoC) architecture for low-resource JPEG encoding. The initial design employs six Central Processing Units (CPUs) to implement a pipelined JPEG encoder, divided into stages: color space conversion, level shifting, discrete cosine transform (DCT), quantization, Huffman encoding, and output buffering. The pipeline is then optimized using custom hardware components, including First-In-First-Out (FIFO) queues, custom instruction blocks, and superscalar pipelines to improve performance and efficiency. The paper details the design process, various optimization strategies, implementation challenges, and the resulting performance improvements. The system is implemented and evaluated using the Cyclone IV E Field Programmable Gate Array (FPGA) platform with Nios II/e processors, and the design was developed using the Quartus II software, demonstrating significant gains in throughput and resource efficiency.",
-    "authors": [
-      "Kanishka Gunawardana",
-      "Chandula Adhikari",
-      "Isuru Nawinne"
-    ],
+    "authors": ["Kanishka Gunawardana", "Chandula Adhikari", "Isuru Nawinne"],
     "author_info": [
       {
         "name": "Kanishka Gunawardana",
@@ -785,12 +764,7 @@
     "venue": "BMC bioinformatics",
     "year": "2023",
     "abstract": "",
-    "authors": [
-      "Anjana Senanayake",
-      "Hasindu Gamaarachchi",
-      "Damayanthi Herath",
-      "Roshan Ragel"
-    ],
+    "authors": ["Anjana Senanayake", "Hasindu Gamaarachchi", "Damayanthi Herath", "Roshan Ragel"],
     "author_info": [
       {
         "name": "Anjana Senanayake",
@@ -836,9 +810,7 @@
     "presentation_url": "#",
     "project_url": "#",
     "codebase": "https://github.com/AnjanaSenanayake/DeepSelectNet",
-    "research_groups": [
-      "Computational BioEngineering"
-    ],
+    "research_groups": ["Computational BioEngineering"],
     "tags": [],
     "funding": "",
     "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.1186/s12859-023-05151-0/",
@@ -1044,15 +1016,8 @@
     "presentation_url": "#",
     "project_url": "https://projects.ce.pdn.ac.lk/greenhouse-automation/",
     "codebase": "https://github.com/cepdnaclk/Smart-Agriculture-a-low-cost-IoT-system-for-polytunnels",
-    "research_groups": [
-      "Smart and Intelligent Systems (IoT / AI / Wearable Computing)"
-    ],
-    "tags": [
-      "IoT",
-      "Smart Farming",
-      "Control Systems",
-      "Agriculture"
-    ],
+    "research_groups": ["Smart and Intelligent Systems (IoT / AI / Wearable Computing)"],
+    "tags": ["IoT", "Smart Farming", "Control Systems", "Agriculture"],
     "funding": "The Early Career Fellowship of the Organization for Women in Science for Developing World (OWSD, Early Career Fellowship https://owsd.net/) funded this project \u00e2\u0080\u0093 the award agreement 4500406736 was awarded to Pradeepa C.G. Bandaranayake",
     "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.1371/journal.pone.0278440/",
     "edit_url": "https://github.com/cepdnaclk/api.ce.pdn.ac.lk/blob/main/publications/v1/10.1371/journal.pone.0278440/index.json",
@@ -1134,13 +1099,8 @@
     "presentation_url": "https://youtu.be/UxYynRS6BR0",
     "project_url": "https://projects.ce.pdn.ac.lk/4yp/e15/Mixed-Reality-based-Simulation-Platform-for-Swarm-Robotics/",
     "codebase": "https://github.com/Pera-Swarm",
-    "research_groups": [
-      "ESCAL: Computer Systems (Embedded Systems / Robotics )"
-    ],
-    "tags": [
-      "Robotics",
-      "Simulation"
-    ],
+    "research_groups": ["ESCAL: Computer Systems (Embedded Systems / Robotics )"],
+    "tags": ["Robotics", "Simulation"],
     "funding": "",
     "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.1109/ACCESS.2023.3317434/",
     "edit_url": "https://github.com/cepdnaclk/api.ce.pdn.ac.lk/blob/main/publications/v1/10.1109/ACCESS.2023.3317434/index.json",
@@ -1222,9 +1182,7 @@
     "presentation_url": "#",
     "project_url": "https://projects.ce.pdn.ac.lk/4yp/e16/Using-Computer-Vision-and-Agent-Based-Modelling-to-Explore-the-Human-Elephant-Conflict/",
     "codebase": "https://github.com/cepdnaclk/e16-4yp-Using-Computer-Vision-and-Agent-Based-Modelling-to-Explore-the-Human-Elephant-Conflict",
-    "research_groups": [
-      "Computer Vision"
-    ],
+    "research_groups": ["Computer Vision"],
     "tags": [
       "vision transformer",
       "semantic segmentation",
@@ -1244,11 +1202,7 @@
     "venue": "Applied Computational Intelligence and Soft Computing",
     "year": "2022",
     "abstract": "",
-    "authors": [
-      "Damayanthi Herath",
-      "Jeevani Jayasinghe",
-      "Upaka Rathnayake"
-    ],
+    "authors": ["Damayanthi Herath", "Jeevani Jayasinghe", "Upaka Rathnayake"],
     "author_info": [
       {
         "name": "Damayanthi Herath",
@@ -1297,11 +1251,7 @@
     "venue": "2022 2nd International Conference on Advanced Research in Computing (ICARC)",
     "year": "2022",
     "abstract": "",
-    "authors": [
-      "Shyaman Jayasundara",
-      "Amila Indika",
-      "Damayanthi Herath"
-    ],
+    "authors": ["Shyaman Jayasundara", "Amila Indika", "Damayanthi Herath"],
     "author_info": [
       {
         "name": "Shyaman Jayasundara",
@@ -1573,10 +1523,7 @@
     "venue": "Designs, Codes and Cryptography",
     "year": "2022",
     "abstract": "With the development of side-channel attacks, a necessity arises to invent authenticated key exchange protocols in a leakage-resilient manner. Constructing authenticated key exchange protocols using existing cryptographic schemes is an effective method, as such construction can be instantiated with any appropriate scheme in a way that the formal security argument remains valid. In parallel, constructing authenticated key exchange protocols that are proven to be secure in the standard model is more preferred as they rely on real-world assumptions. In this paper, we present a Diffie\u00e2\u0080\u0093Hellman-style construction of a leakage-resilient authenticated key exchange protocol, that can be instantiated with any CCLA2-secure public-key encryption scheme and a function from the pseudo-random function family. Our protocol is proven to be secure in the standard model assuming the hardness of the decisional Diffie\u00e2\u0080\u0093Hellman problem. Furthermore, it is resilient to continuous partial leakage of long-term secret keys, that happens even after the session key is established, while satisfying the security features defined by the eCK security model.",
-    "authors": [
-      "Janaka Alawatugoda",
-      "Tatsuaki Okamoto"
-    ],
+    "authors": ["Janaka Alawatugoda", "Tatsuaki Okamoto"],
     "author_info": [
       {
         "name": "Janaka Alawatugoda",
@@ -1697,10 +1644,7 @@
     "venue": "2021 21st International Conference on Advances in ICT for Emerging Regions (ICter)",
     "year": "2021",
     "abstract": "This paper describes a reconfigurable hardware implementation of CommentzWalter algorithm with bit-split string matching engines to match multiple protein sequences. It is reported that multiple pattern matching using the most widely used Aho-Corasick algorithm for different applications has been carried out on graphics processing units and field programmable gate arrays to accelerate the matching process. Commentz-Walter algorithm, is a multiple pattern matching algorithm and more complex than Aho-Corasick. There are no reports of it being directly implemented in any hardware platform except as software implementations on general purpose processors. In this work, a specific architecture for our target application using CommentzWalter algorithm has been developed and tested with a simulator for hardware description languages. This architecture can match multiple patterns of proteins efficiently when implemented on a Field Programmable Gate Array. Finally, we compare a previously developed hardware architecture of bit-split Aho-Corasick with our bit-split Commentz-Walter architecture. Using the Intel Stratix IV GX EP4SGX230KF40C2 FPGA chip as the target device, the compilation results with Quartus II show that the synthesis logic utilization is 5% with 2203 total number of registers, 64896 FPGA block memory bits and 4 DSP block 18-bit elements. The simulation and practical experimental results show that the proposed architecture can effectively improve the performance of the Commentz-Walter algorithm.",
-    "authors": [
-      "Sugandima M. Vidanagamachchi",
-      "Shirley D. Dewasurendra"
-    ],
+    "authors": ["Sugandima M. Vidanagamachchi", "Shirley D. Dewasurendra"],
     "author_info": [
       {
         "name": "Sugandima M. Vidanagamachchi",
@@ -1748,11 +1692,7 @@
     "venue": "PLoS Neglected Tropical Diseases",
     "year": "2021",
     "abstract": "Dengue fever is a systemic viral infection of epidemic proportions in tropical countries. The incidence of dengue fever is ever increasing and has doubled over the last few decades. Estimated 50million new cases are detected each year and close to 10000 deaths occur each year. Epidemics are unpredictable and unprecedented. When epidemics occur, health services are over whelmed leading to overcrowding of hospitals. At present there is no evidence that dengue epidemics can be predicted. Since the breeding of the dengue mosquito is directly influenced by environmental factors, it is plausible that epidemics could be predicted using weather data. We hypothesized that there is a mathematical relationship between incidence of dengue fever and environmental factors and if such relationship exists, new cases of dengue fever in the succeeding months can be predicted using weather data of the current month. We developed a mathematical model using machine learning technique. We used Island wide dengue epidemiology data, weather data and population density in developing the model. We used incidence of dengue fever, average rain fall, humidity, wind speed, temperature and population density of each district in the model. We found that the model is able to predict the incidence of dengue fever of a given month in a given district with precision (RMSE between 18- 35.3). Further, using weather data of a given month, the number of cases of dengue in succeeding months too can be predicted with precision (RMSE 10.4\u00e2\u0080\u009430). Health authorities can use existing weather data in predicting epidemics in the immediate future and therefore measures to prevent new cases can be taken and more importantly the authorities can prepare local authorities for outbreaks.",
-    "authors": [
-      "Chathurangi Edussuriya",
-      "Sampath Deegalla",
-      "Indika Gawarammana"
-    ],
+    "authors": ["Chathurangi Edussuriya", "Sampath Deegalla", "Indika Gawarammana"],
     "author_info": [
       {
         "name": "Chathurangi Edussuriya",
@@ -1882,9 +1822,7 @@
     "presentation_url": "https://www.cs.umd.edu/~gihan/projects/fyp/icip-2021-presentation.pdf",
     "project_url": "https://projects.ce.pdn.ac.lk/4yp/e14/dark-arts-algorithms-for-low-light-image-enhancement-and-interpretation/",
     "codebase": "#",
-    "research_groups": [
-      "Computer Vision"
-    ],
+    "research_groups": ["Computer Vision"],
     "tags": [
       "Reflectivity",
       "Neural networks",
@@ -1985,12 +1923,7 @@
     "venue": "2021 20th ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)",
     "year": "2021",
     "abstract": "The paper introduces a novel, holistic approach for robust Screen-Camera Communication (SCC), where video content on a screen is visually encoded in a human-imperceptible fashion and decoded by a camera capturing images of such screen content. We first show that state-of-the-art SCC techniques have two key limitations for in-the-wild deployment: (a) the decoding accuracy drops rapidly under even modest screen extraction errors from the captured images, and (b) they generate perceptible flickers on common refresh rate screens even with minimal modulation of pixel intensity. To overcome these challenges, we introduce DeepLight, a system that incorporates machine learning (ML) models in the decoding pipeline to achieve humanly-imperceptible, moderately high SCC rates under diverse real-world conditions. DeepLight's key innovation is the design of a Deep Neural Network (DNN) based decoder that collectively decodes all the bits spatially encoded in a display frame, without attempting to precisely isolate the pixels associated with each encoded bit. In addition, DeepLight supports imperceptible encoding by selectively modulating the intensity of only the Blue channel, and provides reasonably accurate screen extraction (IoU values \u00e2\u0089\u00a5 83%) by using state-of-the-art object detection DNN pipelines. We show that a fully functional DeepLight system is able to robustly achieve high decoding accuracy (frame error rate < 0.2) and moderately-high data goodput (\u00e2\u0089\u00a50.95 Kbps) using a human-held smartphone camera, even over larger screen-camera distances (~ 2m).",
-    "authors": [
-      "Vu Tran",
-      "Gihan Jayatilaka",
-      "Ashwin Ashok",
-      "Archan Misra"
-    ],
+    "authors": ["Vu Tran", "Gihan Jayatilaka", "Ashwin Ashok", "Archan Misra"],
     "author_info": [
       {
         "name": "Vu Tran",
@@ -2036,9 +1969,7 @@
     "presentation_url": "https://www.cs.umd.edu/~gihan/projects/deeplight/presentation.pdf",
     "project_url": "#",
     "codebase": "https://github.com/gihanjayatilaka/deeplight",
-    "research_groups": [
-      "Computer Vision"
-    ],
+    "research_groups": ["Computer Vision"],
     "tags": [
       "Human-centered computing",
       "Ubiquitous and mobile computing",
@@ -2187,9 +2118,7 @@
     "presentation_url": "#",
     "project_url": "#",
     "codebase": "#",
-    "research_groups": [
-      "Computer Vision"
-    ],
+    "research_groups": ["Computer Vision"],
     "tags": [
       "Weight measurement",
       "Silver",
@@ -2209,11 +2138,7 @@
     "venue": "2021 IEEE 30th International Symposium on Industrial Electronics (ISIE)",
     "year": "2021",
     "abstract": "Today's network transactions are usually handled using kernel-based network protocols residing on general-purpose processors (GPPs). Over time, network transmission speeds have developed rapidly without a corresponding increase in processing speeds of host processors. With devices featuring advanced connectivity and Internet functionality, protocol processing has created a heavy workload on the GPP and has become a limiting factor in high performance networking applications such as online High Frequency Trading Systems (HFTS). It encourages designers to increase processor performance or designing application specific processors for handling heavy network workloads. Then there is the choice of hardware/software implementations based on results from hardware acceleration. Offloading the whole network protocol stack implementation into hardware is not very attractive since handling large linked data structures inside the hardware is not as easy as in software. In this paper we claim that relieving the CPU from bulk processing by offloading selected, performance-related kernel code into hardware is a better option for such scenarios. Hence, we design a scalable system for offloading specific performance-related kernel functions into an FPGA. In this paper we discuss the logic behind our new architecture and the results up to now.",
-    "authors": [
-      "Pabudi T Abeyrathne",
-      "S. Devapriya Dewasurendra",
-      "Dhammika Elkaduwa"
-    ],
+    "authors": ["Pabudi T Abeyrathne", "S. Devapriya Dewasurendra", "Dhammika Elkaduwa"],
     "author_info": [
       {
         "name": "Pabudi T Abeyrathne",
@@ -2331,9 +2256,7 @@
     "presentation_url": "#",
     "project_url": "#",
     "codebase": "#",
-    "research_groups": [
-      "Computational BioEngineering"
-    ],
+    "research_groups": ["Computational BioEngineering"],
     "tags": [],
     "funding": "",
     "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.1109/ICIAfS52090.2021.9606093/",
@@ -2418,11 +2341,7 @@
     "venue": "2021 IEEE 16th International Conference on Industrial and Information Systems (ICIIS)",
     "year": "2021",
     "abstract": "",
-    "authors": [
-      "LA Chamli Deshan",
-      "MK Hans Thisanke",
-      "Damayanthi Herath"
-    ],
+    "authors": ["LA Chamli Deshan", "MK Hans Thisanke", "Damayanthi Herath"],
     "author_info": [
       {
         "name": "LA Chamli Deshan",
@@ -2562,12 +2481,7 @@
     "venue": "2020 Moratuwa Engineering Research Conference (MERCon)",
     "year": "2020",
     "abstract": "Metagenomics accelerated the process of studying different species and their dynamics in multiple environments. A key step in a metagenomic study is to group nucleotide sequences belonging to an individual or closely related species which is often termed binning. Multiple machine learning techniques have been adopted in binning metagenomic sequences. Specifically, unsupervised learning is being used in most of the recent binning methods. This work considers data-driven methods for binning metagenomic sequences and discusses such approaches in detail. Furthermore, it explores on increasing the amount of metagenomic sequences binned while maintaining a reasonable binning accuracy. Consequently, a dissimilarity-based approach is proposed to improve the number of contigs binned by an existing binning method. It is shown to result in a 10% increase in the number of contigs binned compared to the original approach. Accordingly, this work suggests that the effective use of observed data which may be discarded as outliers otherwise, may result in improved performance in binning.",
-    "authors": [
-      "Kasun Vimukthi",
-      "Geeth Wimalasiri",
-      "Prabhath Bandara",
-      "Damayanthi Herath"
-    ],
+    "authors": ["Kasun Vimukthi", "Geeth Wimalasiri", "Prabhath Bandara", "Damayanthi Herath"],
     "author_info": [
       {
         "name": "Kasun Vimukthi",
@@ -2613,9 +2527,7 @@
     "presentation_url": "#",
     "project_url": "#",
     "codebase": "#",
-    "research_groups": [
-      "Computational BioEngineering"
-    ],
+    "research_groups": ["Computational BioEngineering"],
     "tags": [
       "Genomics",
       "DNA",
@@ -2696,9 +2608,7 @@
     "presentation_url": "#",
     "project_url": "#",
     "codebase": "#",
-    "research_groups": [
-      "ESCAL: Computer Systems (Embedded Systems / Robotics )"
-    ],
+    "research_groups": ["ESCAL: Computer Systems (Embedded Systems / Robotics )"],
     "tags": [
       "Programming",
       "Robot kinematics",
@@ -2798,9 +2708,7 @@
     "presentation_url": "https://www.cs.umd.edu/~gihan/projects/fyp/mercon-2020-presentation.pdf",
     "project_url": "#",
     "codebase": "#",
-    "research_groups": [
-      "Computer Vision"
-    ],
+    "research_groups": ["Computer Vision"],
     "tags": [
       "Low-light image enhancement",
       "Retinex theory",
@@ -2910,13 +2818,7 @@
     "project_url": "#",
     "codebase": "#",
     "research_groups": [],
-    "tags": [
-      "IoT",
-      "blockchain",
-      "data analytics",
-      "smart contracts",
-      "access management"
-    ],
+    "tags": ["IoT", "blockchain", "data analytics", "smart contracts", "access management"],
     "funding": "",
     "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.3390/electronics9091525/",
     "edit_url": "https://github.com/cepdnaclk/api.ce.pdn.ac.lk/blob/main/publications/v1/10.3390/electronics9091525/index.json",
@@ -2927,10 +2829,7 @@
     "venue": "2020 Moratuwa Engineering Research Conference (MERCon) - IEEE",
     "year": "2020",
     "abstract": "Chronic Kidney Disease (CKD) or chronic renal disease has become a major issue with a steady growth rate. A person can only survive without kidneys for an average time of 18 days, which makes a huge demand for a kidney transplant and Dialysis. It is important to have effective methods for early prediction of CKD. Machine learning methods are effective in CKD prediction. This work proposes a workflow to predict CKD status based on clinical data, incorporating data prepossessing, a missing value handling method with collaborative filtering and attributes selection. Out of the 11 machine learning methods considered, the extra tree classifier and random forest classifier are shown to result in the highest accuracy and minimal bias to the attributes. The research also considers the practical aspects of data collection and highlights the importance of incorporating domain knowledge when using machine learning for CKD status prediction.",
-    "authors": [
-      "Imesh Udara Ekanayake",
-      "Damayanthi Herath"
-    ],
+    "authors": ["Imesh Udara Ekanayake", "Damayanthi Herath"],
     "author_info": [
       {
         "name": "Imesh Udara Ekanayake",
@@ -2958,16 +2857,8 @@
     "presentation_url": "#",
     "project_url": "#",
     "codebase": "#",
-    "research_groups": [
-      "Machine Learning and Data Mining"
-    ],
-    "tags": [
-      "Kidney",
-      "Diseases",
-      "Machine learning",
-      "Red blood cells",
-      "Hypertension"
-    ],
+    "research_groups": ["Machine Learning and Data Mining"],
+    "tags": ["Kidney", "Diseases", "Machine learning", "Red blood cells", "Hypertension"],
     "funding": "",
     "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.1109/MERCon50084.2020.9185249/",
     "edit_url": "https://github.com/cepdnaclk/api.ce.pdn.ac.lk/blob/main/publications/v1/10.1109/MERCon50084.2020.9185249/index.json",
@@ -3129,9 +3020,7 @@
     "presentation_url": "#",
     "project_url": "#",
     "codebase": "#",
-    "research_groups": [
-      "Computational BioEngineering"
-    ],
+    "research_groups": ["Computational BioEngineering"],
     "tags": [
       "Principal component analysis",
       "Feature extraction",
@@ -3231,9 +3120,7 @@
     "presentation_url": "#",
     "project_url": "#",
     "codebase": "https://github.com/hasindu2008/f5c",
-    "research_groups": [
-      "Accelerated and High-Performance Computing (FPGA / GPU)"
-    ],
+    "research_groups": ["Accelerated and High-Performance Computing (FPGA / GPU)"],
     "tags": [
       "Nanopore",
       "Signal alignment",
@@ -3357,13 +3244,8 @@
     "presentation_url": "#",
     "project_url": "#",
     "codebase": "#",
-    "research_groups": [
-      "Computational BioEngineering"
-    ],
-    "tags": [
-      "Genopo",
-      "Nanopore Sequencing"
-    ],
+    "research_groups": ["Computational BioEngineering"],
+    "tags": ["Genopo", "Nanopore Sequencing"],
     "funding": "MRFF grant APP1173594 (to I.W.D.), Cancer Institute NSW Early Career Fellowship 2018/ECF013 (to I.W.D.) and philanthropic support from The Kinghorn Foundation (to I.W.D. and H.G.).",
     "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.1038/s42003-020-01270-z/",
     "edit_url": "https://github.com/cepdnaclk/api.ce.pdn.ac.lk/blob/main/publications/v1/10.1038/s42003-020-01270-z/index.json",
@@ -3374,11 +3256,7 @@
     "venue": "Journal of Mathematical Cryptology",
     "year": "2020",
     "abstract": "We present a new approach to construct several leakage-resilient cryptographic primitives, including leakage-resilient public-key encryption (PKE) schemes, authenticated key exchange (AKE) protocols and low-latency key exchange (LLKE) protocols. To this end, we introduce a new primitive called leakage-resilient non-interactive key exchange (LR-NIKE) protocol. We introduce an appropriate security model for LR-NIKE protocols in the bounded memory leakage (BML) settings. We then show a secure construction of the LR-NIKE protocol in the BML setting that achieves an optimal leakage rate, i.e., 1 \u00e2\u0080\u0093 o(1). Our construction of LR-NIKE requires a minimal use of a leak-free hardware component. We argue that the use of such a leak-free hardware component seems to be unavoidable in any construction of an LR-NIKE protocol, even in the BML setting. Finally, we show how to construct the aforementioned leakage-resilient primitives from such an LR-NIKE protocol as summarized below. All these primitives also achieve the same (optimal) leakage rate as the underlying LR-NIKE protocol. We show how to construct a leakage-resilient (LR) IND-CCA-2-secure PKE scheme in the BML model generically from a bounded LR-NIKE (BLR-NIKE) protocol. Our construction of LR-IND-CCA-2 secure PKE differs significantly from the state-of-the-art constructions of these primitives, which mainly use hash proof techniques to achieve leakage resilience. Moreover, our transformation preserves the leakage-rate of the underlying BLR-NIKE protocol. We introduce a new leakage model for AKE protocols, in the BML setting, and present a leakage-resilient AKE protocol construction from the LR-NIKE protocol. We introduce the first-ever leakage model for LLKE protocols in the BML setting and the first construction of such a leakage-resilient LLKE from the LR-NIKE protocol.",
-    "authors": [
-      "Suvradip Chakraborty",
-      "Janaka Alawatugoda",
-      "Chandrasekaran Pandu Rangan"
-    ],
+    "authors": ["Suvradip Chakraborty", "Janaka Alawatugoda", "Chandrasekaran Pandu Rangan"],
     "author_info": [
       {
         "name": "Suvradip Chakraborty",
@@ -3435,9 +3313,7 @@
     "venue": "The Computer Journal",
     "year": "2020",
     "abstract": "Over the years, security against adaptively chosen-ciphertext attacks (CCA2) is considered as the strongest security definition for public-key encryption schemes. With the uprise of side-channel attacks, new security definitions are proposed, addressing leakage of secret keys together with the standard CCA2 definition. Among the new security definitions, security against continuous and after-the-fact leakage-resilient CCA2 can be considered as the strongest security definition, which is called as security against (continuous) adaptively chosen-ciphertext leakage attacks (continuous CCLA2). In this paper, we present a construction of a public-key encryption scheme, namely LR-PKE, which satisfies the aforementioned security definition. The security of our public-key encryption scheme is proven in the standard model, under decision BDH assumption. Thus, we emphasize that our public-key encryption scheme LR-PKE is (continuous) CCLA2-secure in the standard model. For our construction of LR-PKE, we have used a strong one-time signature scheme and a leakage-resilient refreshing protocol as underlying building blocks. The leakage bound is 0.15nlogp\u00e2\u0088\u00921 bits per leakage query, for a security parameter k and a statistical security parameter n\u00e2\u0081\u00a0, such that logp\u00e2\u0089\u00a5k and n is a function of k\u00e2\u0081\u00a0. It is possible to see that LR-PKE is efficient enough to be used for real-world usage.",
-    "authors": [
-      "Janaka Alawatugoda"
-    ],
+    "authors": ["Janaka Alawatugoda"],
     "author_info": [
       {
         "name": "Janaka Alawatugoda",
@@ -3470,12 +3346,7 @@
     "venue": "Nature Scientific Reports",
     "year": "2020",
     "abstract": "Recent advances in next-generation sequencing technologies have paved the path for a considerable amount of sequencing data at a relatively low cost. This has revolutionized the genomics and transcriptomics studies. However, different challenges are now created in handling such data with available bioinformatics platforms both in assembly and downstream analysis performed in order to infer correct biological meaning. Though there are a handful of commercial software and tools for some of the procedures, cost of such tools has made them prohibitive for most research laboratories. While individual open-source or free software tools are available for most of the bioinformatics applications, those components usually operate standalone and are not combined for a user-friendly workflow. Therefore, beginners in bioinformatics might find analysis procedures starting from raw sequence data too complicated and time-consuming with the associated learning-curve. Here, we outline a procedure for de novo transcriptome assembly and Simple Sequence Repeats (SSR) primer design solely based on tools that are available online for free use. For validation of the developed workflow, we used Illumina HiSeq reads of different tissue samples of Santalum album (sandalwood), generated from a previous transcriptomics project. A portion of the designed primers were tested in the lab with relevant samples and all of them successfully amplified the targeted regions. The presented bioinformatics workflow can accurately assemble quality transcriptomes and develop gene specific SSRs. Beginner biologists and researchers in bioinformatics can easily utilize this workflow for research purposes.",
-    "authors": [
-      "DNU Naranpanawa",
-      "CHWMRB Chandrasekara",
-      "PCG Bandaranayake",
-      "AU Bandaranayake"
-    ],
+    "authors": ["DNU Naranpanawa", "CHWMRB Chandrasekara", "PCG Bandaranayake", "AU Bandaranayake"],
     "author_info": [
       {
         "name": "DNU Naranpanawa",
@@ -3594,9 +3465,7 @@
     "presentation_url": "#",
     "project_url": "#",
     "codebase": "#",
-    "research_groups": [
-      "Computational BioEngineering"
-    ],
+    "research_groups": ["Computational BioEngineering"],
     "tags": [
       "Feature extraction",
       "RNA",
@@ -3729,12 +3598,7 @@
     "venue": "MDPI Sensors",
     "year": "2019",
     "abstract": "Recently, researchers in the area of biosensor based human emotion recognition have used different types of machine learning models for recognizing human emotions. However, most of them still lack the ability to recognize human emotions with higher classification accuracy incorporating a limited number of bio-sensors. In the domain of machine learning, ensemble learning methods have been successfully applied to solve different types of real-world machine learning problems which require improved classification accuracies. Emphasising on that, this research suggests an ensemble learning approach for developing a machine learning model that can recognize four major human emotions namely: anger; sadness; joy; and pleasure incorporating electrocardiogram (ECG) signals. As feature extraction methods, this analysis combines four ECG signal based techniques, namely: heart rate variability; empirical mode decomposition; with-in beat analysis; and frequency spectrum analysis. The first three feature extraction methods are well-known ECG based feature extraction techniques mentioned in the literature, and the fourth technique is a novel method proposed in this study. The machine learning procedure of this investigation evaluates the performance of a set of well-known ensemble learners for emotion classification and further improves the classification results using feature selection as a prior step to ensemble model training. Compared to the best performing single biosensor based model in the literature, the developed ensemble learner has the accuracy gain of 10.77%. Furthermore, the developed model outperforms most of the multiple biosensor based emotion recognition models with a significantly higher classification accuracy gain.",
-    "authors": [
-      "Theekshana Dissanayake",
-      "Yasitha Rajapaksha",
-      "Roshan Ragel",
-      "Isuru Nawinne"
-    ],
+    "authors": ["Theekshana Dissanayake", "Yasitha Rajapaksha", "Roshan Ragel", "Isuru Nawinne"],
     "author_info": [
       {
         "name": "Theekshana Dissanayake",
@@ -3780,9 +3644,7 @@
     "presentation_url": "#",
     "project_url": "#",
     "codebase": "#",
-    "research_groups": [
-      "ESCAL: Computer Systems (Embedded Systems / Robotics )"
-    ],
+    "research_groups": ["ESCAL: Computer Systems (Embedded Systems / Robotics )"],
     "tags": [
       "bio-signal processing",
       "wearable computing",
@@ -3883,11 +3745,7 @@
     "venue": "Journal of the National Science Foundation of Sri Lanka",
     "year": "2019",
     "abstract": "",
-    "authors": [
-      "SD Dewasurendra",
-      "AC Vidanapathirana",
-      "SG Abeyratne"
-    ],
+    "authors": ["SD Dewasurendra", "AC Vidanapathirana", "SG Abeyratne"],
     "author_info": [
       {
         "name": "SD Dewasurendra",
@@ -4088,16 +3946,8 @@
     "presentation_url": "#",
     "project_url": "#",
     "codebase": "#",
-    "research_groups": [
-      "Computational BioEngineering",
-      "Computer Vision"
-    ],
-    "tags": [
-      "Sleep apnea",
-      "Video processing",
-      "Bio medical engineering",
-      "Pattern recognition"
-    ],
+    "research_groups": ["Computational BioEngineering", "Computer Vision"],
+    "tags": ["Sleep apnea", "Video processing", "Bio medical engineering", "Pattern recognition"],
     "funding": "",
     "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.1109/ICIIS47346.2019.9063269/",
     "edit_url": "https://github.com/cepdnaclk/api.ce.pdn.ac.lk/blob/main/publications/v1/10.1109/ICIIS47346.2019.9063269/index.json",
@@ -4202,11 +4052,7 @@
     "venue": "International Journal of Communication Networks and Information Security",
     "year": "2019",
     "abstract": "In leakage resilient cryptography, leakage resilient key exchange protocols are constructed to defend against leakage attacks. Then, the key exchange protocol is proved with leakage resilient security model to determine whether its security proof can provide the security properties it claimed or to find out any unexamined flaw during protocol building. It is an interesting work to review the meaningful security properties provided by these security models. This work review how a leakage resilient security model for a key exchange protocol has been evolved over years according to the increasing security requirement which covers a different range of attacks. The relationship on how an adversary capability in the leakage resilient security model can be related to real-world attack scenarios is studied. The analysis work for each leakage resilient security model here enables a better knowledge on how an adversary query addresses different leakage attacks setting, thereby understand the motive of design for a cryptographic primitive in the security model.",
-    "authors": [
-      "Clement Chan Zheng Wei",
-      "Chuah Chai Wen",
-      "Janaka Alawatugoda\\"
-    ],
+    "authors": ["Clement Chan Zheng Wei", "Chuah Chai Wen", "Janaka Alawatugoda\\"],
     "author_info": [
       {
         "name": "Clement Chan Zheng Wei",
@@ -4264,10 +4110,7 @@
     "venue": "Journal of the National Science Foundation of Sri Lanka",
     "year": "2018",
     "abstract": "",
-    "authors": [
-      "SD Dewasurendra",
-      "SM Vidanagamachchi"
-    ],
+    "authors": ["SD Dewasurendra", "SM Vidanagamachchi"],
     "author_info": [
       {
         "name": "SD Dewasurendra",
@@ -4307,12 +4150,7 @@
     "venue": "2018 Moratuwa Engineering Research Conference (MERCon)",
     "year": "2018",
     "abstract": "Wireless Sensor Networks (WSN) are being widely used for sensing physical parameters in a broad geographical area. The person who needs WSN will have a pictorial idea of the sensor network. The problem in the traditional method is that the person who needs the WSN should explain the pictorial view of the sensor network to a commercial vendor and buy it from them or they should design it from the scratch. What we proposed in our solution is to develop a platform so that the person who needs the WSN can directly draw the pictorial view on a canvas and then it can automatically generate all the required firmware for the microcontrollers and wiring diagrams. The user is then required only to follow a few instructions to complete the real world implementation of WSNs. This paper is about developing a visual platform to design WSNs. The WSN designing platform was built as a web application, so it can manage a large number of supported sensors and microcontrollers. This means that if one user adds the device driver for any sensor or a microcontroller the other users can directly use it from the WSN design platform without worrying about hardware programming. Further, if anyone needs a new sensor or microcontroller to be supported by this visual design platform, this design tool will have interfaces to directly add new sensors and microcontrollers. The proposed method is affordable for developing custom wireless sensor networks.",
-    "authors": [
-      "Rosen Silva",
-      "Asela Dasanayaka",
-      "Roshan Ragel",
-      "Asitha Bandaranayake"
-    ],
+    "authors": ["Rosen Silva", "Asela Dasanayaka", "Roshan Ragel", "Asitha Bandaranayake"],
     "author_info": [
       {
         "name": "Rosen Silva",
@@ -4378,9 +4216,7 @@
     "venue": "International Journal of Information Security",
     "year": "2017",
     "abstract": "",
-    "authors": [
-      "Janaka Alawatugoda"
-    ],
+    "authors": ["Janaka Alawatugoda"],
     "author_info": [
       {
         "name": "Janaka Alawatugoda",
@@ -4402,12 +4238,7 @@
     "research_groups": [
       "Secure and Reliable Computing (Formal Verification / Cryptography / Blockchain)"
     ],
-    "tags": [
-      "Public-key cryptography",
-      "Key exchange protocols",
-      "eCK model",
-      "Standard model"
-    ],
+    "tags": ["Public-key cryptography", "Key exchange protocols", "eCK model", "Standard model"],
     "funding": "",
     "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.1007/s10207-016-0346-9/",
     "edit_url": "https://github.com/cepdnaclk/api.ce.pdn.ac.lk/blob/main/publications/v1/10.1007/s10207-016-0346-9/index.json",
@@ -4644,13 +4475,7 @@
     "research_groups": [
       "Secure and Reliable Computing (Formal Verification / Cryptography / Blockchain)"
     ],
-    "tags": [
-      "Bandwidth",
-      "Side-channel attacks",
-      "Dictionaries",
-      "Servers",
-      "Data compression"
-    ],
+    "tags": ["Bandwidth", "Side-channel attacks", "Dictionaries", "Servers", "Data compression"],
     "funding": "",
     "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.1109/ICIINFS.2017.8300359/",
     "edit_url": "https://github.com/cepdnaclk/api.ce.pdn.ac.lk/blob/main/publications/v1/10.1109/ICIINFS.2017.8300359/index.json",
@@ -4661,11 +4486,7 @@
     "venue": "International Conference on Provable Security",
     "year": "2017",
     "abstract": "Recently, Chakraborty et al. (Cryptoeprint:2017:441) showed a novel approach of constructing several leakage-resilient cryptographic primitives by introducing a new primitive called leakage-resilient non-interactive key exchange (LR-NIKE). Their construction of LR-NIKE was only in the bounded-memory leakage model, and they left open the construction of LR-NIKE in continuous-memory leakage model. In this paper we address that open problem. Moreover, we extend the continuous-memory leakage model by addressing more realistic after-the-fact leakage. The main ingredients of our construction are a leakage-resilient storage scheme and a refreshing protocol (Dziembowski and Faust, Asiacrypt 2011) and a (standard) chameleon hash function (CHF), equipped with an additional property of oblivious sampling, which we introduce. We observe that the present constructions of CHF already satisfies our new notion. Further, our protocol can be used as a building block to construct leakage-resilient public-key encryption schemes, interactive key exchange and low-latency key exchange protocols in the continuous-memory leakage model, following the approach of Chakraborty et al. (Cryptoeprint:2017:441).",
-    "authors": [
-      "Suvradip Chakraborty",
-      "Janaka Alawatugoda",
-      "C Pandu Rangan"
-    ],
+    "authors": ["Suvradip Chakraborty", "Janaka Alawatugoda", "C Pandu Rangan"],
     "author_info": [
       {
         "name": "Suvradip Chakraborty",
@@ -4721,9 +4542,7 @@
     "venue": "Journal of Mathematical Cryptology",
     "year": "2017",
     "abstract": "Typically, secure channels are constructed from an authenticated key exchange (AKE) protocol, which authenticates the communicating parties based on long-term public keys and establishes secret session keys. In this paper we address the partial leakage of long-term secret keys of key exchange protocol participants due to various side-channel attacks. Security models for two-party authenticated key exchange protocols have been developed over time to provide security even when the adversary learns certain secret values. This paper combines and extends the advances of security modelling for AKE protocols addressing more granular partial leakage of long-term secrets of protocol participants. Further, we fix some flaws in security proofs of previous leakage-resilient key exchange protocols.",
-    "authors": [
-      "Janaka Alawatugoda"
-    ],
+    "authors": ["Janaka Alawatugoda"],
     "author_info": [
       {
         "name": "Janaka Alawatugoda",
@@ -4745,11 +4564,7 @@
     "research_groups": [
       "Secure and Reliable Computing (Formal Verification / Cryptography / Blockchain)"
     ],
-    "tags": [
-      "Key exchange protocols",
-      "security models",
-      "leakage-resilient cryptography"
-    ],
+    "tags": ["Key exchange protocols", "security models", "leakage-resilient cryptography"],
     "funding": "",
     "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.1515/jmc-2016-0003/",
     "edit_url": "https://github.com/cepdnaclk/api.ce.pdn.ac.lk/blob/main/publications/v1/10.1515/jmc-2016-0003/index.json",
@@ -4931,11 +4746,7 @@
     "venue": "2016 IEEE International Conference on Information and Automation for Sustainability (ICIAfS)",
     "year": "2016",
     "abstract": "The Aho-Corasick algorithm is a multiple patterns searching algorithm running sequentially in various applications like network intrusion detection and bioinformatics for finding several input strings within a given large input string. The parallel version of the Aho-Corasick algorithm is called as Parallel Failure-less Aho-Corasick algorithm because it doesnt need failure links like in the original Aho-Corasick algorithm. In this research, we implemented an application specific parallel failureless Aho-Corasick algorithm on the general purpose graphic processing unit by applying several cache optimization techniques for matching DNA sequences. Our parallel Aho-Corasick algorithm shows better performance than the available parallel Aho-Corasick algorithm library due to its simplicity and optimized cache memory usage of graphic processing units for matching DNA sequences.",
-    "authors": [
-      "DRVLB Thambawita",
-      "Roshan G Ragel",
-      "Dhammike Elkaduwe"
-    ],
+    "authors": ["DRVLB Thambawita", "Roshan G Ragel", "Dhammike Elkaduwe"],
     "author_info": [
       {
         "name": "DRVLB Thambawita",
@@ -4992,11 +4803,7 @@
     "venue": "2016 IEEE International Conference on Information and Automation for Sustainability (ICIAfS)",
     "year": "2016",
     "abstract": "The Aho-Corasick algorithm is a multiple patterns searching algorithm running sequentially in various applications like network intrusion detection and bioinformatics for finding several input strings within a given large input string. The parallel version of the Aho-Corasick algorithm is called as Parallel Failure-less Aho-Corasick algorithm because it doesnt need failure links like in the original Aho-Corasick algorithm. In this research, we implemented an application specific parallel failureless Aho-Corasick algorithm on the general purpose graphic processing unit by applying several cache optimization techniques for matching DNA sequences. Our parallel Aho-Corasick algorithm shows better performance than the available parallel Aho-Corasick algorithm library due to its simplicity and optimized cache memory usage of graphic processing units for matching DNA sequences.",
-    "authors": [
-      "DRVLB Thambawita",
-      "Roshan G Ragel",
-      "Dhammike Elkaduwe"
-    ],
+    "authors": ["DRVLB Thambawita", "Roshan G Ragel", "Dhammike Elkaduwe"],
     "author_info": [
       {
         "name": "DRVLB Thambawita",
@@ -5053,13 +4860,7 @@
     "venue": "Wireless Networks",
     "year": "2016",
     "abstract": "The static conventional network architecture is ill-suited to the growing management complexity and highly dynamic wireless network topologies. Software Defined Radio systems and their extension to cognitive and smart radio are characterized by distinct control loops for management which constantly increase network complexity and management inefficiencies, due to clear-cut between radio and core network management. Adding numerous devices and networks together will constantly increase the management cost, thus hinders scalability. Therefore, a holistic solution to synchronize radio and networks status has an elevated demand. To interconnect these systems and devices together, there is a need for a common management interface. OpenFlow is the first standard interface that enables Software Defined Networking (SDN). It can be rolled out in a variety of networking devices to enable improved automation and management by using common Application Program Interfaces to abstract the underlying networking details. The Software Defined Networking & Radio (SDN&R) framework proposed here has a potential combination between SDN and Radio networks to discover the underlying dynamism in cognitive access networks with integrated radio management. By isolating the control plane from the data plane, SDN&R enables a flexible management framework empowered by end-to-end goals through OpenFlow. In this article, we propose, validate, and evaluate the SDN&R architecture. In doing so, first we implement the OpenFlow enabled cognitive basestations (BSs) on Wireless Open-Access Research Platform. Furthermore, we develop software agents on BSs to provide radio status information to the cognitive control application implemented on the SDN controller. The results verify that the proposed framework in-lines with layer-2 or layer-3 forwarding performance. We claim that this work represents the first successful implementation results which synergizes SDN with Cognitive networks that motivates researchers towards SDN based radio resource management.",
-    "authors": [
-      "Suneth Namal",
-      "Ijaz Ahmad",
-      "Saad Saud",
-      "Markku Jokinen",
-      "Andrei Gurtov"
-    ],
+    "authors": ["Suneth Namal", "Ijaz Ahmad", "Saad Saud", "Markku Jokinen", "Andrei Gurtov"],
     "author_info": [
       {
         "name": "Suneth Namal",
@@ -5198,13 +4999,7 @@
     "research_groups": [
       "Secure and Reliable Computing (Formal Verification / Cryptography / Blockchain)"
     ],
-    "tags": [
-      "Side-channel attacks",
-      "Protocols",
-      "Computational modeling",
-      "Timing",
-      "Encryption"
-    ],
+    "tags": ["Side-channel attacks", "Protocols", "Computational modeling", "Timing", "Encryption"],
     "funding": "",
     "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.1109/ICIAFS.2016.7946548/",
     "edit_url": "https://github.com/cepdnaclk/api.ce.pdn.ac.lk/blob/main/publications/v1/10.1109/ICIAFS.2016.7946548/index.json",
@@ -5298,10 +5093,7 @@
     "venue": "International Journal of Interactive Mobile Technologies",
     "year": "2016",
     "abstract": "The potential of mobile phones to facilitate students\u00e2\u0080\u0099 science learning, when they are engaging in group activities, was investigated. To minimize the disciplinary issues emerged from the previous research on mobile devices and to enhance the quality of learning, a set of mobile phones that are connected to a private network was used. The lesson planning and implementation through these mobile phones were facilitated by a web based Application. A purposively selected group of teachers developed three lessons while integrating mobile phones in a private network into learning activities. Then the lessons were implemented in real classroom settings. This paper is based on one of the lessons \u00e2\u0080\u0098Waves and their Characteristics\u00e2\u0080\u0099 that was implemented for Grade 11 students. The data were collected through observations using audio, video and field notes and were analyzed using thematic analysis technique with the help of NVivo10 qualitative data analysis software. Based on the thematic analysis, two assertions were derived. Notably teachers appreciated the support of the private network in enhancing the quality of group learning activity while minimizing the students\u00e2\u0080\u0099 misuse of mobile phones.",
-    "authors": [
-      "Sakunthala Yatigammana Ekanayake",
-      "Kamalanath Samarakoon"
-    ],
+    "authors": ["Sakunthala Yatigammana Ekanayake", "Kamalanath Samarakoon"],
     "author_info": [
       {
         "name": "Sakunthala Yatigammana Ekanayake",
@@ -5330,10 +5122,7 @@
     "project_url": "#",
     "codebase": "#",
     "research_groups": [],
-    "tags": [
-      "Mobile learning",
-      "Science education"
-    ],
+    "tags": ["Mobile learning", "Science education"],
     "funding": "",
     "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.3991/ijim.v10i2.4817/",
     "edit_url": "https://github.com/cepdnaclk/api.ce.pdn.ac.lk/blob/main/publications/v1/10.3991/ijim.v10i2.4817/index.json",
@@ -5344,11 +5133,7 @@
     "venue": "2016 IEEE International Conference on Information and Automation for Sustainability (ICIAfS)",
     "year": "2016",
     "abstract": "General Purpose Graphic Processing Unit(GPGPU) is used widely for achieving high performance or high throughput in parallel programming. This capability of GPGPUs is very famous in the new era and mostly used for scientific computing which requires more processing power than normal personal computers. Therefore, most of the programmers, researchers and industry use this new concept for their work. However, achieving high-performance or high-throughput using GPGPUs are not an easy task compared with conventional programming concepts in the CPU side. In this research, the CPUs cache memory optimization techniques have been adopted to the GPGPUs cache memory to identify rare performance improvement techniques compared to GPGPU's best practices. The cache optimization techniques of blocking, loop fusion, array merging and array transpose were tested on GPGPUs for finding suitability of these techniques. Finally, we identified that some of the CPU cache optimization techniques go well with the cache memory system of the GPGPU and shows performance improvements while some others show the opposite effect on the GPGPUs compared with the CPUs.",
-    "authors": [
-      "DRVLB Thambawita",
-      "Roshan G Ragel",
-      "Dhammike Elkaduwe"
-    ],
+    "authors": ["DRVLB Thambawita", "Roshan G Ragel", "Dhammike Elkaduwe"],
     "author_info": [
       {
         "name": "DRVLB Thambawita",
@@ -5405,12 +5190,7 @@
     "venue": "2015 ITU Kaleidoscope: Trust in the Information Society (K-2015)",
     "year": "2015",
     "abstract": "In this paper, we propose an autonomic trust management framework for cloud based and highly dynamic Internet of Things (IoT) applications and services. IoT is creating a world where physical objects are seamlessly integrated in order to provide advanced and intelligent services for human-beings in their day-to-day life style. Therefore, trust on IoT devices plays an important role in IoT based services and applications. Cloud computing has been changing the way how provides are looking into these issues. Many studies have proposed different techniques to address trust management although non of them addresses autonomic trust management in cloud based highly dynamic IoT systems. To our understanding, IoT cloud ecosystems help to solve many of these issues while enhancing robustness and scalability. On this basis, we came up with an autonomic trust management framework based on MAPE-Kfeedback control loop to evaluate the level of trust. Finally, we presents the results that verify the effectiveness of this framework.",
-    "authors": [
-      "Suneth Namal",
-      "Hasindu Gamaarachchi",
-      "Gyu MyoungLee",
-      "Tai-Won Um"
-    ],
+    "authors": ["Suneth Namal", "Hasindu Gamaarachchi", "Gyu MyoungLee", "Tai-Won Um"],
     "author_info": [
       {
         "name": "Suneth Namal",
@@ -5537,9 +5317,7 @@
     "presentation_url": "#",
     "project_url": "#",
     "codebase": "#",
-    "research_groups": [
-      "ESCAL: Computer Systems (Embedded Systems / Robotics )"
-    ],
+    "research_groups": ["ESCAL: Computer Systems (Embedded Systems / Robotics )"],
     "tags": [
       "Algorithm design and analysis",
       "Hardware",
@@ -5620,9 +5398,7 @@
     "presentation_url": "#",
     "project_url": "#",
     "codebase": "#",
-    "research_groups": [
-      "ESCAL: Computer Systems (Embedded Systems / Robotics )"
-    ],
+    "research_groups": ["ESCAL: Computer Systems (Embedded Systems / Robotics )"],
     "tags": [
       "Algorithm design and analysis",
       "Hardware",
@@ -5694,11 +5470,7 @@
     "project_url": "#",
     "codebase": "#",
     "research_groups": [],
-    "tags": [
-      "Manuals",
-      "XML",
-      "Static VAr compensators"
-    ],
+    "tags": ["Manuals", "XML", "Static VAr compensators"],
     "funding": "",
     "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.1109/ICIINFS.2015.7399061/",
     "edit_url": "https://github.com/cepdnaclk/api.ce.pdn.ac.lk/blob/main/publications/v1/10.1109/ICIINFS.2015.7399061/index.json",
@@ -5709,11 +5481,7 @@
     "venue": "Literacy Information and Computer Education Journal (LICEJ)",
     "year": "2015",
     "abstract": "Present-day mobile phones combine the capabilities of communication devices, cameras and computers. Even though their educational values are well established, their widespread use is hindered by the general fears about students\u00e2\u0080\u0099 misuse of mobile phones and other barriers such as their operating cost and teachers\u00e2\u0080\u0099 inexperience of using them. As a solution to circumvent the barriers of using mobile phones, in this study a set of mobile phones which is connected in a private network using Wi-Fi is considered. An IT application that can be used to manage the private network was developed. A lesson was conducted outside the classroom. Both students and teachers agreed that the mobile phones in a private network supported the outside learning activity and provided a novel learning experience.",
-    "authors": [
-      "TMSSKY Ekanayake",
-      "KB Samarakoon",
-      "SDK Wijesundera"
-    ],
+    "authors": ["TMSSKY Ekanayake", "KB Samarakoon", "SDK Wijesundera"],
     "author_info": [
       {
         "name": "TMSSKY Ekanayake",
@@ -5842,11 +5610,7 @@
     "venue": "2015 IEEE 10th International Conference on Industrial and Information Systems (ICIIS)",
     "year": "2015",
     "abstract": "Kernel-based network protocol implementation has led to major performance limitations in high-performance networking owing to excessive transaction latencies. Designing such protocols in reconfigurable hardware such as FPGA has been attempted to overcome these limitations. The use of reconfigurable hardware is needed in the development phase and could eventually lead to ASICs for better performance. However, mission critical nature of such applications needs a performance guarantee on design. This paper proposes a strategy to design formally verified reconfigurable hardware/software based implementation of network protocols in a compositional manner.",
-    "authors": [
-      "Pabudi T Abeyrathne",
-      "S.D. Dewasurendra",
-      "Dhammika Elkaduwa"
-    ],
+    "authors": ["Pabudi T Abeyrathne", "S.D. Dewasurendra", "Dhammika Elkaduwa"],
     "author_info": [
       {
         "name": "Pabudi T Abeyrathne",
@@ -5974,11 +5738,7 @@
     "venue": "7th International Conference on Information and Automation for Sustainability",
     "year": "2014",
     "abstract": "The focus of this research was to use Educational Data Mining (EDM) techniques to conduct a quantitative analysis of students interaction with an e-learning system through instructor-led non-graded and graded courses. This exercise is useful for establishing a guideline for a series of online short courses for them. A group of 412 students' access behaviour in an e-learning system were analysed and they were grouped into clusters using K-Means clustering method according to their course access log records. The results explained that more than 40% from the student group are passive online learners in both graded and non-graded learning environments. The result showed that the difference in the learning environments could change the online access behaviour of a student group. Clustering divided the student population into five access groups based on their course access behaviour. Among these groups, the least access group (NG-41% and G-42%) and the highest access group (NG-9% and G-5%) could be identified very clearly due to their access variation from the rest of the groups.",
-    "authors": [
-      "IP Ratnapala",
-      "RG Ragel",
-      "S Deegalla"
-    ],
+    "authors": ["IP Ratnapala", "RG Ragel", "S Deegalla"],
     "author_info": [
       {
         "name": "IP Ratnapala",
@@ -6035,11 +5795,7 @@
     "venue": "7th International Conference on Information and Automation for Sustainability",
     "year": "2014",
     "abstract": "String matching is an important part in today's computer applications and Aho-Corasick algorithm is one of the main string matching algorithms used to accomplish this. This paper discusses that when can the GPUs be used for string matching applications using the Aho-Corasick algorithm as a benchmark We have to identify the best unit to run our string matching algorithm according to the performance of our devices and the applications. Sometimes CPU gives better performance than GPU and sometimes GPU gives better performance than CPU. Therefore, identifying this critical point is significant task for researchers who are using GPUs to improve the performance of their string matching applications based on string matching algorithms.",
-    "authors": [
-      "DRVLB Thambawita",
-      "Roshan Ragel",
-      "Dhammika Elkaduwe"
-    ],
+    "authors": ["DRVLB Thambawita", "Roshan Ragel", "Dhammika Elkaduwe"],
     "author_info": [
       {
         "name": "DRVLB Thambawita",
@@ -6147,9 +5903,7 @@
     "presentation_url": "#",
     "project_url": "#",
     "codebase": "#",
-    "research_groups": [
-      "ESCAL: Computer Systems (Embedded Systems / Robotics )"
-    ],
+    "research_groups": ["ESCAL: Computer Systems (Embedded Systems / Robotics )"],
     "tags": [
       "Hardware",
       "Thumb",
@@ -6168,12 +5922,7 @@
     "venue": "2013 IEEE 8th International Conference on Industrial and Information Systems",
     "year": "2013",
     "abstract": "Plagiarism is one of the growing issues in academia and is always a concern in Universities and other academic institutions. The situation is becoming even worse with the availability of ample resources on the web. This paper focuses on creating an effective and fast tool for plagiarism detection for text based electronic assignments. Our plagiarism detection tool named AntiPlag is developed using the tri-gram sequence matching technique. Three sets of text based assignments were tested by AntiPlag and the results were compared against an existing commercial plagiarism detection tool. AntiPlag showed better results in terms of false positives compared to the commercial tool due to the pre-processing steps performed in AntiPlag. In addition, to improve the detection latency, AntiPlag applies a data clustering technique making it four times faster than the commercial tool considered. AntiPlag could be used to isolate plagiarized text based assignments from non-plagiarised assignments easily. Therefore, we present AntiPlag, a fast and effective tool for plagiarism detection on text based electronic assignments.",
-    "authors": [
-      "MAC Jiffriya",
-      "MAC Akmal Jahan",
-      "Roshan G Ragel",
-      "Sampath Deegalla"
-    ],
+    "authors": ["MAC Jiffriya", "MAC Akmal Jahan", "Roshan G Ragel", "Sampath Deegalla"],
     "author_info": [
       {
         "name": "MAC Jiffriya",
@@ -6330,16 +6079,8 @@
     "presentation_url": "#",
     "project_url": "#",
     "codebase": "#",
-    "research_groups": [
-      "ESCAL: Computer Systems (Embedded Systems / Robotics )"
-    ],
-    "tags": [
-      "Redundancy",
-      "Time factors",
-      "Runtime",
-      "Integrated circuits",
-      "Programming"
-    ],
+    "research_groups": ["ESCAL: Computer Systems (Embedded Systems / Robotics )"],
+    "tags": ["Redundancy", "Time factors", "Runtime", "Integrated circuits", "Programming"],
     "funding": "",
     "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.7873/DATE.2013.152/",
     "edit_url": "https://github.com/cepdnaclk/api.ce.pdn.ac.lk/blob/main/publications/v1/10.7873/DATE.2013.152/index.json",
@@ -6431,9 +6172,7 @@
     "presentation_url": "#",
     "project_url": "#",
     "codebase": "#",
-    "research_groups": [
-      "ESCAL: Computer Systems (Embedded Systems / Robotics )"
-    ],
+    "research_groups": ["ESCAL: Computer Systems (Embedded Systems / Robotics )"],
     "tags": [
       "Computer systems organization",
       "Architectures",
@@ -6520,11 +6259,7 @@
     "venue": "2013 IEEE 8th International Conference on Industrial and Information Systems",
     "year": "2013",
     "abstract": "Protein inference plays a vital role in the proteomics study. Two major approaches could be used to handle the problem of protein inference; top-down and bottom-up. This paper presents a framework for protein inference, which uses hardware accelerated protein inference framework for handling the most important step in a bottom-up approach, viz. peptide identification during the assembling process. In our framework, identified peptides and their probabilities are used to predict the most suitable reference protein cluster for a given input amino acid sequence with the probability of identified peptides. The framework is developed on an FPGA where hardware software co-design techniques are used to accelerate the computationally intensive parts of the protein inference process. In the paper we have measured, compared and reported the time taken for the protein inference process in our framework against a pure software implementation.",
-    "authors": [
-      "S. M. Vidanagamachchi",
-      "S. D. Dewasurendra",
-      "R. G. Ragel"
-    ],
+    "authors": ["S. M. Vidanagamachchi", "S. D. Dewasurendra", "R. G. Ragel"],
     "author_info": [
       {
         "name": "S. M. Vidanagamachchi",
@@ -6561,9 +6296,7 @@
     "presentation_url": "#",
     "project_url": "#",
     "codebase": "#",
-    "research_groups": [
-      "ESCAL: Computer Systems (Embedded Systems / Robotics )"
-    ],
+    "research_groups": ["ESCAL: Computer Systems (Embedded Systems / Robotics )"],
     "tags": [
       "Proteins",
       "Peptides",
@@ -6583,11 +6316,7 @@
     "venue": "2013 IEEE 8th International Conference on Industrial and Information Systems",
     "year": "2013",
     "abstract": "Pattern matching is commonly required in many application areas and bioinformatics is a major area of interest that requires both exact and approximate pattern matching. Much work has been done in this area, yet there is still a significant space for improvement in efficiency, flexibility, and throughput. This paper presents a hardware software co-design of Aho-Corasick algorithm in Nios II soft-processor and a study on its scalability for a pattern matching application. A software only approach is used to compare the throughput and the scalability of the hardware software co-design approach. According to the results we obtained, we conclude that the hardware software co-design implementation shows a maximum of 10 times speed up for pattern size of 1200 peptides compared to the software only implementation. The results also show that the hardware software co-design approach scales well for increasing data size compared to the software only approach.",
-    "authors": [
-      "S.M. Vidanagamachchi",
-      "S.D. Dewasurendra",
-      "R.G. Ragel"
-    ],
+    "authors": ["S.M. Vidanagamachchi", "S.D. Dewasurendra", "R.G. Ragel"],
     "author_info": [
       {
         "name": "S.M. Vidanagamachchi",
@@ -6624,9 +6353,7 @@
     "presentation_url": "#",
     "project_url": "#",
     "codebase": "#",
-    "research_groups": [
-      "ESCAL: Computer Systems (Embedded Systems / Robotics )"
-    ],
+    "research_groups": ["ESCAL: Computer Systems (Embedded Systems / Robotics )"],
     "tags": [
       "Hardware",
       "Proteins",
@@ -6645,11 +6372,7 @@
     "venue": "2013 IEEE 8th International Conference on Industrial and Information Systems",
     "year": "2013",
     "abstract": "Currently there is a new trend in the design of Complex Reactive Systems (CRS) towards model based development. Software components are no longer hard written in C or Assembler code but modeled with MATLAB/Simulink, Statemate or similar tools. Model based designs allow development of high level models that can be used for simulations in very early stages of the design process. However the quality assurance of model based developments, specially testing is still poorly supported [1]. In this paper we discuss the characteristics of model based design process and the need of quality assurance methods throughout the design process. We have selected a fully functional prototype passenger elevator as the CRS. A model based design approach is followed throughout the design phase. Model-in-the loop (MiL) testing is carried out as the quality assurance technique and the results are presented. Then the translation of the MiL test into a Hardware-in the-loop (HiL) test is presented.",
-    "authors": [
-      "A. Vidanapathirana",
-      "S. D. Dewasurendra",
-      "S. G. Abeyaratne"
-    ],
+    "authors": ["A. Vidanapathirana", "S. D. Dewasurendra", "S. G. Abeyaratne"],
     "author_info": [
       {
         "name": "A. Vidanapathirana",
@@ -6687,14 +6410,7 @@
     "project_url": "#",
     "codebase": "#",
     "research_groups": [],
-    "tags": [
-      "Mathematical model",
-      "Induction motors",
-      "Testing",
-      "MATLAB",
-      "Elevators",
-      "Floors"
-    ],
+    "tags": ["Mathematical model", "Induction motors", "Testing", "MATLAB", "Elevators", "Floors"],
     "funding": "",
     "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.1109/ICIInfS.2013.6731950/",
     "edit_url": "https://github.com/cepdnaclk/api.ce.pdn.ac.lk/blob/main/publications/v1/10.1109/ICIInfS.2013.6731950/index.json",
@@ -6776,11 +6492,7 @@
     "venue": "2012 IEEE 7th International Conference on Industrial and Information Systems (ICIIS)",
     "year": "2012",
     "abstract": "Huge amount of data in the form of strings are being handled in bio-computing applications and searching algorithms are quite frequently used in them. Many methods utilizing on both software and hardware are being proposed to accelerate processing of such data. The typical hardware-based acceleration techniques either require special hardware such as generalpurpose graphics processing units (GPGPUs) or need building a new hardware such as an FPGA based design. On the other hard, software-based acceleration techniques are easier since they only require some changes in the software code or the software architecture. Typical software-based techniques make use of computers connected over a network, also known as a network grid to accelerate the processing. In this paper, we test the hypothesis that multi-core architectures should provide better performance in this kind of computation, but still it would depend on the algorithm selected as well as the programming model being utilized. We present the acceleration of a string-searching algorithm on a multi-core CPU via a POSIX thread based implementation. Our implementation on an 8-core processor (that supports 16-threads) resulted in 9x throughput improvement compared to a single thread implementation.",
-    "authors": [
-      "Damayanthi Herath",
-      "Chathurika Lakmali",
-      "Roshan Ragel"
-    ],
+    "authors": ["Damayanthi Herath", "Chathurika Lakmali", "Roshan Ragel"],
     "author_info": [
       {
         "name": "Damayanthi Herath",
@@ -6839,12 +6551,7 @@
     "venue": "International Journal of Research in Computer Science",
     "year": "2012",
     "abstract": "An algorithm for locating all occurrences of a finite number of keywords in an arbitrary string, also known as multiple strings matching, is commonly required in information retrieval (such as sequence analysis, evolutionary biological studies, gene/protein identification and network intrusion detection) and text editing applications. Although Aho-Corasick was one of the commonly used exact multiple strings matching algorithm, Commentz-Walter has been introduced as a better alternative in the recent past. Comments-Walter algorithm combines ideas from both Aho-Corasick and Boyer Moore. Large scale rapid and accurate peptide identification is critical in computational proteomics. In this paper, we have critically analyzed the time complexity of Aho-Corasick and Commentz-Walter for their suitability in large scale peptide identification. According to the results we obtained for our dataset, we conclude that Aho-Corasick is performing better than Commentz-Walter as opposed to the common beliefs.",
-    "authors": [
-      "SM Vidanagamachchi",
-      "SD Dewasurendra",
-      "RG Ragel",
-      "M Niranjan"
-    ],
+    "authors": ["SM Vidanagamachchi", "SD Dewasurendra", "RG Ragel", "M Niranjan"],
     "author_info": [
       {
         "name": "SM Vidanagamachchi",
@@ -6891,11 +6598,7 @@
     "project_url": "#",
     "codebase": "#",
     "research_groups": [],
-    "tags": [
-      "Aho-Corasick",
-      "Commentz-Walter",
-      "Peptide Identification"
-    ],
+    "tags": ["Aho-Corasick", "Commentz-Walter", "Peptide Identification"],
     "funding": "",
     "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.7815/ijorcs.26.2012.053/",
     "edit_url": "https://github.com/cepdnaclk/api.ce.pdn.ac.lk/blob/main/publications/v1/10.7815/ijorcs.26.2012.053/index.json",
@@ -6906,11 +6609,7 @@
     "venue": "2012 IEEE 6th International Conference on Information and Automation for Sustainability",
     "year": "2012",
     "abstract": "Rijndael was standardized in 2001 by National Institute of Standard and Technology as the Advanced Encryption Standard (AES). AES is still being used to encrypt financial, military and even government confidential data. In 2005, Bernstein illustrated a remote cache timing attack on AES using the client-server architecture and therefore proved a side channel in its software implementation. Over the years, a number of countermeasures have been proposed against cache timing attacks both using hardware and software. Although the software based countermeasures are flexible and easy to deploy, most of such countermeasures are vulnerable to statistical analysis. In this paper, we propose a novel software based countermeasure against cache timing attacks, known as constant time encryption, which we believe is secure against statistical analysis. The countermeasure we proposed performs rescheduling of instructions such that the encryption rounds will consume constant time independent of the cache hits and misses. Through experiments, we prove that our countermeasure is secure against Bernstein's cache timing attack.",
-    "authors": [
-      "Darshana Jayasinghe",
-      "Roshan Ragel",
-      "Dhammika Elkaduwe"
-    ],
+    "authors": ["Darshana Jayasinghe", "Roshan Ragel", "Dhammika Elkaduwe"],
     "author_info": [
       {
         "name": "Darshana Jayasinghe",
@@ -6948,14 +6647,7 @@
     "project_url": "#",
     "codebase": "#",
     "research_groups": [],
-    "tags": [
-      "Encryption",
-      "Timing",
-      "Software",
-      "Hardware",
-      "Clocks",
-      "Computers"
-    ],
+    "tags": ["Encryption", "Timing", "Software", "Hardware", "Clocks", "Computers"],
     "funding": "",
     "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.1109/ICIAFS.2012.6419893/",
     "edit_url": "https://github.com/cepdnaclk/api.ce.pdn.ac.lk/blob/main/publications/v1/10.1109/ICIAFS.2012.6419893/index.json",
@@ -7028,10 +6720,7 @@
     "project_url": "#",
     "codebase": "#",
     "research_groups": [],
-    "tags": [
-      "Hardware",
-      "Hardware validation"
-    ],
+    "tags": ["Hardware", "Hardware validation"],
     "funding": "",
     "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.1145/2380445.2380473/",
     "edit_url": "https://github.com/cepdnaclk/api.ce.pdn.ac.lk/blob/main/publications/v1/10.1145/2380445.2380473/index.json",
@@ -7042,11 +6731,7 @@
     "venue": "2012 IEEE 6th International Conference on Information and Automation for Sustainability",
     "year": "2012",
     "abstract": "Efficiency in embedded systems is paramount to achieve high performance while consuming less area and power. Processors in embedded systems have to be designed carefully to achieve such design constraints. Application Specific Instruction set Processors (ASIPs) exploit the nature of applications to design an optimal instruction set. Despite being not general to execute any application, ASIPs are highly preferred in the embedded systems industry where the devices are produced to satisfy a certain type of application domain/s (either intra-domain or inter-domain). Typically, ASIPs are designed from a base-processor and functionalities are added for applications. This paper studies the multi-application ASIPs and their instruction sets, extensively analysing the instructions for inter-domain and intra-domain designs. Metrics analysed are the reusable instructions and the extra cost to add a certain application. A wide range of applications from various application benchmarks (MiBench, MediaBench and SPEC2006) and domains are analysed for two different architectures (ARM-Thumb and PISA). Our study shows that the intra-domain applications contain larger number of common instructions, whereas the inter-domain applications have very less common instructions, regardless of the architecture (and therefore the ISA).",
-    "authors": [
-      "Roshan Ragel",
-      "Swarnalatha Radhakrishnan",
-      "Angelo Ambrose"
-    ],
+    "authors": ["Roshan Ragel", "Swarnalatha Radhakrishnan", "Angelo Ambrose"],
     "author_info": [
       {
         "name": "Roshan Ragel",
@@ -7084,12 +6769,7 @@
     "project_url": "#",
     "codebase": "#",
     "research_groups": [],
-    "tags": [
-      "GSM",
-      "Engines",
-      "Integrated circuits",
-      "Transform coding"
-    ],
+    "tags": ["GSM", "Engines", "Integrated circuits", "Transform coding"],
     "funding": "",
     "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.1109/ICIAFS.2012.6419895/",
     "edit_url": "https://github.com/cepdnaclk/api.ce.pdn.ac.lk/blob/main/publications/v1/10.1109/ICIAFS.2012.6419895/index.json",
@@ -7261,11 +6941,7 @@
     "venue": "2011 6th International Conference on Industrial and Information Systems (ICIIS)",
     "year": "2011",
     "abstract": "Statechart formalism has been a preferred choice for modeling complex reactive systems (CRS) in recent years. It has inbuilt powerful features of orthogonality, hierarchy, intermodular communication and history. Once statechart based system modeling is done the next issues to be addressed are (1) modular verification of the system for failsafe operation under all possible working conditions (2) progressive controller implementation together with the supervisory control while maintaining traceability and re-configurability and (3) facilitation of controller adaptation for progressive incorporation of security features and supervisory specifications. An elevator system was designed and built to reflect exigencies of a typical CRS hardware/software platform. A controller was designed to meet the above requirements and tested on the platform to validate the feasibility of model-based control design/verification methodology for real scale systems. Modularity was achieved by developing the statechart model of the plant into a tree of communicating language generators. Progresively verified modules were then translated into sequential function charts (SFC) which were finally integrated to form a complete flat SFC. The SFC was then implemented on a PLC platform (Telemechanique). The program was first validated in simulation using Telemechanique \u00e2\u0080\u009cTwidosuite\u00e2\u0080\u009d for different operating conditions and finally tested on the elevator system.",
-    "authors": [
-      "AC Vidanapathirana",
-      "SD Dewasurendra",
-      "SG Abeyratne"
-    ],
+    "authors": ["AC Vidanapathirana", "SD Dewasurendra", "SG Abeyratne"],
     "author_info": [
       {
         "name": "AC Vidanapathirana",
@@ -7322,12 +6998,7 @@
     "venue": "2011 6th International Conference on Industrial and Information Systems (ICIIS)",
     "year": "2011",
     "abstract": "Advances in life sciences over the last few decades have lead to the generation of a huge amount of biological data. Computing research has become a vital part in driving biological discovery where analysis and categorization of biological data are involved. String matching algorithms can be applied for protein/gene sequence matching and with the phenomenal increase in the size of string databases to be analyzed, software implementations of these algorithms seems to have hit a hard limit and hardware acceleration is increasingly being sought. Several hardware platforms such as Field Programmable Gate Arrays (FPGA), Graphics Processing Units (GPU) and Chip Multi Processors (CMP) are being explored as hardware platforms. In this paper, we give a comprehensive overview of the literature on hardware acceleration of string matching algorithms, we take an FPGA hardware exploration and expedite the design time by a design automation technique. Further, our design automation is also optimized for better hardware utilization through optimizing the number of peptides that can be represented in an FPGA tile. The results indicate significant improvements in design time and hardware utilization which are reported in this paper.",
-    "authors": [
-      "SM Vidanagamachchi",
-      "SD Dewasurendra",
-      "Roshan G Ragel",
-      "M Niranjan"
-    ],
+    "authors": ["SM Vidanagamachchi", "SD Dewasurendra", "Roshan G Ragel", "M Niranjan"],
     "author_info": [
       {
         "name": "SM Vidanagamachchi",
@@ -7544,11 +7215,7 @@
     "venue": "2009 International Conference on Industrial and Information Systems (ICIIS)",
     "year": "2009",
     "abstract": "Application Specific Instruction-set Processor (ASIP) is one of the popular processor design techniques for embedded systems which allow customizability in processor design without overly hindering design flexibility. Multi-pipeline ASIPs were proposed to improve the performance of such systems by compromising between speed and processor area. One of the problems in the multi-pipeline design is the limited inherent instruction level parallelism (ILP) available in applications. The ILP of application programs can be improved via a compiler optimization technique known as loop unrolling. In this paper, we present the impact of loop unrolling on the performance (speed) of multi-pipeline ASIPs. The improvement in speed averages around 15% for a number of benchmark applications with the maximum improvement of around 30%. In addition, we report the variation of performance against the loop unrolling factor - the amount of unrolling performed on an application.",
-    "authors": [
-      "HMRDB Navarathna",
-      "Swarnalatha Radhakrishnan",
-      "Roshan G Ragel"
-    ],
+    "authors": ["HMRDB Navarathna", "Swarnalatha Radhakrishnan", "Roshan G Ragel"],
     "author_info": [
       {
         "name": "HMRDB Navarathna",
@@ -7608,10 +7275,7 @@
     "venue": "2009 IEEE Toronto International Conference Science and Technology for Humanity (TIC-STH)",
     "year": "2009",
     "abstract": "In wireless data communication, security has become an important measure. In this paper, we reveal vulnerabilities and weaknesses of WEP protocol which is used in IEEE 802.11b. The major issue of WEP protocol is the lack of a proper key management technique. We propose a method to overcome above by introducing a dynamic key for authentication and data transmission on per data frame basis.",
-    "authors": [
-      "Manjula Sandirigama",
-      "Rasika Idamekorala"
-    ],
+    "authors": ["Manjula Sandirigama", "Rasika Idamekorala"],
     "author_info": [
       {
         "name": "Manjula Sandirigama",
@@ -7739,10 +7403,7 @@
     "venue": "2007 International Conference on Industrial and Information Systems (ICIIS)",
     "year": "2007",
     "abstract": "As the Internet and mobile applications have been increasing in the recent past, the need for authentication over remote servers and telephones have become very important. The need of authentication is essential as the private data sent over the Internet has risk of being wiretapped. Existing password authentication schemes can be divided into two types, one that requires only the weak password and the other that requires the strong password. The main objective of this paper is to present a review on the strong password protocols and propose a new protocol with enhanced security features. In addition, we have proved that our SAS-3 (simple and secure) protocol is secure against replay, denial of service, impersonation and password guessing attacks with minimized computational and transmission overheads.",
-    "authors": [
-      "N. S. Weragama",
-      "M. Sandirigama"
-    ],
+    "authors": ["N. S. Weragama", "M. Sandirigama"],
     "author_info": [
       {
         "name": "N. S. Weragama",
@@ -7793,10 +7454,7 @@
     "venue": "Proceedings of the 43rd annual Design Automation Conference",
     "year": "2006",
     "abstract": "Security and reliability in processor based systems are concernsrequiring adroit solutions.Securityis often compromised by code injection attacks, jeopardizing even `trusted software'.Reliabilityis of concern where unintended code is executed in modern processors with ever smaller feature sizes and low voltage swings causing bit flips. Countermeasures by software-only approaches increasecodesize by large amounts and therefore significantly reduce performance. Hardware assisted approaches add extensive amountsofhardware monitors and thus incur unacceptably highhardware cost. This paper presents a novel hardware/softwaretechniqueat the granularity of micro-instructions to reduce overheads considerably. Experiments show thatour technique incurs an additional hardware overhead of 0.91% and clock period increase of 0.06%. Average clock cycle and code size overheads are just 11.9% and 10.6% forfive industrystandard application benchmarks. These overheads are far smaller than have been previously encountered.",
-    "authors": [
-      "Roshan G Ragel",
-      "Sri Parameswaran"
-    ],
+    "authors": ["Roshan G Ragel", "Sri Parameswaran"],
     "author_info": [
       {
         "name": "Roshan G Ragel",
@@ -7825,11 +7483,7 @@
     "project_url": "#",
     "codebase": "#",
     "research_groups": [],
-    "tags": [
-      "Hardware",
-      "Hardware test",
-      "Robustness"
-    ],
+    "tags": ["Hardware", "Hardware test", "Robustness"],
     "funding": "",
     "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.1145/1146909.1147041/",
     "edit_url": "https://github.com/cepdnaclk/api.ce.pdn.ac.lk/blob/main/publications/v1/10.1145/1146909.1147041/index.json",
@@ -7840,12 +7494,7 @@
     "venue": "IEEE Transactions on Magnetics",
     "year": "2003",
     "abstract": "The authors present their conceptual design of an automated design environment for electric motors, its tools, and their implementation. From suitable specifications and requirements, the challenging automation of the initial stage of engineering design involves the use of heuristic and experiential knowledge of experts. This is followed by mathematical optimization of the initial design. The authors focus here on their knowledge-based engineering assistant that employs codified rules of the National Electrical Manufacturers' Association.",
-    "authors": [
-      "S.R.H. Hoole",
-      "A. Mascrenghe",
-      "K. Navukkarasu",
-      "K. Sivasubramaniam"
-    ],
+    "authors": ["S.R.H. Hoole", "A. Mascrenghe", "K. Navukkarasu", "K. Sivasubramaniam"],
     "author_info": [
       {
         "name": "S.R.H. Hoole",
