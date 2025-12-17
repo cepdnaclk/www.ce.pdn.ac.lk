@@ -41,7 +41,13 @@ navbar_active: "Home"
     <div class="carousel-inner">
         {% for slide in site.data.carousel -%}
         <div class="carousel-item{% if forloop.first %} active{% endif %}" data-bs-interval="{{ slide.interval }}">
+            {% if slide.url %}
+            <a href="{{ slide.url | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">
+                <img src="{{ slide.image | prepend: site.baseurl }}" class="d-block w-100" alt="{{ slide.alt }}">
+            </a>
+            {% else %}
             <img src="{{ slide.image | prepend: site.baseurl }}" class="d-block w-100" alt="{{ slide.alt }}">
+            {% endif %}
             <div class="d-none d-md-block {% if slide.dark==true %}text-dark{% endif %}">
                 <h5>{{ slide.title }}</h5>
                 <p>{{ slide.subtitle }}</p>
