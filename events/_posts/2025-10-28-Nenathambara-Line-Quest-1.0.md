@@ -3,7 +3,7 @@ layout: page_events
 id: 10
 title: "Nenathambara  Line Quest 1.0: Line-Following Robot Competition"
 parent: Events
-image: /events/images/1761635175.png
+image: /events/images/17660729246_thumb.jpg
 start_time: October 05, 2024
 end_time: October 05, 2024
 location: New Mechanical Building, Faculty of Engineering University of Peradeniya

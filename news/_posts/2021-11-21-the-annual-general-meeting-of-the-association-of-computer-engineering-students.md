@@ -2,7 +2,7 @@
 layout: page_news
 id: 3
 title: The annual general meeting of the Association of Computer Engineering Students
-image: /news/images/1753117990.jpg
+image: /news/images/17660712816_thumb.jpg
 parent: News
 link_url: "#"
 link_caption: ""

@@ -3,7 +3,7 @@ layout: page_events
 id: 5
 title: Hackers' Club Developer Series
 parent: Events
-image: /events/images/1753117570.png
+image: /events/images/17660733703_thumb.jpg
 start_time: November 03, 2020
 end_time: December 09, 2020
 location: Zoom (Online)

@@ -2,7 +2,7 @@
 layout: page_news
 id: 24
 title: PeraCom Undergraduates Emerge Champions at Code with WIE 2025
-image: /news/images/1762186376.webp
+image: /news/images/17660702364_thumb.jpg
 parent: News
 link_url: "#"
 link_caption: ""

@@ -3,7 +3,7 @@ layout: page_events
 id: 6
 title: GSOC preparation mentoring program - 2021
 parent: Events
-image: /events/images/1753117559.png
+image: /events/images/17660732865_thumb.jpg
 start_time: April 01, 2021
 end_time: null
 location: Zoom (Online)

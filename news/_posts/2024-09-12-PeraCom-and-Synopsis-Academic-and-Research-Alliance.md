@@ -2,7 +2,7 @@
 layout: page_news
 id: 14
 title: PeraCom & Synopsis Academic and Research Alliance
-image: /news/images/1753117730.png
+image: /news/images/17660724313_thumb.jpg
 parent: News
 link_url: "#"
 link_caption: ""

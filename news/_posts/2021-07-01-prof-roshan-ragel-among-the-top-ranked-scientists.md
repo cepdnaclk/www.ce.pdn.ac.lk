@@ -2,7 +2,7 @@
 layout: page_news
 id: 2
 title: Prof. Roshan Ragel among the top ranking scientists
-image: /news/images/1753117951.png
+image: /news/images/17660714013_thumb.jpg
 parent: News
 link_url: "#"
 link_caption: ""

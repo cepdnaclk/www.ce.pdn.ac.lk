@@ -2,7 +2,7 @@
 layout: page_news
 id: 19
 title: PeraCom Students Shine at Migara Ratnatunga Trust Awards
-image: /news/images/1753510272.jpg
+image: /news/images/17660710258_thumb.jpg
 parent: News
 link_url: "#"
 link_caption: ""

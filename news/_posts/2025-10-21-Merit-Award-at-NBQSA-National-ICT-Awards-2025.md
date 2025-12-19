@@ -2,7 +2,7 @@
 layout: page_news
 id: 23
 title: PeraCom Students Win Merit Award at NBQSA National ICT Awards 2025
-image: /news/images/1762186389.webp
+image: /news/images/17660703691_thumb.jpg
 parent: News
 link_url: "#"
 link_caption: ""

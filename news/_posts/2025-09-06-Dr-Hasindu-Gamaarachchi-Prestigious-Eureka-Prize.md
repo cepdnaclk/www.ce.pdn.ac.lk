@@ -3,7 +3,7 @@ layout: page_news
 id: 22
 title: Dr Hasindu Gamaarachchi Wins Prestigious Eureka Prize for Outstanding Early
   Career Researcher
-image: /news/images/1760202041.png
+image: /news/images/17660705433_thumb.jpg
 parent: News
 link_url: "#"
 link_caption: ""

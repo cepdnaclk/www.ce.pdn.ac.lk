@@ -2,7 +2,7 @@
 layout: page_news
 id: 18
 title: Dr. Asitha Bandaranayake Appointed as Head of the Department of Computer Engineering
-image: /news/images/1753117699.jpg
+image: /news/images/17660706992_thumb.jpg
 parent: News
 link_url: "#"
 link_caption: ""
