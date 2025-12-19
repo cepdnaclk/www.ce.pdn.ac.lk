@@ -3,7 +3,7 @@ layout: page_events
 id: 11
 title: Kethaswara
 parent: Events
-image: /events/images/1761635726.png
+image: /events/images/17660728274_thumb.jpg
 start_time: February 19, 2025
 end_time: February 19, 2025
 location: In front of the AR building, faculty of Engineering University of Peradeniya

@@ -2,7 +2,7 @@
 layout: page_news
 id: 21
 title: PeraCom Smart City Shines at EngEx 2025
-image: /news/images/1762186402.webp
+image: /news/images/17660704502_thumb.jpg
 parent: News
 link_url: "#"
 link_caption: ""

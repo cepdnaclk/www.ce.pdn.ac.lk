@@ -2,7 +2,7 @@
 layout: page_news
 id: 4
 title: "Team IT crowd wins the championship in Yes Hub Bootcamp\u201921"
-image: /news/images/1753117916.jpg
+image: /news/images/17660712423_thumb.jpg
 parent: News
 link_url: "#"
 link_caption: ""

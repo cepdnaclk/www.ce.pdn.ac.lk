@@ -3,7 +3,7 @@ layout: page_events
 id: 9
 title: ACES Coders V11.0
 parent: Events
-image: /events/images/1761634414.png
+image: /events/images/17660730027_thumb.jpg
 start_time: October 05, 2024
 end_time: October 06, 2024
 location: Faculty of Engineering, University of Peradeniya- EOE, DO1, and Lecture

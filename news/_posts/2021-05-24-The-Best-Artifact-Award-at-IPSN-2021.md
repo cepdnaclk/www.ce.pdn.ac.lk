@@ -2,7 +2,7 @@
 layout: page_news
 id: 12
 title: The Best Artifact Award at IPSN 2021
-image: /news/images/1753118156.jpg
+image: /news/images/17659896381_thumb.jpg
 parent: News
 link_url: https://doi.org/10.1145/3412382.3458269
 link_caption: "Publication: DeepLight at IPSN Digital Library"
