@@ -48,48 +48,37 @@ layout: wrappers_table
         {%- endif -%}
         <div class="row pt-3">{{ content }}</div>
 
-        {% if page.gallery == true %}
+        <!-- Image Gallery -->
+        {% if page.gallery %}
         <div class="mt-5 mb-3">
           <h4 class="project-section-title">Gallery</h4>
           <div class="container demo-gallery p-4">
             <ul id="lightgallery" class="list-unstyled row">
-              {% for image in page.galery_images %} {% if image.thumb %}
+              {% for image in page.gallery_images %}
               <li
                 class="col-lg-3 col-md-4 col-sm-6 d-flex align-self-center pb-2 mb-2"
-                data-responsive="{{ image.url }} 800"
-                data-src="{{ image.url }}"
-                data-sub-html=""
+                data-responsive="{{ image.thumb }} 400, {{ image.medium }} 800, {{ image.original }} 1600"
+                data-src="{{ image.original }}"
+                data-sub-html="{{ image.caption | escape }}"
               >
                 <a href="javascript:void(0)">
                   <img
-                    class="w-100"
-                    alt="{{ image.caption }} - YouTube"
-                    class="img-responsive"
-                    src="{{ image.thumb }}"
+                    class="w-100 img-responsive"
+                    alt="{{ image.alt_text | default: image.caption | default: page.title }}"
+                    src="{{ image.medium }}"
+                    srcset="{{ image.thumb }} 400w, {{ image.medium }} 800w, {{ image.original }} 1600w"
+                    sizes="(min-width: 1200px) 25vw, (min-width: 992px) 33vw, (min-width: 576px) 50vw, 100vw"
                   />
                 </a>
               </li>
-              {% else %}
-              <li
-                class="col-lg-3 col-md-4 col-sm-6 d-flex align-self-center pb-2 mb-2"
-                data-responsive="{{ image.url }} 800"
-                data-src="{{ image.url }}"
-                data-sub-html=""
-              >
-                <a href="javascript:void(0)">
-                  <img
-                    class="w-100"
-                    alt="{{ image.caption }}"
-                    class="img-responsive"
-                    src="{{ image.url }}"
-                  />
-                </a>
-              </li>
-              {% endif %} {% endfor %}
+              {% endfor %}
             </ul>
           </div>
         </div>
-        {% endif %} {% if page.video %}
+        {% endif %}
+
+        <!-- Videos -->
+        {% if page.video %}
         <h4 class="mt-5 mb-3 pb-3">{{ page.video.title }}</h4>
         <p>{{ page.video.description }}</p>
         <div class="ratio ratio-16x9">

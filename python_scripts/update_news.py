@@ -45,10 +45,45 @@ def get_news(url: str):
     return news_dict
 
 
+def prepare_gallery(details: dict):
+    """Extract gallery data, download assets, and keep only selected fields."""
+    slug = (details.get("url") or "").strip() or str(details.get("id", "news"))
+    gallery_items = details.get("gallery") or []
+
+    processed = []
+    for item in sorted(gallery_items, key=lambda g: g.get("order") or 0):
+        urls = item.get("urls") or {}
+        original = download_image(urls.get("original"), f"/news/images/{slug}")
+        medium = download_image(urls.get("medium"), f"/news/images/{slug}")
+        thumb = download_image(urls.get("thumb"), f"/news/images/{slug}")
+
+        # Skip entries without any downloadable image
+        if all(path == "#" for path in (original, medium, thumb)):
+            continue
+
+        processed.append(
+            {
+                "original": original,
+                "medium": medium if medium != "#" else original,
+                "thumb": thumb
+                if thumb != "#"
+                else (medium if medium != "#" else original),
+                "caption": (item.get("caption") or "").strip(),
+                "alt_text": (item.get("alt_text") or "").strip(),
+            }
+        )
+
+    if len(processed) <= 1:
+        return False, []
+
+    return True, processed
+
+
 def save_news_page(details: dict, file_url: str):
     """Persist a single news item as a markdown file with front matter."""
 
     content = (details.get("description") or "").strip()
+    gallery_enabled, gallery_images = prepare_gallery(details)
     data = {
         "layout": "page_news",
         "id": details.get("id", -1),
@@ -60,6 +95,8 @@ def save_news_page(details: dict, file_url: str):
         "author": (details.get("author") or "").strip(),
         "published_date": (details.get("published_at") or "").strip(),
         "updated_at": get_updated_at((details.get("updated_at") or "").strip()),
+        "gallery": gallery_enabled,
+        "gallery_images": gallery_images,
     }
 
     try:
@@ -67,7 +104,7 @@ def save_news_page(details: dict, file_url: str):
         with open(file_url, "w", encoding="utf-8") as f:
             f.write("---\n")
             f.write(yaml.dump(data, sort_keys=False))
-            f.write("---\n\n")
+            f.write("---\n")
             f.write("\n")
             f.write("<!-- Automated Update by GitHub Actions -->\n")
             f.write("\n")
