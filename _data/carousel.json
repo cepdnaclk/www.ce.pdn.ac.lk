@@ -1,47 +1,40 @@
 [
-  {
-    "display": true,
-    "image": "/images/home/cover_1.jpg",
-    "alt": "",
-    "title": "",
-    "subtitle": "",
-    "interval": 5000,
-    "dark": true
-  },
-  {
-    "display": true,
-    "image": "/images/home/cover_2.jpg",
-    "alt": "",
-    "title": "",
-    "subtitle": "",
-    "interval": 5000,
-    "dark": true
-  },
-  {
-    "display": true,
-    "image": "/images/home/cover_3.jpg",
-    "alt": "",
-    "title": "",
-    "subtitle": "",
-    "interval": 5000,
-    "dark": true
-  },
-  {
-    "display": true,
-    "image": "/images/home/cover_4.jpg",
-    "alt": "",
-    "title": "",
-    "subtitle": "",
-    "interval": 5000,
-    "dark": true
-  },
-  {
-    "display": true,
-    "image": "/images/home/cover_5.jpg",
-    "alt": "",
-    "title": "",
-    "subtitle": "",
-    "interval": 5000,
-    "dark": true
-  }
+    {
+        "display": true,
+        "image": "/images/home/cover_1.webp",
+        "alt": "",
+        "title": "",
+        "subtitle": "",
+        "interval": 5000,
+        "dark": true
+    },
+    {
+        "display": true,
+        "image": "/images/home/cover_2.webp",
+        "alt": "",
+        "title": "",
+        "subtitle": "",
+        "interval": 5000,
+        "dark": true,
+        "url": "/news/2025-02-24-Prof-Roshan-Ragel-Makes-History.html"
+
+    },
+    {
+        "display": true,
+        "image": "/images/home/cover_3.webp",
+        "alt": "",
+        "title": "",
+        "subtitle": "",
+        "interval": 5000,
+        "dark": true
+    },
+    {
+        "display": true,
+        "image": "/images/home/cover_4.webp",
+        "alt": "",
+        "title": "",
+        "subtitle": "",
+        "interval": 5000,
+        "dark": true
+    }
 ]

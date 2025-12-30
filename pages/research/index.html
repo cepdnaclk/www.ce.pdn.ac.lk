@@ -25,16 +25,6 @@ index_page: true
 
 <hr />
 
-<div class="pb-4">
-  {% assign pages = site.pages | where: "layout", "page_research" %}
-  <h4>Other Research Groups</h4>
-  <ul>
-    {% for p in pages %}
-    <li><a href="{{ p.permalink | relative_url }}">{{p.title}}</a></li>
-    {% endfor %}
-  </ul>
-</div>
-
 <hr />
 
 <div class="pb-4">
