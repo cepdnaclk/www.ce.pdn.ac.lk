@@ -133,6 +133,7 @@ def main():
     print("Step 1: Clean-up...")
     delete_folder(image_directory)
     delete_folder(post_directory)
+    os.makedirs(image_directory, exist_ok=True)
     os.makedirs(post_directory, exist_ok=True)
 
     print("Step 2: Fetching events...")

@@ -50,7 +50,11 @@ layout: wrappers_table
         {%- if page.image -%}
         <div class="row py-5">
           <div class="col-8 mx-auto">
-            <img src="{{ page.image}}" alt="{{ page.title }}" class="img-fluid img-thumbnail" />
+            <img
+              src="{{ page.image }}"
+              alt="{{ page.title }}"
+              class="img-fluid img-thumbnail d-block mx-auto"
+            />
           </div>
         </div>
         {%- endif -%}

@@ -27,6 +27,11 @@
 <link href="{{ '/assets/css/home.css' | prepend: site.baseurl }}" rel="stylesheet" />
 {%- endif -%} {% if site.ga_tracking != nil -%} {% include analytics.html -%} {% endif -%}
 
+<!-- Gallery -->
+{% if page.gallery == true %}
+<link rel="stylesheet" href="{{ '/assets/css/lightgallery.css' | relative_url }}" />
+{% endif -%}
+
 <link
   href="{{ '/assets/css/sticky.css' | prepend: site.baseurl }}"
   rel="stylesheet"
