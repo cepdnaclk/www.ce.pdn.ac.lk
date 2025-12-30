@@ -9,7 +9,7 @@ from datetime import datetime
 
 import requests
 import yaml
-from utils.helpers import delete_folder, download_image, get_updated_at
+from utils.helpers import delete_folder, download_image, get_updated_at, prepare_gallery
 
 # API URL for events
 api_url = "https://portal.ce.pdn.ac.lk/api/events/v1"
@@ -47,40 +47,6 @@ def get_events(url):
     return events_dict
 
 
-def prepare_gallery(details: dict):
-    """Extract gallery data, download assets, and keep only selected fields."""
-    slug = (details.get("url") or "").strip() or str(details.get("id", "events"))
-    gallery_items = details.get("gallery") or []
-
-    processed = []
-    for item in sorted(gallery_items, key=lambda g: g.get("order") or 0):
-        urls = item.get("urls") or {}
-        original = download_image(urls.get("original"), f"/events/images/{slug}")
-        medium = download_image(urls.get("medium"), f"/events/images/{slug}")
-        thumb = download_image(urls.get("thumb"), f"/events/images/{slug}")
-
-        # Skip entries without any downloadable image
-        if all(path == "#" for path in (original, medium, thumb)):
-            continue
-
-        processed.append(
-            {
-                "original": original,
-                "medium": medium if medium != "#" else original,
-                "thumb": thumb
-                if thumb != "#"
-                else (medium if medium != "#" else original),
-                "caption": (item.get("caption") or "").strip(),
-                "alt_text": (item.get("alt_text") or "").strip(),
-            }
-        )
-
-    if len(processed) <= 1:
-        return False, []
-
-    return True, processed
-
-
 def format_date(datetime_str):
     """Format a datetime string to 'Month Day, Year' format."""
     if datetime_str:
@@ -93,7 +59,7 @@ def save_event_page(details: dict, file_url: str):
     """Save event details to a markdown file with YAML front matter."""
 
     content = details.pop("description", "")
-    gallery_enabled, gallery_images = prepare_gallery(details)
+    gallery_enabled, gallery_images = prepare_gallery(details, "events")
     start_date = format_date(details.get("start_at"))
     end_date = format_date(details.get("end_at"))
     data = {

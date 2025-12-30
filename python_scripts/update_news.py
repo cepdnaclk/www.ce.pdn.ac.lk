@@ -8,7 +8,7 @@ import os
 
 import requests
 import yaml
-from utils.helpers import delete_folder, download_image, get_updated_at
+from utils.helpers import delete_folder, download_image, get_updated_at, prepare_gallery
 
 api_url = "https://portal.ce.pdn.ac.lk/api/news/v1"
 
@@ -45,45 +45,11 @@ def get_news(url: str):
     return news_dict
 
 
-def prepare_gallery(details: dict):
-    """Extract gallery data, download assets, and keep only selected fields."""
-    slug = (details.get("url") or "").strip() or str(details.get("id", "news"))
-    gallery_items = details.get("gallery") or []
-
-    processed = []
-    for item in sorted(gallery_items, key=lambda g: g.get("order") or 0):
-        urls = item.get("urls") or {}
-        original = download_image(urls.get("original"), f"/news/images/{slug}")
-        medium = download_image(urls.get("medium"), f"/news/images/{slug}")
-        thumb = download_image(urls.get("thumb"), f"/news/images/{slug}")
-
-        # Skip entries without any downloadable image
-        if all(path == "#" for path in (original, medium, thumb)):
-            continue
-
-        processed.append(
-            {
-                "original": original,
-                "medium": medium if medium != "#" else original,
-                "thumb": thumb
-                if thumb != "#"
-                else (medium if medium != "#" else original),
-                "caption": (item.get("caption") or "").strip(),
-                "alt_text": (item.get("alt_text") or "").strip(),
-            }
-        )
-
-    if len(processed) <= 1:
-        return False, []
-
-    return True, processed
-
-
 def save_news_page(details: dict, file_url: str):
     """Persist a single news item as a markdown file with front matter."""
 
     content = (details.get("description") or "").strip()
-    gallery_enabled, gallery_images = prepare_gallery(details)
+    gallery_enabled, gallery_images = prepare_gallery(details, "news")
     data = {
         "layout": "page_news",
         "id": details.get("id", -1),
