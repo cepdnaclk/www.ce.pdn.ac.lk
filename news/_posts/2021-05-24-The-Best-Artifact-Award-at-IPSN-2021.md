@@ -9,6 +9,8 @@ link_caption: "Publication: DeepLight at IPSN Digital Library"
 author: Ridma Jayasundara
 published_date: "2021-05-24"
 updated_at: 2025-10-11 15:51:51+00:00
+gallery: false
+gallery_images: []
 ---
 
 <!-- Automated Update by GitHub Actions -->

@@ -9,6 +9,8 @@ link_caption: ""
 author: Ridma Jayasundara
 published_date: "2025-04-01"
 updated_at: 2025-07-21 17:08:19+00:00
+gallery: false
+gallery_images: []
 ---
 
 <!-- Automated Update by GitHub Actions -->

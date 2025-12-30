@@ -14,6 +14,8 @@ link_caption: ""
 author: Nuwan Jaliyagoda
 published_date: "2021-01-15"
 updated_at: 2025-10-12 07:06:32+00:00
+gallery: false
+gallery_images: []
 ---
 
 <!-- Automated Update by GitHub Actions -->

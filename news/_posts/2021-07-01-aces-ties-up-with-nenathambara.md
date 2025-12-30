@@ -10,6 +10,8 @@ link_caption: ""
 author: Super Admin
 published_date: "2021-07-01"
 updated_at: 2025-07-21 17:25:38+00:00
+gallery: false
+gallery_images: []
 ---
 
 <!-- Automated Update by GitHub Actions -->

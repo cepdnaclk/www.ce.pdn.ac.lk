@@ -10,6 +10,8 @@ link_caption: ""
 author: J.A.S. UTHPALA
 published_date: "2025-09-06"
 updated_at: 2025-10-12 06:52:11+00:00
+gallery: false
+gallery_images: []
 ---
 
 <!-- Automated Update by GitHub Actions -->
