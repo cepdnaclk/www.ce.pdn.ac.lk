@@ -8,7 +8,7 @@ import os
 
 import requests
 import yaml
-from utils.helpers import delete_folder, download_image, get_updated_at
+from utils.helpers import delete_folder, download_image, get_updated_at, prepare_gallery
 
 api_url = "https://portal.ce.pdn.ac.lk/api/news/v1"
 
@@ -49,6 +49,7 @@ def save_news_page(details: dict, file_url: str):
     """Persist a single news item as a markdown file with front matter."""
 
     content = (details.get("description") or "").strip()
+    gallery_enabled, gallery_images = prepare_gallery(details, "news")
     data = {
         "layout": "page_news",
         "id": details.get("id", -1),
@@ -60,6 +61,8 @@ def save_news_page(details: dict, file_url: str):
         "author": (details.get("author") or "").strip(),
         "published_date": (details.get("published_at") or "").strip(),
         "updated_at": get_updated_at((details.get("updated_at") or "").strip()),
+        "gallery": gallery_enabled,
+        "gallery_images": gallery_images,
     }
 
     try:
@@ -67,7 +70,7 @@ def save_news_page(details: dict, file_url: str):
         with open(file_url, "w", encoding="utf-8") as f:
             f.write("---\n")
             f.write(yaml.dump(data, sort_keys=False))
-            f.write("---\n\n")
+            f.write("---\n")
             f.write("\n")
             f.write("<!-- Automated Update by GitHub Actions -->\n")
             f.write("\n")
@@ -81,6 +84,7 @@ def main():
     print("Step 1: Clean-up...")
     delete_folder(image_directory)
     delete_folder(post_directory)
+    os.makedirs(image_directory, exist_ok=True)
     os.makedirs(post_directory, exist_ok=True)
 
     print("Step 2: Fetching news...")

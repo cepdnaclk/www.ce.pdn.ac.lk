@@ -9,6 +9,33 @@ link_caption: ""
 author: Ridma Jayasundara
 published_date: "2025-09-28"
 updated_at: 2025-11-03 16:13:23+00:00
+gallery: true
+gallery_images:
+  - original: /news/images/engex-2025-smart-city/17660704502.jpg
+    medium: /news/images/engex-2025-smart-city/17660704502_medium.jpg
+    thumb: /news/images/engex-2025-smart-city/17660704502_thumb.jpg
+    caption: ""
+    alt_text: ""
+  - original: /news/images/engex-2025-smart-city/17669379095.jpeg
+    medium: /news/images/engex-2025-smart-city/17669379095_medium.jpeg
+    thumb: /news/images/engex-2025-smart-city/17669379095_thumb.jpeg
+    caption: ""
+    alt_text: ""
+  - original: /news/images/engex-2025-smart-city/17669379265.jpeg
+    medium: /news/images/engex-2025-smart-city/17669379265_medium.jpeg
+    thumb: /news/images/engex-2025-smart-city/17669379265_thumb.jpeg
+    caption: ""
+    alt_text: ""
+  - original: /news/images/engex-2025-smart-city/17669379395.jpeg
+    medium: /news/images/engex-2025-smart-city/17669379395_medium.jpeg
+    thumb: /news/images/engex-2025-smart-city/17669379395_thumb.jpeg
+    caption: ""
+    alt_text: ""
+  - original: /news/images/engex-2025-smart-city/17669379515.jpeg
+    medium: /news/images/engex-2025-smart-city/17669379515_medium.jpeg
+    thumb: /news/images/engex-2025-smart-city/17669379515_thumb.jpeg
+    caption: ""
+    alt_text: ""
 ---
 
 <!-- Automated Update by GitHub Actions -->

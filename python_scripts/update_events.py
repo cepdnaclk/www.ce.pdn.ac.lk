@@ -9,7 +9,7 @@ from datetime import datetime
 
 import requests
 import yaml
-from utils.helpers import delete_folder, download_image, get_updated_at
+from utils.helpers import delete_folder, download_image, get_updated_at, prepare_gallery
 
 # API URL for events
 api_url = "https://portal.ce.pdn.ac.lk/api/events/v1"
@@ -59,6 +59,7 @@ def save_event_page(details: dict, file_url: str):
     """Save event details to a markdown file with YAML front matter."""
 
     content = details.pop("description", "")
+    gallery_enabled, gallery_images = prepare_gallery(details, "events")
     start_date = format_date(details.get("start_at"))
     end_date = format_date(details.get("end_at"))
     data = {
@@ -76,13 +77,15 @@ def save_event_page(details: dict, file_url: str):
         "author": (details.get("author") or "").strip(),
         "published_date": (details.get("published_at") or "").strip(),
         "updated_at": get_updated_at((details.get("updated_at") or "").strip()),
+        "gallery": gallery_enabled,
+        "gallery_images": gallery_images,
     }
     try:
         os.makedirs(os.path.dirname(file_url), exist_ok=True)
         with open(file_url, "w", encoding="utf-8") as f:
             f.write("---\n")
             f.write(yaml.dump(data, sort_keys=False))
-            f.write("---\n\n")
+            f.write("---\n")
             f.write("\n")
             f.write("<!-- Automated Update by GitHub Actions -->\n")
             f.write("\n")
@@ -96,6 +99,7 @@ def main():
     print("Step 1: Clean-up...")
     delete_folder(image_directory)
     delete_folder(post_directory)
+    os.makedirs(image_directory, exist_ok=True)
     os.makedirs(post_directory, exist_ok=True)
 
     print("Step 2: Fetching events...")
