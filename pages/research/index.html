@@ -12,12 +12,11 @@ index_page: true
   {% for p in pages %}
 
   <!-- Resolve the page URL -->
-  {% if p.forward_url %}
-  <!-- Forward URL  -->
-  {% assign page_url = p.forward_url %} {% else %}
-  <!-- Internal Page  -->
-  {% assign page_url = p.permalink %}
-  <!--  -->
+  <!-- Use Forward URL -->
+  {% if p.forward_url %} {% assign page_url = p.forward_url %}
+  <!-- Use Internal Page  -->
+  {% else %} {% assign page_url = p.permalink %}
+  <!-- --- -->
   {%- endif -%}
 
   <div class="col-md-6">
