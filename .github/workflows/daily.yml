@@ -63,9 +63,9 @@ jobs:
       - name: Format files
         run: |
           npm install --global prettier
-          prettier --write "**/*.{js,json,md,yml,yaml,html,css,scss}" \
-            --config .prettierrc \
-            --ignore-path .prettierignore
+          prettier --write "**/*.{js,json,md,yml,yaml,html,css,scss}" "!**/*.min.css" "!**/*.min.js" \
+          --config .prettierrc \
+          --ignore-path .prettierignore
 
       - name: Commit and push into the main branch
         run: |
