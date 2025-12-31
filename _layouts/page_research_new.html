@@ -1,6 +1,6 @@
 {%- assign data = site.data.research_groups[page.code] -%}
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="{{ site.lang | default: 'en-US' }}">
   <head>
     {% include head.html %} {% if page.forward_url %}
@@ -50,7 +50,20 @@
       </div>
       {%- endif -%}
 
-      <div class="container pt-2">
+      <div class="container pt-5">
+        {% if page.forward_url %}
+        <p>
+          Redirecting...
+          <br />
+          <br />
+          Please click
+          <a href="{{ page.forward_url}}">here</a>
+          if the browser is not automatically redirected.
+        </p>
+        {% endif %}
+      </div>
+
+      <div class="container pt-2 {% if page.forward_url %}d-none{% endif %}">
         <div class="row">
           <!-- Description Card -->
           <div class="col-md-8">
@@ -88,24 +101,8 @@
         </div>
       </div>
 
-      <div class="container pt-5">
-        {% if page.forward_url %}
-        <p>
-          Redirecting...
-          <br />
-          <br />
-          Please click
-          <a href="{{ page.forward_url}}">here</a>
-          if the browser is not automatically redirected.
-        </p>
-        {% endif %}
-
-        <!-- Original content -->
-        {{ content }}
-      </div>
-
-      <hr />
-      <div class="container pt-5 px-5">
+      <div class="container pt-5 px-5 {% if page.forward_url %}d-none{% endif %}">
+        <hr />
         <h3>People</h3>
 
         <!-- Academic Staff -->
@@ -190,9 +187,9 @@
         </div>
       </div>
 
-      <hr />
       <!-- Contact Information of the page's maintainers  -->
-      <div class="container pt-5">
+      <div class="container pt-5 {% if page.forward_url %}d-none{% endif %}">
+        <hr />
         If you have any inquiry, please contact one of following:
         <ul>
           {%- for i in data.maintainers -%}

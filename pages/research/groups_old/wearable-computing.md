@@ -5,7 +5,7 @@ permalink: /research/wearable-computing/
 navbar_active: Research
 page_banner: images/banners/wearable-computing-banner.jpg
 icon_name: bi bi-intersect
-brief_desc : 
+brief_desc :
 ---
 
 ### Our Team

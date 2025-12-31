@@ -5,7 +5,7 @@ permalink: /research/nvidia-research-center/
 navbar_active: Research
 page_banner: images/banners/nvidia-research-banner.jpg
 icon_name: bi bi-nvidia
-brief_desc : 
+brief_desc :
 ---
 
 The GPU Research Center at the University of Peradeniya is part of the Embedded Systems, and Computer Architecture Lab (ESCAL) at the Department of Computer Engineering. The University of Peradeniya is one of the oldest Universities in Sri Lanka and the top research university in the country. The major focus of the research center is the investigation of the High-Performance Computing (HPC) aspect of GPU in various domains, including bio-computing, computer security, machine learning and data-mining, and physics. Mode information about Nvidia Reearch center can be found in official website (http://tesla.ce.pdn.ac.lk/).

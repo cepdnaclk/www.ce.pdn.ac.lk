@@ -3,7 +3,7 @@
   border-bottom: 1px solid black;
   /* background-color: #4b5863; */
   /* background-color: #343a40 !important; */
-  background-color:var(--bs-dark)!important;
+  background-color: var(--bs-dark) !important;
 }
 .blog-header-logo {
   /* font-family: "Playfair Display", Georgia, "Times New Roman", serif; */
