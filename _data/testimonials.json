@@ -1,23 +1,23 @@
 [
-    {
-        "image": "/images/home/testimonials/Imesh_Balasuriya.jpeg",
-        "alt": "E17Imesh-Image",
-        "name": "Imesh Balasuriya",
-        "current_affiliation": "Graduate Engineer - CPU Performance Team, Arm",
-        "testimony": "Studying at the Department of Computer Engineering, University of Peradeniya equipped me with the valuable skills and experience to excel as an engineer and opened the doors to opportunities I never imagined."
-    },
-    {
-        "image": "/images/home/testimonials/Hasindu_Gamarachchi.jpeg",
-        "alt": "E10Hasindu-Image",
-        "name": "Dr. Hasindu Gamaarachchi",
-        "current_affiliation": "Lecturer, UNSW and Visiting Research Scientist, Garvan Institute.",
-        "testimony": "The main reason behind my success is that I did what I truly enjoy, so everything happened naturally without forcing myself. I'm also grateful to the lecturers at the University of Peradeniya, who taught me from the basics to advanced levels and guided me to achieve what I have today. Likewise you all are in very good hands."
-    },
-    {
-        "image": "/images/home/testimonials/titus-nandakumara.jpg",
-        "alt": "E10Titus-Image",
-        "name": "Dr. Titus Jayarathna",
-        "current_affiliation": "Postdoctoral Research Fellow, The MARCS Institute",
-        "testimony": "I got a lot of inspiration and support from the department, and now, as an Honorary Visiting Research Fellow in the department, I can see that current students also receive the same support to reach their unreached potential."
-    }
+  {
+    "image": "/images/home/testimonials/Imesh_Balasuriya.jpeg",
+    "alt": "E17Imesh-Image",
+    "name": "Imesh Balasuriya",
+    "current_affiliation": "Graduate Engineer - CPU Performance Team, Arm",
+    "testimony": "Studying at the Department of Computer Engineering, University of Peradeniya equipped me with the valuable skills and experience to excel as an engineer and opened the doors to opportunities I never imagined."
+  },
+  {
+    "image": "/images/home/testimonials/Hasindu_Gamarachchi.jpeg",
+    "alt": "E10Hasindu-Image",
+    "name": "Dr. Hasindu Gamaarachchi",
+    "current_affiliation": "Lecturer, UNSW and Visiting Research Scientist, Garvan Institute.",
+    "testimony": "The main reason behind my success is that I did what I truly enjoy, so everything happened naturally without forcing myself. I'm also grateful to the lecturers at the University of Peradeniya, who taught me from the basics to advanced levels and guided me to achieve what I have today. Likewise you all are in very good hands."
+  },
+  {
+    "image": "/images/home/testimonials/titus-nandakumara.jpg",
+    "alt": "E10Titus-Image",
+    "name": "Dr. Titus Jayarathna",
+    "current_affiliation": "Postdoctoral Research Fellow, The MARCS Institute",
+    "testimony": "I got a lot of inspiration and support from the department, and now, as an Honorary Visiting Research Fellow in the department, I can see that current students also receive the same support to reach their unreached potential."
+  }
 ]
