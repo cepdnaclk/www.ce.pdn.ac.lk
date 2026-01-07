@@ -7,13 +7,13 @@
   "cover_image": "/images/banners/cryptography-research-banner.jpg",
   "contact": [
     {
-      "name": "",
+      "name": "Dr. Janaka Alawatugoda",
       "affiliation": "Department of Computer Engineering, University of Peradeniya",
       "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/janaka-alawatugoda/",
       "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/janaka-alawatugoda.jpg"
     },
     {
-      "name": "",
+      "name": "Prof. Roshan G. Ragel",
       "affiliation": "Department of Computer Engineering, University of Peradeniya",
       "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/",
       "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/roshan-ragel.jpg"
@@ -21,7 +21,7 @@
   ],
   "maintainers": [
     {
-      "name": "",
+      "name": "Dr. Janaka Alawatugoda",
       "affiliation": "Department of Computer Engineering, University of Peradeniya",
       "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/janaka-alawatugoda/",
       "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/janaka-alawatugoda.jpg"
@@ -30,19 +30,19 @@
   "people": {
     "staff": [
       {
-        "name": "",
+        "name": "Dr. Janaka Alawatugoda",
         "affiliation": "Department of Computer Engineering, University of Peradeniya",
         "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/janaka-alawatugoda/",
         "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/janaka-alawatugoda.jpg"
       },
       {
-        "name": "",
+        "name": "Prof. Roshan G. Ragel",
         "affiliation": "Department of Computer Engineering, University of Peradeniya",
         "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/",
         "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/roshan-ragel.jpg"
       },
       {
-        "name": "",
+        "name": "Dr. Upul Jayasinghe",
         "affiliation": "Department of Computer Engineering, University of Peradeniya",
         "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/upul-jayasinghe/",
         "profile_image": "https://people.ce.pdn.ac.lk//images/staff/academic-staff/upul-jayasinghe.jpg"
