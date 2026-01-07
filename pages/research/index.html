@@ -10,8 +10,17 @@ index_page: true
 
 <div class="row px-5 pb-5">
   {% for p in pages %}
+
+  <!-- Resolve the page URL -->
+  <!-- Use Forward URL -->
+  {% if p.forward_url %} {% assign page_url = p.forward_url %}
+  <!-- Use Internal Page  -->
+  {% else %} {% assign page_url = p.permalink %}
+  <!-- --- -->
+  {%- endif -%}
+
   <div class="col-md-6">
-    <a class="text-decoration-none" href="{{ p.permalink | relative_url }}">
+    <a class="text-decoration-none" href="{{ page_url | relative_url }}">
       <div class="card research-group-card">
         <img class="card-img-top" src="{{ p.page_banner | relative_url }}" alt="p.title" />
         <div class="card-body text-center">
@@ -22,8 +31,6 @@ index_page: true
   </div>
   {% endfor %}
 </div>
-
-<hr />
 
 <hr />
 
