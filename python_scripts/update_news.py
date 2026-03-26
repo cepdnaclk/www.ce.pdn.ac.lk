@@ -10,7 +10,7 @@ import requests
 import yaml
 from utils.helpers import delete_folder, download_image, get_updated_at, prepare_gallery
 
-api_url = "https://portal.ce.pdn.ac.lk/api/news/v1"
+api_url = "https://portal.ce.pdn.ac.lk/api/news/v2/cepdnaclk/"
 
 directory = "../news"
 image_directory = f"{directory}/images/"
@@ -58,7 +58,7 @@ def save_news_page(details: dict, file_url: str):
         "parent": "News",
         "link_url": (details.get("link_url") or "#").strip() or "#",
         "link_caption": (details.get("link_caption") or "").strip(),
-        "author": (details.get("author") or "").strip(),
+        "author": details.get("author", {}).get("name", "").strip(),
         "published_date": (details.get("published_at") or "").strip(),
         "updated_at": get_updated_at((details.get("updated_at") or "").strip()),
         "gallery": gallery_enabled,
