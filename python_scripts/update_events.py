@@ -12,7 +12,7 @@ import yaml
 from utils.helpers import delete_folder, download_image, get_updated_at, prepare_gallery
 
 # API URL for events
-api_url = "https://portal.ce.pdn.ac.lk/api/events/v1"
+api_url = "https://portal.ce.pdn.ac.lk/api/events/v2/cepdnaclk"
 
 directory = "../events"
 image_directory = f"{directory}/images/"
@@ -74,7 +74,7 @@ def save_event_page(details: dict, file_url: str):
         "event_types": details.get("event_type", []),
         "link_url": (details.get("link_url") or "#").strip() or "#",
         "link_caption": (details.get("link_caption") or "").strip(),
-        "author": (details.get("author") or "").strip(),
+        "author": details.get("author", {}).get("name", "").strip(),
         "published_date": (details.get("published_at") or "").strip(),
         "updated_at": get_updated_at((details.get("updated_at") or "").strip()),
         "gallery": gallery_enabled,
