@@ -30,11 +30,12 @@ navbar_active: About Us
     <h5 class="card-title">Seminar Name</h5>
     <p class="card-text"><strong>Date:</strong> </p> <!--  Month Date, 2024-->
     <p class="card-text"><strong>Speaker:</strong> </p> <!--  Dr. _ (University of _ )-->
-    
+
     <div class="d-flex align-items-center mt-3">
       <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Zoom_Communications_Logo.svg" alt="Zoom Logo" class="me-2" style="width: 20px;">
       <a href="https://bit.ly/PeraComSeminars" target="_blank" class="btn btn-primary btn-sm">Join via Zoom</a>
     </div>
+
   </div>
 </div>
 ---
