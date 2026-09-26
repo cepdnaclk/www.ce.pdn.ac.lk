@@ -2,7 +2,7 @@
 layout: page_news
 id: 48
 title: PeraCom Teams Shine at SLIIT CODEFEST 2026
-image: /news/images/17903542718_thumb.jpeg
+image: /news/images/17904057722_thumb.jpeg
 parent: News
 link_url: "#"
 link_caption: ""
@@ -11,6 +11,11 @@ published_date: "2026-09-25"
 updated_at: 2026-09-25 14:44:10+00:00
 gallery: true
 gallery_images:
+  - original: /news/images/SLIIT-CODEFEST-2026/17904057722.jpeg
+    medium: /news/images/SLIIT-CODEFEST-2026/17904057722_medium.jpeg
+    thumb: /news/images/SLIIT-CODEFEST-2026/17904057722_thumb.jpeg
+    caption: ""
+    alt_text: ""
   - original: /news/images/SLIIT-CODEFEST-2026/17903542718.jpeg
     medium: /news/images/SLIIT-CODEFEST-2026/17903542718_medium.jpeg
     thumb: /news/images/SLIIT-CODEFEST-2026/17903542718_thumb.jpeg
